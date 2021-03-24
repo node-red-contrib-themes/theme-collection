@@ -25,6 +25,9 @@
     "type": "Buy me a coffee",
     "url": "https://www.buymeacoffee.com/mbonani"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/node-red-contrib-themes/theme-collection/issues"
