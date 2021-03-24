@@ -1,0 +1,33 @@
+{
+  "name": "@node-red-contrib-themes/theme-collection",
+  "version": "1.0.0-beta.1",
+  "description": "Node-RED theme collection",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-red-contrib-themes/theme-collection.git"
+  },
+  "keywords": [
+    "node-red",
+    "nodered",
+    "plugin",
+    "themes",
+    "theme"
+  ],
+  "dependencies": {
+    "@node-red-contrib-themes/dark": "1.0.0-beta.3",
+    "@node-red-contrib-themes/midnight-red": "1.5.0-beta.3",
+    "@node-red-contrib-themes/oled": "1.2.0-beta.3",
+    "@node-red-contrib-themes/solarized-dark": "1.1.0-beta.3",
+    "@node-red-contrib-themes/solarized-light": "1.1.0-beta.3"
+  },
+  "author": "Mauricio Bonani @mbonani",
+  "funding": {
+    "type": "Buy me a coffee",
+    "url": "https://www.buymeacoffee.com/mbonani"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-red-contrib-themes/theme-collection/issues"
+  },
+  "homepage": "https://github.com/node-red-contrib-themes/theme-collection#readme"
+}
