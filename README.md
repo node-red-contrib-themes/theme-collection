@@ -28,7 +28,7 @@ Add the following to the `editorTheme` section of your `settings.js`, and then r
 ```js
 editorTheme: {
     theme: "<theme-name>"
-}
+},
 ```
 
 Replace `<theme-name>` with the name of the theme you want to use. Currently available options:
@@ -41,17 +41,16 @@ Replace `<theme-name>` with the name of the theme you want to use. Currently ava
 
 ### Themed Scrollbars (EXPERIMENTAL)
 
-This includes changes to the scrollbars to make them better fit the theme in use.
+This includes the theme and changes to the scrollbars to make them better fit the theme in use.
 
 **NOTE**: This is ***EXPERIMENTAL*** and may not work on all browsers.
 
-If you want to try it, change the `editorTheme` section of your `settings.js` to
-look like the following, and then restart Node-RED.
+If you want to try it, add the following to the `editorTheme` section of your `settings.js`, and then restart Node-RED.
 
 ```js
 editorTheme: {
     theme: "<theme-name-scroll>"
-}
+},
 ```
 
 Replace `<theme-name-scroll>` with the name of the theme you want to use. Currently available options:
