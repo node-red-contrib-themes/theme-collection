@@ -18,7 +18,7 @@
     "@node-red-contrib-themes/midnight-red": "1.5.2",
     "@node-red-contrib-themes/oled": "1.2.2",
     "@node-red-contrib-themes/solarized-dark": "1.1.2",
-    "@node-red-contrib-themes/solarized-light": "1.1.1"
+    "@node-red-contrib-themes/solarized-light": "1.1.2"
   },
   "author": "Mauricio Bonani @mbonani",
   "funding": {
