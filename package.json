@@ -14,7 +14,7 @@
     "theme"
   ],
   "dependencies": {
-    "@node-red-contrib-themes/dark": "2.0.1",
+    "@node-red-contrib-themes/dark": "2.0.2",
     "@node-red-contrib-themes/midnight-red": "2.0.1",
     "@node-red-contrib-themes/oled": "2.0.1",
     "@node-red-contrib-themes/solarized-dark": "2.0.1",
