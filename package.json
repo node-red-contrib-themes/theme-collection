@@ -1,6 +1,6 @@
 {
   "name": "@node-red-contrib-themes/theme-collection",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Node-RED theme collection",
   "repository": {
     "type": "git",
