@@ -34,6 +34,7 @@ editorTheme: {
 Replace `<theme-name>` with the name of the theme you want to use. Currently available options:
 
 - `dark`
+- `dracula`
 - `midnight-red`
 - `oled`
 - `solarized-dark`
@@ -56,6 +57,7 @@ editorTheme: {
 Replace `<theme-name-scroll>` with the name of the theme you want to use. Currently available options:
 
 - `dark-scroll`
+- `dracula-scroll`
 - `midnight-red-scroll`
 - `oled-scroll`
 - `solarized-dark-scroll`
