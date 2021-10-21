@@ -63,6 +63,23 @@ Replace `<theme-name-scroll>` with the name of the theme you want to use. Curren
 - `solarized-dark-scroll`
 - `solarized-light-scroll`
 
+### Monaco Editor Themes
+
+Each theme package in this collection comes with a pre-configured theme for the Monaco editor.
+
+**NOTE**: Node-RED version 2.1 or newer is required.
+
+If you want to use it, leave the `theme` option under `codeEditor` in your `settings.js` file commented out.
+
+```js
+codeEditor: {
+    lib: "monaco",
+    options: {
+        // theme: "vs",
+    }
+}    
+```
+
 For more details on the configuration please refer to the
 [Node-RED official documentation][node-red-doc].
 
