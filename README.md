@@ -11,7 +11,7 @@
 
 Collection of [Node-RED][node-red] themes published by the [Node-RED Contrib Themes][node-red-contrib-themes] team.
 
-![screenshot](https://raw.githubusercontent.com/node-red-contrib-themes/theme-collection/master/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/node-red-contrib-themes/theme-collection/master/images/screenshots.gif)
 
 ## Install
 
