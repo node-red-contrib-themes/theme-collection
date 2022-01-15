@@ -94,7 +94,7 @@ Enjoy!
 [last-commit-shield]: https://img.shields.io/github/last-commit/node-red-contrib-themes/theme-collection.svg
 [license]: https://github.com/node-red-contrib-themes/theme-collection/blob/master/LICENSE
 [license-shield]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [node-red-contrib-themes]: https://github.com/node-red-contrib-themes
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration
 [node-red]: https://nodered.org/
