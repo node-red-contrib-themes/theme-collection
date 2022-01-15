@@ -1,0 +1,16 @@
+---
+name: NPM Publish
+
+on:
+  release:
+    type: [published]
+
+jobs:
+  npm-publish:
+    name: npm-publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm publish
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
