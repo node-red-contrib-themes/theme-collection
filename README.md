@@ -1,6 +1,6 @@
 # Node-RED Contrib Theme Collection
 
-Collection of [Node-RED][node-red] themes published by the [Node-RED Contrib Themes][node-red-contrib-themes] team.
+Collection of themes for [Node-RED][node-red].
 
 ![screenshot](https://raw.githubusercontent.com/node-red-contrib-themes/theme-collection/master/images/screenshot.png)
 
@@ -89,6 +89,5 @@ Also, consider supporting me with a coffee ☕.
 <a href="https://www.buymeacoffee.com/mbonani" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="60px"></a>
 
 [license]: LICENSE
-[node-red-contrib-themes]: https://github.com/node-red-contrib-themes
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration#editor-themes
 [node-red]: https://nodered.org/
