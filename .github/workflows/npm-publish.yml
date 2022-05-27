@@ -8,7 +8,19 @@ on:
   workflow_dispatch:
 
 jobs:
-  workflows:
-    uses: node-red-contrib-themes/workflows/.github/workflows/npm-publish.yml@master
-    secrets:
-      NPM_TOKEN: ${{ secrets[format('{0}_NPM_TOKEN', github.actor)] }}
+  npm-publish:
+    name: npm-publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.0.2
+
+      - name: Setup Node
+        uses: actions/setup-node@v3.2.0
+        with:
+          node-version: "14"
+
+      - name: Publish to npm
+        uses: JS-DevTools/npm-publish@v1.4.3
+        with:
+          token: ${{ secrets.NPM_TOKEN }}

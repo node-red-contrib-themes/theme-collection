@@ -1,5 +1,5 @@
 ---
-name: "Lock"
+name: "Lock Threads"
 
 on:
   schedule:
@@ -7,5 +7,14 @@ on:
   workflow_dispatch:
 
 jobs:
-  workflows:
-    uses: node-red-contrib-themes/workflows/.github/workflows/lock.yml@master
+  lock:
+    name: "Lock closed issues and PRs"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dessant/lock-threads@v3.0.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-inactive-days: "30"
+          issue-lock-reason: ""
+          pr-inactive-days: "1"
+          pr-lock-reason: ""
