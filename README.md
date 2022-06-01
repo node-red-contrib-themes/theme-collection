@@ -9,7 +9,7 @@ A collection of themes for [Node-RED][node-red].
 |`cobalt2`|Based on the [Cobalt2 Theme for VS Code][theme-cobalt2] by [Wes Bos][wes-bos]
 |`dark`|A dark theme for Node-RED
 |`dracula`|Based on the [Dracula theme][theme-dracula] by [Zeno Rocha][zeno-rocha]
-|`midnight-red`|Based on the [midnight theme][theme-midnight] for [Home Assistant][home-assistant]
+|`midnight-red`|Based on the [Midnight theme][theme-midnight] for [Home Assistant][home-assistant]
 |`oled`|A Node-RED dark theme for OLED displays
 |`solarized-dark`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]
 |`solarized-light`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]
@@ -76,11 +76,9 @@ editorTheme: {
 
 This project is licensed under the [MIT license][license].
 
-## Like my work?
+## Show your support
 
-If you like my work please give it a GitHub ⭐️.
-
-Also, consider supporting me with a coffee ☕.
+Please ⭐️ this repository if this project helped you!
 
 <a href="https://www.buymeacoffee.com/mbonani" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="60px"></a>
 
