@@ -20,7 +20,15 @@ jobs:
         with:
           node-version: "14"
 
-      - name: Publish to npm
+      - name: Publish to npm (master branch)
+        if: github.ref == 'refs/heads/master'
         uses: JS-DevTools/npm-publish@v1.4.3
         with:
           token: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish to npm (dev branch)
+        if: github.ref == 'refs/heads/dev'
+        uses: JS-DevTools/npm-publish@v1.4.3
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          tag: "next"
