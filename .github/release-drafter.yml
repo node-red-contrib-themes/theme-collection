@@ -19,9 +19,6 @@ categories:
   - title: "📖 Documentation"
     labels:
       - "documentation"
-  - title: "🎨 Theme updates"
-    labels:
-      - "theme-updates"
   - title: "⬆️ Dependency updates"
     labels:
       - "dependencies"
