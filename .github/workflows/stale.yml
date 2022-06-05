@@ -11,8 +11,7 @@ jobs:
     name: Clean up stale issues and PRs
     runs-on: ubuntu-latest
     steps:
-      - name: Run stale
-        uses: actions/stale@v5.0.0
+      - uses: actions/stale@v5.0.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           days-before-issue-stale: 30
@@ -21,7 +20,7 @@ jobs:
           days-before-pr-close: 10
           remove-stale-when-updated: true
           stale-issue-label: "stale"
-          exempt-issue-labels: "no-stale,help-wanted"
+          exempt-issue-labels: "no-stale,help-wanted,upstream"
           stale-issue-message: >
             This issue is stale because it has been open for 30 days with no
             activity.

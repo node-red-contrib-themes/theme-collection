@@ -1,5 +1,6 @@
 ---
 name: Unfurl Links
+
 on:
   issues:
     types: [opened, edited]
@@ -7,6 +8,7 @@ on:
     types: [created, edited]
   pull_request:
     types: [opened, edited]
+
 jobs:
   run:
     runs-on: ubuntu-latest

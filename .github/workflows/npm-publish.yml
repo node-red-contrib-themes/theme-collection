@@ -9,7 +9,7 @@ on:
 
 jobs:
   npm-publish:
-    name: npm-publish
+    name: "Publish package to NPM"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
