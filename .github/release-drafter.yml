@@ -13,6 +13,9 @@ categories:
   - title: "🐛 Bug fixes"
     labels:
       - "bugfix"
+  - title: "🧰 Maintenance"
+    labels:
+      - "maintenance"
   - title: "🚀 Enhancements"
     labels:
       - "enhancement"
