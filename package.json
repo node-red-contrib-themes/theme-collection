@@ -30,7 +30,7 @@
     },
     "homepage": "https://github.com/node-red-contrib-themes/theme-collection#readme",
     "node-red": {
-        "version": ">=3.0.0",
+        "version": "~3.0",
         "plugins": {
             "node-red-contrib-themes": "themes.js"
         }
