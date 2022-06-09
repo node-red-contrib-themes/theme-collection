@@ -32,13 +32,7 @@
     "node-red": {
         "version": ">=3.0.0",
         "plugins": {
-            "cobalt2": "themes/cobalt2/theme.js",
-            "dark": "themes/dark/theme.js",
-            "dracula": "themes/dracula/theme.js",
-            "midnight-red": "themes/midnight-red/theme.js",
-            "oled": "themes/oled/theme.js",
-            "solarized-dark": "themes/solarized-dark/theme.js",
-            "solarized-light": "themes/solarized-light/theme.js"
+            "node-red-contrib-themes": "themes.js"
         }
     },
     "engines": {
