@@ -24,6 +24,8 @@ Run the following command from within the Node-RED user data directory (by defau
 npm install @node-red-contrib-themes/theme-collection
 ```
 
+***NOTE**: The command above installs the latest version of the theme collection, which is compatible with Node-RED 3.0. For Node-RED version 2.2.X, run `npm install @node-red-contrib-themes/theme-collection@v2.2`.*
+
 ## Usage
 
 Set `theme: "<theme-name>"` in the `editorTheme` object in your `settings.js` and then restart Node-RED.
