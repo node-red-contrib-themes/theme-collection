@@ -18,35 +18,35 @@ $primary-font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
 
-$primary-background: #002B36;//#0ff;
+$primary-background: #002B36;
 
-$secondary-background: #073642;//#ff0;
-$secondary-background-selected: #002B36;//#e9e900;
-$secondary-background-inactive: #002B36;//#f0f000;
-$secondary-background-hover: #002B36;//#dd0;
-$secondary-background-disabled: #002B36;//#fafa0;
+$secondary-background: #073642;
+$secondary-background-selected: #002B36;
+$secondary-background-inactive: #002B36;
+$secondary-background-hover: #002B36;
+$secondary-background-disabled: #002B36;
 
-$tertiary-background:  #002B36;//#f0f;
+$tertiary-background:  #002B36;
 
 $shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
-$primary-text-color: #839496;//#0f0;
+$primary-text-color: #839496;
 // UI control label text
-$secondary-text-color: #93A1A1;//#00f;
-$secondary-text-color-focus: #839496;//#009;
-$secondary-text-color-hover: #839496;//#006;
-$secondary-text-color-active: #93A1A1;//#006;
-$secondary-text-color-selected: #93A1A1;//#00A;
-$secondary-text-color-inactive: #839496;//#006;
-$secondary-text-color-disabled: #93A1A1;//#00C;
-$secondary-text-color-disabled-active: #93A1A1;//#009;
-$secondary-text-color-disabled-inactive: #839496;//#00A;
+$secondary-text-color: #93A1A1;
+$secondary-text-color-focus: #839496;
+$secondary-text-color-hover: #839496;
+$secondary-text-color-active: #93A1A1;
+$secondary-text-color-selected: #93A1A1;
+$secondary-text-color-inactive: #839496;
+$secondary-text-color-disabled: #93A1A1;
+$secondary-text-color-disabled-active: #93A1A1;
+$secondary-text-color-disabled-inactive: #839496;
 
 // Sub label text
-$tertiary-text-color: #839496;//#90f;
+$tertiary-text-color: #839496;
 // Heading text
-$header-text-color: #93A1A1;//#f00;
+$header-text-color: #93A1A1;
 
 $text-color-error: #dc322f;
 $text-color-warning: #b58900;
@@ -55,9 +55,9 @@ $text-color-code: #dc322f;
 $text-color-link: #268bd2;
 
 
-$primary-border-color: #586e757F;//#f00;
-$secondary-border-color: #586e757F;//#0f0;
-$tertiary-border-color: #586e757F;//#00f;
+$primary-border-color: #586e757F;
+$secondary-border-color: #586e757F;
+$tertiary-border-color: #586e757F;
 
 $border-color-error: #DF2935;
 $border-color-warning: #FFCF70;
@@ -69,7 +69,7 @@ $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color:  rgba(85,150,230,0.8);
 $form-input-border-color:  $tertiary-border-color;
-$form-input-border-selected-color:  #93A1A1;//#f0f;
+$form-input-border-selected-color:  #93A1A1;
 $form-input-border-error-color: rgb(214, 97, 95);
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
@@ -78,15 +78,15 @@ $form-button-background: $secondary-background-selected;
 $form-tips-background: $primary-background;
 
 
-$text-editor-color: #93A1A1;//#00f;
+$text-editor-color: #93A1A1;
 $text-editor-background: #002B36;
 $text-editor-color-disabled: $secondary-text-color-inactive;
 $text-editor-background-disabled: $secondary-background-disabled;
-$text-editor-gutter-background: #01313f;//#ee0;
-$text-editor-gutter-color: #d0edf7;//#00e;
-$text-editor-gutter-active-line-background: #0d3440;//#dd0;
-$text-editor-active-line-background: rgba(255, 255, 255, 0.1);//#ee0;
-$text-editor-selection-background: rgba(255, 255, 255, 0.1);//#e0e;
+$text-editor-gutter-background: #01313f;
+$text-editor-gutter-color: #d0edf7;
+$text-editor-gutter-active-line-background: #0d3440;
+$text-editor-active-line-background: rgba(255, 255, 255, 0.1);
+$text-editor-selection-background: rgba(255, 255, 255, 0.1);
 
 $event-log-background: $secondary-background;
 $event-log-color: $primary-text-color;
