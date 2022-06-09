@@ -1,7 +1,12 @@
 ---
 name-template: "$RESOLVED_VERSION"
 tag-template: "$RESOLVED_VERSION"
-sort-direction: ascending
+template: |
+  # What’s changed
+
+  $CHANGES
+
+  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
 
 categories:
   - title: "🚨 Breaking changes"
@@ -25,6 +30,7 @@ categories:
   - title: "⬆️ Dependency updates"
     labels:
       - "dependencies"
+    collapse-after: 5
 
 version-resolver:
   major:
@@ -38,9 +44,5 @@ version-resolver:
       - "patch"
   default: patch
 
-template: |
-  ## What’s changed
-
-  $CHANGES
 exclude-labels:
   - "skip-changelog"
