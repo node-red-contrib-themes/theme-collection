@@ -1,20 +1,57 @@
 # Node-RED Contrib Theme Collection
 
+<div align="center">
+  <a href="https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=bug&template=01_bug_report.yml">Report a Bug</a>
+  ·
+  <a href="https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=theme-request">Request a Theme</a>
+  ·
+  <a href="https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=q-a">Ask a Question</a>
+<br />
+<br />
+
+![npm (scoped)](https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm)
+[![NPM Publish](https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml)
+![Maintenance](https://img.shields.io/maintenance/yes/2022)
+[![Project license](https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg)](LICENSE)
+</div>
+
+<details open="open">
+<summary>Table of Contents</summary>
+
+- [About](#about)
+- [Theme list](#theme-list)
+  - [Flagship Themes](#flagship-themes)
+  - [Additional Themes](#additional-themes)
+- [Installation](#installation)
+  - [Install with npm](#install-with-npm)
+- [Usage](#usage)
+  - [Themed Scrollbars](#themed-scrollbars)
+  - [Monaco Editor Theme](#monaco-editor-theme)
+- [Contributing](#contributing)
+- [License](#license)
+- [Show your support](#show-your-support)
+
+</details>
+
+## About
+
 A collection of themes for [Node-RED][node-red].
 
 ## Theme list
 
-|Name|Description
-|---|---
-|`cobalt2`|Based on the [Cobalt2 Theme for VS Code][theme-cobalt2] by [Wes Bos][wes-bos]
-|`dark`|A dark theme for Node-RED
-|`dracula`|Based on the [Dracula theme][theme-dracula] by [Zeno Rocha][zeno-rocha]
-|`midnight-red`|Based on the [Midnight theme][theme-midnight] for [Home Assistant][home-assistant]
-|`oled`|A Node-RED dark theme for OLED displays
-|`solarized-dark`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]
-|`solarized-light`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]
+|Name|Description|
+|---|---|
+|`cobalt2`|Based on the [Cobalt2 Theme for VS Code][theme-cobalt2] by [Wes Bos][wes-bos]|
+|`dark`|A dark theme for Node-RED|
+|`dracula`|Based on the [Dracula theme][theme-dracula] by [Zeno Rocha][zeno-rocha]|
+|`midnight-red`|Based on the [Midnight theme][theme-midnight] for [Home Assistant][home-assistant]|
+|`oled`|A Node-RED dark theme for OLED displays|
+|`solarized-dark`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
+|`solarized-light`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 
-## Install
+If you have an idea for a new theme, you can [suggest it][theme-request] or even [create it yourself](.github/CONTRIBUTING.md).
+
+## Installation
 
 ### Install with npm
 
@@ -38,7 +75,7 @@ editorTheme: {
 },
 ```
 
-For details on the Node-RED's configuration file and its structure, please refer to the [Node-RED official documentation][node-red-doc].
+***NOTE:** For details on the Node-RED's configuration file and its structure, please refer to the [Node-RED official documentation][node-red-doc].*
 
 ### Themed Scrollbars
 
@@ -74,6 +111,12 @@ editorTheme: {
 },
 ```
 
+## Contributing
+
+First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
+
+Please read [our contribution guidelines](./.github/CONTRIBUTING.md), and thank you for being involved!
+
 ## License
 
 This project is licensed under the [MIT license][license].
@@ -95,3 +138,4 @@ Please ⭐️ this repository if this project helped you!
 [theme-midnight]: https://community.home-assistant.io/t/midnight-theme/28598
 [wes-bos]: http://www.wesbos.com/
 [zeno-rocha]: https://zenorocha.com/
+[theme-request]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=theme-request
