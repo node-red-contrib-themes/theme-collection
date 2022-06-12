@@ -1,5 +1,5 @@
-name: Report an issue with the Node-RED Contrib Theme Collection
-description: Report an issue with the Node-RED Contrib Theme Collection.
+name: Bug report
+description: Report an issue with the Node-RED Contrib Theme Collection
 body:
   - type: markdown
     attributes:
