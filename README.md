@@ -1,6 +1,6 @@
 # Node-RED Contrib Theme Collection
 
-<div style="text-align: center;">
+<div align="center">
 
 [Report a Bug][bug-report]
 ·
