@@ -1,18 +1,18 @@
 # Node-RED Contrib Theme Collection
 
 <div align="center">
-  <a href="https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=bug&template=01_bug_report.yml">Report a Bug</a>
-  ·
-  <a href="https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=theme-request">Request a Theme</a>
-  ·
-  <a href="https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=q-a">Ask a Question</a>
-<br />
-<br />
 
-![npm (scoped)](https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm)
-[![NPM Publish](https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml)
-![Maintenance](https://img.shields.io/maintenance/yes/2022)
-[![Project license](https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg)](LICENSE)
+[Report a Bug][bug-report]
+·
+[Request a Theme][tr]
+·
+[Ask a Question][q-a]
+
+![npm (scoped)][npm-version-badge]
+[![NPM Publish][npm-publish-badge]][npm-publish-workflow]
+![Maintenance][maintenance-badge]
+[![Project license][license-badge]][license]
+
 </div>
 
 <details open="open">
@@ -49,7 +49,7 @@ A collection of themes for [Node-RED][node-red].
 |`solarized-dark`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 |`solarized-light`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 
-If you have an idea for a new theme, you can [suggest it][theme-request] or even [create it yourself](.github/CONTRIBUTING.md).
+If you have an idea for a new theme, you can [suggest it][tr] or even [create it yourself](.github/CONTRIBUTING.md).
 
 ## Installation
 
@@ -127,15 +127,22 @@ Please ⭐️ this repository if this project helped you!
 
 <a href="https://www.buymeacoffee.com/mbonani" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="60px"></a>
 
+[bug-report]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=bug&template=01_bug_report.yml
 [home-assistant]: https://home-assistant.io
+[license-badge]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg
 [license]: LICENSE
+[maintenance-badge]: https://img.shields.io/maintenance/yes/2022
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration#editor-themes
 [node-red]: https://nodered.org/
+[npm-publish-badge]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml/badge.svg
+[npm-publish-workflow]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml
+[npm-version-badge]: https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm
+[q-a]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=q-a
 [schoonover]: https://ethanschoonover.com
 [solarized]: https://ethanschoonover.com/solarized/
 [theme-cobalt2]: https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2
 [theme-dracula]: https://draculatheme.com/
 [theme-midnight]: https://community.home-assistant.io/t/midnight-theme/28598
+[tr]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=theme-request
 [wes-bos]: http://www.wesbos.com/
 [zeno-rocha]: https://zenorocha.com/
-[theme-request]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=theme-request
