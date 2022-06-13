@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Theme Request
-    url: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=theme-request
-    about: Suggest a new theme
+  - name: Questions
+    url: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=general
+    about: Ask your question in the Discussions section

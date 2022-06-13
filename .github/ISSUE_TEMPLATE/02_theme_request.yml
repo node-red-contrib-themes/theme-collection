@@ -1,0 +1,27 @@
+name: "Theme request"
+description: "Suggest a new theme"
+labels: ['theme-request']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue form is for requesting themes only!
+
+        If you found a bug, please use the [Bug Report][br] form.
+
+        For general questions, use the [Discussions][discussions] section.
+
+        [br]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme-request&template=01_bug_report.yml&title=
+        [discussions]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=general
+
+  - type: textarea
+    attributes:
+      label: Details
+      description: |
+        Details related to the theme you are requesting:
+
+        - short description
+        - links for reference
+        - screenshots 
+    validations:
+      required: true

@@ -1,14 +1,18 @@
-name: Bug report
-description: Report an issue with the Node-RED Contrib Theme Collection
+name: "Bug report"
+description: "Report an issue with the collection or with one of the themes"
 body:
   - type: markdown
     attributes:
       value: |
         This issue form is for reporting bugs only!
 
-        If you have a theme request, please use the [Theme Request][tr] category in Discussions.
+        For general questions, use the [Discussions][discussions] section.
 
-        [tr]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=theme-request
+        If you have a theme request, please use the [Theme Request][tr] form.
+
+        [discussions]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=general
+        [tr]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme-request&template=02_theme_request.yml&title=
+
   - type: textarea
     attributes:
       label: Describe the problem
@@ -39,6 +43,7 @@ body:
     attributes:
       value: |
         ## Environment
+  
   - type: input
     attributes:
       label: Theme Collection version
@@ -48,14 +53,17 @@ body:
         ```shell
         npm list
         ```
+
   - type: input
     attributes:
       label: Node-RED version
       description: >
         If unknown, the version number is the last option in the Node-RED menu.
+
   - type: input
     attributes:
       label: Platform/O.S.
+
   - type: input
     attributes:
       label: Browser(s)
