@@ -6,7 +6,7 @@
 ·
 [Request a Theme][tr]
 ·
-[Ask a Question][q-a]
+[Ask a Question][question]
 
 ![npm (scoped)][npm-version-badge]
 [![NPM Publish][npm-publish-badge]][npm-publish-workflow]
@@ -137,12 +137,12 @@ Please ⭐️ this repository if this project helped you!
 [npm-publish-badge]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml/badge.svg
 [npm-publish-workflow]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml
 [npm-version-badge]: https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm
-[q-a]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=q-a
+[question]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=general
 [schoonover]: https://ethanschoonover.com
 [solarized]: https://ethanschoonover.com/solarized/
 [theme-cobalt2]: https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2
 [theme-dracula]: https://draculatheme.com/
 [theme-midnight]: https://community.home-assistant.io/t/midnight-theme/28598
-[tr]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=theme-request
+[tr]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme-request&template=02_theme_request.yml&title=
 [wes-bos]: http://www.wesbos.com/
 [zeno-rocha]: https://zenorocha.com/
