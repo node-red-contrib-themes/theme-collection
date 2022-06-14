@@ -40,7 +40,7 @@ A collection of themes for [Node-RED][node-red].
 |`solarized-dark`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 |`solarized-light`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 
-If you have an idea for a new theme, you can [suggest it][tr] or even [create it yourself](.github/CONTRIBUTING.md).
+If you have an idea for a new theme, you can request it [here][tr], or better yet, [submit one yourself][contributing].
 
 ## Installation
 
@@ -119,6 +119,7 @@ Please ⭐️ this repository if this project helped you!
 <a href="https://www.buymeacoffee.com/mbonani" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="60px"></a>
 
 [bug-report]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=bug&template=01_bug_report.yml
+[contributing]: .github/CONTRIBUTING.md
 [home-assistant]: https://home-assistant.io
 [license-badge]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg
 [license]: LICENSE
