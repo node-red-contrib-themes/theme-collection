@@ -1,6 +1,11 @@
 # Node-RED Contrib Theme Collection
 
-<div align="center">
+![npm (scoped)][npm-version-badge]
+[![NPM Publish][npm-publish-badge]][npm-publish-workflow]
+![Maintenance][maintenance-badge]
+[![Project license][license-badge]][license]
+
+A collection of themes for [Node-RED][node-red].
 
 [Report a Bug][bug-report]
 ·
@@ -8,20 +13,10 @@
 ·
 [Ask a Question][question]
 
-![npm (scoped)][npm-version-badge]
-[![NPM Publish][npm-publish-badge]][npm-publish-workflow]
-![Maintenance][maintenance-badge]
-[![Project license][license-badge]][license]
-
-</div>
-
 <details open="open">
 <summary>Table of Contents</summary>
 
-- [About](#about)
 - [Theme list](#theme-list)
-  - [Flagship Themes](#flagship-themes)
-  - [Additional Themes](#additional-themes)
 - [Installation](#installation)
   - [Install with npm](#install-with-npm)
 - [Usage](#usage)
@@ -32,10 +27,6 @@
 - [Show your support](#show-your-support)
 
 </details>
-
-## About
-
-A collection of themes for [Node-RED][node-red].
 
 ## Theme list
 
