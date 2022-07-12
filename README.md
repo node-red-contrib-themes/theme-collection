@@ -52,7 +52,7 @@ npm install @node-red-contrib-themes/theme-collection
 |`solarized-dark`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 |`solarized-light`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 
-If you have an idea for a new theme, you can request it [here][tr], or better yet, [submit one yourself][contributing].
+If you have an idea for a new theme, you can request it [here][tr], or better yet, [create one yourself][creating-a-new-theme].
 
 ## Usage
 
@@ -122,6 +122,7 @@ Please ⭐️ this repository if this project helped you!
 [contributing]: .github/CONTRIBUTING.md
 [bug-report]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=bug&template=01_bug_report.yml
 [contribution-guidelines]: .github/CONTRIBUTING.md
+[creating-a-new-theme]: DEVELOPMENT.md#creating-a-new-theme
 [home-assistant]: https://home-assistant.io
 [license-badge]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg
 [license]: LICENSE
