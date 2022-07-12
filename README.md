@@ -16,9 +16,9 @@ A collection of themes for [Node-RED][node-red].
 <details open="open">
 <summary>Table of Contents</summary>
 
-- [Theme list](#theme-list)
 - [Installation](#installation)
   - [Install with npm](#install-with-npm)
+- [Theme list](#theme-list)
 - [Usage](#usage)
   - [Themed Scrollbars](#themed-scrollbars)
   - [Monaco Editor Theme](#monaco-editor-theme)
@@ -27,6 +27,18 @@ A collection of themes for [Node-RED][node-red].
 - [Show your support](#show-your-support)
 
 </details>
+
+## Installation
+
+### Install with npm
+
+Run the following command from within the Node-RED user data directory (by default, `$HOME/.node-red`).
+
+```shell
+npm install @node-red-contrib-themes/theme-collection
+```
+
+***NOTE**: The command above installs the latest version of the theme collection, which is compatible with Node-RED 3.0. For Node-RED version 2.2.X, run `npm install @node-red-contrib-themes/theme-collection@v2.2`.*
 
 ## Theme list
 
@@ -41,18 +53,6 @@ A collection of themes for [Node-RED][node-red].
 |`solarized-light`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 
 If you have an idea for a new theme, you can request it [here][tr], or better yet, [submit one yourself][contributing].
-
-## Installation
-
-### Install with npm
-
-Run the following command from within the Node-RED user data directory (by default, `$HOME/.node-red`).
-
-```shell
-npm install @node-red-contrib-themes/theme-collection
-```
-
-***NOTE**: The command above installs the latest version of the theme collection, which is compatible with Node-RED 3.0. For Node-RED version 2.2.X, run `npm install @node-red-contrib-themes/theme-collection@v2.2`.*
 
 ## Usage
 
@@ -106,7 +106,7 @@ editorTheme: {
 
 First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
 
-Please read [our contribution guidelines](./.github/CONTRIBUTING.md), and thank you for being involved!
+Please read [our contribution guidelines][contribution-guidelines], and thank you for being involved!
 
 ## License
 
@@ -120,6 +120,8 @@ Please ⭐️ this repository if this project helped you!
 
 [bug-report]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=bug&template=01_bug_report.yml
 [contributing]: .github/CONTRIBUTING.md
+[bug-report]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=bug&template=01_bug_report.yml
+[contribution-guidelines]: .github/CONTRIBUTING.md
 [home-assistant]: https://home-assistant.io
 [license-badge]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg
 [license]: LICENSE
