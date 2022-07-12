@@ -1,5 +1,6 @@
 .git*
 scripts/
+template/
 *.scss
 *.css
 !*.min.css

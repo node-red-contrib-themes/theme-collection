@@ -1,4 +1,6 @@
 .DS_Store
-.vscode
+.node-red/
+.vscode/
 node_modules/
+node-red/
 package-lock.json
