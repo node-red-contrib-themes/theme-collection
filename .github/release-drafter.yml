@@ -11,10 +11,10 @@ template: |
 categories:
   - title: "🚨 Breaking changes"
     labels:
-      - "breaking-change"
+      - "breaking change"
   - title: "✨ New themes"
     labels:
-      - "new-theme"
+      - "new theme"
   - title: "🐛 Bug fixes"
     labels:
       - "bugfix"
