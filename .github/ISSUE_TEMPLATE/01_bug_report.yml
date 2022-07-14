@@ -1,0 +1,69 @@
+name: "Bug report"
+description: "Report an issue with the collection or with one of the themes"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue form is for reporting bugs only!
+
+        For general questions, use the [Discussions][discussions] section.
+
+        If you have a theme request, please use the [Theme Request][tr] form.
+
+        [discussions]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=general
+        [tr]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme-request&template=02_theme_request.yml&title=
+
+  - type: textarea
+    attributes:
+      label: Describe the problem
+      description: |
+        A clear and concise description of what the problem is.
+
+        If applicable, add screenshots to help explain your problem.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps To Reproduce
+      description: |
+        Steps to reproduce the behavior:
+
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: A clear & concise description of what you expected to happen.
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Environment
+  
+  - type: input
+    attributes:
+      label: Theme Collection version
+      description: |
+        If unknown, you can find it by running the following command from within the Node-RED user data directory (by default, `$HOME/.node-red`).
+
+        ```shell
+        npm list
+        ```
+
+  - type: input
+    attributes:
+      label: Node-RED version
+      description: >
+        If unknown, the version number is the last option in the Node-RED menu.
+
+  - type: input
+    attributes:
+      label: Platform/O.S.
+
+  - type: input
+    attributes:
+      label: Browser(s)

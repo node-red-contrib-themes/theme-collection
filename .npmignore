@@ -1,4 +1,6 @@
-.DS_Store
-._*
 .git*
-images
+scripts/
+template/
+*.scss
+*.css
+!*.min.css

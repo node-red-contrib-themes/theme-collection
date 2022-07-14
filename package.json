@@ -1,37 +1,55 @@
 {
-  "name": "@node-red-contrib-themes/theme-collection",
-  "version": "2.2.3",
-  "description": "Node-RED theme collection",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/node-red-contrib-themes/theme-collection.git"
-  },
-  "keywords": [
-    "node-red",
-    "nodered",
-    "plugin",
-    "themes",
-    "theme"
-  ],
-  "dependencies": {
-    "@node-red-contrib-themes/dark": "2.2.3",
-    "@node-red-contrib-themes/dracula": "2.2.3",
-    "@node-red-contrib-themes/midnight-red": "2.2.3",
-    "@node-red-contrib-themes/oled": "2.2.3",
-    "@node-red-contrib-themes/solarized-dark": "2.2.3",
-    "@node-red-contrib-themes/solarized-light": "2.2.3"
-  },
-  "author": "Mauricio Bonani @mbonani",
-  "funding": {
-    "type": "Buy me a coffee",
-    "url": "https://www.buymeacoffee.com/mbonani"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/node-red-contrib-themes/theme-collection/issues"
-  },
-  "homepage": "https://github.com/node-red-contrib-themes/theme-collection#readme"
+    "name": "@node-red-contrib-themes/theme-collection",
+    "version": "3.0.0",
+    "description": "Node-RED theme collection",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/node-red-contrib-themes/theme-collection.git"
+    },
+    "keywords": [
+        "node-red",
+        "nodered",
+        "theme",
+        "themes",
+        "plugin",
+        "plugins",
+        "dark",
+        "light"
+    ],
+    "scripts": {
+        "init": "node ./scripts/init.js",
+        "dev": "node ./scripts/dev.js",
+        "create-theme": "node ./scripts/create-theme.js",
+        "build-theme": "node ./scripts/build-theme.js"
+    },
+    "author": "Mauricio Bonani @mbonani",
+    "funding": {
+        "type": "Buy me a coffee",
+        "url": "https://www.buymeacoffee.com/mbonani"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/node-red-contrib-themes/theme-collection/issues"
+    },
+    "homepage": "https://github.com/node-red-contrib-themes/theme-collection#readme",
+    "devDependencies": {
+        "command-line-args": "^5.2.1",
+        "fs-extra": "10.1.0",
+        "nodemon": "2.0.16",
+        "nopt": "5.0.0",
+        "ora": "^6.1.0",
+        "sass": "1.52.3"
+    },
+    "node-red": {
+        "version": "~3.0",
+        "plugins": {
+            "node-red-contrib-themes": "themes.js"
+        }
+    },
+    "engines": {
+        "node": ">=14.x"
+    }
 }
