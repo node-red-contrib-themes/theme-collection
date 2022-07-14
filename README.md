@@ -120,8 +120,6 @@ Please ⭐️ this repository if this project helped you!
 <a href="https://www.buymeacoffee.com/mbonani" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="60px"></a>
 
 [bug-report]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=bug&template=01_bug_report.yml
-[contributing]: .github/CONTRIBUTING.md
-[bug-report]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=bug&template=01_bug_report.yml
 [contribution-guidelines]: .github/CONTRIBUTING.md
 [creating-a-new-theme]: DEVELOPMENT.md#creating-a-new-theme
 [expalmer]: https://expalmer.com/
