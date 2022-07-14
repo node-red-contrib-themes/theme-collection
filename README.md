@@ -58,6 +58,7 @@ npm install @node-red-contrib-themes/theme-collection
 |`solarized-dark`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 |`solarized-light`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 |`tokyo-night`|Based on the [Tokyo Night theme for VS Code][themetokyo-night] by [enkia][enkia]|
+|`zenburn`| Inspired by the [Zenburn color scheme for Vim][theme-zenburn]|
 
 If you have an idea for a new theme, you can request it [here][tr], or better yet, [create one yourself][creating-a-new-theme].
 
@@ -151,6 +152,7 @@ Please ⭐️ this repository if this project helped you!
 [theme-monoindustrial]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/monoindustrial.json
 [theme-monokai]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/Monokai.json
 [theme-oceanic-next]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/Oceanic%20Next.json
+[theme-zenburn]: https://github.com/jnurmine/Zenburn
 [themetokyo-night]: https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night
 [tr]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme-request&template=02_theme_request.yml&title=
 [wes-bos]: http://www.wesbos.com/
