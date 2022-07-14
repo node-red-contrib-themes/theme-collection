@@ -44,6 +44,7 @@ npm install @node-red-contrib-themes/theme-collection
 
 |Name|Description|
 |---|---|
+|`aurora`|Inspired by the [Aurora Theme for Sublime Text][theme-aurora] by [Palmer Oliveira][expalmer]|
 |`cobalt2`|Based on the [Cobalt2 Theme for VS Code][theme-cobalt2] by [Wes Bos][wes-bos]|
 |`dark`|A dark theme for Node-RED|
 |`dracula`|Based on the [Dracula theme][theme-dracula] by [Zeno Rocha][zeno-rocha]|
@@ -123,6 +124,7 @@ Please ⭐️ this repository if this project helped you!
 [bug-report]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=bug&template=01_bug_report.yml
 [contribution-guidelines]: .github/CONTRIBUTING.md
 [creating-a-new-theme]: DEVELOPMENT.md#creating-a-new-theme
+[expalmer]: https://expalmer.com/
 [home-assistant]: https://home-assistant.io
 [license-badge]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg
 [license]: LICENSE
@@ -135,6 +137,7 @@ Please ⭐️ this repository if this project helped you!
 [question]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=general
 [schoonover]: https://ethanschoonover.com
 [solarized]: https://ethanschoonover.com/solarized/
+[theme-aurora]: https://github.com/expalmer/aurora-theme/
 [theme-cobalt2]: https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2
 [theme-dracula]: https://draculatheme.com/
 [theme-midnight]: https://community.home-assistant.io/t/midnight-theme/28598
