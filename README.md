@@ -51,6 +51,7 @@ npm install @node-red-contrib-themes/theme-collection
 |`espresso-libre`|Inspired by the [Espresso Libre theme for Monaco Editor][theme-espresso-libre]|
 |`midnight-red`|Based on the [Midnight theme][theme-midnight] for [Home Assistant][home-assistant]|
 |`monoindustrial`|Based on the [monoindustrial theme for Monaco Editor][theme-monoindustrial]|
+|`monokai`|Based on the [Monokai theme for Monaco Editor][theme-monokai]|
 |`oled`|A Node-RED dark theme for OLED displays|
 |`solarized-dark`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 |`solarized-light`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
@@ -143,6 +144,7 @@ Please ⭐️ this repository if this project helped you!
 [theme-espresso-libre]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/Espresso%20Libre.json
 [theme-midnight]: https://community.home-assistant.io/t/midnight-theme/28598
 [theme-monoindustrial]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/monoindustrial.json
+[theme-monokai]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/Monokai.json
 [tr]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme-request&template=02_theme_request.yml&title=
 [wes-bos]: http://www.wesbos.com/
 [zeno-rocha]: https://zenorocha.com/
