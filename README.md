@@ -2,7 +2,7 @@
 
 Collection of themes for [Node-RED][node-red].
 
-![screenshot](https://raw.githubusercontent.com/node-red-contrib-themes/theme-collection/master/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/node-red-contrib-themes/theme-collection/v2.x/images/screenshot.png)
 
 ## Install
 
