@@ -21,7 +21,7 @@ jobs:
           node-version: "14"
 
       - name: Publish to npm
-        if: github.ref !== 'refs/heads/dev' && github.ref !== 'refs/heads/v2.x'
+        if: github.ref != 'refs/heads/dev' && github.ref != 'refs/heads/v2.x'
         uses: JS-DevTools/npm-publish@v1.4.3
         with:
           token: ${{ secrets.NPM_TOKEN }}
