@@ -38,4 +38,4 @@ jobs:
         uses: JS-DevTools/npm-publish@v1.4.3
         with:
           token: ${{ secrets.NPM_TOKEN }}
-          tag: "v2.2"
+          tag: "previous"
