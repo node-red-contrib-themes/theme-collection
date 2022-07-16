@@ -13,14 +13,6 @@
     "themes",
     "theme"
   ],
-  "dependencies": {
-    "@node-red-contrib-themes/dark": "2.2.3",
-    "@node-red-contrib-themes/dracula": "2.2.3",
-    "@node-red-contrib-themes/midnight-red": "2.2.3",
-    "@node-red-contrib-themes/oled": "2.2.3",
-    "@node-red-contrib-themes/solarized-dark": "2.2.3",
-    "@node-red-contrib-themes/solarized-light": "2.2.3"
-  },
   "author": "Mauricio Bonani @mbonani",
   "funding": {
     "type": "Buy me a coffee",
@@ -33,5 +25,15 @@
   "bugs": {
     "url": "https://github.com/node-red-contrib-themes/theme-collection/issues"
   },
-  "homepage": "https://github.com/node-red-contrib-themes/theme-collection#readme"
+  "homepage": "https://github.com/node-red-contrib-themes/theme-collection#readme",
+  "node-red": {
+    "plugins": {
+      "dark": "themes/dark/theme.js",
+      "dracula": "themes/dracula/theme.js",
+      "midnight-red": "themes/midnight-red/theme.js",
+      "oled": "themes/oled/theme.js",
+      "solarized-dark": "themes/solarized-dark/theme.js",
+      "solarized-light": "themes/solarized-light/theme.js"
+    }
+  }
 }
