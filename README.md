@@ -54,7 +54,6 @@ npm install @node-red-contrib-themes/theme-collection
 |`monokai`|Based on the [Monokai theme for Monaco Editor][theme-monokai]|
 |`oceanic-next`|Based on the [Oceanic Next theme for Monaco Editor][theme-oceanic-next]|
 |`oled`|A Node-RED dark theme for OLED displays|
-|`solarized-dark-grey`|Inspired by [Solarized color palette][solarized] by [Ethan Schoonover][schoonover] (thanks to [ristomatti])|
 |`solarized-dark`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 |`solarized-light`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 |`tokyo-night`|Based on the [Tokyo Night theme for VS Code][themetokyo-night] by [enkia][enkia]|
@@ -141,7 +140,6 @@ Please ⭐️ this repository if this project helped you!
 [npm-publish-workflow]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml
 [npm-version-badge]: https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm
 [question]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=general
-[ristomatti]: https://github.com/ristomatti
 [schoonover]: https://ethanschoonover.com
 [solarized]: https://ethanschoonover.com/solarized/
 [theme-aurora]: https://github.com/expalmer/aurora-theme/

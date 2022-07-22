@@ -1,6 +1,6 @@
 {
     "name": "@node-red-contrib-themes/theme-collection",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "Node-RED theme collection",
     "repository": {
         "type": "git",
@@ -38,10 +38,10 @@
     "devDependencies": {
         "command-line-args": "^5.2.1",
         "fs-extra": "10.1.0",
-        "nodemon": "2.0.16",
-        "nopt": "5.0.0",
+        "nodemon": "2.0.19",
+        "nopt": "6.0.0",
         "ora": "^6.1.0",
-        "sass": "1.52.3"
+        "sass": "1.53.0"
     },
     "node-red": {
         "version": "~3.0",

@@ -7,7 +7,7 @@ const nodemon = require('nodemon')
 
 if (!options.themeName) {
     nodemon({
-        exec: `node-red/packages/node_modules/node-red/red.js --userDir .node-red`,
+        exec: `node-red/packages/node_modules/node-red/red.js --port 41880 --userDir .node-red`,
         ext: 'js,json,css',
         watch: [
             "common/",
@@ -28,7 +28,7 @@ if (!options.themeName) {
     }
 
     nodemon({
-        exec: `node-red/packages/node_modules/node-red/red.js --userDir .node-red --define editorTheme.theme=${options.themeName}`,
+        exec: `node-red/packages/node_modules/node-red/red.js --port 41880 --userDir .node-red --define editorTheme.theme=${options.themeName}`,
         ext: 'js,json,css',
         watch: [
             "common/",
