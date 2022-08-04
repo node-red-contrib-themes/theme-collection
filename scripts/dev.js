@@ -15,7 +15,7 @@ if (!options.themeName) {
         ],
     })
 } else {
-    const themeDir = path.join('themes', options.themeName)
+    const themeDir = path.join('themes', String(options.themeName.split("-scroll", 1)))
     if (!existsSync(themeDir)) {
         console.warn('')
         console.warn(`Theme path is not valid. Could not find '${themeDir}'`)
