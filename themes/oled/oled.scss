@@ -18,41 +18,41 @@ $primary-font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
 
-$primary-background: #0c0c0c;
+$primary-background: scale-color(#000, $lightness: 5%);
 
 $secondary-background: #000;
-$secondary-background-selected: #101010;
-$secondary-background-inactive: #0f0f0f;
-$secondary-background-hover: #222;
-$secondary-background-disabled: #060606;
+$secondary-background-selected: #161616;
+$secondary-background-inactive: scale-color($secondary-background, $lightness: 6%);
+$secondary-background-hover: #323232;
+$secondary-background-disabled: $secondary-background;
 
-$tertiary-background:  #080808;
+$tertiary-background: scale-color($secondary-background, $lightness: 3%);
 
 $shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
-$primary-text-color: #aaa;
+$primary-text-color: #DEDEDE;
 // UI control label text
-$secondary-text-color: #777;
-$secondary-text-color-focus: #999;
-$secondary-text-color-hover: #999;
-$secondary-text-color-active: #999;
-$secondary-text-color-selected: #999;
-$secondary-text-color-inactive: #999;
-$secondary-text-color-disabled: #444;
-$secondary-text-color-disabled-active: #666;
-$secondary-text-color-disabled-inactive: #555;
+$secondary-text-color: #C7C7C7;
+$secondary-text-color-focus: scale-color($secondary-text-color, $lightness: 12.5%);
+$secondary-text-color-hover: scale-color($secondary-text-color, $lightness: 12.5%);
+$secondary-text-color-active: scale-color($secondary-text-color, $lightness: 12.5%);
+$secondary-text-color-selected: scale-color($secondary-text-color, $lightness: 12.5%);
+$secondary-text-color-inactive: scale-color($secondary-text-color, $lightness: 12.5%);
+$secondary-text-color-disabled: #666;
+$secondary-text-color-disabled-active: scale-color($secondary-text-color-disabled, $lightness: 18%);
+$secondary-text-color-disabled-inactive: scale-color($secondary-text-color-disabled, $lightness: 8%);
 
 // Sub label text
-$tertiary-text-color: #555;
+$tertiary-text-color: scale-color($secondary-text-color, $lightness: -26%);
 // Heading text
-$header-text-color: #bbb;
+$header-text-color: scale-color($secondary-text-color, $lightness: 25%);
 
-$text-color-error: #9c1421;
-$text-color-warning: #b6a000;
-$text-color-success: #2e992e;
-$text-color-code: #9c1421;
-$text-color-link: #007ab8;
+$text-color-error: #f53d3d;
+$text-color-warning: #f5d63d;
+$text-color-success: #5cf53d;
+$text-color-code: #f53d3d;
+$text-color-link: #3d99f5;
 
 
 $primary-border-color: #2A2A2A;
@@ -101,8 +101,8 @@ $list-item-secondary-color: $secondary-text-color;
 $list-item-background: $secondary-background;
 $list-item-background-disabled: $secondary-background-inactive;
 $list-item-background-hover: $secondary-background-hover;
-$list-item-background-selected: #001438;
-$list-item-border-selected: $secondary-text-color-selected;
+$list-item-background-selected: $secondary-background-selected;
+$list-item-border-selected: $primary-background;
 
 $tab-text-color-active: $header-text-color;
 $tab-text-color-inactive: $secondary-text-color-inactive;
@@ -145,22 +145,22 @@ $workspace-button-color-focus-outline: $form-input-focus-color;
 $shade-color: rgba(160,160,160,0.5);
 
 $popover-background: $primary-background;
-$popover-border: $tertiary-border-color;
-$popover-color: $secondary-text-color;
+$popover-border: $secondary-background;
+$popover-color: $primary-text-color;
 $popover-button-border-color: $primary-border-color;
 $popover-button-border-color-hover: $secondary-text-color-hover;
 
 
 
 $diff-text-header-color: $secondary-text-color;
-$diff-text-header-background: $tertiary-background;
-$diff-state-color: $primary-text-color;
+$diff-text-header-background: $secondary-background;
+$diff-state-color: #555;
 $diff-state-prefix-color: $secondary-text-color;
-$diff-state-added: #009900;
-$diff-state-deleted: #f80000;
-$diff-state-changed: #f89406;
-$diff-state-changed-background: #ffddb1;
-$diff-state-unchanged: $primary-text-color;;
+$diff-state-added: #5cf53d;
+$diff-state-deleted: #f53d3d;
+$diff-state-changed: #f5993d;
+$diff-state-changed-background: $secondary-background;
+$diff-state-unchanged: $primary-text-color;
 $diff-state-unchanged-background: $secondary-background;
 
 $diff-state-conflicted: purple;
@@ -168,29 +168,29 @@ $diff-state-moved: #3f81b3;
 $diff-state-conflict: #9b45ce;
 $diff-state-conflict-background: #ffdad4;
 
-$diff-state-added-background: #e7ffe3;
-$diff-state-added-border: #b8daad;
-$diff-state-added-header-background: #c0f6c0;
-$diff-state-added-header-border: #aaeeaa;
+$diff-state-added-background: #eefee7;
+$diff-state-added-border: #c2d5b4;
+$diff-state-added-header-background: #ccf3c4;
+$diff-state-added-header-border: #b9e9af;
 
-$diff-state-deleted-background: #ffe1e1;
-$diff-state-deleted-border: #e4bcbc;
-$diff-state-deleted-header-background: #ffcccc;
-$diff-state-deleted-header-border: #eebbbb;
+$diff-state-deleted-background: #fee7e7;
+$diff-state-deleted-border: #e0c2c2;
+$diff-state-deleted-header-background: #fccfcf;
+$diff-state-deleted-header-border: #e9bebe;
 
 $diff-merge-header-color: #800080;
 $diff-merge-header-background: #e5f9ff;
 $diff-merge-header-border-color: #b2edff;
 
-$menuBackground: $primary-background;
-$menuDivider: $secondary-border-color;
-$menuColor: $primary-text-color;
-$menuActiveColor: $secondary-text-color-active;
+$menuBackground: #121212;
+$menuDivider: #464646;
+$menuColor: #C7C7C7;
+$menuActiveColor: $menuColor;
 $menuActiveBackground: $secondary-background-hover;
-$menuDisabledColor: $secondary-text-color-disabled;
-$menuHoverColor: $secondary-text-color-hover;
-$menuHoverBackground: $secondary-background-hover;
-$menuCaret: $tertiary-text-color;
+$menuDisabledColor: #666;
+$menuHoverColor: $menuColor;
+$menuHoverBackground: #323232;
+$menuCaret: #C7C7C7;
 
 $view-navigator-background: rgba($primary-background, 0.8);
 
@@ -198,7 +198,7 @@ $view-lasso-stroke: #ff7f0e;
 $view-lasso-fill: rgba(20,125,255,0.1);
 
 $view-background: $secondary-background;
-$view-grid-color: #111;
+$view-grid-color: scale-color($secondary-background, $lightness: 7.5%);
 
 $node-label-color: #333;
 $node-port-label-color: #888;
@@ -282,14 +282,14 @@ $notification-border-error: $border-color-error;
 $debug-message-background: $secondary-background;
 $debug-message-background-hover: $secondary-background-selected;
 
-$debug-message-text-color: #666;
-$debug-message-text-color-meta: #834949;
-$debug-message-text-color-object-key: #5b236c;
-$debug-message-text-color-msg-type-other: #1826a1;
-$debug-message-text-color-msg-type-string: #891e1e;
-$debug-message-text-color-msg-type-null: #4d4d4d;
-$debug-message-text-color-msg-type-meta: #4d4d4d;
-$debug-message-text-color-msg-type-number: #1826a1;
+$debug-message-text-color: $primary-text-color;
+$debug-message-text-color-meta: #f5993d;
+$debug-message-text-color-object-key: #b83df5;
+$debug-message-text-color-msg-type-other: #3d99f5;
+$debug-message-text-color-msg-type-string: #f53d3d;
+$debug-message-text-color-msg-type-null: #808080;
+$debug-message-text-color-msg-type-meta: #808080;
+$debug-message-text-color-msg-type-number: #3d99f5;
 
 $debug-message-border: #111;
 $debug-message-border-hover: #666;
@@ -305,7 +305,7 @@ $group-default-label-color: $primary-text-color;
 $tourGuide-border: #c56c6c;
 $tourGuide-heading-color: #c56c6c;
 
-$grip-color: rgba($primary-text-color, 0.8);
+$grip-color: rgba($primary-text-color, 0.5);
 
 $icons-flow-color: $primary-text-color;
 

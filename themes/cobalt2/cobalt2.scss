@@ -31,7 +31,7 @@ $tertiary-background:  #122738;
 $shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
-$primary-text-color: #AAA;
+$primary-text-color: #FFF;
 // UI control label text
 $secondary-text-color: #AAA;
 $secondary-text-color-focus: #AAA;
@@ -145,8 +145,8 @@ $workspace-button-color-focus-outline: $form-input-focus-color;
 $shade-color: rgba(160,160,160,0.5);
 
 $popover-background: $primary-background;
-$popover-border: $tertiary-border-color;
-$popover-color: $secondary-text-color;
+$popover-border: $secondary-background;
+$popover-color: $primary-text-color;
 $popover-button-border-color: $primary-border-color;
 $popover-button-border-color-hover: $secondary-text-color-hover;
 
@@ -283,13 +283,13 @@ $debug-message-background: $secondary-background;
 $debug-message-background-hover: $secondary-background-selected;
 
 $debug-message-text-color: #E1EFFF;
-$debug-message-text-color-meta: #9effff;
-$debug-message-text-color-object-key: #9cdcfe;
-$debug-message-text-color-msg-type-other: #ffc600;
-$debug-message-text-color-msg-type-string: #ce9178;
-$debug-message-text-color-msg-type-null: #6272A4;
-$debug-message-text-color-msg-type-meta: #6272A4;
-$debug-message-text-color-msg-type-number: #b5cea8;
+$debug-message-text-color-meta: #9EFFFF;
+$debug-message-text-color-object-key: #2AFFDF;
+$debug-message-text-color-msg-type-other: #EDEF7D;
+$debug-message-text-color-msg-type-string: #9EFF80;
+$debug-message-text-color-msg-type-null: #FF628C;
+$debug-message-text-color-msg-type-meta: #0088FF;
+$debug-message-text-color-msg-type-number: #EB939A;
 
 $debug-message-border: $primary-background;
 $debug-message-border-hover: #234E6D;
@@ -305,7 +305,7 @@ $group-default-label-color: #F8F8F2;
 $tourGuide-border: #c56c6c;
 $tourGuide-heading-color: #c56c6c;
 
-$grip-color: rgba($primary-text-color, 0.8);
+$grip-color: rgba($primary-text-color, 0.5);
 
 $icons-flow-color: $primary-text-color;
 

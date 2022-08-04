@@ -145,8 +145,8 @@ $workspace-button-color-focus-outline: $form-input-focus-color;
 $shade-color: rgba(160,160,160,0.5);
 
 $popover-background: $primary-background;
-$popover-border: $tertiary-border-color;
-$popover-color: $secondary-text-color;
+$popover-border: $secondary-background;
+$popover-color: $primary-text-color;
 $popover-button-border-color: $primary-border-color;
 $popover-button-border-color-hover: $secondary-text-color-hover;
 
@@ -305,7 +305,7 @@ $group-default-label-color: $primary-text-color;
 $tourGuide-border: #c56c6c;
 $tourGuide-heading-color: #c56c6c;
 
-$grip-color: rgba($primary-text-color, 0.8);
+$grip-color: rgba($primary-text-color, 0.5);
 
 $icons-flow-color: $primary-text-color;
 
