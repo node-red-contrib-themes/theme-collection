@@ -52,7 +52,7 @@ npm install @node-red-contrib-themes/theme-collection
 |`midnight-red`|Based on the [Midnight theme][theme-midnight] for [Home Assistant][home-assistant]|
 |`monoindustrial`|Based on the [monoindustrial theme for Monaco Editor][theme-monoindustrial]|
 |`monokai`|Based on the [Monokai theme for Monaco Editor][theme-monokai]|
-|`oceanic-next`|Based on the [Oceanic Next theme for Monaco Editor][theme-oceanic-next]|
+|`oceanic-next`|Based on the [Oceanic Next Color Scheme][theme-oceanic-next] by [Dmitri Voronianski][voronianski]|
 |`oled`|A Node-RED dark theme for OLED displays|
 |`solarized-dark`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
 |`solarized-light`|Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]|
@@ -149,9 +149,10 @@ Please ⭐️ this repository if this project helped you!
 [theme-midnight]: https://community.home-assistant.io/t/midnight-theme/28598
 [theme-monoindustrial]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/monoindustrial.json
 [theme-monokai]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/Monokai.json
-[theme-oceanic-next]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/Oceanic%20Next.json
+[theme-oceanic-next]: https://github.com/voronianski/oceanic-next-color-scheme
 [theme-zenburn]: https://github.com/jnurmine/Zenburn
 [themetokyo-night]: https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night
 [tr]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme-request&template=02_theme_request.yml&title=
+[voronianski]: https://github.com/voronianski
 [wes-bos]: http://www.wesbos.com/
 [zeno-rocha]: https://zenorocha.com/
