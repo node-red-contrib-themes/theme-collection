@@ -1,3 +1,10 @@
+/* Dark scrollbar thumb for light themes */
+:root {
+    --scrollbar-thumb: rgba(0, 0, 0, 0.2);
+    --scrollbar-thumb-border: rgba(0, 0, 0, 0);
+    --scrollbar-thumb-hover: rgba(0, 0, 0, 0.4);
+}
+
 /* jQuery */
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon,
