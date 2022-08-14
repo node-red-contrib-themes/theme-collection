@@ -139,7 +139,7 @@ Please ⭐️ this repository if this project helped you!
 [npm-publish-badge]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml/badge.svg
 [npm-publish-workflow]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml
 [npm-version-badge]: https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm
-[question]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=general
+[question]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=q-a
 [schoonover]: https://ethanschoonover.com
 [solarized]: https://ethanschoonover.com/solarized/
 [theme-aurora]: https://github.com/expalmer/aurora-theme/
