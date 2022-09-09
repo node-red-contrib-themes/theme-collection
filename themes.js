@@ -13,7 +13,6 @@ module.exports = function (RED) {
         const css = { css: cssArray }
         const themeCSS = themeName + '.min.css'
         const themeCustomCSS = themeName + '-custom.min.css'
-        const nrDashboard = 'common/nr-dashboard.min.css'
         const scrollbarsCSS = 'common/scrollbars.min.css'
         const monacoFile = path.join(themePath, themeName + '-monaco.json')
         const monacoOptions = existsSync(monacoFile) ? require(monacoFile) : {}
@@ -32,7 +31,7 @@ module.exports = function (RED) {
             return
         }
         
-        cssArray.push(path.join(themeRelativePath, themeCSS), nrDashboard)
+        cssArray.push(path.join(themeRelativePath, themeCSS))
         
         const cssScrollArray = cssArray.slice()
         cssScrollArray.push(scrollbarsCSS)
