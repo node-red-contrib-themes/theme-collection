@@ -47,7 +47,7 @@
 
     await step(`npm install ${themeDevProjectPath}`, userDir, 'Installing project dependencies - This may take a while, please be patient')
 
-    await step(`npm link ./..`, userDir, 'Linking theme package')
+    await step('npm install ./..', userDir, 'Installing theme package')
 
     async function step(command, workingDir, stepPrompt) {
         try {
