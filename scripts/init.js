@@ -6,22 +6,19 @@
     const execPromised = promisify(exec)
     const { existsSync, mkdir } = require('fs')
     const path = require('path')
-    const rootDir = path.join(__dirname, '..')
+    const rootDir = path.join(process.cwd())
     const noderedDir = path.join(rootDir, 'node-red')
     const userDir = path.join(rootDir, '.node-red')
 
-    await execPromised(`npm install`, { cwd: rootDir }).then(result => {
-        log(' Install devDependencies ✔')
+    await execPromised('npm install', { cwd: rootDir }).then(result => {
+        log(' Installing dependencies ✔')
         return result
     }).catch(err => {
         throw err
     })
 
     if (!existsSync(path.join(userDir, 'node_modules'))) {
-        if (!existsSync(userDir)) {
-            await makeDir(userDir, ' Create userDir ✔')
-        }
-        await makeDir(path.join(userDir, 'node_modules'), ' Create userDir/node_modules ✔')
+        await makeDir(path.join(userDir, 'node_modules'), ' Creating User directory ✔')
     }
 
     const Ora = (await import('ora')).default
@@ -30,24 +27,20 @@
     spinner.indent = 1
 
     if (!existsSync(noderedDir)) {
-        await step('git clone git@github.com:node-red/node-red.git', rootDir, 'Clone Node-RED repository')
+        await step('git clone git@github.com:node-red/node-red.git', rootDir, 'Cloning Node-RED repository')
     } else {
-        await step('git pull', noderedDir, 'Update local repository')
+        await step('git pull', noderedDir, 'Updating Node-RED local repository')
     }
 
-    await step(`npm install`, noderedDir, 'Install Node-RED dependencies - This process may take a while on some hosts, so please be patient')
+    await step('npm install', noderedDir, 'Installing Node-RED dependencies - This may take a while, please be patient')
 
-    await step(`npm run build`, noderedDir, 'Build Node-RED - This process may take a while on some hosts, so please be patient')
+    await step('npm run build', noderedDir, 'Building Node-RED - This may take a while, please be patient')
 
-    await step(`npm link ./..`, userDir, 'Link theme package')
+    await step(`npm link ./..`, userDir, 'Linking theme package')
 
     async function step(command, workingDir, stepPrompt) {
         try {
-            await runner(
-                command,
-                { cwd: workingDir },
-                stepPrompt
-            )
+            await runner(command, { cwd: workingDir }, stepPrompt)
             log(String(stepPrompt.split(" - ", 1) + ' ✔'))
         } catch (err) {
             error(err.toString())
@@ -73,7 +66,7 @@
 
     async function makeDir(dir, makeDirPrompt) {
         log(makeDirPrompt)
-        mkdir(dir, (err) => {
+        mkdir(dir, { recursive: true }, (err) => {
             if (err) {
                 error(err.toString())
                 error('Aborting')
