@@ -26,7 +26,7 @@ if (options.themeName && !existsSync(themePath)) {
 }
 
 watchFile(path.resolve(themePath, themeName + '.scss'), () => {
-    exec(`node ./scripts/build.js --in=${buildIn} --out=${buildOut} --src=${buildSrc}`)
+    exec(`node ./scripts/build-theme.js --in=${buildIn} --out=${buildOut} --src=${buildSrc}`)
 })
 
 nodemon({
