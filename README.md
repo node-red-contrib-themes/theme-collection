@@ -1,6 +1,6 @@
 # Node-RED Contrib Theme Collection
 
-![npm (scoped)][npm-version-badge]
+[![npm (scoped)][npm-version-badge]][npm-package]
 [![NPM Publish][npm-publish-badge]][npm-publish-workflow]
 ![Maintenance][maintenance-badge]
 [![Project license][license-badge]][license]
@@ -136,6 +136,7 @@ Please ⭐️ this repository if this project helped you!
 [maintenance-badge]: https://img.shields.io/maintenance/yes/2022
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration#editor-themes
 [node-red]: https://nodered.org/
+[npm-package]: https://www.npmjs.com/package/@node-red-contrib-themes/theme-collection
 [npm-publish-badge]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml/badge.svg
 [npm-publish-workflow]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml
 [npm-version-badge]: https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm
