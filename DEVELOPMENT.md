@@ -32,7 +32,7 @@ With the development environment initialized, follow these steps to create a new
 
 6. Refresh Node-RED in the browser to preview the changes
 
-Repeat steps 4 to 6 as needed. When finished, press `ctrl-C` to exit the development environment.
+Repeat steps 4 to 6 as needed. When finished, press `ctrl-D` to quit the development environment.
 
 ***NOTE:** Replace `<theme-name>` with the name of the theme you are working on.*
 
