@@ -9,6 +9,8 @@
     const rootDir = path.join(process.cwd())
     const noderedDir = path.join(rootDir, 'node-red')
     const userDir = path.join(rootDir, '.node-red')
+    const projectsDir = path.join(userDir, 'projects')
+    const themeDevProjectPath = path.join(projectsDir, 'theme-dev-project')
 
     await execPromised('npm install', { cwd: rootDir }).then(result => {
         log(' Installing dependencies ✔')
@@ -35,6 +37,15 @@
     await step('npm install', noderedDir, 'Installing Node-RED dependencies - This may take a while, please be patient')
 
     await step('npm run build', noderedDir, 'Building Node-RED - This may take a while, please be patient')
+
+    if (!existsSync(projectsDir)) {
+        await makeDir(projectsDir, ' Creating Projects directory ✔')
+        await step('git clone git@github.com:node-red-contrib-themes/theme-dev-project.git', projectsDir, 'Cloning theme development project repository')
+    } else {
+        await step('git pull', themeDevProjectPath, 'Updating theme development project local repository')
+    }
+
+    await step(`npm install ${themeDevProjectPath}`, userDir, 'Installing project dependencies - This may take a while, please be patient')
 
     await step(`npm link ./..`, userDir, 'Linking theme package')
 
