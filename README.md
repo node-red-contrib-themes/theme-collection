@@ -127,7 +127,7 @@ Please ⭐️ this repository if this project helped you!
 
 [bug-report]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=bug&template=01_bug_report.yml
 [contribution-guidelines]: .github/CONTRIBUTING.md
-[creating-a-new-theme]: DEVELOPMENT.md#creating-a-new-theme
+[creating-a-new-theme]: DEVELOPMENT.md
 [enkia]: https://github.com/enkia
 [expalmer]: https://expalmer.com/
 [home-assistant]: https://home-assistant.io
