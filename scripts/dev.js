@@ -2,7 +2,7 @@
 const commandLineArgs = require('command-line-args')
 const options = commandLineArgs([{ name: 'themeName', type: String, defaultOption: true }])
 const path = require('path')
-const { existsSync, watchFile } = require('fs')
+const { existsSync, watch } = require('fs')
 const { exec } = require('child_process')
 const nodemon = require('nodemon')
 const themeName = String(options.themeName.split('-scroll', 1))
@@ -25,7 +25,7 @@ if (options.themeName && !existsSync(themePath)) {
     process.exit(2)
 }
 
-watchFile(path.resolve(themePath, themeName + '.scss'), () => {
+watch(path.resolve(themePath, themeName + '.scss'), () => {
     exec(`node ./scripts/build-theme.js --in=${buildIn} --out=${buildOut} --src=${buildSrc}`)
 })
 
