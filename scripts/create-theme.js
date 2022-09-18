@@ -2,40 +2,29 @@
 const commandLineArgs = require('command-line-args')
 const options = commandLineArgs([{ name: 'themeName', type: String, defaultOption: true }])
 const path = require('path')
-const { copyFile, existsSync, mkdirSync } = require('fs')
+const { copyFileSync, existsSync, mkdirSync } = require('fs')
+const themePath = path.join('themes/', options.themeName)
 
 if (!options.themeName) {
 	showUsageAndExit(1)
 }
 
-if (! /^[a-zA-Z0-9][a-zA-Z0-9\-]{2,}$/.test(options.themeName)) {
+if (!/^[a-zA-Z0-9][a-zA-Z0-9\-]{2,}$/.test(options.themeName)) {
 	showUsageAndExit(1)
 }
 
-const themeDir = path.join('themes/', options.themeName)
+if (existsSync(themePath)) {
+	console.error(`A theme named '${options.themeName}' already exists`)
+	showUsageAndExit(1)
+}
 
 // Create theme directory
-if (!existsSync(themeDir)) {
-	mkdirSync(themeDir)
-}
-else {
-	console.warn(`A theme named '${options.themeName}' already exists`)
-	showUsageAndExit(1)
-}
+mkdirSync(themePath)
 
 // Copy template files to theme directory
-copyFile('template/template.scss', path.join(themeDir, options.themeName + '.scss'), (err) => {
-	if (err) {
-		console.error(err)
-		process.exit(1)
-	}
-})
-copyFile('template/template-monaco.json', path.join(themeDir, options.themeName + '-monaco.json'), (err) => {
-	if (err) {
-		console.error(err)
-		process.exit(1)
-	}
-})
+copyFileSync('template/template.scss', path.join(themePath, options.themeName + '.scss'))
+copyFileSync('template/template-monaco.json', path.join(themePath, options.themeName + '-monaco.json'))
+copyFileSync('template/template-custom.css', path.join(themePath, options.themeName + '-custom.css'))
 
 function showUsageAndExit(exitCode) {
 	console.log('')
