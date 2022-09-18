@@ -20,7 +20,9 @@
         "init": "node ./scripts/init.js",
         "dev": "node ./scripts/dev.js",
         "create-theme": "node ./scripts/create-theme.js",
-        "build-theme": "node ./scripts/build-theme.js"
+        "build": "node ./scripts/build.js",
+        "version": "npm run build && git add -A",
+        "postversion": "git push && git push --tags"
     },
     "author": "Mauricio Bonani @mbonani",
     "funding": {
