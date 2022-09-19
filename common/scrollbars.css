@@ -5,7 +5,6 @@
     --nr-theme-scrollbar-thumb-hover: rgba(255, 255, 255, 0.4);
     --nr-theme-scrollbar-track: rgba(255, 255, 255, 0.025);
     --nr-theme-scrollbar-track-border: rgba(0, 0, 0, 0.1);
-    --nr-theme-scrollbar-track-hover: rgba(255, 255, 255, 0.05);
 }
 
 .red-ui-editor {
@@ -21,10 +20,6 @@
 ::-webkit-scrollbar-corner,
 ::-webkit-scrollbar-track {
     background-color: var(--nr-theme-scrollbar-track);
-}
-
-::-webkit-scrollbar-track:hover {
-    background-color: var(--nr-theme-scrollbar-track-hover);
 }
 
 ::-webkit-scrollbar-track:vertical {
