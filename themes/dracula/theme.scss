@@ -18,35 +18,35 @@ $primary-font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
 
-$primary-background: #21222C;//#0ff;
+$primary-background: #21222C;
 
-$secondary-background: #282A36;//#ff0;
-$secondary-background-selected: #44475A;//#e9e900;
-$secondary-background-inactive: #21222C;//#f0f000;
-$secondary-background-hover: #21222C;//#dd0;
-$secondary-background-disabled: #21222C;//#fafa0;
+$secondary-background: #282A36;
+$secondary-background-selected: #44475A;
+$secondary-background-inactive: #21222C;
+$secondary-background-hover: #21222C;
+$secondary-background-disabled: #21222C;
 
-$tertiary-background:  #21222C;//#f0f;
+$tertiary-background: #21222C;
 
 $shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
-$primary-text-color: #F8F8F2;//#0f0;
+$primary-text-color: #F8F8F2;
 // UI control label text
-$secondary-text-color: #F8F8F2;//#00f;
-$secondary-text-color-focus: #F8F8F2;//#009;
-$secondary-text-color-hover: #F8F8F2;//#006;
-$secondary-text-color-active: #F8F8F2;//#006;
-$secondary-text-color-selected: #F8F8F2;//#00A;
-$secondary-text-color-inactive: #F8F8F2;//#006;
-$secondary-text-color-disabled: #44475A;//#00C;
-$secondary-text-color-disabled-active: #44475A;//#009;
-$secondary-text-color-disabled-inactive: #44475A;//#00A;
+$secondary-text-color: #F8F8F2;
+$secondary-text-color-focus: #F8F8F2;
+$secondary-text-color-hover: #F8F8F2;
+$secondary-text-color-active: #F8F8F2;
+$secondary-text-color-selected: #F8F8F2;
+$secondary-text-color-inactive: #F8F8F2;
+$secondary-text-color-disabled: #44475A;
+$secondary-text-color-disabled-active: #44475A;
+$secondary-text-color-disabled-inactive: #44475A;
 
 // Sub label text
-$tertiary-text-color: #44475A;//#90f;
+$tertiary-text-color: #44475A;
 // Heading text
-$header-text-color: #F8F8F2;//#f00;
+$header-text-color: #F8F8F2;
 
 $text-color-error: #FF5555;
 $text-color-warning: #F1FA8C;
@@ -55,9 +55,9 @@ $text-color-code: #FF5555;
 $text-color-link: #8BE9FD;
 
 
-$primary-border-color: #44475A;//#f00;
-$secondary-border-color: #44475A;//#0f0;
-$tertiary-border-color: #44475A;//#00f;
+$primary-border-color: #44475A;
+$secondary-border-color: #44475A;
+$tertiary-border-color: #44475A;
 
 $border-color-error: #DF2935;
 $border-color-warning: #FFCF70;
@@ -67,9 +67,9 @@ $form-background: $secondary-background;
 $form-placeholder-color: $tertiary-text-color;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
-$form-input-focus-color:  rgba(85,150,230,0.8);
-$form-input-border-color:  $tertiary-border-color;
-$form-input-border-selected-color:  #44475A;//#f0f;
+$form-input-focus-color: rgba(85, 150, 230, 0.8);
+$form-input-border-color: $tertiary-border-color;
+$form-input-border-selected-color: #44475A;
 $form-input-border-error-color: rgb(214, 97, 95);
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
@@ -78,15 +78,15 @@ $form-button-background: $secondary-background-selected;
 $form-tips-background: $primary-background;
 
 
-$text-editor-color: #f8f8f2;//#00f;
+$text-editor-color: #f8f8f2;
 $text-editor-background: #282a36;
 $text-editor-color-disabled: $secondary-text-color-inactive;
 $text-editor-background-disabled: $secondary-background-disabled;
-$text-editor-gutter-background: #282a36;//#ee0;
-$text-editor-gutter-color: #909194;//#00e;
-$text-editor-gutter-active-line-background: #44475a;//#dd0;
-$text-editor-active-line-background: #44475a;//#ee0;
-$text-editor-selection-background: rgba(255, 255, 255, 0.1);//#e0e;
+$text-editor-gutter-background: #282a36;
+$text-editor-gutter-color: #909194;
+$text-editor-gutter-active-line-background: #44475a;
+$text-editor-active-line-background: #44475a;
+$text-editor-selection-background: rgba(255, 255, 255, 0.1);
 
 $event-log-background: $secondary-background;
 $event-log-color: $primary-text-color;
@@ -138,7 +138,7 @@ $workspace-button-background-primary-hover: #6E0A1E;
 
 $workspace-button-color-focus-outline: $form-input-focus-color;
 
-$shade-color: rgba(160,160,160,0.5);
+$shade-color: rgba(160, 160, 160, 0.5);
 
 $popover-background: $primary-background;
 $popover-border: $tertiary-border-color;
@@ -190,7 +190,7 @@ $menuCaret: $tertiary-text-color;
 $view-navigator-background: adjust-color($primary-background, $alpha: -0.2);
 
 $view-lasso-stroke: #ff7f0e;
-$view-lasso-fill: rgba(20,125,255,0.1);
+$view-lasso-fill: rgba(20, 125, 255, 0.1);
 
 $view-background: $secondary-background;
 $view-select-mode-background: $secondary-background-selected;
@@ -206,7 +206,7 @@ $node-background-placeholder: #eee;
 $node-port-background: #d9d9d9;
 $node-port-background-hover: #eee;
 $node-icon-color: #fff;
-$node-icon-background-color: rgba(0,0,0,0.05);
+$node-icon-background-color: rgba(0, 0, 0, 0.05);
 $node-icon-background-color-fill: #000;
 $node-icon-background-color-opacity: 0.05;
 $node-icon-border-color: #000;
@@ -265,7 +265,7 @@ $headerMenuCaret: #C7C7C7;
 
 $vcCommitShaColor: #FFB86C;
 
-$dnd-background: rgba(0,0,0,0.3);
+$dnd-background: rgba(0, 0, 0, 0.3);
 $dnd-color: #fff;
 
 $notification-border-default: #325C80;
