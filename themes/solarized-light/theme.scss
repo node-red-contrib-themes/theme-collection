@@ -34,19 +34,19 @@ $shadow: rgba(0, 0, 0, 0.2);
 $primary-text-color: #657b83;
 // UI control label text
 $secondary-text-color: #586e75;
-$secondary-text-color-focus: #657b83;
-$secondary-text-color-hover: #657b83;
-$secondary-text-color-active: #586e75;
-$secondary-text-color-selected: #586e75;
-$secondary-text-color-inactive: #657b83;
-$secondary-text-color-disabled: #586e75;
-$secondary-text-color-disabled-active: #586e75;
-$secondary-text-color-disabled-inactive: #657b83;
+$secondary-text-color-focus: scale-color($secondary-text-color, $lightness: -24.5%);
+$secondary-text-color-hover: scale-color($secondary-text-color, $lightness: -24.5%);
+$secondary-text-color-active: scale-color($secondary-text-color, $lightness: -24.5%);
+$secondary-text-color-selected: scale-color($secondary-text-color, $lightness: -24.5%);
+$secondary-text-color-inactive: scale-color($secondary-text-color, $lightness: -24.5%);
+$secondary-text-color-disabled: scale-color($secondary-text-color, $lightness: 37%);
+$secondary-text-color-disabled-active: scale-color($secondary-text-color, $lightness: 13%);
+$secondary-text-color-disabled-inactive: scale-color($secondary-text-color, $lightness: 26%);
 
 // Sub label text
-$tertiary-text-color: #657b83;
+$tertiary-text-color: scale-color($secondary-text-color, $lightness: 26%);
 // Heading text
-$header-text-color: #586e75;
+$header-text-color: scale-color($secondary-text-color, $lightness: -49%);
 
 $text-color-error: #dc322f;
 $text-color-warning: #b58900;
