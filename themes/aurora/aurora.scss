@@ -154,7 +154,7 @@ $popover-button-border-color-hover: $secondary-text-color-hover;
 
 $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
-$diff-state-color: $primary-text-color;
+$diff-state-color: $secondary-text-color;
 $diff-state-prefix-color: $secondary-text-color;
 $diff-state-added: #c5e400;
 $diff-state-deleted: #e12977;
@@ -163,7 +163,7 @@ $diff-state-changed-background: $secondary-background;
 $diff-state-unchanged: #ececec;
 $diff-state-unchanged-background: $secondary-background;
 
-$diff-state-conflicted: #7877ff;
+$diff-state-conflicted: purple;
 $diff-state-moved: #3f81b3;
 $diff-state-conflict: #9b45ce;
 $diff-state-conflict-background: #ffdad4;
