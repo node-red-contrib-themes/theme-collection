@@ -33,20 +33,20 @@ $shadow: rgba(0, 0, 0, 0.2);
 // Main body text
 $primary-text-color: #FFF;
 // UI control label text
-$secondary-text-color: #AAA;
-$secondary-text-color-focus: #AAA;
-$secondary-text-color-hover: #FFF;
-$secondary-text-color-active: #FFF;
-$secondary-text-color-selected: #FFF;
-$secondary-text-color-inactive: #AAA;
-$secondary-text-color-disabled: #ffffff33;
-$secondary-text-color-disabled-active: #ffffff33;
-$secondary-text-color-disabled-inactive: #ffffff33;
+$secondary-text-color: scale-color($primary-text-color, $blackness: 38%);
+$secondary-text-color-focus: scale-color($primary-text-color, $blackness: 17.5%);
+$secondary-text-color-hover: scale-color($primary-text-color, $blackness: 17.5%);
+$secondary-text-color-active: scale-color($primary-text-color, $blackness: 17.5%);
+$secondary-text-color-selected: scale-color($primary-text-color, $blackness: 17.5%);
+$secondary-text-color-inactive: scale-color($primary-text-color, $blackness: 17.5%);
+$secondary-text-color-disabled: scale-color($primary-text-color, $blackness: 55%);
+$secondary-text-color-disabled-active: scale-color($primary-text-color, $blackness: 45%);
+$secondary-text-color-disabled-inactive: scale-color($primary-text-color, $blackness: 51%);
 
 // Sub label text
-$tertiary-text-color: #ffffff33;
+$tertiary-text-color: scale-color($primary-text-color, $blackness: 51%);
 // Heading text
-$header-text-color: #FFF;
+$header-text-color: scale-color($primary-text-color, $blackness: -22%);
 
 $text-color-error: #A22929;
 $text-color-warning: #ffc600;
