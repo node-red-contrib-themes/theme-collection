@@ -1,6 +1,7 @@
 ---
 name-template: "$RESOLVED_VERSION"
 tag-template: "$RESOLVED_VERSION"
+change-template: "* $TITLE ([#$NUMBER]($URL)) @$AUTHOR"
 template: |
   # What’s changed
 

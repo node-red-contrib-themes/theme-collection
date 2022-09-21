@@ -33,20 +33,20 @@ $shadow: rgba(0, 0, 0, 0.2);
 // Main body text
 $primary-text-color: #FFF;
 // UI control label text
-$secondary-text-color: #AAA;
-$secondary-text-color-focus: #AAA;
-$secondary-text-color-hover: #FFF;
-$secondary-text-color-active: #FFF;
-$secondary-text-color-selected: #FFF;
-$secondary-text-color-inactive: #AAA;
-$secondary-text-color-disabled: #ffffff33;
-$secondary-text-color-disabled-active: #ffffff33;
-$secondary-text-color-disabled-inactive: #ffffff33;
+$secondary-text-color: scale-color($primary-text-color, $blackness: 38%);
+$secondary-text-color-focus: scale-color($primary-text-color, $blackness: 17.5%);
+$secondary-text-color-hover: scale-color($primary-text-color, $blackness: 17.5%);
+$secondary-text-color-active: scale-color($primary-text-color, $blackness: 17.5%);
+$secondary-text-color-selected: scale-color($primary-text-color, $blackness: 17.5%);
+$secondary-text-color-inactive: scale-color($primary-text-color, $blackness: 17.5%);
+$secondary-text-color-disabled: scale-color($primary-text-color, $blackness: 55%);
+$secondary-text-color-disabled-active: scale-color($primary-text-color, $blackness: 45%);
+$secondary-text-color-disabled-inactive: scale-color($primary-text-color, $blackness: 51%);
 
 // Sub label text
-$tertiary-text-color: #ffffff33;
+$tertiary-text-color: scale-color($primary-text-color, $blackness: 51%);
 // Heading text
-$header-text-color: #FFF;
+$header-text-color: scale-color($primary-text-color, $blackness: -22%);
 
 $text-color-error: #A22929;
 $text-color-warning: #ffc600;
@@ -154,29 +154,29 @@ $popover-button-border-color-hover: $secondary-text-color-hover;
 
 $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
-$diff-state-color: $primary-text-color;
-$diff-state-prefix-color: $secondary-text-color;
-$diff-state-added: #3ad900;
-$diff-state-deleted: #ff628c;
-$diff-state-changed: #ffc600;
+$diff-state-color: #F8F8F8;
+$diff-state-prefix-color: #F8F8F8;
+$diff-state-added: #A6E22E;
+$diff-state-deleted: #F92672;
+$diff-state-changed: #967EFB;
 $diff-state-changed-background: $secondary-background;
-$diff-state-unchanged: #808080;
+$diff-state-unchanged: #F8F8F8;
 $diff-state-unchanged-background: $secondary-background;
 
-$diff-state-conflicted: #FF7200;
+$diff-state-conflicted: purple;
 $diff-state-moved: #3f81b3;
 $diff-state-conflict: #9b45ce;
 $diff-state-conflict-background: #ffdad4;
 
-$diff-state-added-background: #3ad90033;
-$diff-state-added-border: $primary-border-color;
-$diff-state-added-header-background: #3ad90033;
-$diff-state-added-header-border: $primary-border-color;
+$diff-state-added-background: #154F00;
+$diff-state-added-border: #b8daad;
+$diff-state-added-header-background: scale-color($diff-state-added-background, $lightness: -15%);
+$diff-state-added-header-border: scale-color($diff-state-added-header-background, $lightness: -10%);
 
-$diff-state-deleted-background: #ee3a4333;
-$diff-state-deleted-border: $primary-border-color;
-$diff-state-deleted-header-background: #ee3a4333;
-$diff-state-deleted-header-border: $primary-border-color;
+$diff-state-deleted-background: #ee3a43;
+$diff-state-deleted-border: #e4bcbc;
+$diff-state-deleted-header-background: scale-color($diff-state-deleted-background, $lightness: -15%);
+$diff-state-deleted-header-border: scale-color($diff-state-deleted-header-background, $lightness: -10%);
 
 $diff-merge-header-color: #800080;
 $diff-merge-header-background: #e5f9ff;

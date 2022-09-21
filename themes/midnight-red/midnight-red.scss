@@ -69,7 +69,7 @@ $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color:  rgba(85,150,230,0.8);
 $form-input-border-color:  $tertiary-border-color;
-$form-input-border-selected-color:  #2E333A;
+$form-input-border-selected-color: $tertiary-text-color;
 $form-input-border-error-color: rgb(214, 97, 95);
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
@@ -154,12 +154,12 @@ $popover-button-border-color-hover: $secondary-text-color-hover;
 
 $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
-$diff-state-color: $primary-text-color;
+$diff-state-color: $secondary-text-color;
 $diff-state-prefix-color: $secondary-text-color;
 $diff-state-added: #0DA035;
 $diff-state-deleted: #E45E65;
 $diff-state-changed: #F4B400;
-$diff-state-unchanged-background: $secondary-background;
+$diff-state-changed-background: $secondary-background;
 $diff-state-unchanged: #bbb;
 $diff-state-unchanged-background: $secondary-background;
 
