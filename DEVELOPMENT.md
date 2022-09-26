@@ -30,7 +30,7 @@ With the development environment initialized, follow these steps to create a new
 
 5. Update `themes/<theme-name>/<theme-name>-monaco.json` to customize the colors of the Monaco Editor. For details on the `monacoOptions` configuration, please refer to the [Node-RED documentation][theming-the-monaco-editor].
 
-6. ***OPTIONAL*** - If additional customizations are needed, create `themes/<theme-name>/<theme-name>-custom.css` and add them to that file. A minified version (`themes/<theme-name>/<theme-name>-custom.min.css`) is preferred.
+6. ***OPTIONAL*** - If additional customizations are needed, add them to `themes/<theme-name>/<theme-name>-custom.css`.
 
 7. Refresh Node-RED in the browser to preview the changes
 
