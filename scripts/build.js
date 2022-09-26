@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 const path = require('path')
-const { readdirSync } = require('fs')
+const { readFileSync, readdirSync, writeFileSync } = require('fs')
 const { exec } = require('child_process')
+const { minify } = require('csso')
 const themesPath = path.join(process.cwd(), 'themes')
 const themes = readdirSync(themesPath)
 
@@ -13,4 +14,9 @@ themes.forEach(themeName => {
     const buildSrc = './node-red'
 
     exec(`node ./scripts/build-theme.js --in=${buildIn} --out=${buildOut} --src=${buildSrc}`)
+
+    const themeCustomCss = readFileSync(path.resolve(themePath, themeName + '-custom.css'), 'utf-8')
+    const minifiedCss = minify(themeCustomCss).css
+
+    writeFileSync(path.resolve(themePath, themeName + '-custom.min.css'), minifiedCss)
 })

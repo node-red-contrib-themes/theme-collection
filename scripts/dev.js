@@ -2,11 +2,12 @@
 const commandLineArgs = require('command-line-args')
 const options = commandLineArgs([{ name: 'themeName', type: String, defaultOption: true }])
 const path = require('path')
-const { existsSync, watch } = require('fs')
+const { existsSync, readFileSync, watch, writeFileSync } = require('fs')
 const { exec } = require('child_process')
+const { minify } = require('csso')
 const nodemon = require('nodemon')
 const themeName = String(options.themeName.split('-scroll', 1))
-const themePath = options.themeName ? path.join('themes', themeName) : ''
+const themePath = path.join('themes', themeName)
 const buildIn = path.join(themePath, themeName + '.scss')
 const buildOut = path.join(themePath, themeName + '.min.css')
 const buildSrc = './node-red'
@@ -25,8 +26,14 @@ if (options.themeName && !existsSync(themePath)) {
     process.exit(2)
 }
 
-watch(path.resolve(themePath, themeName + '.scss'), () => {
+watch(path.join(themePath, themeName + '.scss'), () => {
     exec(`node ./scripts/build-theme.js --in=${buildIn} --out=${buildOut} --src=${buildSrc}`)
+})
+
+watch(path.join(themePath, themeName + '-custom.css'), () => {
+    const themeCustomCss = readFileSync(path.join(themePath, themeName + '-custom.css'), 'utf-8')
+    const minifiedCss = minify(themeCustomCss).css
+    writeFileSync(path.join(themePath, themeName + '-custom.min.css'), minifiedCss)
 })
 
 nodemon({

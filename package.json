@@ -39,6 +39,7 @@
     "homepage": "https://github.com/node-red-contrib-themes/theme-collection#readme",
     "devDependencies": {
         "command-line-args": "^5.2.1",
+        "csso": "5.0.5",
         "fs-extra": "10.1.0",
         "nodemon": "2.0.20",
         "nopt": "6.0.0",
