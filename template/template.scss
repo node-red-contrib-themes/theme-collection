@@ -26,7 +26,7 @@ $secondary-background-inactive: #f0f0f0;
 $secondary-background-hover: #e6e6e6;
 $secondary-background-disabled: #f9f9f9;
 
-$tertiary-background:  #f7f7f7;
+$tertiary-background: #f7f7f7;
 
 $shadow: rgba(0, 0, 0, 0.2);
 
@@ -67,9 +67,9 @@ $form-background: $secondary-background;
 $form-placeholder-color: $tertiary-text-color;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
-$form-input-focus-color:  rgba(85,150,230,0.8);
-$form-input-border-color:  $tertiary-border-color;
-$form-input-border-selected-color:  #aaa;
+$form-input-focus-color: rgba(85,150,230,0.8);
+$form-input-border-color: $tertiary-border-color;
+$form-input-border-selected-color: #aaa;
 $form-input-border-error-color: rgb(214, 97, 95);
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
