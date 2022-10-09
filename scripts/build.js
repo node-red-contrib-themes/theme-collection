@@ -19,4 +19,9 @@ themes.forEach(themeName => {
     const minifiedCss = minify(themeCustomCss).css
 
     writeFileSync(path.resolve(themePath, themeName + '-custom.min.css'), minifiedCss)
+
+    const monacoOptions = JSON.parse(readFileSync(path.resolve(themePath, themeName + '-monaco.json'), 'utf-8'))
+    const minifiedMonacoOptions = JSON.stringify(monacoOptions)
+
+    writeFileSync(path.resolve(themePath, themeName + '-monaco.min.json'), minifiedMonacoOptions)
 })
