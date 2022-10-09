@@ -1,4 +1,4 @@
-const { existsSync, readdirSync } = require('fs')
+const { existsSync, readdirSync, readFileSync } = require('fs')
 const path = require('path')
 
 module.exports = function (RED) {
@@ -14,8 +14,8 @@ module.exports = function (RED) {
         const themeCSS = themeName + '.min.css'
         const themeCustomCSS = themeName + '-custom.min.css'
         const scrollbarsCSS = 'common/scrollbars.min.css'
-        const monacoFile = path.join(themePath, themeName + '-monaco.json')
-        const monacoOptions = require(monacoFile)
+        const monacoFile = path.join(themePath, themeName + '-monaco.min.json')
+        const monacoOptions = JSON.parse(readFileSync(monacoFile, 'utf-8'))
 
         if (readdirSync(themePath).length == 0) {
             console.warn('')

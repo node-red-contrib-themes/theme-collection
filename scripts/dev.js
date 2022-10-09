@@ -33,7 +33,15 @@ watch(path.join(themePath, themeName + '.scss'), () => {
 watch(path.join(themePath, themeName + '-custom.css'), () => {
     const themeCustomCss = readFileSync(path.join(themePath, themeName + '-custom.css'), 'utf-8')
     const minifiedCss = minify(themeCustomCss).css
+
     writeFileSync(path.join(themePath, themeName + '-custom.min.css'), minifiedCss)
+})
+
+watch(path.join(themePath, themeName + '-monaco.json'), () => {
+    const monacoOptions = JSON.parse(readFileSync(path.join(themePath, themeName + '-monaco.json'), 'utf-8'))
+    const minifiedMonacoOptions = JSON.stringify(monacoOptions)
+
+    writeFileSync(path.join(themePath, themeName + '-monaco.min.json'), minifiedMonacoOptions)
 })
 
 nodemon({
