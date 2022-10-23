@@ -26,7 +26,7 @@ $secondary-background-inactive: #373B44;
 $secondary-background-hover: #2E333A;
 $secondary-background-disabled: #414A59;
 
-$tertiary-background:  #3E424B;
+$tertiary-background: #3E424B;
 
 $shadow: rgba(0, 0, 0, 0.2);
 
@@ -67,8 +67,8 @@ $form-background: $secondary-background;
 $form-placeholder-color: $tertiary-text-color;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
-$form-input-focus-color:  rgba(85,150,230,0.8);
-$form-input-border-color:  $tertiary-border-color;
+$form-input-focus-color: rgba(85, 150, 230, 0.8);
+$form-input-border-color: $tertiary-border-color;
 $form-input-border-selected-color: $tertiary-text-color;
 $form-input-border-error-color: rgb(214, 97, 95);
 $form-input-background: $secondary-background;
@@ -142,7 +142,7 @@ $workspace-button-background-primary-hover: #6E0A1E;
 
 $workspace-button-color-focus-outline: $form-input-focus-color;
 
-$shade-color: rgba(160,160,160,0.5);
+$shade-color: rgba(160, 160, 160, 0.5);
 
 $popover-background: $primary-background;
 $popover-border: $secondary-background;
@@ -195,7 +195,7 @@ $menuCaret: $tertiary-text-color;
 $view-navigator-background: rgba($primary-background, 0.8);
 
 $view-lasso-stroke: #ff7f0e;
-$view-lasso-fill: rgba(20,125,255,0.1);
+$view-lasso-fill: rgba(20, 125, 255, 0.1);
 
 $view-background: $secondary-background;
 $view-grid-color: $primary-background;
@@ -210,7 +210,7 @@ $node-background-placeholder: #eee;
 $node-port-background: #d9d9d9;
 $node-port-background-hover: #eee;
 $node-icon-color: #fff;
-$node-icon-background-color: rgba(0,0,0,0.05);
+$node-icon-background-color: rgba(0, 0, 0, 0.05);
 $node-icon-background-color-fill: #000;
 $node-icon-background-color-opacity: 0.05;
 $node-icon-border-color: #000;
@@ -271,7 +271,7 @@ $headerMenuCaret: #C7C7C7;
 
 $vcCommitShaColor: #F4B400;
 
-$dnd-background: rgba(0,0,0,0.3);
+$dnd-background: rgba(0, 0, 0, 0.3);
 $dnd-color: #fff;
 
 $notification-border-default: #325C80;
