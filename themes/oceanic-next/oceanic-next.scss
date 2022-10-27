@@ -18,15 +18,15 @@ $primary-font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
 
-$primary-background: scale-color(#1B2B34, $lightness: -10%);
+$primary-background: #0f2027;
 
 $secondary-background: #1B2B34;
-$secondary-background-selected: scale-color($secondary-background, $lightness: -12%);
+$secondary-background-selected: #32424c;
 $secondary-background-inactive: scale-color($secondary-background, $lightness: -12%);
-$secondary-background-hover: scale-color($secondary-background, $lightness: -20%);
+$secondary-background-hover: #32424c;
 $secondary-background-disabled: scale-color($secondary-background, $lightness: -4%);
 
-$tertiary-background: scale-color($secondary-background, $lightness: -10%);
+$tertiary-background: #15262e;
 
 $shadow: rgba(0, 0, 0, 0.2);
 
@@ -48,11 +48,11 @@ $tertiary-text-color: scale-color($primary-text-color, $lightness: -51%);
 // Heading text
 $header-text-color: scale-color($primary-text-color, $lightness: 22%);
 
-$text-color-error: #FF5555;
-$text-color-warning: #F1FA8C;
-$text-color-success: #50FA7B;
-$text-color-code: #FF5555;
-$text-color-link: #8BE9FD;
+$text-color-error: #ec5f67;
+$text-color-warning: #fac863;
+$text-color-success: #99c794;
+$text-color-code: #d7ba7d;
+$text-color-link: #4e94ce;
 
 
 $primary-border-color: darken($secondary-background, 8%);
@@ -64,7 +64,7 @@ $border-color-warning: #FFCF70;
 $border-color-success: #4B8400;
 
 $form-background: $secondary-background;
-$form-placeholder-color: $tertiary-text-color;
+$form-placeholder-color: #cccccc80;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: rgba(85, 150, 230, 0.8);
@@ -82,8 +82,8 @@ $text-editor-color: $primary-text-color;
 $text-editor-background: $secondary-background;
 $text-editor-color-disabled: $secondary-text-color-inactive;
 $text-editor-background-disabled: $secondary-background-disabled;
-$text-editor-gutter-background: $secondary-background;
-$text-editor-gutter-color: #395b6f;
+$text-editor-gutter-background: #1b2b34;
+$text-editor-gutter-color: #707880;
 $text-editor-gutter-active-line-background: $secondary-background;
 $text-editor-active-line-background: #65737e55;
 $text-editor-selection-background: #4f5b66;
@@ -156,14 +156,14 @@ $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
 $diff-state-color: $secondary-text-color;
 $diff-state-prefix-color: $secondary-text-color;
-$diff-state-added: #99C794;
-$diff-state-deleted: #EC5F67;
-$diff-state-changed: #BB80B3;
+$diff-state-added: #81b88b;
+$diff-state-deleted: #b71c1c;
+$diff-state-changed: #6699cc;
 $diff-state-changed-background: $secondary-background;
-$diff-state-unchanged: #bbb;
+$diff-state-unchanged: #65737e;
 $diff-state-unchanged-background: $secondary-background;
 
-$diff-state-conflicted: purple;
+$diff-state-conflicted: #b71c1c;
 $diff-state-moved: #3f81b3;
 $diff-state-conflict: #9b45ce;
 $diff-state-conflict-background: #ffdad4;
@@ -285,11 +285,11 @@ $debug-message-background-hover: $secondary-background-selected;
 $debug-message-text-color: #CDD3DE;
 $debug-message-text-color-meta: #6699CC;
 $debug-message-text-color-object-key: #CDD3DE;
-$debug-message-text-color-msg-type-other: #F99157;
-$debug-message-text-color-msg-type-string: #99C794;
-$debug-message-text-color-msg-type-null: #F99157;
-$debug-message-text-color-msg-type-meta: #65737e;
-$debug-message-text-color-msg-type-number: #F99157;
+$debug-message-text-color-msg-type-other: #b5cea8;
+$debug-message-text-color-msg-type-string: #ce9178;
+$debug-message-text-color-msg-type-null: #c586c0;
+$debug-message-text-color-msg-type-meta: #c586c0;
+$debug-message-text-color-msg-type-number: #b5cea8;
 
 $debug-message-border: $primary-background;
 $debug-message-border-hover: $secondary-background-hover;
