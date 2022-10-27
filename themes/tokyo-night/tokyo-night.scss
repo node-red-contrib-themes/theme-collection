@@ -21,38 +21,38 @@ $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
 $primary-background: #16161e;
 
 $secondary-background: #1a1b26;
-$secondary-background-selected: scale-color($secondary-background, $lightness: -12%);
+$secondary-background-selected: #202330;
 $secondary-background-inactive: scale-color($secondary-background, $lightness: -12%);
-$secondary-background-hover: scale-color($secondary-background, $lightness: -20%);
+$secondary-background-hover: #13131a;
 $secondary-background-disabled: scale-color($secondary-background, $lightness: -4%);
 
-$tertiary-background: scale-color($secondary-background, $lightness: -10%);
+$tertiary-background: #16161e;
 
 $shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
 $primary-text-color: #787c99;
 // UI control label text
-$secondary-text-color: scale-color($primary-text-color, $lightness: -38%);
-$secondary-text-color-focus: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-hover: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-active: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-selected: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-inactive: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-disabled: scale-color($primary-text-color, $lightness: -55%);
-$secondary-text-color-disabled-active: scale-color($primary-text-color, $lightness: -45%);
-$secondary-text-color-disabled-inactive: scale-color($primary-text-color, $lightness: -51%);
+$secondary-text-color: #484f70;
+$secondary-text-color-focus: #787c99;
+$secondary-text-color-hover: #787c99;
+$secondary-text-color-active: #787c99;
+$secondary-text-color-selected: #787c99;
+$secondary-text-color-inactive: #787c99;
+$secondary-text-color-disabled: #363b54;
+$secondary-text-color-disabled-active: scale-color($secondary-text-color-disabled, $lightness: -13%);
+$secondary-text-color-disabled-inactive: scale-color($secondary-text-color-disabled, $lightness: -6%);
 
 // Sub label text
 $tertiary-text-color: scale-color($primary-text-color, $lightness: -51%);
 // Heading text
 $header-text-color: scale-color($primary-text-color, $lightness: 22%);
 
-$text-color-error: #AD1625;
-$text-color-warning: #CAB200;
-$text-color-success: #3a3;
-$text-color-code: #AD1625;
-$text-color-link: #0088cc;
+$text-color-error: #bb616b;
+$text-color-warning: #c49a5a;
+$text-color-success: #89d185;
+$text-color-code: #9699a8;
+$text-color-link: #6183bb;
 
 
 $primary-border-color: #0d0f17;
@@ -64,7 +64,7 @@ $border-color-warning: #FFCF70;
 $border-color-success: #4B8400;
 
 $form-background: $secondary-background;
-$form-placeholder-color: $tertiary-text-color;
+$form-placeholder-color: #787c998a;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: rgba(85, 150, 230, 0.8);
@@ -86,7 +86,7 @@ $text-editor-gutter-background: $secondary-background;
 $text-editor-gutter-color: #363b54;
 $text-editor-gutter-active-line-background: #1e202e;
 $text-editor-active-line-background: #1e202e;
-$text-editor-selection-background: #515c7e40;
+$text-editor-selection-background: #515c7e44;
 
 $event-log-background: $secondary-background;
 $event-log-color: $primary-text-color;
@@ -156,27 +156,27 @@ $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
 $diff-state-color: $primary-text-color;
 $diff-state-prefix-color: $secondary-text-color;
-$diff-state-added: #009900;
-$diff-state-deleted: #f80000;
-$diff-state-changed: #f89406;
+$diff-state-added: #449dab;
+$diff-state-deleted: #914c54;
+$diff-state-changed: #6183bb;
 $diff-state-changed-background: $secondary-background;
-$diff-state-unchanged: #bbb;
+$diff-state-unchanged: #363b54;
 $diff-state-unchanged-background: $secondary-background;
 
-$diff-state-conflicted: purple;
+$diff-state-conflicted: #e0af68cc;
 $diff-state-moved: #3f81b3;
 $diff-state-conflict: #9b45ce;
 $diff-state-conflict-background: #ffdad4;
 
-$diff-state-added-background: #e7ffe3;
+$diff-state-added-background: #41a6b520;
 $diff-state-added-border: #b8daad;
-$diff-state-added-header-background: #c0f6c0;
-$diff-state-added-header-border: #aaeeaa;
+$diff-state-added-header-background: #41a6b520;
+$diff-state-added-header-border: #41a6b520;
 
-$diff-state-deleted-background: #ffe1e1;
+$diff-state-deleted-background: #db4b4b22;
 $diff-state-deleted-border: #e4bcbc;
-$diff-state-deleted-header-background: #ffcccc;
-$diff-state-deleted-header-border: #eebbbb;
+$diff-state-deleted-header-background: #db4b4b22;
+$diff-state-deleted-header-border: #db4b4b22;
 
 $diff-merge-header-color: #800080;
 $diff-merge-header-background: #e5f9ff;
@@ -282,13 +282,13 @@ $notification-border-error: $border-color-error;
 $debug-message-background: $secondary-background;
 $debug-message-background-hover: $secondary-background-selected;
 
-$debug-message-text-color: #787c99;
-$debug-message-text-color-meta: #9ece6a;
-$debug-message-text-color-object-key: #73daca;
+$debug-message-text-color: #BB9AF7;
+$debug-message-text-color-meta: #C0CAF5;
+$debug-message-text-color-object-key: #7AA2F7;
 $debug-message-text-color-msg-type-other: #ff9e64;
 $debug-message-text-color-msg-type-string: #9ece6a;
-$debug-message-text-color-msg-type-null: #444b6a;
-$debug-message-text-color-msg-type-meta: #444b6a;
+$debug-message-text-color-msg-type-null: #7dcfff;
+$debug-message-text-color-msg-type-meta: #7dcfff;
 $debug-message-text-color-msg-type-number: #ff9e64;
 
 $debug-message-border: $primary-background;

@@ -79,7 +79,7 @@ $form-tips-background: $primary-background;
 
 
 $text-editor-color: #DEDEDE;
-$text-editor-background: #000;
+$text-editor-background: $secondary-background;
 $text-editor-color-disabled: $secondary-text-color-inactive;
 $text-editor-background-disabled: $secondary-background-disabled;
 $text-editor-gutter-background: #1A1A1A;
@@ -296,8 +296,8 @@ $debug-message-border-hover: #666;
 $debug-message-border-warning: $border-color-warning;
 $debug-message-border-error: $border-color-error;
 
-$group-default-fill: none;
-$group-default-fill-opacity: 1;
+$group-default-fill: $primary-background;
+$group-default-fill-opacity: 0.5;
 $group-default-stroke: $primary-border-color;
 $group-default-stroke-opacity: 1;
 $group-default-label-color: $primary-text-color;
