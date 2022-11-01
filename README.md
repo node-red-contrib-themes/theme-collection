@@ -56,7 +56,7 @@ npm install @node-red-contrib-themes/theme-collection
 | `oled`            | A Node-RED dark theme for OLED displays                                                           |
 | `solarized-dark`  | Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]               |
 | `solarized-light` | Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]               |
-| `tokyo-night`     | Based on the [Tokyo Night theme for VS Code][themetokyo-night] by [enkia][enkia]                  |
+| `tokyo-night`     | Based on the [Tokyo Night theme for VS Code][theme-tokyo-night] by [enkia][enkia]                 |
 | `zenburn`         | Inspired by the [Zenburn color scheme for Vim][theme-zenburn]                                     |
 
 If you have an idea for a new theme, you can request it [here][tr], or better yet, [create one yourself][creating-a-new-theme].
@@ -152,7 +152,7 @@ Please ⭐️ this repository if this project helped you!
 [theme-monokai]: https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai
 [theme-oceanic-next]: https://github.com/voronianski/oceanic-next-color-scheme
 [theme-zenburn]: https://github.com/jnurmine/Zenburn
-[themetokyo-night]: https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night
+[theme-tokyo-night]: https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night
 [tr]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme-request&template=02_theme_request.yml&title=
 [voronianski]: https://github.com/voronianski
 [wes-bos]: http://www.wesbos.com/
