@@ -64,7 +64,7 @@ $border-color-warning: #FFCF70;
 $border-color-success: #4B8400;
 
 $form-background: $secondary-background;
-$form-placeholder-color: #586e75aa;
+$form-placeholder-color: $tertiary-text-color;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: rgba(85, 150, 230, 0.8);
@@ -79,7 +79,7 @@ $form-tips-background: $primary-background;
 
 
 $text-editor-color: #586e75;
-$text-editor-background: $secondary-background;
+$text-editor-background: #FDF6E3;
 $text-editor-color-disabled: $secondary-text-color-inactive;
 $text-editor-background-disabled: $secondary-background-disabled;
 $text-editor-gutter-background: #fbf1d3;

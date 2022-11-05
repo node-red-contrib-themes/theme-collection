@@ -64,7 +64,7 @@ $border-color-warning: #FFCF70;
 $border-color-success: #4B8400;
 
 $form-background: $secondary-background;
-$form-placeholder-color: #aaaaaa;
+$form-placeholder-color: $tertiary-text-color;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: rgba(85, 150, 230, 0.8);
@@ -78,14 +78,14 @@ $form-button-background: $secondary-background-selected;
 $form-tips-background: $primary-background;
 
 
-$text-editor-color: $primary-text-color;
-$text-editor-background: $secondary-background;
+$text-editor-color: #FFF;
+$text-editor-background: #193549;
 $text-editor-color-disabled: $secondary-text-color-disabled;
 $text-editor-background-disabled: $secondary-background-disabled;
-$text-editor-gutter-background: $secondary-background;
-$text-editor-gutter-color: $primary-text-color;
-$text-editor-gutter-active-line-background: $secondary-background-selected;
-$text-editor-active-line-background: $secondary-background-selected;
+$text-editor-gutter-background: #122738;
+$text-editor-gutter-color: #FFF;
+$text-editor-gutter-active-line-background: #1F4662;
+$text-editor-active-line-background: #1F4662;
 $text-editor-selection-background: #0050A4;
 
 $event-log-background: $secondary-background;
@@ -300,7 +300,7 @@ $group-default-fill: $primary-background;
 $group-default-fill-opacity: 0.5;
 $group-default-stroke: $primary-border-color;
 $group-default-stroke-opacity: 1;
-$group-default-label-color: $primary-text-color;
+$group-default-label-color: #F8F8F2;
 
 $tourGuide-border: #c56c6c;
 $tourGuide-heading-color: #c56c6c;
