@@ -11,7 +11,7 @@ jobs:
     name: Clean up stale issues and PRs
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v5.2.0
+      - uses: actions/stale@v6.0.1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           days-before-issue-stale: 30
