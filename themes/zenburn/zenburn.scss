@@ -5,9 +5,9 @@ $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
 $primary-background: scale-color(#393939, $lightness: -10%);
 
 $secondary-background: #393939;
-$secondary-background-selected: scale-color($secondary-background, $lightness: -12%);
+$secondary-background-selected: #666666;
 $secondary-background-inactive: scale-color($secondary-background, $lightness: -12%);
-$secondary-background-hover: scale-color($secondary-background, $lightness: -20%);
+$secondary-background-hover: #303030;
 $secondary-background-disabled: scale-color($secondary-background, $lightness: -4%);
 
 $tertiary-background: scale-color($secondary-background, $lightness: -10%);
@@ -32,11 +32,11 @@ $tertiary-text-color: scale-color($primary-text-color, $lightness: -51%);
 // Heading text
 $header-text-color: scale-color($primary-text-color, $lightness: 22%);
 
-$text-color-error: #AD1625;
-$text-color-warning: #CAB200;
-$text-color-success: #3a3;
-$text-color-code: #AD1625;
-$text-color-link: #0088cc;
+$text-color-error: #D02000;
+$text-color-warning: #DDB700;
+$text-color-success: #568E4D;
+$text-color-code: #FED6AF;
+$text-color-link: #4080A0;
 
 
 $primary-border-color: darken($secondary-background, 8%);
