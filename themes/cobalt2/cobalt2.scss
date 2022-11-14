@@ -15,46 +15,46 @@ $tertiary-background: #122738;
 $shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
-$primary-text-color: #FFF;
+$primary-text-color: #ffffff;
 // UI control label text
-$secondary-text-color: scale-color($primary-text-color, $blackness: 38%);
-$secondary-text-color-focus: scale-color($primary-text-color, $blackness: 17.5%);
-$secondary-text-color-hover: scale-color($primary-text-color, $blackness: 17.5%);
-$secondary-text-color-active: scale-color($primary-text-color, $blackness: 17.5%);
-$secondary-text-color-selected: scale-color($primary-text-color, $blackness: 17.5%);
-$secondary-text-color-inactive: scale-color($primary-text-color, $blackness: 17.5%);
-$secondary-text-color-disabled: scale-color($primary-text-color, $blackness: 55%);
+$secondary-text-color: #ffffff80;
+$secondary-text-color-focus: #aaaaaa;
+$secondary-text-color-hover: #aaaaaa;
+$secondary-text-color-active: #aaaaaa;
+$secondary-text-color-selected: #aaaaaa;
+$secondary-text-color-inactive: #aaaaaa;
+$secondary-text-color-disabled: #cccccc80;
 $secondary-text-color-disabled-active: scale-color($primary-text-color, $blackness: 45%);
 $secondary-text-color-disabled-inactive: scale-color($primary-text-color, $blackness: 51%);
 
 // Sub label text
 $tertiary-text-color: scale-color($primary-text-color, $blackness: 51%);
 // Heading text
-$header-text-color: scale-color($primary-text-color, $blackness: -22%);
+$header-text-color: #e7e7e7;
 
-$text-color-error: #A22929;
+$text-color-error: #a22929;
 $text-color-warning: #ffc600;
 $text-color-success: #3ad900;
-$text-color-code: #9effff;
+$text-color-code: #ffc600;
 $text-color-link: #0088ff;
 
 
 $primary-border-color: #234E6DBF;
-$secondary-border-color: #234E6DBF;
-$tertiary-border-color: #234E6DBF;
+$secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
+$tertiary-border-color: scale-color($primary-border-color, $lightness: -7%);
 
 $border-color-error: #DF2935;
 $border-color-warning: #FFCF70;
 $border-color-success: #4B8400;
 
 $form-background: $secondary-background;
-$form-placeholder-color: $tertiary-text-color;
+$form-placeholder-color: #aaaaaa;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: rgba(85, 150, 230, 0.8);
 $form-input-border-color: $tertiary-border-color;
 $form-input-border-selected-color: #ffc600;
-$form-input-border-error-color: rgb(214, 97, 95);
+$form-input-border-error-color: #ffc600;
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
 $form-button-background: $secondary-background-selected;
@@ -62,15 +62,15 @@ $form-button-background: $secondary-background-selected;
 $form-tips-background: $primary-background;
 
 
-$text-editor-color: #FFF;
-$text-editor-background: #193549;
+$text-editor-color: $primary-text-color;
+$text-editor-background: $secondary-background;
 $text-editor-color-disabled: $secondary-text-color-disabled;
 $text-editor-background-disabled: $secondary-background-disabled;
-$text-editor-gutter-background: #122738;
-$text-editor-gutter-color: #FFF;
-$text-editor-gutter-active-line-background: #1F4662;
-$text-editor-active-line-background: #1F4662;
-$text-editor-selection-background: #0050A4;
+$text-editor-gutter-background: #12273866;
+$text-editor-gutter-color: #aaaaaa;
+$text-editor-gutter-active-line-background: $secondary-background-selected;
+$text-editor-active-line-background: $secondary-background-selected;
+$text-editor-selection-background: #0050a480;
 
 $event-log-background: $secondary-background;
 $event-log-color: $primary-text-color;
@@ -140,24 +140,24 @@ $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
 $diff-state-color: #F8F8F8;
 $diff-state-prefix-color: #F8F8F8;
-$diff-state-added: #A6E22E;
-$diff-state-deleted: #F92672;
-$diff-state-changed: #967EFB;
+$diff-state-added: #81b88b;
+$diff-state-deleted: #c74e39;
+$diff-state-changed: #e2c08d;
 $diff-state-changed-background: $secondary-background;
 $diff-state-unchanged: #F8F8F8;
 $diff-state-unchanged-background: $secondary-background;
 
-$diff-state-conflicted: purple;
+$diff-state-conflicted: #ff7200;
 $diff-state-moved: #3f81b3;
 $diff-state-conflict: #9b45ce;
-$diff-state-conflict-background: #ffdad4;
+$diff-state-conflict-background: #ffea0047;
 
-$diff-state-added-background: #154F00;
+$diff-state-added-background: #9bb95533;
 $diff-state-added-border: #b8daad;
 $diff-state-added-header-background: scale-color($diff-state-added-background, $lightness: -15%);
 $diff-state-added-header-border: scale-color($diff-state-added-header-background, $lightness: -10%);
 
-$diff-state-deleted-background: #ee3a43;
+$diff-state-deleted-background: #ff000033;
 $diff-state-deleted-border: #e4bcbc;
 $diff-state-deleted-header-background: scale-color($diff-state-deleted-background, $lightness: -15%);
 $diff-state-deleted-header-border: scale-color($diff-state-deleted-header-background, $lightness: -10%);
@@ -269,11 +269,11 @@ $debug-message-background-hover: $secondary-background-selected;
 $debug-message-text-color: #E1EFFF;
 $debug-message-text-color-meta: #9EFFFF;
 $debug-message-text-color-object-key: #2AFFDF;
-$debug-message-text-color-msg-type-other: #EDEF7D;
-$debug-message-text-color-msg-type-string: #9EFF80;
-$debug-message-text-color-msg-type-null: #FF628C;
-$debug-message-text-color-msg-type-meta: #0088FF;
-$debug-message-text-color-msg-type-number: #EB939A;
+$debug-message-text-color-msg-type-other: #4e94ce;
+$debug-message-text-color-msg-type-string: #ce9178;
+$debug-message-text-color-msg-type-null: #aaaaaa;
+$debug-message-text-color-msg-type-meta: #c586c0;
+$debug-message-text-color-msg-type-number: #b5cea8;
 
 $debug-message-border: $primary-background;
 $debug-message-border-hover: #234E6D;
@@ -284,7 +284,7 @@ $group-default-fill: $primary-background;
 $group-default-fill-opacity: 0.5;
 $group-default-stroke: $primary-border-color;
 $group-default-stroke-opacity: 1;
-$group-default-label-color: #F8F8F2;
+$group-default-label-color: $primary-text-color;
 
 $tourGuide-border: #c56c6c;
 $tourGuide-heading-color: #c56c6c;

@@ -63,7 +63,7 @@ $form-tips-background: $primary-background;
 
 
 $text-editor-color: #DEDEDE;
-$text-editor-background: #000;
+$text-editor-background: $secondary-background;
 $text-editor-color-disabled: $secondary-text-color-inactive;
 $text-editor-background-disabled: $secondary-background-disabled;
 $text-editor-gutter-background: #1A1A1A;
@@ -174,7 +174,7 @@ $menuActiveBackground: $secondary-background-hover;
 $menuDisabledColor: #666;
 $menuHoverColor: $menuColor;
 $menuHoverBackground: #323232;
-$menuCaret: #C7C7C7;
+$menuCaret: $tertiary-text-color;
 
 $view-navigator-background: rgba($primary-background, 0.8);
 
@@ -280,8 +280,8 @@ $debug-message-border-hover: #666;
 $debug-message-border-warning: $border-color-warning;
 $debug-message-border-error: $border-color-error;
 
-$group-default-fill: none;
-$group-default-fill-opacity: 1;
+$group-default-fill: $primary-background;
+$group-default-fill-opacity: 0.5;
 $group-default-stroke: $primary-border-color;
 $group-default-stroke-opacity: 1;
 $group-default-label-color: $primary-text-color;

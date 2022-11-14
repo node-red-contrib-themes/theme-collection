@@ -7,7 +7,7 @@ $primary-background: scale-color(#2A211C, $lightness: -20%);
 $secondary-background: #2A211C;
 $secondary-background-selected: scale-color($secondary-background, $lightness: -24%);
 $secondary-background-inactive: scale-color($secondary-background, $lightness: -24%);
-$secondary-background-hover: scale-color($secondary-background, $lightness: -40%);
+$secondary-background-hover: #3A312C;
 $secondary-background-disabled: scale-color($secondary-background, $lightness: -8%);
 
 $tertiary-background: scale-color($secondary-background, $lightness: -20%);

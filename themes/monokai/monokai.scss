@@ -7,7 +7,7 @@ $primary-background: #1d1e19;
 $secondary-background: #272822;
 $secondary-background-selected: #414339;
 $secondary-background-inactive: #1d1e19;
-$secondary-background-hover: #31322B;
+$secondary-background-hover: #3E3D32;
 $secondary-background-disabled: #1d1e19;
 
 $tertiary-background: #1d1e19;
@@ -35,13 +35,13 @@ $header-text-color: scale-color($primary-text-color, $lightness: 20%);
 $text-color-error: #f92672;
 $text-color-warning: #fd971f;
 $text-color-success: #a6e22e;
-$text-color-code: #AE81FF;
-$text-color-link: #66d9ef;
+$text-color-code: #fdfff1;
+$text-color-link: #e6db74;
 
 
 $primary-border-color: #3b3c35;
-$secondary-border-color: scale-color($primary-border-color, $lightness: -10%);
-$tertiary-border-color: scale-color($primary-border-color, $lightness: -5%);
+$secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
+$tertiary-border-color: scale-color($primary-border-color, $lightness: -7%);
 
 $border-color-error: #DF2935;
 $border-color-warning: #FFCF70;
@@ -53,8 +53,8 @@ $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: rgba(85, 150, 230, 0.8);
 $form-input-border-color: $tertiary-border-color;
-$form-input-border-selected-color: $tertiary-text-color;
-$form-input-border-error-color: rgb(214, 97, 95);
+$form-input-border-selected-color: #57584f;
+$form-input-border-error-color: #f92672;
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
 $form-button-background: $secondary-background-selected;
@@ -67,10 +67,10 @@ $text-editor-background: $secondary-background;
 $text-editor-color-disabled: $secondary-text-color-inactive;
 $text-editor-background-disabled: $secondary-background-disabled;
 $text-editor-gutter-background: $secondary-background;
-$text-editor-gutter-color: #75715E;
+$text-editor-gutter-color: #57584f;
 $text-editor-gutter-active-line-background: $secondary-background;
-$text-editor-active-line-background: #3E3D32;
-$text-editor-selection-background: #49483E;
+$text-editor-active-line-background: #fdfff10c;
+$text-editor-selection-background: #fdfff126;
 
 $event-log-background: $secondary-background;
 $event-log-color: $primary-text-color;
@@ -140,27 +140,27 @@ $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
 $diff-state-color: #75715E;
 $diff-state-prefix-color: #75715E;
-$diff-state-added: #009900;
-$diff-state-deleted: #f80000;
-$diff-state-changed: #f89406;
+$diff-state-added: #a6e22e;
+$diff-state-deleted: #f92672;
+$diff-state-changed: #e6db74;
 $diff-state-changed-background: $secondary-background;
-$diff-state-unchanged: #bbb;
+$diff-state-unchanged: $primary-text-color;
 $diff-state-unchanged-background: $secondary-background;
 
-$diff-state-conflicted: purple;
+$diff-state-conflicted: #fd971f;
 $diff-state-moved: #3f81b3;
 $diff-state-conflict: #9b45ce;
-$diff-state-conflict-background: #ffdad4;
+$diff-state-conflict-background: #ffea0047;
 
-$diff-state-added-background: #2386364d;
+$diff-state-added-background: #a6e22e19;
 $diff-state-added-border: #b8daad;
-$diff-state-added-header-background: #23863633;
-$diff-state-added-header-border: #23863633;
+$diff-state-added-header-background: #a6e22e19;
+$diff-state-added-header-border: scale-color($diff-state-added-header-background, $lightness: -10%);
 
-$diff-state-deleted-background: #da36334d;
+$diff-state-deleted-background: #f9267219;
 $diff-state-deleted-border: #e4bcbc;
-$diff-state-deleted-header-background: #da363333;
-$diff-state-deleted-header-border: #da363333;
+$diff-state-deleted-header-background: #f9267219;
+$diff-state-deleted-header-border: scale-color($diff-state-deleted-header-background, $lightness: -10%);
 
 $diff-merge-header-color: #800080;
 $diff-merge-header-background: #e5f9ff;
@@ -269,11 +269,11 @@ $debug-message-background-hover: $secondary-background-selected;
 $debug-message-text-color: #F8F8F2;
 $debug-message-text-color-meta: #A6E22E;
 $debug-message-text-color-object-key: #66D9EF;
-$debug-message-text-color-msg-type-other: #AE81FF;
-$debug-message-text-color-msg-type-string: #E6DB74;
-$debug-message-text-color-msg-type-null: #AE81FF;
-$debug-message-text-color-msg-type-meta: #75715E;
-$debug-message-text-color-msg-type-number: #AE81FF;
+$debug-message-text-color-msg-type-other: #fd971f;
+$debug-message-text-color-msg-type-string: #e6db74;
+$debug-message-text-color-msg-type-null: #ae81ff;
+$debug-message-text-color-msg-type-meta: #66d9ef;
+$debug-message-text-color-msg-type-number: #ae81ff;
 
 $debug-message-border: $primary-background;
 $debug-message-border-hover: $secondary-background-hover;

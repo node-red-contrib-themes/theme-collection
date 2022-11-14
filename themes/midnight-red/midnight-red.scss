@@ -275,7 +275,7 @@ $debug-message-text-color-msg-type-null: #CCC;
 $debug-message-text-color-msg-type-meta: #CCC;
 $debug-message-text-color-msg-type-number: #4285F4;
 
-$debug-message-border: #383C45;
+$debug-message-border: $primary-background;
 $debug-message-border-hover: #2E333A;
 $debug-message-border-warning: $border-color-warning;
 $debug-message-border-error: $border-color-error;
