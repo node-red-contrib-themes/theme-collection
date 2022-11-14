@@ -1,7 +1,8 @@
 :root {
     --nr-theme-scrollbar-thumb: rgba(255, 255, 255, 0.2);
     --nr-theme-scrollbar-thumb-hover: rgba(255, 255, 255, 0.4);
-    --nr-theme-scrollbar-track-border: rgba(255, 255, 255, 0.05);
+    --nr-theme-scrollbar-track-inner-shadow: rgba(255, 255, 255, 0.1);
+    --nr-theme-scrollbar-track-outer-shadow: rgba(255, 255, 255, 0.05);
 }
 
 .red-ui-editor {
@@ -19,19 +20,23 @@
     background-color: var(--red-ui-primary-background);
 }
 
-::-webkit-scrollbar-track:vertical {
-    border-left: 1px solid var(--nr-theme-scrollbar-track-border);
+::-webkit-scrollbar-corner {
+    box-shadow: inset -2px -2px 2px -2px var(--nr-theme-scrollbar-track-outer-shadow);
 }
 
 ::-webkit-scrollbar-track:horizontal {
-    border-top: 1px solid var(--nr-theme-scrollbar-track-border);
+    box-shadow: inset 2px 2px 2px -2px var(--nr-theme-scrollbar-track-inner-shadow), inset 2px -2px 2px -2px var(--nr-theme-scrollbar-track-outer-shadow);
+}
+
+::-webkit-scrollbar-track:vertical {
+    box-shadow: inset 2px 2px 2px -2px var(--nr-theme-scrollbar-track-inner-shadow), inset -2px 2px 2px -2px var(--nr-theme-scrollbar-track-outer-shadow);
 }
 
 ::-webkit-scrollbar-thumb {
     background-clip: content-box;
     background-color: var(--nr-theme-scrollbar-thumb);
     border-radius: 10px;
-    border: 4px solid var(--red-ui-primary-background);
+    border: 4px solid transparent;
 }
 
 ::-webkit-scrollbar-thumb:hover {
