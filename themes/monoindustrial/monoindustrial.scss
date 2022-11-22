@@ -5,9 +5,9 @@ $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
 $primary-background: scale-color(#222C28, $lightness: -20%);
 
 $secondary-background: #222C28;
-$secondary-background-selected: scale-color($secondary-background, $lightness: -12%);
+$secondary-background-selected: scale-color($secondary-background, $lightness: 10%);
 $secondary-background-inactive: scale-color($secondary-background, $lightness: -12%);
-$secondary-background-hover: scale-color($secondary-background, $lightness: -20%);
+$secondary-background-hover: scale-color($secondary-background, $lightness: 5%);
 $secondary-background-disabled: scale-color($secondary-background, $lightness: -4%);
 
 $tertiary-background: scale-color($secondary-background, $lightness: -10%);
