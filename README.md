@@ -54,6 +54,7 @@ npm install @node-red-contrib-themes/theme-collection
 | `monokai`             | Based on the [Monokai theme for VS Code][theme-monokai]                          |
 | `oceanic-next`        | Based on the [Oceanic Next Color Scheme][theme-oceanic-next]                     |
 | `oled`                | A Node-RED dark theme for OLED displays                                          |
+| `one-dark-pro`        | Based on the Default theme from [One Dark Pro][theme-one-dark-pro]               |
 | `one-dark-pro-darker` | Based on the Darker theme from [One Dark Pro][theme-one-dark-pro]                |
 | `solarized-dark`      | Based on the [Solarized color palette][solarized]                                |
 | `solarized-light`     | Based on the [Solarized color palette][solarized]                                |
