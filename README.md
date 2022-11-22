@@ -42,22 +42,22 @@ npm install @node-red-contrib-themes/theme-collection
 
 ## Theme list
 
-| Name              | Description                                                                                       |
-| ----------------- | ------------------------------------------------------------------------------------------------- |
-| `aurora`          | Inspired by the [Aurora Theme for Sublime Text][theme-aurora] by [Palmer Oliveira][expalmer]      |
-| `cobalt2`         | Based on the [Cobalt2 Theme for VS Code][theme-cobalt2] by [Wes Bos][wes-bos]                     |
-| `dark`            | A dark theme for Node-RED                                                                         |
-| `dracula`         | Based on the [Dracula theme][theme-dracula] by [Zeno Rocha][zeno-rocha]                           |
-| `espresso-libre`  | Inspired by the [Espresso Libre theme for Monaco Editor][theme-espresso-libre]                    |
-| `midnight-red`    | Based on the [Midnight theme][theme-midnight] for [Home Assistant][home-assistant]                |
-| `monoindustrial`  | Based on the [monoindustrial theme for Monaco Editor][theme-monoindustrial]                       |
-| `monokai`         | Based on the [Monokai theme for VS Code][theme-monokai]                                           |
-| `oceanic-next`    | Based on the [Oceanic Next Color Scheme][theme-oceanic-next] by [Dmitri Voronianski][voronianski] |
-| `oled`            | A Node-RED dark theme for OLED displays                                                           |
-| `solarized-dark`  | Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]               |
-| `solarized-light` | Based on the [Solarized color palette][solarized] by [Ethan Schoonover][schoonover]               |
-| `tokyo-night`     | Based on the [Tokyo Night theme for VS Code][theme-tokyo-night] by [enkia][enkia]                 |
-| `zenburn`         | Inspired by the [Zenburn color scheme for Vim][theme-zenburn]                                     |
+| Name              | Description                                                                    |
+| ----------------- | ------------------------------------------------------------------------------ |
+| `aurora`          | Inspired by the [Aurora Theme for Sublime Text][theme-aurora]                  |
+| `cobalt2`         | Based on the [Cobalt2 Theme for VS Code][theme-cobalt2]                        |
+| `dark`            | A dark theme for Node-RED                                                      |
+| `dracula`         | Based on the [Dracula theme][theme-dracula]                                    |
+| `espresso-libre`  | Inspired by the [Espresso Libre theme for Monaco Editor][theme-espresso-libre] |
+| `midnight-red`    | Based on the [Midnight theme for Home Assistant][theme-midnight]               |
+| `monoindustrial`  | Based on the [monoindustrial theme for Monaco Editor][theme-monoindustrial]    |
+| `monokai`         | Based on the [Monokai theme for VS Code][theme-monokai]                        |
+| `oceanic-next`    | Based on the [Oceanic Next Color Scheme][theme-oceanic-next]                   |
+| `oled`            | A Node-RED dark theme for OLED displays                                        |
+| `solarized-dark`  | Based on the [Solarized color palette][solarized]                              |
+| `solarized-light` | Based on the [Solarized color palette][solarized]                              |
+| `tokyo-night`     | Based on the Tokyo Night theme from [Tokyo Night theme][theme-tokyo-night]     |
+| `zenburn`         | Inspired by the [Zenburn color scheme for Vim][theme-zenburn]                  |
 
 If you have an idea for a new theme, you can request it [here][tr], or better yet, [create one yourself][creating-a-new-theme].
 
@@ -128,9 +128,6 @@ Please ⭐️ this repository if this project helped you!
 [bug-report]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=bug&template=01_bug_report.yml
 [contribution-guidelines]: .github/CONTRIBUTING.md
 [creating-a-new-theme]: DEVELOPMENT.md
-[enkia]: https://github.com/enkia
-[expalmer]: https://expalmer.com/
-[home-assistant]: https://home-assistant.io
 [license-badge]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg
 [license]: LICENSE
 [maintenance-badge]: https://img.shields.io/maintenance/yes/2022
@@ -141,7 +138,6 @@ Please ⭐️ this repository if this project helped you!
 [npm-publish-workflow]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml
 [npm-version-badge]: https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm
 [question]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=q-a
-[schoonover]: https://ethanschoonover.com
 [solarized]: https://ethanschoonover.com/solarized/
 [theme-aurora]: https://github.com/expalmer/aurora-theme/
 [theme-cobalt2]: https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2
@@ -154,6 +150,3 @@ Please ⭐️ this repository if this project helped you!
 [theme-zenburn]: https://github.com/jnurmine/Zenburn
 [theme-tokyo-night]: https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night
 [tr]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme-request&template=02_theme_request.yml&title=
-[voronianski]: https://github.com/voronianski
-[wes-bos]: http://www.wesbos.com/
-[zeno-rocha]: https://zenorocha.com/
