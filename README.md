@@ -42,23 +42,24 @@ npm install @node-red-contrib-themes/theme-collection
 
 ## Theme list
 
-| Name                | Description                                                                      |
-| ------------------- | -------------------------------------------------------------------------------- |
-| `aurora`            | Inspired by the [Aurora Theme for Sublime Text][theme-aurora]                    |
-| `cobalt2`           | Based on the [Cobalt2 Theme for VS Code][theme-cobalt2]                          |
-| `dark`              | A dark theme for Node-RED                                                        |
-| `dracula`           | Based on the [Dracula theme][theme-dracula]                                      |
-| `espresso-libre`    | Inspired by the [Espresso Libre theme for Monaco Editor][theme-espresso-libre]   |
-| `midnight-red`      | Based on the [Midnight theme for Home Assistant][theme-midnight]                 |
-| `monoindustrial`    | Based on the [monoindustrial theme for Monaco Editor][theme-monoindustrial]      |
-| `monokai`           | Based on the [Monokai theme for VS Code][theme-monokai]                          |
-| `oceanic-next`      | Based on the [Oceanic Next Color Scheme][theme-oceanic-next]                     |
-| `oled`              | A Node-RED dark theme for OLED displays                                          |
-| `solarized-dark`    | Based on the [Solarized color palette][solarized]                                |
-| `solarized-light`   | Based on the [Solarized color palette][solarized]                                |
-| `tokyo-night`       | Based on the Tokyo Night theme from [Tokyo Night theme][theme-tokyo-night]       |
-| `tokyo-night-storm` | Based on the Tokyo Night Storm theme from [Tokyo Night theme][theme-tokyo-night] |
-| `zenburn`           | Inspired by the [Zenburn color scheme for Vim][theme-zenburn]                    |
+| Name                  | Description                                                                      |
+| --------------------- | -------------------------------------------------------------------------------- |
+| `aurora`              | Inspired by the [Aurora Theme for Sublime Text][theme-aurora]                    |
+| `cobalt2`             | Based on the [Cobalt2 Theme for VS Code][theme-cobalt2]                          |
+| `dark`                | A dark theme for Node-RED                                                        |
+| `dracula`             | Based on the [Dracula theme][theme-dracula]                                      |
+| `espresso-libre`      | Inspired by the [Espresso Libre theme for Monaco Editor][theme-espresso-libre]   |
+| `midnight-red`        | Based on the [Midnight theme for Home Assistant][theme-midnight]                 |
+| `monoindustrial`      | Based on the [monoindustrial theme for Monaco Editor][theme-monoindustrial]      |
+| `monokai`             | Based on the [Monokai theme for VS Code][theme-monokai]                          |
+| `oceanic-next`        | Based on the [Oceanic Next Color Scheme][theme-oceanic-next]                     |
+| `oled`                | A Node-RED dark theme for OLED displays                                          |
+| `one-dark-pro-darker` | Based on the Darker theme from [One Dark Pro][theme-one-dark-pro]                |
+| `solarized-dark`      | Based on the [Solarized color palette][solarized]                                |
+| `solarized-light`     | Based on the [Solarized color palette][solarized]                                |
+| `tokyo-night`         | Based on the Tokyo Night theme from [Tokyo Night theme][theme-tokyo-night]       |
+| `tokyo-night-storm`   | Based on the Tokyo Night Storm theme from [Tokyo Night theme][theme-tokyo-night] |
+| `zenburn`             | Inspired by the [Zenburn color scheme for Vim][theme-zenburn]                    |
 
 If you have an idea for a new theme, you can request it [here][tr], or better yet, [create one yourself][creating-a-new-theme].
 
@@ -148,6 +149,7 @@ Please ⭐️ this repository if this project helped you!
 [theme-monoindustrial]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/monoindustrial.json
 [theme-monokai]: https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai
 [theme-oceanic-next]: https://github.com/voronianski/oceanic-next-color-scheme
+[theme-one-dark-pro]: https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme
 [theme-zenburn]: https://github.com/jnurmine/Zenburn
 [theme-tokyo-night]: https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night
 [tr]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme-request&template=02_theme_request.yml&title=
