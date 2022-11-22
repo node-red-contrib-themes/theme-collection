@@ -51,6 +51,7 @@ npm install @node-red-contrib-themes/theme-collection
 | `espresso-libre`      | Inspired by the [Espresso Libre theme for Monaco Editor][theme-espresso-libre]   |
 | `midnight-red`        | Based on the [Midnight theme for Home Assistant][theme-midnight]                 |
 | `monoindustrial`      | Based on the [monoindustrial theme for Monaco Editor][theme-monoindustrial]      |
+| `monokai-dimmed`      | Based on the [Monokai Dimmed theme][theme-monokai-dimmed] for VS Code            |
 | `monokai`             | Based on the [Monokai theme for VS Code][theme-monokai]                          |
 | `noctis`              | Inspired by the [Noctis theme][theme-noctis] for VS Code                         |
 | `oceanic-next`        | Based on the [Oceanic Next Color Scheme][theme-oceanic-next]                     |
@@ -150,6 +151,7 @@ Please ⭐️ this repository if this project helped you!
 [theme-midnight]: https://community.home-assistant.io/t/midnight-theme/28598
 [theme-monoindustrial]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/monoindustrial.json
 [theme-monokai]: https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai
+[theme-monokai-dimmed]: https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai-dimmed
 [theme-noctis]: https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis
 [theme-oceanic-next]: https://github.com/voronianski/oceanic-next-color-scheme
 [theme-one-dark-pro]: https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme
