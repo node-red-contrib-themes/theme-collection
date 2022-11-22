@@ -128,8 +128,8 @@ $workspace-button-color-focus-outline: $form-input-focus-color;
 
 $shade-color: rgba(160, 160, 160, 0.5);
 
-$popover-background: $primary-background;
-$popover-border: $secondary-background;
+$popover-background: $secondary-background-hover;
+$popover-border: $popover-background;
 $popover-color: $primary-text-color;
 $popover-button-border-color: $primary-border-color;
 $popover-button-border-color-hover: $secondary-text-color-hover;
