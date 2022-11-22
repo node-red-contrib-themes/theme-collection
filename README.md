@@ -52,6 +52,7 @@ npm install @node-red-contrib-themes/theme-collection
 | `midnight-red`        | Based on the [Midnight theme for Home Assistant][theme-midnight]                 |
 | `monoindustrial`      | Based on the [monoindustrial theme for Monaco Editor][theme-monoindustrial]      |
 | `monokai`             | Based on the [Monokai theme for VS Code][theme-monokai]                          |
+| `noctis`              | Inspired by the [Noctis theme][theme-noctis] for VS Code                         |
 | `oceanic-next`        | Based on the [Oceanic Next Color Scheme][theme-oceanic-next]                     |
 | `oled`                | A Node-RED dark theme for OLED displays                                          |
 | `one-dark-pro`        | Based on the Default theme from [One Dark Pro][theme-one-dark-pro]               |
@@ -149,6 +150,7 @@ Please ⭐️ this repository if this project helped you!
 [theme-midnight]: https://community.home-assistant.io/t/midnight-theme/28598
 [theme-monoindustrial]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/monoindustrial.json
 [theme-monokai]: https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai
+[theme-noctis]: https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis
 [theme-oceanic-next]: https://github.com/voronianski/oceanic-next-color-scheme
 [theme-one-dark-pro]: https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme
 [theme-zenburn]: https://github.com/jnurmine/Zenburn
