@@ -37,7 +37,7 @@
     "homepage": "https://github.com/node-red-contrib-themes/theme-collection#readme",
     "devDependencies": {
         "command-line-args": "^5.2.1",
-        "fs-extra": "10.1.0",
+        "fs-extra": "11.0.0",
         "nodemon": "2.0.20",
         "nopt": "7.0.0",
         "ora": "^6.1.0",
