@@ -1,5 +1,6 @@
 name: "Bug report"
 description: "Report an issue with the collection or with one of the themes"
+labels: ['bug']
 body:
   - type: markdown
     attributes:
