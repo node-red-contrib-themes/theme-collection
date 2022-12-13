@@ -3,7 +3,7 @@ const path = require('path')
 const { readFileSync, readdirSync, writeFileSync } = require('fs')
 const { exec } = require('child_process')
 const { minify } = require('csso')
-const themesPath = path.join(process.cwd(), 'themes')
+const themesPath = path.join(__dirname, '../themes')
 const themes = readdirSync(themesPath)
 
 themes.forEach(themeName => {
