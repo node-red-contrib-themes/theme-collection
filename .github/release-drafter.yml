@@ -19,6 +19,9 @@ categories:
   - title: "🐛 Bug fixes"
     labels:
       - "bugfix"
+  - title: "🎨 Theme updates"
+    labels:
+      - "theme updates"
   - title: "🚀 Enhancements"
     labels:
       - "enhancement"
