@@ -7,15 +7,15 @@ const { exec } = require('child_process')
 const { minify } = require('csso')
 const nodemon = require('nodemon')
 const themeName = String(options.themeName.split('-scroll', 1))
-const themePath = path.join('themes', themeName)
+const rootPath = path.join(__dirname, '..')
+const themePath = path.join(rootPath, 'themes', themeName)
 const buildIn = path.join(themePath, themeName + '.scss')
 const buildOut = path.join(themePath, themeName + '.min.css')
-const buildSrc = './node-red'
+const buildSrc = path.join(rootPath, 'node-red')
 
 if (!options.themeName) {
     showUsageAndExit(1)
 }
-
 if (options.themeName && !existsSync(themePath)) {
     console.warn('')
     console.warn(`Theme path is not valid. Could not find '${themePath}'`)
@@ -27,7 +27,7 @@ if (options.themeName && !existsSync(themePath)) {
 }
 
 watch(path.join(themePath, themeName + '.scss'), () => {
-    exec(`node ./scripts/build-theme.js --in=${buildIn} --out=${buildOut} --src=${buildSrc}`)
+    exec(`node ${rootPath}/scripts/build-theme.js --in=${buildIn} --out=${buildOut} --src=${buildSrc}`)
 })
 
 watch(path.join(themePath, themeName + '-custom.css'), () => {
@@ -45,7 +45,7 @@ watch(path.join(themePath, themeName + '-monaco.json'), () => {
 })
 
 nodemon({
-    exec: `node-red/packages/node_modules/node-red/red.js --port 41880 --userDir .node-red --define credentialSecret=false --define editorTheme.projects.enabled=true --define editorTheme.theme=${options.themeName} theme-dev-project`,
+    exec: `${rootPath}/node-red/packages/node_modules/node-red/red.js --port 41880 --userDir ${rootPath}/.node-red --define credentialSecret=false --define editorTheme.projects.enabled=true --define editorTheme.theme=${options.themeName} theme-dev-project`,
     ext: 'js,json,css',
     watch: [
         'common/',

@@ -3,17 +3,18 @@ const path = require('path')
 const { readFileSync, readdirSync, writeFileSync } = require('fs')
 const { exec } = require('child_process')
 const { minify } = require('csso')
-const themesPath = path.join(__dirname, '../themes')
+const rootPath = path.join(__dirname, '..')
+const themesPath = path.join(rootPath, 'themes')
 const themes = readdirSync(themesPath)
 
 themes.forEach(themeName => {
 
-    const themePath = path.join('themes', themeName)
+    const themePath = path.join(themesPath, themeName)
     const buildIn = path.join(themePath, themeName + '.scss')
     const buildOut = path.join(themePath, themeName + '.min.css')
-    const buildSrc = './node-red'
+    const buildSrc = path.join(rootPath, 'node-red')
 
-    exec(`node ./scripts/build-theme.js --in=${buildIn} --out=${buildOut} --src=${buildSrc}`)
+    exec(`node ${rootPath}/scripts/build-theme.js --in=${buildIn} --out=${buildOut} --src=${buildSrc}`)
 
     const themeCustomCss = readFileSync(path.resolve(themePath, themeName + '-custom.css'), 'utf-8')
     const minifiedCss = minify(themeCustomCss).css
