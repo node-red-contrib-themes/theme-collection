@@ -3,7 +3,8 @@ const commandLineArgs = require('command-line-args')
 const options = commandLineArgs([{ name: 'themeName', type: String, defaultOption: true }])
 const path = require('path')
 const { copyFileSync, existsSync, mkdirSync } = require('fs')
-const themePath = path.join('themes/', options.themeName)
+const rootPath = path.join(__dirname, '..')
+const themePath = path.join(rootPath, 'themes', options.themeName)
 
 if (!options.themeName) {
 	showUsageAndExit(1)
@@ -22,9 +23,9 @@ if (existsSync(themePath)) {
 mkdirSync(themePath)
 
 // Copy template files to theme directory
-copyFileSync('template/template.scss', path.join(themePath, options.themeName + '.scss'))
-copyFileSync('template/template-monaco.json', path.join(themePath, options.themeName + '-monaco.json'))
-copyFileSync('template/template-custom.css', path.join(themePath, options.themeName + '-custom.css'))
+copyFileSync(path.join(rootPath, 'template/template.scss'), path.join(themePath, options.themeName + '.scss'))
+copyFileSync(path.join(rootPath, 'template/template-monaco.json'), path.join(themePath, options.themeName + '-monaco.json'))
+copyFileSync(path.join(rootPath, 'template/template-custom.css'), path.join(themePath, options.themeName + '-custom.css'))
 
 function showUsageAndExit(exitCode) {
 	console.log('')
