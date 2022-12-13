@@ -6,7 +6,7 @@
     const execPromised = promisify(exec)
     const { existsSync, mkdir } = require('fs')
     const path = require('path')
-    const rootDir = path.join(process.cwd())
+    const rootDir = path.join(__dirname, '..')
     const noderedDir = path.join(rootDir, 'node-red')
     const userDir = path.join(rootDir, '.node-red')
     const projectsDir = path.join(userDir, 'projects')
