@@ -34,7 +34,7 @@ categories:
   - title: "⬆️ Dependency updates"
     labels:
       - "dependencies"
-    collapse-after: 5
+    collapse-after: 1
 
 version-resolver:
   major:
