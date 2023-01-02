@@ -133,7 +133,7 @@ Please ⭐️ this repository if this project helped you!
 [home-assistant]: https://home-assistant.io
 [license-badge]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg
 [license]: LICENSE
-[maintenance-badge]: https://img.shields.io/maintenance/yes/2022
+[maintenance-badge]: https://img.shields.io/maintenance/yes/2023
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration#editor-themes
 [node-red]: https://nodered.org/
 [npm-publish-badge]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml/badge.svg
