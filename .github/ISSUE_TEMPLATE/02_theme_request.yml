@@ -1,6 +1,6 @@
 name: "Theme request"
 description: "Suggest a new theme"
-labels: ['theme-request']
+labels: ['theme request']
 body:
   - type: markdown
     attributes:

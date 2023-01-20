@@ -38,13 +38,13 @@
     },
     "homepage": "https://github.com/node-red-contrib-themes/theme-collection#readme",
     "devDependencies": {
-        "command-line-args": "^5.2.1",
+        "command-line-args": "5.2.1",
         "csso": "5.0.5",
-        "fs-extra": "10.1.0",
+        "fs-extra": "11.1.0",
         "nodemon": "2.0.20",
         "nopt": "7.0.0",
-        "ora": "^6.1.0",
-        "sass": "1.56.0"
+        "ora": "6.1.2",
+        "sass": "1.57.1"
     },
     "node-red": {
         "version": ">=3.0",

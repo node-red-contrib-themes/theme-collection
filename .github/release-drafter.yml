@@ -19,6 +19,9 @@ categories:
   - title: "🐛 Bug fixes"
     labels:
       - "bugfix"
+  - title: "🎨 Theme updates"
+    labels:
+      - "theme updates"
   - title: "🚀 Enhancements"
     labels:
       - "enhancement"
@@ -31,7 +34,7 @@ categories:
   - title: "⬆️ Dependency updates"
     labels:
       - "dependencies"
-    collapse-after: 5
+    collapse-after: 1
 
 version-resolver:
   major:

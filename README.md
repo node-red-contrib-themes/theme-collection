@@ -138,7 +138,7 @@ Please ⭐️ this repository if this project helped you!
 [creating-a-new-theme]: DEVELOPMENT.md
 [license-badge]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg
 [license]: LICENSE
-[maintenance-badge]: https://img.shields.io/maintenance/yes/2022
+[maintenance-badge]: https://img.shields.io/maintenance/yes/2023
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration#editor-themes
 [node-red]: https://nodered.org/
 [npm-package]: https://www.npmjs.com/package/@node-red-contrib-themes/theme-collection
