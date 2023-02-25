@@ -1,9 +1,0 @@
-input[type=checkbox],
-input[type=range],
-progress {
-  accent-color: var(--red-ui-form-text-color);
-}
-
-input[type=radio] {
-  accent-color: var(--red-ui-tertiary-background);
-}
