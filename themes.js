@@ -13,7 +13,6 @@ module.exports = function (RED) {
         const css = { css: cssArray }
         const themeCSS = themeName + '.min.css'
         const themeCustomCSS = themeName + '-custom.min.css'
-        const commonCSS = 'common/common.min.css'
         const scrollbarsCSS = 'common/scrollbars.min.css'
         const monacoFile = path.join(themePath, themeName + '-monaco.min.json')
         const monacoOptions = JSON.parse(readFileSync(monacoFile, 'utf-8'))
@@ -33,8 +32,6 @@ module.exports = function (RED) {
         }
 
         cssArray.push(path.join(themeRelativePath, themeCSS))
-
-        cssArray.push(commonCSS)
 
         const cssScrollArray = cssArray.slice()
         cssScrollArray.push(scrollbarsCSS)
