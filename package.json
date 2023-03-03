@@ -38,7 +38,7 @@
     "devDependencies": {
         "command-line-args": "5.2.1",
         "fs-extra": "11.1.0",
-        "nodemon": "2.0.20",
+        "nodemon": "2.0.21",
         "nopt": "7.0.0",
         "ora": "6.1.2",
         "sass": "1.58.1"
