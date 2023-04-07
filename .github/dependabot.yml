@@ -3,12 +3,14 @@ version: 2
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
+    labels: [dependencies, github_actions, no-stale]
     schedule:
       interval: daily
       time: "06:00"
       timezone: "America/New_York"
   - package-ecosystem: "npm"
     directory: "/"
+    labels: [dependencies, javascript, no-stale]
     schedule:
       interval: daily
       time: "06:00"
