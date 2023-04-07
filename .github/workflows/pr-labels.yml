@@ -20,5 +20,5 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
           valid-labels: >-
             breaking change, bugfix, documentation, enhancement, new theme,
-            dependencies, maintenance, theme updates, skip-changelog
+            dependencies, maintenance, theme updates, skip-changelog, no-stale
           disable-reviews: true
