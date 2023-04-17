@@ -38,6 +38,9 @@
                 "editorGutter.addedBackground": "#46954a66",
                 "editorGutter.deletedBackground": "#e5534b66",
                 "editorOverviewRuler.border": "#1c2128",
+                "minimapSlider.background": "#76839033",
+                "minimapSlider.hoverBackground": "#7683903d",
+                "minimapSlider.activeBackground": "#76839047",
                 "editorBracketHighlight.foreground1": "#6cb6ff",
                 "editorBracketHighlight.foreground2": "#6bc46d",
                 "editorBracketHighlight.foreground3": "#daaa3f",
@@ -60,6 +63,14 @@
                 {
                     "foreground": "#768390",
                     "token": "string.comment"
+                },
+                {
+                    "foreground": "#f47067",
+                    "token": "constant.other.placeholder"
+                },
+                {
+                    "foreground": "#f47067",
+                    "token": "constant.character"
                 },
                 {
                     "foreground": "#6cb6ff",
@@ -407,15 +418,14 @@
                 },
                 {
                     "foreground": "#96d0ff",
-                    "fontStyle": "underline",
                     "token": "constant.other.reference.link"
                 },
                 {
                     "foreground": "#96d0ff",
-                    "fontStyle": "underline",
                     "token": "string.other.link"
                 }
-            ]
+            ],
+            "encodedTokensColors": []
         }
     }
 }
