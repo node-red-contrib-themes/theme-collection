@@ -64,6 +64,7 @@ npm install @node-red-contrib-themes/theme-collection
 | `solarized-dark`      | Based on the [Solarized color palette][solarized]                                    |
 | `solarized-light`     | Based on the [Solarized color palette][solarized]                                    |
 | `tokyo-night`         | Based on the Tokyo Night theme from [Tokyo Night theme][theme-tokyo-night]           |
+| `tokyo-night-light`   | Based on the Tokyo Night Light theme from [Tokyo Night theme][theme-tokyo-night]     |
 | `tokyo-night-storm`   | Based on the Tokyo Night Storm theme from [Tokyo Night theme][theme-tokyo-night]     |
 | `totallyinformation`  | Created per request of Julian Knight \([@TotallyInformation][totally-information]\)  |
 | `zenburn`             | Inspired by the [Zenburn color scheme for Vim][theme-zenburn]                        |
