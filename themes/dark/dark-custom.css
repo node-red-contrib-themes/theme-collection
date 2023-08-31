@@ -1,3 +1,8 @@
+/* Scrollbar colors */
+:root {
+    --nr-theme-scrollbar-track-border: rgba(255, 255, 255, 0.05);
+}
+
 /* jQuery */
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon,
