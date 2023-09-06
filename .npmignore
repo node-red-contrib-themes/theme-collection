@@ -4,3 +4,5 @@ template/
 *.scss
 *.css
 !*.min.css
+*.json
+!*.min.json

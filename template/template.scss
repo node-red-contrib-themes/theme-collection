@@ -1,19 +1,3 @@
-/**
- * Copyright JS Foundation and other contributors, http://js.foundation
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- **/
-
 $primary-font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
@@ -26,7 +10,7 @@ $secondary-background-inactive: #f0f0f0;
 $secondary-background-hover: #e6e6e6;
 $secondary-background-disabled: #f9f9f9;
 
-$tertiary-background:  #f7f7f7;
+$tertiary-background: #f7f7f7;
 
 $shadow: rgba(0, 0, 0, 0.2);
 
@@ -67,31 +51,31 @@ $form-background: $secondary-background;
 $form-placeholder-color: $tertiary-text-color;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
-$form-input-focus-color:  rgba(85,150,230,0.8);
-$form-input-border-color:  $tertiary-border-color;
-$form-input-border-selected-color:  #aaa;
+$form-input-focus-color: rgba(85, 150, 230, 0.8);
+$form-input-border-color: $tertiary-border-color;
+$form-input-border-selected-color: $tertiary-text-color;
 $form-input-border-error-color: rgb(214, 97, 95);
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
 $form-button-background: $secondary-background-selected;
 
-$form-tips-background: #ffe;
+$form-tips-background: $primary-background;
 
 
-$text-editor-color: #4D4D4C;
+$text-editor-color: $primary-text-color;
 $text-editor-background: $secondary-background;
 $text-editor-color-disabled: $secondary-text-color-inactive;
 $text-editor-background-disabled: $secondary-background-disabled;
-$text-editor-gutter-background: #f6f6f6;
+$text-editor-gutter-background: $secondary-background;
 $text-editor-gutter-color: #777;
-$text-editor-gutter-active-line-background: #dcdcdc;
-$text-editor-active-line-background: #efefef;
+$text-editor-gutter-active-line-background: $secondary-background-selected;
+$text-editor-active-line-background: $secondary-background-selected;
 $text-editor-selection-background: #D6D6D6;
 
-$event-log-background: #444;
-$event-log-color: #dd9;
-$event-log-active-line-background: #333;
-$event-log-selection-background: #999;
+$event-log-background: $secondary-background;
+$event-log-color: $primary-text-color;
+$event-log-active-line-background: $primary-background;
+$event-log-selection-background: $secondary-background-selected;
 
 
 
@@ -99,9 +83,9 @@ $event-log-selection-background: #999;
 $list-item-color: $primary-text-color;
 $list-item-secondary-color: $secondary-text-color;
 $list-item-background: $secondary-background;
-$list-item-background-disabled: $secondary-background-inactive;
+$list-item-background-disabled: $secondary-background-disabled;
 $list-item-background-hover: $secondary-background-hover;
-$list-item-background-selected: #ffebc7;
+$list-item-background-selected: $secondary-background-selected;
 $list-item-border-selected: $secondary-text-color-selected;
 
 $tab-text-color-active: $header-text-color;
@@ -142,26 +126,26 @@ $workspace-button-background-primary-hover: #6E0A1E;
 
 $workspace-button-color-focus-outline: $form-input-focus-color;
 
-$shade-color: rgba(160,160,160,0.5);
+$shade-color: rgba(160, 160, 160, 0.5);
 
-$popover-background: #333;
+$popover-background: $secondary-background-hover;
 $popover-border: $popover-background;
-$popover-color: #eee;
-$popover-button-border-color: #bbb;
-$popover-button-border-color-hover: #666;
+$popover-color: $primary-text-color;
+$popover-button-border-color: $primary-border-color;
+$popover-button-border-color-hover: $secondary-text-color-hover;
 
 
 
 $diff-text-header-color: $secondary-text-color;
-$diff-text-header-background: #ffd;
+$diff-text-header-background: $secondary-background;
 $diff-state-color: $primary-text-color;
 $diff-state-prefix-color: $secondary-text-color;
 $diff-state-added: #009900;
 $diff-state-deleted: #f80000;
 $diff-state-changed: #f89406;
-$diff-state-changed-background: #fff2e1;
-$diff-state-unchanged: #bbb;
-$diff-state-unchanged-background: #fff;
+$diff-state-changed-background: $secondary-background;
+$diff-state-unchanged: $primary-text-color;
+$diff-state-unchanged-background: $primary-background;
 
 $diff-state-conflicted: purple;
 $diff-state-moved: #3f81b3;
@@ -192,13 +176,13 @@ $menuHoverColor: $secondary-text-color-hover;
 $menuHoverBackground: $secondary-background-hover;
 $menuCaret: $tertiary-text-color;
 
-$view-navigator-background: rgba(245,245,245,0.8);
+$view-navigator-background: rgba($primary-background, 0.8);
 
 $view-lasso-stroke: #ff7f0e;
-$view-lasso-fill: rgba(20,125,255,0.1);
+$view-lasso-fill: rgba(20, 125, 255, 0.1);
 
 $view-background: $secondary-background;
-$view-grid-color: #eee;
+$view-grid-color: $primary-background;
 
 $node-label-color: #333;
 $node-port-label-color: #888;
@@ -210,7 +194,7 @@ $node-background-placeholder: #eee;
 $node-port-background: #d9d9d9;
 $node-port-background-hover: #eee;
 $node-icon-color: #fff;
-$node-icon-background-color: rgba(0,0,0,0.05);
+$node-icon-background-color: rgba(0, 0, 0, 0.05);
 $node-icon-background-color-fill: #000;
 $node-icon-background-color-opacity: 0.05;
 $node-icon-border-color: #000;
@@ -244,7 +228,7 @@ $link-disabled-color: #ccc;
 $link-link-active-color: #ff7f0e;
 $link-unknown-color: #f00;
 
-$clipboard-textarea-background: #F3E7E7;
+$clipboard-textarea-background: $primary-background;
 
 
 $deploy-button-color: #eee;
@@ -271,7 +255,7 @@ $headerMenuCaret: #C7C7C7;
 
 $vcCommitShaColor: #c38888;
 
-$dnd-background: rgba(0,0,0,0.3);
+$dnd-background: rgba(0, 0, 0, 0.3);
 $dnd-color: #fff;
 
 $notification-border-default: #325C80;
@@ -280,7 +264,7 @@ $notification-border-warning: $border-color-warning;
 $notification-border-error: $border-color-error;
 
 $debug-message-background: $secondary-background;
-$debug-message-background-hover: $secondary-background-selected;
+$debug-message-background-hover: $secondary-background-hover;
 
 $debug-message-text-color: #333;
 $debug-message-text-color-meta: #a66;
@@ -291,27 +275,27 @@ $debug-message-text-color-msg-type-null: #666;
 $debug-message-text-color-msg-type-meta: #666;
 $debug-message-text-color-msg-type-number: #2033d6;
 
-$debug-message-border: #eee;
+$debug-message-border: $primary-background;
 $debug-message-border-hover: #999;
 $debug-message-border-warning: $border-color-warning;
 $debug-message-border-error: $border-color-error;
 
-$group-default-fill: none;
-$group-default-fill-opacity: 1;
-$group-default-stroke: #999;
+$group-default-fill: $primary-background;
+$group-default-fill-opacity: 0.5;
+$group-default-stroke: $primary-border-color;
 $group-default-stroke-opacity: 1;
-$group-default-label-color: #a4a4a4;
+$group-default-label-color: $primary-text-color;
 
 $tourGuide-border: #c56c6c;
 $tourGuide-heading-color: #c56c6c;
 
-$grip-color: #ccc;
+$grip-color: rgba($primary-text-color, 0.5);
 
-$icons-flow-color: #808080;
+$icons-flow-color: $primary-text-color;
 
-$spinner-color: #999;
+$spinner-color: $primary-text-color;
 
-$tab-icon-color: #dedede;
+$tab-icon-color: rgba($primary-text-color, 0.2);
 
 // Deprecated
 $text-color-green: $text-color-success;

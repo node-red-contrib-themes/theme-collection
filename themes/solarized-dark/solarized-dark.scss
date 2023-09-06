@@ -1,19 +1,3 @@
-/**
- * Copyright JS Foundation and other contributors, http://js.foundation
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- **/
-
 $primary-font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
@@ -23,10 +7,10 @@ $primary-background: #002B36;
 $secondary-background: #073642;
 $secondary-background-selected: #002B36;
 $secondary-background-inactive: #002B36;
-$secondary-background-hover: #002B36;
+$secondary-background-hover: #023F4E;
 $secondary-background-disabled: #002B36;
 
-$tertiary-background:  #002B36;
+$tertiary-background: #002B36;
 
 $shadow: rgba(0, 0, 0, 0.2);
 
@@ -56,22 +40,22 @@ $text-color-link: #268bd2;
 
 
 $primary-border-color: #586e757F;
-$secondary-border-color: #586e757F;
-$tertiary-border-color: #586e757F;
+$secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
+$tertiary-border-color: scale-color($primary-border-color, $lightness: -7%);
 
 $border-color-error: #DF2935;
 $border-color-warning: #FFCF70;
 $border-color-success: #4B8400;
 
 $form-background: $secondary-background;
-$form-placeholder-color: $tertiary-text-color;
+$form-placeholder-color: #93a1a1aa;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
-$form-input-focus-color:  rgba(85,150,230,0.8);
-$form-input-border-color:  $tertiary-border-color;
-$form-input-border-selected-color: $tertiary-text-color;
-$form-input-border-error-color: rgb(214, 97, 95);
-$form-input-background: $secondary-background;
+$form-input-focus-color: rgba(85, 150, 230, 0.8);
+$form-input-border-color: $tertiary-border-color;
+$form-input-border-selected-color: #2aa19899;
+$form-input-border-error-color: #a92049;
+$form-input-background: #003847;
 $form-input-background-disabled: $secondary-background-disabled;
 $form-button-background: $secondary-background-selected;
 
@@ -79,14 +63,14 @@ $form-tips-background: $primary-background;
 
 
 $text-editor-color: #93A1A1;
-$text-editor-background: #002B36;
+$text-editor-background: $primary-background;
 $text-editor-color-disabled: $secondary-text-color-inactive;
 $text-editor-background-disabled: $secondary-background-disabled;
-$text-editor-gutter-background: #01313f;
-$text-editor-gutter-color: #d0edf7;
-$text-editor-gutter-active-line-background: #0d3440;
-$text-editor-active-line-background: rgba(255, 255, 255, 0.1);
-$text-editor-selection-background: rgba(255, 255, 255, 0.1);
+$text-editor-gutter-background: $primary-background;
+$text-editor-gutter-color: #858585;
+$text-editor-gutter-active-line-background: #073642;
+$text-editor-active-line-background: $primary-background;
+$text-editor-selection-background: #3a3d41;
 
 $event-log-background: $secondary-background;
 $event-log-color: $primary-text-color;
@@ -142,10 +126,10 @@ $workspace-button-background-primary-hover: #6E0A1E;
 
 $workspace-button-color-focus-outline: $form-input-focus-color;
 
-$shade-color: rgba(160,160,160,0.5);
+$shade-color: rgba(160, 160, 160, 0.5);
 
-$popover-background: $primary-background;
-$popover-border: $secondary-background;
+$popover-background: $secondary-background-hover;
+$popover-border: $popover-background;
 $popover-color: $primary-text-color;
 $popover-button-border-color: $primary-border-color;
 $popover-button-border-color-hover: $secondary-text-color-hover;
@@ -156,27 +140,27 @@ $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
 $diff-state-color: $primary-text-color;
 $diff-state-prefix-color: $secondary-text-color;
-$diff-state-added: #859900;
-$diff-state-deleted: #dc322f;
-$diff-state-changed: #cb4b16;
+$diff-state-added: #81b88b;
+$diff-state-deleted: #c74e39;
+$diff-state-changed: #e2c08d;
 $diff-state-changed-background: $secondary-background;
 $diff-state-unchanged: #839496;
 $diff-state-unchanged-background: $secondary-background;
 
-$diff-state-conflicted: purple;
+$diff-state-conflicted: #e4676b;
 $diff-state-moved: #3f81b3;
 $diff-state-conflict: #9b45ce;
-$diff-state-conflict-background: #ffdad4;
+$diff-state-conflict-background: #ffea0047;
 
-$diff-state-added-background: #e7ffe3;
+$diff-state-added-background: #9bb95533;
 $diff-state-added-border: #b8daad;
-$diff-state-added-header-background: #c0f6c0;
-$diff-state-added-header-border: #aaeeaa;
+$diff-state-added-header-background: #9bb95533;
+$diff-state-added-header-border: rgba($diff-state-added-header-background, 0.1);
 
-$diff-state-deleted-background: #ffe1e1;
+$diff-state-deleted-background: #ff000033;
 $diff-state-deleted-border: #e4bcbc;
-$diff-state-deleted-header-background: #ffcccc;
-$diff-state-deleted-header-border: #eebbbb;
+$diff-state-deleted-header-background: #ff000033;
+$diff-state-deleted-header-border: rgba($diff-state-deleted-header-background, 0.1);
 
 $diff-merge-header-color: #800080;
 $diff-merge-header-background: #e5f9ff;
@@ -195,7 +179,7 @@ $menuCaret: $tertiary-text-color;
 $view-navigator-background: rgba($primary-background, 0.8);
 
 $view-lasso-stroke: #ff7f0e;
-$view-lasso-fill: rgba(20,125,255,0.1);
+$view-lasso-fill: rgba(20, 125, 255, 0.1);
 
 $view-background: $secondary-background;
 $view-grid-color: $primary-background;
@@ -210,7 +194,7 @@ $node-background-placeholder: #eee;
 $node-port-background: #d9d9d9;
 $node-port-background-hover: #eee;
 $node-icon-color: #fff;
-$node-icon-background-color: rgba(0,0,0,0.05);
+$node-icon-background-color: rgba(0, 0, 0, 0.05);
 $node-icon-background-color-fill: #000;
 $node-icon-background-color-opacity: 0.05;
 $node-icon-border-color: #000;
@@ -271,7 +255,7 @@ $headerMenuCaret: #C7C7C7;
 
 $vcCommitShaColor: #d33682;
 
-$dnd-background: rgba(0,0,0,0.3);
+$dnd-background: rgba(0, 0, 0, 0.3);
 $dnd-color: #fff;
 
 $notification-border-default: #325C80;
@@ -282,14 +266,14 @@ $notification-border-error: $border-color-error;
 $debug-message-background: $secondary-background;
 $debug-message-background-hover: $secondary-background-selected;
 
-$debug-message-text-color: #93A1A1;
-$debug-message-text-color-meta: #dc322f;
-$debug-message-text-color-object-key: #6c71c4;
-$debug-message-text-color-msg-type-other: #268bd2;
-$debug-message-text-color-msg-type-string: #93A1A1;
-$debug-message-text-color-msg-type-null: #586e75;
-$debug-message-text-color-msg-type-meta: #586e75;
-$debug-message-text-color-msg-type-number: #268bd2;
+$debug-message-text-color: $primary-text-color;
+$debug-message-text-color-meta: #268BD2;
+$debug-message-text-color-object-key: #9cdcfe;
+$debug-message-text-color-msg-type-other: #4e94ce;
+$debug-message-text-color-msg-type-string: #ce9178;
+$debug-message-text-color-msg-type-null: #cccccc;
+$debug-message-text-color-msg-type-meta: #c586c0;
+$debug-message-text-color-msg-type-number: #b5cea8;
 
 $debug-message-border: #002B36;
 $debug-message-border-hover: #073642;

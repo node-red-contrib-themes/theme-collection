@@ -1,7 +1,7 @@
 {
     "name": "@node-red-contrib-themes/theme-collection",
     "version": "3.0.6",
-    "description": "Node-RED theme collection",
+    "description": "A collection of themes for Node-RED",
     "repository": {
         "type": "git",
         "url": "https://github.com/node-red-contrib-themes/theme-collection.git"
@@ -20,7 +20,9 @@
         "init": "node ./scripts/init.js",
         "dev": "node ./scripts/dev.js",
         "create-theme": "node ./scripts/create-theme.js",
-        "build-theme": "node ./scripts/build-theme.js"
+        "build": "node ./scripts/build.js",
+        "version": "npm run build && git add -A",
+        "postversion": "git push && git push --tags"
     },
     "author": "Mauricio Bonani @mbonani",
     "funding": {
@@ -37,6 +39,7 @@
     "homepage": "https://github.com/node-red-contrib-themes/theme-collection#readme",
     "devDependencies": {
         "command-line-args": "5.2.1",
+        "csso": "5.0.5",
         "fs-extra": "11.1.1",
         "nodemon": "3.0.1",
         "nopt": "7.2.0",

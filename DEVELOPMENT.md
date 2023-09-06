@@ -25,15 +25,18 @@ With the development environment initialized, follow these steps to create a new
         npm run dev <theme-name>
 
 3. Access Node-RED at [`http://localhost:41880`](http://localhost:41880)
-4. Update the colors in `themes/<theme-name>/<theme-name>.scss` as required & save
-5. Update `themes/<theme-name>/<theme-name>-monaco.json` to customize the colors of the Monaco Editor. For details on the `monacoOptions`  configuration, please refer to the [Node-RED documentation][theming-the-monaco-editor].
-6. Build the CSS
 
-        npm run build-theme <theme-name>
+4. Update the colors in `themes/<theme-name>/<theme-name>.scss` as required & save
+
+5. Update `themes/<theme-name>/<theme-name>-monaco.json` to customize the colors of the Monaco Editor. For details on the `monacoOptions` configuration, please refer to the [Node-RED documentation][theming-the-monaco-editor].
+
+6. ***OPTIONAL*** - If additional customizations are needed, add them to `themes/<theme-name>/<theme-name>-custom.css`.
 
 7. Refresh Node-RED in the browser to preview the changes
 
-Repeat steps 4 to 7 as needed. When finished, press `ctrl-C` to exit the development environment.
+8. Repeat steps 4 to 7 as needed. When finished, press `ctrl-D` to quit the development environment.
+
+9. Commit, push, and create a pull request.
 
 ***NOTE:** Replace `<theme-name>` with the name of the theme you are working on.*
 
