@@ -40,11 +40,11 @@
     "devDependencies": {
         "command-line-args": "5.2.1",
         "csso": "5.0.5",
-        "fs-extra": "11.1.0",
-        "nodemon": "2.0.20",
-        "nopt": "7.0.0",
-        "ora": "6.1.2",
-        "sass": "1.58.1"
+        "fs-extra": "11.1.1",
+        "nodemon": "3.0.1",
+        "nopt": "7.2.0",
+        "ora": "7.0.1",
+        "sass": "1.66.1"
     },
     "node-red": {
         "version": ">=3.0",
