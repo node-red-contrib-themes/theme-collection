@@ -41,33 +41,33 @@ npm install @node-red-contrib-themes/theme-collection
 ***NOTE**: The command above installs the latest version of the theme collection, which is compatible with Node-RED 3.0 and later. For Node-RED version 2.2.X, run `npm install @node-red-contrib-themes/theme-collection@v2.2`.*
 
 ## Theme list
-
-| Name                  | Description                                                                          |
-| --------------------- | ------------------------------------------------------------------------------------ |
-| `aurora`              | Inspired by the [Aurora Theme for Sublime Text][theme-aurora]                        |
-| `cobalt2`             | Based on the [Cobalt2 Theme for VS Code][theme-cobalt2]                              |
-| `dark`                | A dark theme for Node-RED                                                            |
-| `dracula`             | Based on the [Dracula theme][theme-dracula]                                          |
-| `espresso-libre`      | Inspired by the [Espresso Libre theme for Monaco Editor][theme-espresso-libre]       |
-| `github-dark`         | Based on the GitHub Dark (legacy) theme from [GitHub's VS Code themes][theme-github] |
-| `github-dark-default` | Based on the GitHub Dark Default theme from [GitHub's VS Code themes][theme-github]  |
-| `github-dark-dimmed`  | Based on the GitHub Dark Dimmed theme from [GitHub's VS Code themes][theme-github]   |
-| `midnight-red`        | Based on the [Midnight theme for Home Assistant][theme-midnight]                     |
-| `monoindustrial`      | Based on the [monoindustrial theme for Monaco Editor][theme-monoindustrial]          |
-| `monokai`             | Based on the [Monokai theme for VS Code][theme-monokai]                              |
-| `monokai-dimmed`      | Based on the [Monokai Dimmed theme][theme-monokai-dimmed] for VS Code                |
-| `noctis`              | Inspired by the [Noctis theme][theme-noctis] for VS Code                             |
-| `oceanic-next`        | Based on the [Oceanic Next Color Scheme][theme-oceanic-next]                         |
-| `oled`                | A Node-RED dark theme for OLED displays                                              |
-| `one-dark-pro`        | Based on the Default theme from [One Dark Pro][theme-one-dark-pro]                   |
-| `one-dark-pro-darker` | Based on the Darker theme from [One Dark Pro][theme-one-dark-pro]                    |
-| `solarized-dark`      | Based on the [Solarized color palette][solarized]                                    |
-| `solarized-light`     | Based on the [Solarized color palette][solarized]                                    |
-| `tokyo-night`         | Based on the Tokyo Night theme from [Tokyo Night theme][theme-tokyo-night]           |
-| `tokyo-night-light`   | Based on the Tokyo Night Light theme from [Tokyo Night theme][theme-tokyo-night]     |
-| `tokyo-night-storm`   | Based on the Tokyo Night Storm theme from [Tokyo Night theme][theme-tokyo-night]     |
-| `totallyinformation`  | Created per request of Julian Knight \([@TotallyInformation][totally-information]\)  |
-| `zenburn`             | Inspired by the [Zenburn color scheme for Vim][theme-zenburn]                        |
+dd
+| Name                  | Description                                                                          |Examples
+| --------------------- | ------------------------------------------------------------------------------------ |--------------------------------------------------
+| `aurora`              | Inspired by the [Aurora Theme for Sublime Text][theme-aurora]                        |[screenshot](screenshots/aurora.png)             |
+| `cobalt2`             | Based on the [Cobalt2 Theme for VS Code][theme-cobalt2]                              |[screenshot](screenshots/cobalt2.png)            |
+| `dark`                | A dark theme for Node-RED                                                            |[screenshot](screenshots/dark.png)               |
+| `dracula`             | Based on the [Dracula theme][theme-dracula]                                          |[screenshot](screenshots/dracula.png)            |
+| `espresso-libre`      | Inspired by the [Espresso Libre theme for Monaco Editor][theme-espresso-libre]       |[screenshot](screenshots/espresso-libre.png)     |
+| `github-dark`         | Based on the GitHub Dark (legacy) theme from [GitHub's VS Code themes][theme-github] |[screenshot](screenshots/github-dark.png)        |
+| `github-dark-default` | Based on the GitHub Dark Default theme from [GitHub's VS Code themes][theme-github]  |[screenshot](screenshots/github-dark-default.png)|
+| `github-dark-dimmed`  | Based on the GitHub Dark Dimmed theme from [GitHub's VS Code themes][theme-github]   |[screenshot](screenshots/github-dark-dimmed.png) |
+| `midnight-red`        | Based on the [Midnight theme for Home Assistant][theme-midnight]                     |[screenshot](screenshots/midnight-red.png)       |
+| `monoindustrial`      | Based on the [monoindustrial theme for Monaco Editor][theme-monoindustrial]          |[screenshot](screenshots/monoindustrial.png)     |
+| `monokai`             | Based on the [Monokai theme for VS Code][theme-monokai]                              |[screenshot](screenshots/monokai.png)            |
+| `monokai-dimmed`      | Based on the [Monokai Dimmed theme][theme-monokai-dimmed] for VS Code                |[screenshot](screenshots/monokai-dimmed.png)     |
+| `noctis`              | Inspired by the [Noctis theme][theme-noctis] for VS Code                             |[screenshot](screenshots/noctis.png)             |
+| `oceanic-next`        | Based on the [Oceanic Next Color Scheme][theme-oceanic-next]                         |[screenshot](screenshots/oceanic-next.png)       |
+| `oled`                | A Node-RED dark theme for OLED displays                                              |[screenshot](screenshots/oled.png)               |
+| `one-dark-pro`        | Based on the Default theme from [One Dark Pro][theme-one-dark-pro]                   |[screenshot](screenshots/one-dark-pro.png)       |
+| `one-dark-pro-darker` | Based on the Darker theme from [One Dark Pro][theme-one-dark-pro]                    |[screenshot](screenshots/one-dark-pro-darker.png)|
+| `solarized-dark`      | Based on the [Solarized color palette][solarized]                                    |[screenshot](screenshots/solarized-dark.png)     |
+| `solarized-light`     | Based on the [Solarized color palette][solarized]                                    |[screenshot](screenshots/solarized-light.png)    |
+| `tokyo-night`         | Based on the Tokyo Night theme from [Tokyo Night theme][theme-tokyo-night]           |[screenshot](screenshots/tokyo-night.png)        |
+| `tokyo-night-light`   | Based on the Tokyo Night Light theme from [Tokyo Night theme][theme-tokyo-night]     |[screenshot](screenshots/tokyo-night-light.png)  |
+| `tokyo-night-storm`   | Based on the Tokyo Night Storm theme from [Tokyo Night theme][theme-tokyo-night]     |[screenshot](screenshots/tokyo-night-storm.png)  |
+| `totallyinformation`  | Created per request of Julian Knight \([@TotallyInformation][totally-information]\)  |[screenshot](screenshots/totallyinformation.png) |
+| `zenburn`             | Inspired by the [Zenburn color scheme for Vim][theme-zenburn]                        |[screenshot](screenshots/zenburn.png)            |
 
 If you have an idea for a new theme, you can request it [here][tr], or better yet, [create one yourself][creating-a-new-theme].
 
