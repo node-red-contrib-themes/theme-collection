@@ -8,7 +8,7 @@
 
 A collection of themes for [Node-RED][node-red].
 
-[📸 See the screenshots][screenshots]
+<a href="https://github.com/node-red-contrib-themes/theme-collection/tree/screenshots" target="_blank">📸 See the screenshots</a>
 
 ## Table of Contents
 
@@ -35,7 +35,7 @@ npm install @node-red-contrib-themes/theme-collection
 
 ## Theme list
 
-[📸 See the screenshots][screenshots]
+<a href="https://github.com/node-red-contrib-themes/theme-collection/tree/screenshots" target="_blank">📸 See the screenshots</a>
 
 | Name                  | Description                                                                          |
 | --------------------- | ------------------------------------------------------------------------------------ |
@@ -138,7 +138,6 @@ This project is licensed under the [MIT license][license].
 [npm-publish-badge]: https://img.shields.io/github/actions/workflow/status/node-red-contrib-themes/theme-collection/npm-publish.yml?style=for-the-badge&label=Publish
 [npm-publish-workflow]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml
 [npm-version-badge]: https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm&style=for-the-badge
-[screenshots]: https://github.com/node-red-contrib-themes/theme-collection/tree/screenshots
 [solarized]: https://ethanschoonover.com/solarized/
 [theme-aurora]: https://github.com/expalmer/aurora-theme/
 [theme-cobalt2]: https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2
