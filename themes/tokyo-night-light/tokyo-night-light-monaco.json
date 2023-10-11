@@ -692,6 +692,10 @@
                 },
                 {
                     "foreground": "#0F4B6E",
+                    "token": "keyword.control.module"
+                },
+                {
+                    "foreground": "#0F4B6E",
                     "token": "keyword.control.import"
                 },
                 {
@@ -1489,15 +1493,23 @@
                 },
                 {
                     "foreground": "#343B58",
-                    "token": "meta.jsx.children"
-                },
-                {
-                    "foreground": "#343B58",
                     "token": "meta.embedded.block"
                 },
                 {
                     "foreground": "#565A6E",
+                    "token": "meta.tag JSXNested"
+                },
+                {
+                    "foreground": "#565A6E",
+                    "token": "meta.jsx.children"
+                },
+                {
+                    "foreground": "#565A6E",
                     "token": "text.html"
+                },
+                {
+                    "foreground": "#565A6E",
+                    "token": "text.log"
                 },
                 {
                     "foreground": "#5A4A78",
