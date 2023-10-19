@@ -22,20 +22,20 @@ jobs:
 
       - name: Publish to npm
         if: github.ref != 'refs/heads/dev' && github.ref != 'refs/heads/v2.x'
-        uses: JS-DevTools/npm-publish@v2.2.2
+        uses: JS-DevTools/npm-publish@v3.0.0
         with:
           token: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish to npm (dev branch)
         if: github.ref == 'refs/heads/dev'
-        uses: JS-DevTools/npm-publish@v2.2.2
+        uses: JS-DevTools/npm-publish@v3.0.0
         with:
           token: ${{ secrets.NPM_TOKEN }}
           tag: "next"
 
       - name: Publish to npm (v2.x branch)
         if: github.ref == 'refs/heads/v2.x'
-        uses: JS-DevTools/npm-publish@v2.2.2
+        uses: JS-DevTools/npm-publish@v3.0.0
         with:
           token: ${{ secrets.NPM_TOKEN }}
           tag: "previous"
