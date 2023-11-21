@@ -32,11 +32,13 @@ With the development environment initialized, follow these steps to create a new
 
 6. ***OPTIONAL*** - If additional customizations are needed, add them to `themes/<theme-name>/<theme-name>-custom.css`.
 
-7. Refresh Node-RED in the browser to preview the changes
+7. ***OPTIONAL*** - Customize Mermaid's theme by adding `"<mermaid-theme-name>"` to `themes/<theme-name>/<theme-name>-mermaid.json`. Replace `<mermaid-theme-name>` with the name of one of the themes in this [list](https://mermaid.js.org/config/theming.html#available-themes). If the file doesn't exist, the value `"dark"` is used by default.
 
-8. Repeat steps 4 to 7 as needed. When finished, press `ctrl-D` to quit the development environment.
+8. Refresh Node-RED in the browser to preview the changes
 
-9. Commit, push, and create a pull request.
+9. Repeat steps 4 to 7 as needed. When finished, press `ctrl-D` to quit the development environment.
+
+10. Commit, push, and create a pull request.
 
 ***NOTE:** Replace `<theme-name>` with the name of the theme you are working on.*
 
