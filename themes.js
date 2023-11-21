@@ -14,6 +14,8 @@ module.exports = function (RED) {
         const themeCSS = themeName + '.min.css'
         const themeCustomCSS = themeName + '-custom.min.css'
         const scrollbarsCSS = 'common/scrollbars.min.css'
+        const mermaidTheme = existsSync(path.join(themePath, `${themeName}-mermaid.json`)) ? JSON.parse(readFileSync(path.join(themePath, `${themeName}-mermaid.json`), 'utf-8')) : "dark"
+        const mermaidOptions = { mermaid: { theme: mermaidTheme } }
         const monacoFile = path.join(themePath, themeName + '-monaco.min.json')
         const monacoOptions = JSON.parse(readFileSync(monacoFile, 'utf-8'))
 
@@ -40,7 +42,7 @@ module.exports = function (RED) {
         cssArray.push(path.join(themeRelativePath, themeCustomCSS))
         cssScrollArray.push(path.join(themeRelativePath, themeCustomCSS))
 
-        RED.plugins.registerPlugin(themeName, Object.assign({}, type, css, monacoOptions))
-        RED.plugins.registerPlugin(themeName + '-scroll', Object.assign({}, type, cssScroll, monacoOptions))
+        RED.plugins.registerPlugin(themeName, Object.assign({}, type, css, mermaidOptions, monacoOptions))
+        RED.plugins.registerPlugin(themeName + '-scroll', Object.assign({}, type, cssScroll, mermaidOptions, monacoOptions))
     })
 }
