@@ -54,5 +54,9 @@
     },
     "engines": {
         "node": ">=14.x"
-    }
+    },
+    "files": [
+        "/themes/**/*.min.*",
+        "/themes.js"
+    ]
 }

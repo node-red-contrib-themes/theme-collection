@@ -1,8 +1,0 @@
-.git*
-scripts/
-template/
-*.scss
-*.css
-!*.min.css
-*.json
-!*.min.json
