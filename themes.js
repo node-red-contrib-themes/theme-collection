@@ -1,5 +1,6 @@
 const { existsSync, readdirSync, readFileSync } = require('fs')
 const path = require('path')
+const package = require('./package.json')
 
 module.exports = function (RED) {
     const themesPath = path.join(__dirname, 'themes')
@@ -45,4 +46,5 @@ module.exports = function (RED) {
         RED.plugins.registerPlugin(themeName, Object.assign({}, type, css, mermaidOptions, monacoOptions))
         RED.plugins.registerPlugin(themeName + '-scroll', Object.assign({}, type, cssScroll, mermaidOptions, monacoOptions))
     })
+    RED.log.info(`Node-RED Contrib Theme Collection version: v${package.version}`)
 }
