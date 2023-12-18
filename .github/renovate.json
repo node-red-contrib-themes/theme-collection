@@ -25,6 +25,7 @@
                 "minor",
                 "patch"
             ],
+            "automergeStrategy": "merge-commit",
             "automerge": true
         },
         {
@@ -44,6 +45,7 @@
                 "minor",
                 "patch"
             ],
+            "automergeStrategy": "merge-commit",
             "automerge": true
         }
     ]
