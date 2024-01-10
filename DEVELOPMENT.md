@@ -2,9 +2,12 @@
 
 This document describes the process for creating/updating themes.
 
+Please read and follow [our contribution guidelines][contribution-guidelines].
+
 ## Getting started
 
 1. [Fork][fork] and clone this project
+
 1. Enter the project directory and initialize the development environment
 
         cd theme-collection
@@ -16,34 +19,53 @@ This document describes the process for creating/updating themes.
 
 With the development environment initialized, follow these steps to create a new theme:
 
-***NOTE:** Replace `<theme-name>` with the name of the theme you are working on.*
+1. Create the new theme following these rules:
 
-1. Create the new theme directory structure
+    - Must start with a letter or number
+    - Must be at least 3 characters long
+    - Only letters, numbers, and - are allowed
 
-        npm run create-theme <theme-name>
+    e.g., theme, theme-name, or 007-theme
 
-2. Start the development environment
+    This creates a theme named ***example-theme***, replace it with the theme name being created.
 
-        npm run dev <theme-name>
+        npm run create-theme example-theme
 
-3. Access Node-RED at [`http://localhost:41880`](http://localhost:41880)
+    The result will be following directory structure.
 
-4. Update the colors in `themes/<theme-name>/<theme-name>.scss` as required & save
+        themes
+        └── example-theme
+            ├── theme.scss
+            ├── theme-custom.css
+            ├── theme-mermaid.json
+            └── theme-monaco.json
 
-5. ***(OPTIONAL)*** If additional customizations are needed, add them to `themes/<theme-name>/<theme-name>-custom.css`.
+1. Enter the theme directory and start the development environment
 
-6. ***(OPTIONAL)*** Update `themes/<theme-name>/<theme-name>-monaco.json` to customize the colors of the Monaco Editor. This file can be configured in two different ways:
+        cd themes/example-theme
+        npm run dev example-theme
 
-   - Built-in theme - Add `"<monaco-theme-name>"` to the file. Replace `"<monaco-theme-name>"` with the name of one of the themes in this [list][monaco-editor-builtin-themes].
-   - Custom Monaco theme object - See the [`my-custom-theme-monaco-theme.json` file example][setting-a-custom-monaco-theme-from-a-json-file] in the Node-RED documentation for reference.
+    ***NOTE:** Replace ***example-theme*** with the name of the theme being created/updated.*
 
-7. ***(OPTIONAL)*** Customize Mermaid's theme by adding `"<mermaid-theme-name>"` to `themes/<theme-name>/<theme-name>-mermaid.json`. Replace `<mermaid-theme-name>` with the name of one of the themes in this [list](https://mermaid.js.org/config/theming.html#available-themes). If the file doesn't exist, the value `"dark"` is used by default.
+1. Access Node-RED at [http://localhost:41880](http://localhost:41880)
 
-8. Refresh Node-RED in the browser to preview the changes
+1. Update the colors in `theme.scss` as required
 
-9. Repeat steps 4 to 7 as needed. When finished, press `ctrl-D` to quit the development environment.
+1. ***(OPTIONAL)*** If additional customizations are needed, add them to `theme-custom.css`.
 
-10. Commit, push, and create a pull request.
+1. ***(OPTIONAL)*** Update `theme-monaco.json` to customize the colors of the Monaco Editor.
+
+    The default value is `"tomorrow-night-bright"`. Replace it with the name of one of the themes in this [list][monaco-editor-builtin-themes] or with a custom Monaco theme object (see the Node-RED documentation [file example][setting-a-custom-monaco-theme-from-a-json-file] for reference).
+
+1. ***(OPTIONAL)*** Customize Mermaid's theme file - `theme-mermaid.json`
+
+    The default value is `"dark"`. Replace it with the name of one of the themes in this [list](https://mermaid.js.org/config/theming.html#available-themes).
+
+1. Refresh Node-RED in the browser to preview the changes
+
+1. Repeat steps 4 to 8 as needed. When finished, press `ctrl-D` to quit the development environment
+
+1. Commit, push, and create a pull request
 
 ## Updating an existing theme
 
@@ -51,6 +73,7 @@ Follow the process above, skipping step 1.
 
 Thanks for taking the time to contribute! 😍
 
+[contribution-guidelines]: .github/CONTRIBUTING.md
 [fork]: https://github.com/node-red-contrib-themes/theme-collection/fork
 [monaco-editor-builtin-themes]: https://github.com/node-red/node-red/tree/master/packages/node_modules/%40node-red/editor-client/src/vendor/monaco/dist/theme
 [setting-a-custom-monaco-theme-from-a-json-file]: https://nodered.org/docs/api/ui/themes/#setting-a-custom-monaco-theme-from-a-json-file

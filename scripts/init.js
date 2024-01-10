@@ -52,7 +52,7 @@
     async function step(command, workingDir, stepPrompt) {
         try {
             await runner(command, { cwd: workingDir }, stepPrompt)
-            log(String(stepPrompt.split(" - ", 1) + ' ✔'))
+            log(`${stepPrompt.split(" - ", 1)} ✔`)
         } catch (err) {
             error(err.toString())
             error(err.stderr)

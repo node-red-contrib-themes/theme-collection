@@ -18,7 +18,7 @@ A collection of themes for [Node-RED][node-red].
 - [Usage](#usage)
   - [Themed Scrollbars \[DEPRECATED\]](#themed-scrollbars-deprecated)
   - [Monaco Editor Theme](#monaco-editor-theme)
-- [Contributing](#contributing)
+- [Development](#development)
 - [License](#license)
 
 ## Installation
@@ -116,11 +116,9 @@ editorTheme: {
 },
 ```
 
-## Contributing
+## Development
 
-First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
-
-Please read [our contribution guidelines][contribution-guidelines], and thank you again for being involved!
+Please refer to the [`DEVELOPMENT.md`][development] file for details on how to set up a local development environment.
 
 ## License
 
@@ -128,8 +126,8 @@ This project is licensed under the [MIT license][license].
 
 [buymecoffee-link]: https://www.buymeacoffee.com/mbonani
 [buymecoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
-[contribution-guidelines]: .github/CONTRIBUTING.md
 [creating-a-new-theme]: DEVELOPMENT.md
+[development]: DEVELOPMENT.md
 [license-badge]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg?style=for-the-badge
 [license]: LICENSE
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration#editor-themes
