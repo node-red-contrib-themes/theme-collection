@@ -6,42 +6,51 @@ const { existsSync, readFileSync, watch, writeFileSync } = require('fs')
 const { exec } = require('child_process')
 const { minify } = require('csso')
 const nodemon = require('nodemon')
-const themeName = String(options.themeName.split('-scroll', 1))
-const rootPath = path.join(__dirname, '..')
-const themePath = path.join(rootPath, 'themes', themeName)
-const buildIn = path.join(themePath, themeName + '.scss')
-const buildOut = path.join(themePath, themeName + '.min.css')
-const buildSrc = path.join(rootPath, 'node-red')
 
 if (!options.themeName) {
     showUsageAndExit(1)
 }
+
+const rootPath = path.join(__dirname, '..')
+const themeName = String(options.themeName.split('-scroll', 1))
+const themePath = path.join(rootPath, 'themes', themeName)
+const buildIn = path.join(themePath, 'theme.scss')
+const buildOut = path.join(themePath, `${themeName}.min.css`)
+const buildSrc = path.join(rootPath, 'node-red')
+
 if (options.themeName && !existsSync(themePath)) {
-    console.warn('')
-    console.warn(`Theme path is not valid. Could not find '${themePath}'`)
-    console.warn('Please create the theme first')
-    console.warn('')
-    console.warn('Example:')
-    console.warn(`npm run create-theme ${themeName}`)
+    console.error(`Theme path is not valid. Could not find '${themePath}'`)
+    console.log('')
+    console.log('Please create the theme first')
+    console.log('')
+    console.log('Example:')
+    console.log(`npm run create-theme ${themeName}`)
     process.exit(2)
 }
 
-watch(path.join(themePath, themeName + '.scss'), () => {
+watch(path.join(themePath, 'theme.scss'), () => {
     exec(`node ${rootPath}/scripts/build-theme.js --in=${buildIn} --out=${buildOut} --src=${buildSrc}`)
 })
 
-watch(path.join(themePath, themeName + '-custom.css'), () => {
-    const themeCustomCss = readFileSync(path.join(themePath, themeName + '-custom.css'), 'utf-8')
+watch(path.join(themePath, 'theme-custom.css'), () => {
+    const themeCustomCss = readFileSync(path.join(themePath, 'theme-custom.css'), 'utf-8')
     const minifiedCss = minify(themeCustomCss).css
 
-    writeFileSync(path.join(themePath, themeName + '-custom.min.css'), minifiedCss)
+    writeFileSync(path.join(themePath, `${themeName}-custom.min.css`), minifiedCss)
 })
 
-watch(path.join(themePath, themeName + '-monaco.json'), () => {
-    const monacoOptions = JSON.parse(readFileSync(path.join(themePath, themeName + '-monaco.json'), 'utf-8'))
+watch(path.join(themePath, 'theme-mermaid.json'), () => {
+    const mermaidOptions = JSON.parse(readFileSync(path.join(themePath, 'theme-mermaid.json'), 'utf-8'))
+    const minifiedMermaidOptions = JSON.stringify(mermaidOptions)
+
+    writeFileSync(path.join(themePath, `${themeName}-mermaid.min.json`), minifiedMermaidOptions)
+})
+
+watch(path.join(themePath, 'theme-monaco.json'), () => {
+    const monacoOptions = JSON.parse(readFileSync(path.join(themePath, 'theme-monaco.json'), 'utf-8'))
     const minifiedMonacoOptions = JSON.stringify(monacoOptions)
 
-    writeFileSync(path.join(themePath, themeName + '-monaco.min.json'), minifiedMonacoOptions)
+    writeFileSync(path.join(themePath, `${themeName}-monaco.min.json`), minifiedMonacoOptions)
 })
 
 nodemon({
@@ -56,8 +65,6 @@ nodemon({
 
 function showUsageAndExit(exitCode) {
     console.log('')
-    console.log('Usage: dev theme-name')
-    console.log('Example: npm run dev theme-name')
-    console.log('Example: node ./scripts/dev.js theme-name')
+    console.log('Usage: npm run dev theme-name')
     process.exit(exitCode)
 }
