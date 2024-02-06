@@ -16,7 +16,7 @@ A collection of themes for [Node-RED][node-red].
   - [Install with npm](#install-with-npm)
 - [Theme list](#theme-list)
 - [Usage](#usage)
-  - [Themed Scrollbars \[DEPRECATED\]](#themed-scrollbars-deprecated)
+  - [Themed Scrollbars \[:warning: DEPRECATED\]](#themed-scrollbars-warning-deprecated)
   - [Monaco Editor Theme](#monaco-editor-theme)
 - [Development](#development)
 - [License](#license)
@@ -80,7 +80,7 @@ editorTheme: {
 
 ***NOTE:** For details on the Node-RED's configuration file and its structure, please refer to the [Node-RED official documentation][node-red-doc].*
 
-### Themed Scrollbars [DEPRECATED]
+### Themed Scrollbars [:warning: DEPRECATED]
 
 ***NOTE:** This feature is now deprecated and will be removed in the next major release.*
 
