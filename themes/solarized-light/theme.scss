@@ -1,0 +1,292 @@
+$primary-font: "Helvetica Neue", Arial, Helvetica, sans-serif;
+$primary-font-size: 14px;
+$monospace-font: Menlo, Consolas, "DejaVu Sans Mono", Courier, monospace;
+
+$primary-background: #eee8d5;
+
+$secondary-background: #fdf6e3;
+$secondary-background-selected: #eee8d5;
+$secondary-background-inactive: #eee8d5;
+$secondary-background-hover: #f5eaca;
+$secondary-background-disabled: #eee8d5;
+
+$tertiary-background: #eee8d5;
+
+$shadow: rgba(0, 0, 0, 0.2);
+
+// Main body text
+$primary-text-color: #657b83;
+// UI control label text
+$secondary-text-color: #586e75;
+$secondary-text-color-focus: scale-color($secondary-text-color, $lightness: -24.5%);
+$secondary-text-color-hover: scale-color($secondary-text-color, $lightness: -24.5%);
+$secondary-text-color-active: scale-color($secondary-text-color, $lightness: -24.5%);
+$secondary-text-color-selected: scale-color($secondary-text-color, $lightness: -24.5%);
+$secondary-text-color-inactive: scale-color($secondary-text-color, $lightness: -24.5%);
+$secondary-text-color-disabled: scale-color($secondary-text-color, $lightness: 37%);
+$secondary-text-color-disabled-active: scale-color($secondary-text-color, $lightness: 13%);
+$secondary-text-color-disabled-inactive: scale-color($secondary-text-color, $lightness: 26%);
+
+// Sub label text
+$tertiary-text-color: scale-color($secondary-text-color, $lightness: 26%);
+// Heading text
+$header-text-color: scale-color($secondary-text-color, $lightness: -49%);
+
+$text-color-error: #dc322f;
+$text-color-warning: #b58900;
+$text-color-success: #859900;
+$text-color-code: #dc322f;
+$text-color-link: #268bd2;
+
+$primary-border-color: #ddd6c1;
+$secondary-border-color: scale-color($primary-border-color, $lightness: -6%);
+$tertiary-border-color: scale-color($primary-border-color, $lightness: -3%);
+
+$border-color-error: #df2935;
+$border-color-warning: #ffcf70;
+$border-color-success: #4b8400;
+
+$form-background: $secondary-background;
+$form-placeholder-color: #586e75aa;
+$form-text-color: $primary-text-color;
+$form-text-color-disabled: $secondary-text-color-disabled;
+$form-input-focus-color: rgba(85, 150, 230, 0.8);
+$form-input-border-color: $tertiary-border-color;
+$form-input-border-selected-color: #d3af86;
+$form-input-border-error-color: #be1100;
+$form-input-background: #eee8d5;
+$form-input-background-disabled: $secondary-background-disabled;
+$form-button-background: $secondary-background-selected;
+
+$form-tips-background: $primary-background;
+
+$text-editor-color: #586e75;
+$text-editor-background: $secondary-background;
+$text-editor-color-disabled: $secondary-text-color-inactive;
+$text-editor-background-disabled: $secondary-background-disabled;
+$text-editor-gutter-background: $secondary-background;
+$text-editor-gutter-color: #237893;
+$text-editor-gutter-active-line-background: $secondary-background;
+$text-editor-active-line-background: #eee8d5;
+$text-editor-selection-background: #e5ebf1;
+
+$event-log-background: $secondary-background;
+$event-log-color: $primary-text-color;
+$event-log-active-line-background: $primary-background;
+$event-log-selection-background: $secondary-background-selected;
+
+$list-item-color: $primary-text-color;
+$list-item-secondary-color: $secondary-text-color;
+$list-item-background: $secondary-background;
+$list-item-background-disabled: $secondary-background-inactive;
+$list-item-background-hover: $secondary-background-hover;
+$list-item-background-selected: $secondary-background-selected;
+$list-item-border-selected: $secondary-text-color-selected;
+
+$tab-text-color-active: $header-text-color;
+$tab-text-color-inactive: $secondary-text-color-inactive;
+$tab-text-color-disabled-active: $secondary-text-color-disabled-active;
+$tab-text-color-disabled-inactive: $secondary-text-color-disabled-inactive;
+
+$tab-badge-color: $tertiary-text-color;
+$tab-background: $secondary-background;
+$tab-background-active: $secondary-background;
+$tab-background-active-alpha: rgba($tab-background-active, 0.001);
+$tab-background-selected: $secondary-background-selected;
+$tab-background-selected-alpha: rgba($tab-background-selected, 0.001);
+$tab-background-inactive: $secondary-background-inactive;
+$tab-background-inactive-alpha: rgba($tab-background-inactive, 0.001);
+$tab-background-hover: $secondary-background-hover;
+$tab-background-hover-alpha: rgba($tab-background-hover, 0.001);
+
+$palette-header-background: $primary-background;
+$palette-header-color: $header-text-color;
+$palette-content-background: $secondary-background;
+
+$workspace-button-background: $secondary-background;
+$workspace-button-background-hover: $secondary-background-hover;
+$workspace-button-background-active: $secondary-background-selected;
+
+$workspace-button-color: $secondary-text-color;
+$workspace-button-color-disabled: $secondary-text-color-disabled;
+$workspace-button-color-focus: $secondary-text-color-focus;
+$workspace-button-color-hover: $secondary-text-color-hover;
+$workspace-button-color-active: $secondary-text-color-active;
+$workspace-button-color-selected: $secondary-text-color-selected;
+
+$workspace-button-color-primary: #eee;
+$workspace-button-background-primary: #ad1625;
+$workspace-button-background-primary-hover: #6e0a1e;
+
+$workspace-button-color-focus-outline: $form-input-focus-color;
+
+$shade-color: rgba(160, 160, 160, 0.5);
+
+$popover-background: $secondary-background-hover;
+$popover-border: $popover-background;
+$popover-color: $primary-text-color;
+$popover-button-border-color: $primary-border-color;
+$popover-button-border-color-hover: $secondary-text-color-hover;
+
+$diff-text-header-color: $secondary-text-color;
+$diff-text-header-background: $secondary-background;
+$diff-state-color: $primary-text-color;
+$diff-state-prefix-color: $secondary-text-color;
+$diff-state-added: #587c0c;
+$diff-state-deleted: #ad0707;
+$diff-state-changed: #895503;
+$diff-state-changed-background: $secondary-background;
+$diff-state-unchanged: #657b83;
+$diff-state-unchanged-background: $secondary-background;
+
+$diff-state-conflicted: #ad0707;
+$diff-state-moved: #3f81b3;
+$diff-state-conflict: #9b45ce;
+$diff-state-conflict-background: #ffea0047;
+
+$diff-state-added-background: #9bb95533;
+$diff-state-added-border: #b8daad;
+$diff-state-added-header-background: #9bb95533;
+$diff-state-added-header-border: rgba($diff-state-added-header-background, 0.1);
+
+$diff-state-deleted-background: #ff000033;
+$diff-state-deleted-border: #e4bcbc;
+$diff-state-deleted-header-background: #ff000033;
+$diff-state-deleted-header-border: rgba($diff-state-deleted-header-background, 0.1);
+
+$diff-merge-header-color: #800080;
+$diff-merge-header-background: #e5f9ff;
+$diff-merge-header-border-color: #b2edff;
+
+$menuBackground: $primary-background;
+$menuDivider: $secondary-border-color;
+$menuColor: $primary-text-color;
+$menuActiveColor: $secondary-text-color-active;
+$menuActiveBackground: $secondary-background-hover;
+$menuDisabledColor: $secondary-text-color-disabled;
+$menuHoverColor: $secondary-text-color-hover;
+$menuHoverBackground: $secondary-background-hover;
+$menuCaret: $tertiary-text-color;
+
+$view-navigator-background: rgba($primary-background, 0.8);
+
+$view-lasso-stroke: #ff7f0e;
+$view-lasso-fill: rgba(20, 125, 255, 0.1);
+
+$view-background: $secondary-background;
+$view-grid-color: $primary-background;
+
+$node-label-color: #333;
+$node-port-label-color: #888;
+$node-border: #999;
+$node-border-unknown: #f33;
+$node-border-placeholder: #aaa;
+$node-background-placeholder: #eee;
+
+$node-port-background: #d9d9d9;
+$node-port-background-hover: #eee;
+$node-icon-color: #fff;
+$node-icon-background-color: rgba(0, 0, 0, 0.05);
+$node-icon-background-color-fill: #000;
+$node-icon-background-color-opacity: 0.05;
+$node-icon-border-color: #000;
+$node-icon-border-color-opacity: 0.1;
+
+$node-config-background: #f3f3f3;
+$node-config-icon-container-disabled: #aaa;
+
+$node-link-port-background: #eee;
+
+$node-status-error-border: rgb(145, 16, 2);
+$node-status-error-background: rgb(255, 102, 0);
+$node-status-changed-border: rgb(28, 102, 140);
+$node-status-changed-background: rgb(0, 188, 255);
+
+$node-status-colors: (
+    red: #c00,
+    green: #5a8,
+    yellow: #f9df31,
+    blue: #53a3f3,
+    grey: #d3d3d3,
+);
+
+$node-selected-color: #ff7f0e;
+$port-selected-color: #ff7f0e;
+
+$link-color: #999;
+$link-link-color: #aaa;
+$link-disabled-color: #ccc;
+$link-link-active-color: #ff7f0e;
+$link-unknown-color: #f00;
+
+$clipboard-textarea-background: $primary-background;
+
+$deploy-button-color: #eee;
+$deploy-button-color-active: #ccc;
+$deploy-button-color-disabled: #999;
+$deploy-button-background: #8c101c;
+$deploy-button-background-hover: #6e0a1e;
+$deploy-button-background-active: #4c0a17;
+$deploy-button-background-disabled: #444;
+$deploy-button-background-disabled-hover: #555;
+
+$header-background: #000;
+$header-button-background-active: #121212;
+$header-menu-color: #c7c7c7;
+$header-menu-color-disabled: #666;
+$header-menu-heading-color: #fff;
+$header-menu-sublabel-color: #aeaeae;
+$header-menu-background: #121212;
+$header-menu-item-hover: #323232;
+$header-menu-item-border-active: #777677;
+$headerMenuItemDivider: #464646;
+$headerMenuCaret: #c7c7c7;
+
+$vcCommitShaColor: #d33682;
+
+$dnd-background: rgba(0, 0, 0, 0.3);
+$dnd-color: #fff;
+
+$notification-border-default: #325c80;
+$notification-border-success: $border-color-success;
+$notification-border-warning: $border-color-warning;
+$notification-border-error: $border-color-error;
+
+$debug-message-background: $secondary-background;
+$debug-message-background-hover: $secondary-background-selected;
+
+$debug-message-text-color: $primary-text-color;
+$debug-message-text-color-meta: #268bd2;
+$debug-message-text-color-object-key: #616161;
+$debug-message-text-color-msg-type-other: #0000ff;
+$debug-message-text-color-msg-type-string: #a31515;
+$debug-message-text-color-msg-type-null: #616161;
+$debug-message-text-color-msg-type-meta: #9b46b0;
+$debug-message-text-color-msg-type-number: #098658;
+
+$debug-message-border: #eee8d5;
+$debug-message-border-hover: #fdf6e3;
+$debug-message-border-warning: $border-color-warning;
+$debug-message-border-error: $border-color-error;
+
+$group-default-fill: $primary-background;
+$group-default-fill-opacity: 0.5;
+$group-default-stroke: $primary-border-color;
+$group-default-stroke-opacity: 1;
+$group-default-label-color: $primary-text-color;
+
+$tourGuide-border: #c56c6c;
+$tourGuide-heading-color: #c56c6c;
+
+$grip-color: rgba($primary-text-color, 0.5);
+
+$icons-flow-color: $primary-text-color;
+
+$spinner-color: $primary-text-color;
+
+$tab-icon-color: rgba($primary-text-color, 0.2);
+
+// Deprecated
+$text-color-green: $text-color-success;
+$info-text-code-color: $text-color-code;
+$info-text-link-color: $text-color-link;

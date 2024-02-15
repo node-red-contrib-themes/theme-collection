@@ -7,10 +7,17 @@ const rootPath = path.join(__dirname, '..')
 const themePath = path.join(rootPath, 'themes', options.themeName)
 
 if (!options.themeName) {
+	console.error('Missing argument: theme-name')
 	showUsageAndExit(1)
 }
 
 if (!/^[a-zA-Z0-9][a-zA-Z0-9\-]{2,}$/.test(options.themeName)) {
+	console.error('Theme name does not follow the rules')
+	console.log('')
+	console.log('Rules for theme names:')
+	console.log('- at least 3 characters long')
+	console.log('- only letters, numbers, and -')
+	console.log('- start with a letter or number')
 	showUsageAndExit(1)
 }
 
@@ -23,20 +30,13 @@ if (existsSync(themePath)) {
 mkdirSync(themePath)
 
 // Copy template files to theme directory
-copyFileSync(path.join(rootPath, 'template/template.scss'), path.join(themePath, options.themeName + '.scss'))
-copyFileSync(path.join(rootPath, 'template/template-monaco.json'), path.join(themePath, options.themeName + '-monaco.json'))
-copyFileSync(path.join(rootPath, 'template/template-custom.css'), path.join(themePath, options.themeName + '-custom.css'))
+copyFileSync(path.join(rootPath, 'template/theme.scss'), path.join(themePath, 'theme.scss'))
+copyFileSync(path.join(rootPath, 'template/theme-custom.css'), path.join(themePath, 'theme-custom.css'))
+copyFileSync(path.join(rootPath, 'template/theme-mermaid.json'), path.join(themePath, 'theme-mermaid.json'))
+copyFileSync(path.join(rootPath, 'template/theme-monaco.json'), path.join(themePath, 'theme-monaco.json'))
 
 function showUsageAndExit(exitCode) {
 	console.log('')
-	console.log('Usage:   create-theme theme-name')
-	console.log('Example: npm run create-theme theme-name')
-	console.log('Example: node ./scripts/create-theme.js theme-name')
-	console.log('')
-	console.log('Rules for theme names:')
-	console.log('- must be at least 3 characters')
-	console.log('- only letters, numbers, and -')
-	console.log('- start with a letter or number')
-	console.log('    e.g., theme-name or 007-theme')
+	console.log('Usage: npm run create-theme theme-name')
 	process.exit(exitCode)
 }

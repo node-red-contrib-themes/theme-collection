@@ -2,19 +2,15 @@
 
 [![npm (scoped)][npm-version-badge]][npm-package]
 [![NPM Publish][npm-publish-badge]][npm-publish-workflow]
-![Maintenance][maintenance-badge]
 [![Project license][license-badge]][license]
+
+[![BuyMeCoffee][buymecoffee-shield]][buymecoffee-link]
 
 A collection of themes for [Node-RED][node-red].
 
-[Report a Bug][bug-report]
-·
-[Request a Theme][tr]
-·
-[Ask a Question][question]
+<a href="https://github.com/node-red-contrib-themes/theme-collection/tree/screenshots" target="_blank">📸 See the screenshots</a>
 
-<details open="open">
-<summary>Table of Contents</summary>
+## Table of Contents
 
 - [Installation](#installation)
   - [Install with npm](#install-with-npm)
@@ -22,11 +18,8 @@ A collection of themes for [Node-RED][node-red].
 - [Usage](#usage)
   - [Themed Scrollbars \[DEPRECATED\]](#themed-scrollbars-deprecated)
   - [Monaco Editor Theme](#monaco-editor-theme)
-- [Contributing](#contributing)
+- [Development](#development)
 - [License](#license)
-- [Show your support](#show-your-support)
-
-</details>
 
 ## Installation
 
@@ -42,11 +35,13 @@ npm install @node-red-contrib-themes/theme-collection
 
 ## Theme list
 
+<a href="https://github.com/node-red-contrib-themes/theme-collection/tree/screenshots" target="_blank">📸 See the screenshots</a>
+
 | Name                  | Description                                                                          |
 | --------------------- | ------------------------------------------------------------------------------------ |
 | `aurora`              | Inspired by the [Aurora Theme for Sublime Text][theme-aurora]                        |
 | `cobalt2`             | Based on the [Cobalt2 Theme for VS Code][theme-cobalt2]                              |
-| `dark`                | A dark theme for Node-RED                                                            |
+| `dark`                | A dark theme for Node-RED based on VS Code's Dark Modern theme                       |
 | `dracula`             | Based on the [Dracula theme][theme-dracula]                                          |
 | `espresso-libre`      | Inspired by the [Espresso Libre theme for Monaco Editor][theme-espresso-libre]       |
 | `github-dark`         | Based on the GitHub Dark (legacy) theme from [GitHub's VS Code themes][theme-github] |
@@ -121,35 +116,26 @@ editorTheme: {
 },
 ```
 
-## Contributing
+## Development
 
-First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
-
-Please read [our contribution guidelines][contribution-guidelines], and thank you for being involved!
+Please refer to the [`DEVELOPMENT.md`][development] file for details on how to set up a local development environment.
 
 ## License
 
 This project is licensed under the [MIT license][license].
 
-## Show your support
-
-Please ⭐️ this repository if this project helped you!
-
-<a href="https://www.buymeacoffee.com/mbonani" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="60px"></a>
-
-[bug-report]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=bug&template=01_bug_report.yml
-[contribution-guidelines]: .github/CONTRIBUTING.md
+[buymecoffee-link]: https://www.buymeacoffee.com/mbonani
+[buymecoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
 [creating-a-new-theme]: DEVELOPMENT.md
-[license-badge]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg
+[development]: DEVELOPMENT.md
+[license-badge]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg?style=for-the-badge
 [license]: LICENSE
-[maintenance-badge]: https://img.shields.io/maintenance/yes/2023
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration#editor-themes
 [node-red]: https://nodered.org/
 [npm-package]: https://www.npmjs.com/package/@node-red-contrib-themes/theme-collection
-[npm-publish-badge]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml/badge.svg
+[npm-publish-badge]: https://img.shields.io/github/actions/workflow/status/node-red-contrib-themes/theme-collection/npm-publish.yml?style=for-the-badge&label=Publish
 [npm-publish-workflow]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml
-[npm-version-badge]: https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm
-[question]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=q-a
+[npm-version-badge]: https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm&style=for-the-badge
 [solarized]: https://ethanschoonover.com/solarized/
 [theme-aurora]: https://github.com/expalmer/aurora-theme/
 [theme-cobalt2]: https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2
