@@ -16,7 +16,6 @@ A collection of themes for [Node-RED][node-red].
   - [Install with npm](#install-with-npm)
 - [Theme list](#theme-list)
 - [Usage](#usage)
-  - [Themed Scrollbars \[DEPRECATED\]](#themed-scrollbars-deprecated)
   - [Monaco Editor Theme](#monaco-editor-theme)
 - [Development](#development)
 - [License](#license)
@@ -70,31 +69,15 @@ If you have an idea for a new theme, you can request it [here][tr], or better ye
 
 Set `theme: "<theme-name>"` in the `editorTheme` object in your `settings.js` and then restart Node-RED.
 
-For example, this sets Node-RED to use the `dark` theme.
+For example, this sets Node-RED to use the `midnight-red` theme.
 
 ```js
 editorTheme: {
-    theme: "dark"
+    theme: "midnight-red"
 },
 ```
 
-***NOTE:** For details on the Node-RED's configuration file and its structure, please refer to the [Node-RED official documentation][node-red-doc].*
-
-### Themed Scrollbars [DEPRECATED]
-
-***NOTE:** This feature is now deprecated and will be removed in the next major release.*
-
-Includes the theme and changes the scrollbars to make them better fit the theme.
-
-Add `-scroll` to the name of the theme you chose.
-
-For example, this sets Node-RED to use the `midnight-red` theme with themed scrollbars.
-
-```js
-editorTheme: {
-    theme: "midnight-red-scroll"
-},
-```
+For details on the Node-RED's configuration file and its structure, please refer to the [Node-RED official documentation][node-red-doc].
 
 ### Monaco Editor Theme
 
