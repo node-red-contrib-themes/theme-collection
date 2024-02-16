@@ -14,7 +14,6 @@ module.exports = function (RED) {
         const css = { css: cssArray }
         const themeCSS = `${themeName}.min.css`
         const themeCustomCSS = `${themeName}-custom.min.css`
-        const scrollbarsCSS = 'common/scrollbars.min.css'
         const mermaidTheme = existsSync(path.join(themePath, `${themeName}-mermaid.json`)) ? JSON.parse(readFileSync(path.join(themePath, `${themeName}-mermaid.json`), 'utf-8')) : "dark"
         const mermaidOptions = { mermaid: { theme: mermaidTheme } }
         const monacoTheme = JSON.parse(readFileSync(path.join(themePath, `${themeName}-monaco.min.json`), 'utf-8'))
@@ -34,17 +33,9 @@ module.exports = function (RED) {
             return
         }
 
-        cssArray.push(path.join(themeRelativePath, themeCSS))
-
-        const cssScrollArray = cssArray.slice()
-        cssScrollArray.push(scrollbarsCSS)
-        const cssScroll = { css: cssScrollArray }
-
-        cssArray.push(path.join(themeRelativePath, themeCustomCSS))
-        cssScrollArray.push(path.join(themeRelativePath, themeCustomCSS))
+        cssArray.push(path.join(themeRelativePath, themeCSS), path.join(themeRelativePath, themeCustomCSS))
 
         RED.plugins.registerPlugin(themeName, Object.assign({}, type, css, mermaidOptions, monacoOptions))
-        RED.plugins.registerPlugin(`${themeName}-scroll`, Object.assign({}, type, cssScroll, mermaidOptions, monacoOptions))
     })
     RED.log.info(`Node-RED Contrib Theme Collection version: v${package.version}`)
 }

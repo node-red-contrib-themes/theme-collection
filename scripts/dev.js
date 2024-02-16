@@ -12,7 +12,7 @@ if (!options.themeName) {
 }
 
 const rootPath = path.join(__dirname, '..')
-const themeName = String(options.themeName.split('-scroll', 1))
+const themeName = options.themeName
 const themePath = path.join(rootPath, 'themes', themeName)
 const buildIn = path.join(themePath, 'theme.scss')
 const buildOut = path.join(themePath, `${themeName}.min.css`)
