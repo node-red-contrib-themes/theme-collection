@@ -50,3 +50,7 @@ version-resolver:
 
 exclude-labels:
   - "skip-changelog"
+
+replacers:
+  - search: /renovate$/
+    replace: renovatebot
