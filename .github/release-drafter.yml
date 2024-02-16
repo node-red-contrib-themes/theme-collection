@@ -52,5 +52,5 @@ exclude-labels:
   - "skip-changelog"
 
 replacers:
-  - search: "/renovate$/g"
-    replace: "renovatebot"
+  - search: "/@renovate\n/g"
+    replace: "@renovatebot"
