@@ -38,6 +38,7 @@
     },
     "homepage": "https://github.com/node-red-contrib-themes/theme-collection#readme",
     "devDependencies": {
+        "chokidar": "3.6.0",
         "command-line-args": "5.2.1",
         "csso": "5.0.5",
         "fs-extra": "11.2.0",
