@@ -21,8 +21,8 @@
         "dev": "node ./scripts/dev.js",
         "create-theme": "node ./scripts/create-theme.js",
         "build": "node ./scripts/build.js",
-        "version": "npm run build && git add -A",
-        "postversion": "git push && git push --tags"
+        "version": "git checkout -b release/$npm_package_version && npm run build && git add -A",
+        "postversion": "git push && git push --tags && git checkout master"
     },
     "author": "Mauricio Bonani @mbonani",
     "funding": {
