@@ -1,5 +1,4 @@
 {
-    "inherit": true,
     "base": "vs-dark",
     "colors": {
         "activityBar.background": "#16161e",
@@ -91,7 +90,7 @@
         "editorBracketPairGuide.activeBackground4": "#25aac2",
         "editorBracketPairGuide.activeBackground5": "#80a856",
         "editorBracketPairGuide.activeBackground6": "#c49a5a",
-        "editorCodeLens.foreground": "#484f70",
+        "editorCodeLens.foreground": "#51597d",
         "editorCursor.foreground": "#c0caf5",
         "editorError.foreground": "#db4b4b",
         "editorGhostText.foreground": "#646e9c",
@@ -157,10 +156,6 @@
         "gitDecoration.stageDeletedResourceForeground": "#914c54",
         "gitDecoration.stageModifiedResourceForeground": "#6183bb",
         "gitDecoration.untrackedResourceForeground": "#449dab",
-        "gitlens.gutterBackgroundColor": "#16161e",
-        "gitlens.gutterForegroundColor": "#787c99",
-        "gitlens.gutterUncommittedForegroundColor": "#7aa2f7",
-        "gitlens.trailingLineForegroundColor": "#646e9c",
         "icon.foreground": "#787c99",
         "input.background": "#14141b",
         "input.border": "#0f0f14",
@@ -300,7 +295,7 @@
         "terminal.ansiBrightWhite": "#acb0d0",
         "terminal.ansiBrightYellow": "#e0af68",
         "terminal.ansiCyan": "#7dcfff",
-        "terminal.ansiGreen": "#41a6b5",
+        "terminal.ansiGreen": "#73daca",
         "terminal.ansiMagenta": "#bb9af7",
         "terminal.ansiRed": "#f7768e",
         "terminal.ansiWhite": "#787c99",
@@ -327,6 +322,8 @@
         "window.activeBorder": "#0d0f17",
         "window.inactiveBorder": "#0d0f17"
     },
+    "encodedTokensColors": [],
+    "inherit": true,
     "rules": [
         {
             "fontStyle": "italic",
@@ -373,19 +370,19 @@
             "token": "keyword.control.flow.python"
         },
         {
-            "foreground": "#444B6A",
+            "foreground": "#51597D",
             "token": "comment"
         },
         {
-            "foreground": "#444B6A",
+            "foreground": "#51597D",
             "token": "comment.block.documentation"
         },
         {
-            "foreground": "#444B6A",
+            "foreground": "#51597D",
             "token": "punctuation.definition.comment"
         },
         {
-            "foreground": "#444B6A",
+            "foreground": "#51597D",
             "token": "comment.block.documentation punctuation"
         },
         {
@@ -481,28 +478,28 @@
             "token": "constant.other.caps"
         },
         {
-            "foreground": "#9ECE6A",
             "fontStyle": "",
+            "foreground": "#9ECE6A",
             "token": "string"
         },
         {
-            "foreground": "#9ECE6A",
             "fontStyle": "",
+            "foreground": "#9ECE6A",
             "token": "constant.other.symbol"
         },
         {
-            "foreground": "#9ECE6A",
             "fontStyle": "",
+            "foreground": "#9ECE6A",
             "token": "constant.other.key"
         },
         {
-            "foreground": "#9ECE6A",
             "fontStyle": "",
+            "foreground": "#9ECE6A",
             "token": "meta.attribute-selector"
         },
         {
-            "foreground": "#9ECE6A",
             "fontStyle": "",
+            "foreground": "#9ECE6A",
             "token": "string constant.character"
         },
         {
@@ -582,13 +579,13 @@
             "token": "entity.name.function.blade"
         },
         {
-            "foreground": "#F7768E",
             "fontStyle": "bold",
+            "foreground": "#F7768E",
             "token": "keyword.operator.spread"
         },
         {
-            "foreground": "#F7768E",
             "fontStyle": "bold",
+            "foreground": "#F7768E",
             "token": "keyword.operator.rest"
         },
         {
@@ -689,7 +686,7 @@
         },
         {
             "foreground": "#7DCFFF",
-            "token": "keyword.control.module"
+            "token": "keyword.control.module.js"
         },
         {
             "foreground": "#7DCFFF",
@@ -1004,8 +1001,8 @@
             "token": "variable.other.declaration"
         },
         {
-            "foreground": "#BB9AF7",
             "fontStyle": "",
+            "foreground": "#BB9AF7",
             "token": "entity.other.inherited-class"
         },
         {
@@ -1501,93 +1498,93 @@
             "token": "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
         },
         {
-            "foreground": "#89DDFF",
             "fontStyle": "bold",
+            "foreground": "#89DDFF",
             "token": "heading.1.markdown entity.name"
         },
         {
-            "foreground": "#89DDFF",
             "fontStyle": "bold",
+            "foreground": "#89DDFF",
             "token": "heading.1.markdown punctuation.definition.heading.markdown"
         },
         {
-            "foreground": "#61BDF2",
             "fontStyle": "bold",
+            "foreground": "#61BDF2",
             "token": "heading.2.markdown entity.name"
         },
         {
-            "foreground": "#61BDF2",
             "fontStyle": "bold",
+            "foreground": "#61BDF2",
             "token": "heading.2.markdown punctuation.definition.heading.markdown"
         },
         {
-            "foreground": "#7AA2F7",
             "fontStyle": "bold",
+            "foreground": "#7AA2F7",
             "token": "heading.3.markdown entity.name"
         },
         {
-            "foreground": "#7AA2F7",
             "fontStyle": "bold",
+            "foreground": "#7AA2F7",
             "token": "heading.3.markdown punctuation.definition.heading.markdown"
         },
         {
-            "foreground": "#6D91DE",
             "fontStyle": "bold",
+            "foreground": "#6D91DE",
             "token": "heading.4.markdown entity.name"
         },
         {
-            "foreground": "#6D91DE",
             "fontStyle": "bold",
+            "foreground": "#6D91DE",
             "token": "heading.4.markdown punctuation.definition.heading.markdown"
         },
         {
-            "foreground": "#9AA5CE",
             "fontStyle": "bold",
+            "foreground": "#9AA5CE",
             "token": "heading.5.markdown entity.name"
         },
         {
-            "foreground": "#9AA5CE",
             "fontStyle": "bold",
+            "foreground": "#9AA5CE",
             "token": "heading.5.markdown punctuation.definition.heading.markdown"
         },
         {
-            "foreground": "#747CA1",
             "fontStyle": "bold",
+            "foreground": "#747CA1",
             "token": "heading.6.markdown entity.name"
         },
         {
-            "foreground": "#747CA1",
             "fontStyle": "bold",
+            "foreground": "#747CA1",
             "token": "heading.6.markdown punctuation.definition.heading.markdown"
         },
         {
-            "foreground": "#C0CAF5",
             "fontStyle": "italic",
+            "foreground": "#C0CAF5",
             "token": "markup.italic"
         },
         {
-            "foreground": "#C0CAF5",
             "fontStyle": "italic",
+            "foreground": "#C0CAF5",
             "token": "markup.italic punctuation"
         },
         {
-            "foreground": "#C0CAF5",
             "fontStyle": "bold",
+            "foreground": "#C0CAF5",
             "token": "markup.bold"
         },
         {
-            "foreground": "#C0CAF5",
             "fontStyle": "bold",
+            "foreground": "#C0CAF5",
             "token": "markup.bold punctuation"
         },
         {
-            "foreground": "#C0CAF5",
             "fontStyle": "bold italic",
+            "foreground": "#C0CAF5",
             "token": "markup.bold markup.italic"
         },
         {
-            "foreground": "#C0CAF5",
             "fontStyle": "bold italic",
+            "foreground": "#C0CAF5",
             "token": "markup.bold markup.italic punctuation"
         },
         {
@@ -1635,8 +1632,8 @@
             "token": "variable.language.fenced.markdown"
         },
         {
-            "foreground": "#444B6A",
             "fontStyle": "bold",
+            "foreground": "#51597D",
             "token": "meta.separator"
         },
         {
@@ -1671,6 +1668,5 @@
             "foreground": "#7AA2F7",
             "token": "source.env"
         }
-    ],
-    "encodedTokensColors": []
+    ]
 }

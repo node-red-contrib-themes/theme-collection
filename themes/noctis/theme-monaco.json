@@ -1,5 +1,4 @@
 {
-    "inherit": true,
     "base": "vs-dark",
     "colors": {
         "activityBar.activeBackground": "#40d4e733",
@@ -161,10 +160,10 @@
         "notificationCenterHeader.background": "#073940",
         "notificationCenterHeader.foreground": "#87a7ab",
         "notificationLink.foreground": "#87a7ab",
-        "notificationToast.border": "#073940",
         "notifications.background": "#073940",
         "notifications.border": "#073940",
         "notifications.foreground": "#cdd3de",
+        "notificationToast.border": "#073940",
         "panel.background": "#03191b",
         "panel.border": "#0e6671",
         "panelTitle.activeBorder": "#0e6671",
@@ -276,6 +275,8 @@
         "walkThrough.embeddedEditorBackground": "#041d20",
         "widget.shadow": "#00000044"
     },
+    "encodedTokensColors": [],
+    "inherit": true,
     "rules": [
         {
             "foreground": "#5B858B",
@@ -1027,10 +1028,6 @@
         },
         {
             "foreground": "#D67E5C",
-            "token": "entity.name.type.kotlin"
-        },
-        {
-            "foreground": "#D67E5C",
             "token": "support.type.julia"
         },
         {
@@ -1044,10 +1041,6 @@
         {
             "foreground": "#D67E5C",
             "token": "source.reason support.type string"
-        },
-        {
-            "foreground": "#D67E5C",
-            "token": "entity.name.type.fsharp"
         },
         {
             "foreground": "#D67E5C",
@@ -1103,10 +1096,6 @@
         },
         {
             "foreground": "#D67E5C",
-            "token": "source.cpp entity.name.type"
-        },
-        {
-            "foreground": "#D67E5C",
             "token": "support.class.builtin"
         },
         {
@@ -1131,11 +1120,7 @@
         },
         {
             "foreground": "#D67E5C",
-            "token": "entity.name.type.primitive"
-        },
-        {
-            "foreground": "#D67E5C",
-            "token": "entity.name.type.numeric"
+            "token": "entity.name.type"
         },
         {
             "foreground": "#D5971A",
@@ -1808,10 +1793,6 @@
         {
             "foreground": "#49D6E9",
             "token": "source.nim keyword.other.common.function"
-        },
-        {
-            "foreground": "#49D6E9",
-            "token": "entity.name.type.namespace"
         },
         {
             "foreground": "#49D6E9",
@@ -2626,6 +2607,10 @@
             "token": "source.zig storage.type.function"
         },
         {
+            "fontStyle": "bold",
+            "token": "entity.name.type"
+        },
+        {
             "fontStyle": "bold italic",
             "token": "markup.quote markup.bold"
         },
@@ -3001,6 +2986,5 @@
             "foreground": "#B267E6",
             "token": "token.debug-token"
         }
-    ],
-    "encodedTokensColors": []
+    ]
 }

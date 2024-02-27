@@ -1,5 +1,4 @@
 {
-    "inherit": true,
     "base": "vs-dark",
     "colors": {
         "actionBar.toggledBackground": "#383a49",
@@ -40,8 +39,8 @@
         "editorGutter.addedBackground": "#2ea043",
         "editorGutter.deletedBackground": "#f85149",
         "editorGutter.modifiedBackground": "#0078d4",
-        "editorIndentGuide.activeBackground": "#707070",
-        "editorIndentGuide.background": "#404040",
+        "editorIndentGuide.activeBackground1": "#707070",
+        "editorIndentGuide.background1": "#404040",
         "editorLineNumber.activeForeground": "#cccccc",
         "editorLineNumber.foreground": "#6e7681",
         "editorOverviewRuler.border": "#010409",
@@ -53,7 +52,7 @@
         "input.background": "#313131",
         "input.border": "#3c3c3c",
         "input.foreground": "#cccccc",
-        "input.placeholderForeground": "#9d9d9d",
+        "input.placeholderForeground": "#818181",
         "inputOption.activeBackground": "#2489db82",
         "inputOption.activeBorder": "#2488db",
         "keybindingLabel.foreground": "#cccccc",
@@ -123,8 +122,10 @@
         "textBlockQuote.background": "#2b2b2b",
         "textBlockQuote.border": "#616161",
         "textCodeBlock.background": "#2b2b2b",
-        "textLink.activeForeground": "#40a6ff",
-        "textLink.foreground": "#40a6ff",
+        "textLink.activeForeground": "#4daafc",
+        "textLink.foreground": "#4daafc",
+        "textPreformat.background": "#3c3c3c",
+        "textPreformat.foreground": "#d0d0d0",
         "textSeparator.foreground": "#21262d",
         "titleBar.activeBackground": "#181818",
         "titleBar.activeForeground": "#cccccc",
@@ -135,6 +136,8 @@
         "welcomePage.tileBackground": "#2b2b2b",
         "widget.border": "#313131"
     },
+    "encodedTokensColors": [],
+    "inherit": true,
     "rules": [
         {
             "foreground": "#D4D4D4",
@@ -201,6 +204,10 @@
             "token": "entity.name.tag.css"
         },
         {
+            "foreground": "#D7BA7D",
+            "token": "entity.name.tag.less"
+        },
+        {
             "foreground": "#9CDCFE",
             "token": "entity.other.attribute-name"
         },
@@ -210,7 +217,7 @@
         },
         {
             "foreground": "#D7BA7D",
-            "token": "entity.other.attribute-name.class.mixin.css"
+            "token": "source.css entity.other.attribute-name.class"
         },
         {
             "foreground": "#D7BA7D",
@@ -222,7 +229,11 @@
         },
         {
             "foreground": "#D7BA7D",
-            "token": "entity.other.attribute-name.pseudo-class.css"
+            "token": "entity.other.attribute-name.parent.less"
+        },
+        {
+            "foreground": "#D7BA7D",
+            "token": "source.css entity.other.attribute-name.pseudo-class"
         },
         {
             "foreground": "#D7BA7D",
@@ -245,13 +256,13 @@
             "token": "markup.underline"
         },
         {
-            "foreground": "#569CD6",
             "fontStyle": "bold",
+            "foreground": "#569CD6",
             "token": "markup.bold"
         },
         {
-            "foreground": "#569CD6",
             "fontStyle": "bold",
+            "foreground": "#569CD6",
             "token": "markup.heading"
         },
         {
@@ -376,15 +387,7 @@
         },
         {
             "foreground": "#9CDCFE",
-            "token": "variable.css"
-        },
-        {
-            "foreground": "#9CDCFE",
-            "token": "variable.scss"
-        },
-        {
-            "foreground": "#9CDCFE",
-            "token": "variable.other.less"
+            "token": "source.css variable"
         },
         {
             "foreground": "#9CDCFE",
@@ -826,6 +829,5 @@
             "foreground": "#B267E6",
             "token": "token.debug-token"
         }
-    ],
-    "encodedTokensColors": []
+    ]
 }

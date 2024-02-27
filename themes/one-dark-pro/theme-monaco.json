@@ -1,5 +1,4 @@
 {
-    "inherit": true,
     "base": "vs-dark",
     "colors": {
         "activityBar.background": "#282c34",
@@ -139,6 +138,8 @@
         "tree.indentGuidesStroke": "#ffffff1d",
         "walkThrough.embeddedEditorBackground": "#2e3440"
     },
+    "encodedTokensColors": [],
+    "inherit": true,
     "rules": [
         {
             "foreground": "#ABB2BF",
@@ -1801,13 +1802,13 @@
             "token": " meta.brace.square"
         },
         {
-            "foreground": "#7F848E",
             "fontStyle": "italic",
+            "foreground": "#7F848E",
             "token": "comment"
         },
         {
-            "foreground": "#7F848E",
             "fontStyle": "italic",
+            "foreground": "#7F848E",
             "token": " punctuation.definition.comment"
         },
         {
@@ -1962,6 +1963,5 @@
             "fontStyle": "italic",
             "token": "markup.italic.markdown"
         }
-    ],
-    "encodedTokensColors": []
+    ]
 }
