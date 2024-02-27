@@ -1,5 +1,4 @@
 {
-    "inherit": true,
     "base": "vs-dark",
     "colors": {
         "editor.background": "#1f1f1f",
@@ -22,6 +21,8 @@
         "editorOverviewRuler.border": "#010409",
         "editorWidget.background": "#1f1f1f"
     },
+    "encodedTokensColors": [],
+    "inherit": true,
     "rules": [
         {
             "foreground": "#D4D4D4",
@@ -128,13 +129,13 @@
             "token": "markup.underline"
         },
         {
-            "foreground": "#569CD6",
             "fontStyle": "bold",
+            "foreground": "#569CD6",
             "token": "markup.bold"
         },
         {
-            "foreground": "#569CD6",
             "fontStyle": "bold",
+            "foreground": "#569CD6",
             "token": "markup.heading"
         },
         {
@@ -705,6 +706,5 @@
             "foreground": "#B267E6",
             "token": "token.debug-token"
         }
-    ],
-    "encodedTokensColors": []
+    ]
 }

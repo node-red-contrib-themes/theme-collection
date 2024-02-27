@@ -1,5 +1,4 @@
 {
-    "inherit": true,
     "base": "vs-dark",
     "colors": {
         "activityBar.background": "#ddd6c1",
@@ -87,6 +86,8 @@
         "titleBar.activeBackground": "#eee8d5",
         "walkThrough.embeddedEditorBackground": "#00000014"
     },
+    "encodedTokensColors": [],
+    "inherit": true,
     "rules": [
         {
             "foreground": "#657B83",
@@ -105,8 +106,8 @@
             "token": "variable.legacy.builtin.python"
         },
         {
-            "foreground": "#93A1A1",
             "fontStyle": "italic",
+            "foreground": "#93A1A1",
             "token": "comment"
         },
         {
@@ -134,28 +135,28 @@
             "token": "keyword"
         },
         {
-            "foreground": "#586E75",
             "fontStyle": "bold",
+            "foreground": "#586E75",
             "token": "storage"
         },
         {
-            "foreground": "#CB4B16",
             "fontStyle": "",
+            "foreground": "#CB4B16",
             "token": "entity.name.class"
         },
         {
-            "foreground": "#CB4B16",
             "fontStyle": "",
+            "foreground": "#CB4B16",
             "token": "entity.name.type"
         },
         {
-            "foreground": "#CB4B16",
             "fontStyle": "",
+            "foreground": "#CB4B16",
             "token": "entity.name.namespace"
         },
         {
-            "foreground": "#CB4B16",
             "fontStyle": "",
+            "foreground": "#CB4B16",
             "token": "entity.name.scope-resolution"
         },
         {
@@ -251,23 +252,23 @@
             "token": "invalid"
         },
         {
-            "foreground": "#268BD2",
             "fontStyle": "italic",
+            "foreground": "#268BD2",
             "token": "meta.diff"
         },
         {
-            "foreground": "#268BD2",
             "fontStyle": "italic",
+            "foreground": "#268BD2",
             "token": "meta.diff.header"
         },
         {
-            "foreground": "#DC322F",
             "fontStyle": "",
+            "foreground": "#DC322F",
             "token": "markup.deleted"
         },
         {
-            "foreground": "#CB4B16",
             "fontStyle": "",
+            "foreground": "#CB4B16",
             "token": "markup.changed"
         },
         {
@@ -303,18 +304,18 @@
             "token": "markup.strikethrough"
         },
         {
-            "foreground": "#2AA198",
             "fontStyle": "",
+            "foreground": "#2AA198",
             "token": "markup.inline.raw"
         },
         {
-            "foreground": "#268BD2",
             "fontStyle": "bold",
+            "foreground": "#268BD2",
             "token": "markup.heading"
         },
         {
-            "foreground": "#268BD2",
             "fontStyle": "",
+            "foreground": "#268BD2",
             "token": "markup.heading.setext"
         },
         {
@@ -333,6 +334,5 @@
             "foreground": "#800080",
             "token": "token.debug-token"
         }
-    ],
-    "encodedTokensColors": []
+    ]
 }

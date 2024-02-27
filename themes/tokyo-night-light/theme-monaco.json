@@ -1,5 +1,4 @@
 {
-    "inherit": true,
     "base": "vs-dark",
     "colors": {
         "activityBar.background": "#cbccd1",
@@ -160,10 +159,6 @@
         "gitDecoration.stageDeletedResourceForeground": "#914c54",
         "gitDecoration.stageModifiedResourceForeground": "#34548a",
         "gitDecoration.untrackedResourceForeground": "#166775",
-        "gitlens.gutterBackgroundColor": "#dcdee3",
-        "gitlens.gutterForegroundColor": "#4c505e",
-        "gitlens.gutterUncommittedForegroundColor": "#34548a",
-        "gitlens.trailingLineForegroundColor": "#73767d",
         "icon.foreground": "#4c505e",
         "input.background": "#d5d6db",
         "input.border": "#c1c2c7",
@@ -328,6 +323,8 @@
         "window.activeBorder": "#cdced1",
         "window.inactiveBorder": "#cdced1"
     },
+    "encodedTokensColors": [],
+    "inherit": true,
     "rules": [
         {
             "fontStyle": "italic",
@@ -482,28 +479,28 @@
             "token": "constant.other.caps"
         },
         {
-            "foreground": "#485E30",
             "fontStyle": "",
+            "foreground": "#485E30",
             "token": "string"
         },
         {
-            "foreground": "#485E30",
             "fontStyle": "",
+            "foreground": "#485E30",
             "token": "constant.other.symbol"
         },
         {
-            "foreground": "#485E30",
             "fontStyle": "",
+            "foreground": "#485E30",
             "token": "constant.other.key"
         },
         {
-            "foreground": "#485E30",
             "fontStyle": "",
+            "foreground": "#485E30",
             "token": "meta.attribute-selector"
         },
         {
-            "foreground": "#485E30",
             "fontStyle": "",
+            "foreground": "#485E30",
             "token": "string constant.character"
         },
         {
@@ -583,13 +580,13 @@
             "token": "entity.name.function.blade"
         },
         {
-            "foreground": "#8C4351",
             "fontStyle": "bold",
+            "foreground": "#8C4351",
             "token": "keyword.operator.spread"
         },
         {
-            "foreground": "#8C4351",
             "fontStyle": "bold",
+            "foreground": "#8C4351",
             "token": "keyword.operator.rest"
         },
         {
@@ -690,7 +687,7 @@
         },
         {
             "foreground": "#0F4B6E",
-            "token": "keyword.control.module"
+            "token": "keyword.control.module.js"
         },
         {
             "foreground": "#0F4B6E",
@@ -1017,8 +1014,8 @@
             "token": "variable.other.declaration"
         },
         {
-            "foreground": "#5A4A78",
             "fontStyle": "",
+            "foreground": "#5A4A78",
             "token": "entity.other.inherited-class"
         },
         {
@@ -1518,93 +1515,93 @@
             "token": "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
         },
         {
-            "foreground": "#383B45",
             "fontStyle": "bold",
+            "foreground": "#383B45",
             "token": "heading.1.markdown entity.name"
         },
         {
-            "foreground": "#383B45",
             "fontStyle": "bold",
+            "foreground": "#383B45",
             "token": "heading.1.markdown punctuation.definition.heading.markdown"
         },
         {
-            "foreground": "#0F4B6E",
             "fontStyle": "bold",
+            "foreground": "#0F4B6E",
             "token": "heading.2.markdown entity.name"
         },
         {
-            "foreground": "#0F4B6E",
             "fontStyle": "bold",
+            "foreground": "#0F4B6E",
             "token": "heading.2.markdown punctuation.definition.heading.markdown"
         },
         {
-            "foreground": "#34548A",
             "fontStyle": "bold",
+            "foreground": "#34548A",
             "token": "heading.3.markdown entity.name"
         },
         {
-            "foreground": "#34548A",
             "fontStyle": "bold",
+            "foreground": "#34548A",
             "token": "heading.3.markdown punctuation.definition.heading.markdown"
         },
         {
-            "foreground": "#395B96",
             "fontStyle": "bold",
+            "foreground": "#395B96",
             "token": "heading.4.markdown entity.name"
         },
         {
-            "foreground": "#395B96",
             "fontStyle": "bold",
+            "foreground": "#395B96",
             "token": "heading.4.markdown punctuation.definition.heading.markdown"
         },
         {
-            "foreground": "#565A6E",
             "fontStyle": "bold",
+            "foreground": "#565A6E",
             "token": "heading.5.markdown entity.name"
         },
         {
-            "foreground": "#565A6E",
             "fontStyle": "bold",
+            "foreground": "#565A6E",
             "token": "heading.5.markdown punctuation.definition.heading.markdown"
         },
         {
-            "foreground": "#747CA1",
             "fontStyle": "bold",
+            "foreground": "#747CA1",
             "token": "heading.6.markdown entity.name"
         },
         {
-            "foreground": "#747CA1",
             "fontStyle": "bold",
+            "foreground": "#747CA1",
             "token": "heading.6.markdown punctuation.definition.heading.markdown"
         },
         {
-            "foreground": "#343B58",
             "fontStyle": "italic",
+            "foreground": "#343B58",
             "token": "markup.italic"
         },
         {
-            "foreground": "#343B58",
             "fontStyle": "italic",
+            "foreground": "#343B58",
             "token": "markup.italic punctuation"
         },
         {
-            "foreground": "#343B58",
             "fontStyle": "bold",
+            "foreground": "#343B58",
             "token": "markup.bold"
         },
         {
-            "foreground": "#343B58",
             "fontStyle": "bold",
+            "foreground": "#343B58",
             "token": "markup.bold punctuation"
         },
         {
-            "foreground": "#343B58",
             "fontStyle": "bold italic",
+            "foreground": "#343B58",
             "token": "markup.bold markup.italic"
         },
         {
-            "foreground": "#343B58",
             "fontStyle": "bold italic",
+            "foreground": "#343B58",
             "token": "markup.bold markup.italic punctuation"
         },
         {
@@ -1652,8 +1649,8 @@
             "token": "variable.language.fenced.markdown"
         },
         {
-            "foreground": "#868891",
             "fontStyle": "bold",
+            "foreground": "#868891",
             "token": "meta.separator"
         },
         {
@@ -1688,6 +1685,5 @@
             "foreground": "#34548A",
             "token": "source.env"
         }
-    ],
-    "encodedTokensColors": []
+    ]
 }

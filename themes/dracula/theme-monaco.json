@@ -1,5 +1,4 @@
 {
-    "inherit": true,
     "base": "vs-dark",
     "colors": {
         "activityBar.activeBackground": "#bd93f910",
@@ -198,6 +197,8 @@
         "titleBar.inactiveForeground": "#6272a4",
         "walkThrough.embeddedEditorBackground": "#21222c"
     },
+    "encodedTokensColors": [],
+    "inherit": true,
     "rules": [
         {
             "fontStyle": "italic",
@@ -232,13 +233,13 @@
             "token": "markup.changed"
         },
         {
-            "foreground": "#FF5555",
             "fontStyle": "underline italic",
+            "foreground": "#FF5555",
             "token": "invalid"
         },
         {
-            "foreground": "#F8F8F2",
             "fontStyle": "underline italic",
+            "foreground": "#F8F8F2",
             "token": "invalid.deprecated"
         },
         {
@@ -254,18 +255,18 @@
             "token": "markup.underline"
         },
         {
-            "foreground": "#FFB86C",
             "fontStyle": "bold",
+            "foreground": "#FFB86C",
             "token": "markup.bold"
         },
         {
-            "foreground": "#BD93F9",
             "fontStyle": "bold",
+            "foreground": "#BD93F9",
             "token": "markup.heading"
         },
         {
-            "foreground": "#F1FA8C",
             "fontStyle": "italic",
+            "foreground": "#F1FA8C",
             "token": "markup.italic"
         },
         {
@@ -313,13 +314,13 @@
             "token": "string.other.link.title"
         },
         {
-            "foreground": "#F1FA8C",
             "fontStyle": "italic",
+            "foreground": "#F1FA8C",
             "token": "entity.name.directive.restructuredtext"
         },
         {
-            "foreground": "#F1FA8C",
             "fontStyle": "italic",
+            "foreground": "#F1FA8C",
             "token": "markup.quote"
         },
         {
@@ -367,48 +368,48 @@
             "token": "markup.quote.markdown meta.paragraph.markdown punctuation.definition.string.end"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "normal",
+            "foreground": "#8BE9FD",
             "token": "entity.name.type.class"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "normal",
+            "foreground": "#8BE9FD",
             "token": "entity.name.class"
         },
         {
-            "foreground": "#BD93F9",
             "fontStyle": "italic",
+            "foreground": "#BD93F9",
             "token": "keyword.expressions-and-types.swift"
         },
         {
-            "foreground": "#BD93F9",
             "fontStyle": "italic",
+            "foreground": "#BD93F9",
             "token": "keyword.other.this"
         },
         {
-            "foreground": "#BD93F9",
             "fontStyle": "italic",
+            "foreground": "#BD93F9",
             "token": "variable.language"
         },
         {
-            "foreground": "#BD93F9",
             "fontStyle": "italic",
+            "foreground": "#BD93F9",
             "token": "variable.language punctuation.definition.variable.php"
         },
         {
-            "foreground": "#BD93F9",
             "fontStyle": "italic",
+            "foreground": "#BD93F9",
             "token": "variable.other.readwrite.instance.ruby"
         },
         {
-            "foreground": "#BD93F9",
             "fontStyle": "italic",
+            "foreground": "#BD93F9",
             "token": "variable.parameter.function.language.special"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "entity.other.inherited-class"
         },
         {
@@ -440,8 +441,8 @@
             "token": "comment.block.documentation storage.type.class"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "comment.block.documentation entity.name.type"
         },
         {
@@ -449,8 +450,8 @@
             "token": "comment.block.documentation entity.name.type punctuation.definition.bracket"
         },
         {
-            "foreground": "#FFB86C",
             "fontStyle": "italic",
+            "foreground": "#FFB86C",
             "token": "comment.block.documentation variable"
         },
         {
@@ -482,8 +483,8 @@
             "token": "entity.other.attribute-name.parent-selector"
         },
         {
-            "foreground": "#50FA7B",
             "fontStyle": "italic",
+            "foreground": "#50FA7B",
             "token": "entity.other.attribute-name"
         },
         {
@@ -519,43 +520,43 @@
             "token": "keyword.operator.function.infix"
         },
         {
-            "foreground": "#FFB86C",
             "fontStyle": "italic",
+            "foreground": "#FFB86C",
             "token": "entity.name.variable.parameter"
         },
         {
-            "foreground": "#FFB86C",
             "fontStyle": "italic",
+            "foreground": "#FFB86C",
             "token": "meta.at-rule.function variable"
         },
         {
-            "foreground": "#FFB86C",
             "fontStyle": "italic",
+            "foreground": "#FFB86C",
             "token": "meta.at-rule.mixin variable"
         },
         {
-            "foreground": "#FFB86C",
             "fontStyle": "italic",
+            "foreground": "#FFB86C",
             "token": "meta.function.arguments variable.other.php"
         },
         {
-            "foreground": "#FFB86C",
             "fontStyle": "italic",
+            "foreground": "#FFB86C",
             "token": "meta.selectionset.graphql meta.arguments.graphql variable.arguments.graphql"
         },
         {
-            "foreground": "#FFB86C",
             "fontStyle": "italic",
+            "foreground": "#FFB86C",
             "token": "variable.parameter"
         },
         {
-            "foreground": "#50FA7B",
             "fontStyle": "italic",
+            "foreground": "#50FA7B",
             "token": "meta.decorator variable.other.readwrite"
         },
         {
-            "foreground": "#50FA7B",
             "fontStyle": "italic",
+            "foreground": "#50FA7B",
             "token": "meta.decorator variable.other.property"
         },
         {
@@ -583,23 +584,23 @@
             "token": "meta.selector"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "support"
         },
         {
-            "foreground": "#BD93F9",
             "fontStyle": "regular",
+            "foreground": "#BD93F9",
             "token": "support.function.magic"
         },
         {
-            "foreground": "#BD93F9",
             "fontStyle": "regular",
+            "foreground": "#BD93F9",
             "token": "support.variable"
         },
         {
-            "foreground": "#BD93F9",
             "fontStyle": "regular",
+            "foreground": "#BD93F9",
             "token": "variable.other.predefined"
         },
         {
@@ -843,123 +844,123 @@
             "token": "constant.other.timestamp"
         },
         {
-            "foreground": "#50FA7B",
             "fontStyle": "italic underline",
+            "foreground": "#50FA7B",
             "token": "variable.other.alias.yaml"
         },
         {
-            "foreground": "#FF79C6",
             "fontStyle": "regular",
+            "foreground": "#FF79C6",
             "token": "storage"
         },
         {
-            "foreground": "#FF79C6",
             "fontStyle": "regular",
+            "foreground": "#FF79C6",
             "token": "meta.implementation storage.type.objc"
         },
         {
-            "foreground": "#FF79C6",
             "fontStyle": "regular",
+            "foreground": "#FF79C6",
             "token": "meta.interface-or-protocol storage.type.objc"
         },
         {
-            "foreground": "#FF79C6",
             "fontStyle": "regular",
+            "foreground": "#FF79C6",
             "token": "source.groovy storage.type.def"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "entity.name.type"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "keyword.primitive-datatypes.swift"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "keyword.type.cs"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "meta.protocol-list.objc"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "meta.return-type.objc"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "source.go storage.type"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "source.groovy storage.type"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "source.java storage.type"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "source.powershell entity.other.attribute-name"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "storage.class.std.rust"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "storage.type.attribute.swift"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "storage.type.c"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "storage.type.core.rust"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "storage.type.cs"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "storage.type.groovy"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "storage.type.objc"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "storage.type.php"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "storage.type.haskell"
         },
         {
-            "foreground": "#8BE9FD",
             "fontStyle": "italic",
+            "foreground": "#8BE9FD",
             "token": "storage.type.ocaml"
         },
         {
@@ -1083,28 +1084,28 @@
             "token": "variable.other.constant.tsx"
         },
         {
-            "foreground": "#FFB86C",
             "fontStyle": "italic",
+            "foreground": "#FFB86C",
             "token": "meta.import variable.other.readwrite"
         },
         {
-            "foreground": "#FFB86C",
             "fontStyle": "italic",
+            "foreground": "#FFB86C",
             "token": "meta.variable.assignment.destructured.object.coffee variable"
         },
         {
-            "foreground": "#F8F8F2",
             "fontStyle": "normal",
+            "foreground": "#F8F8F2",
             "token": "meta.import variable.other.readwrite.alias"
         },
         {
-            "foreground": "#F8F8F2",
             "fontStyle": "normal",
+            "foreground": "#F8F8F2",
             "token": "meta.export variable.other.readwrite.alias"
         },
         {
-            "foreground": "#F8F8F2",
             "fontStyle": "normal",
+            "foreground": "#F8F8F2",
             "token": "meta.variable.assignment.destructured.object.coffee variable variable"
         },
         {
@@ -1180,8 +1181,8 @@
             "token": "source.shell variable.other"
         },
         {
-            "foreground": "#BD93F9",
             "fontStyle": "normal",
+            "foreground": "#BD93F9",
             "token": "support.constant"
         },
         {
@@ -1205,13 +1206,13 @@
             "token": "meta.preprocessor.haskell"
         },
         {
-            "foreground": "#FF5555",
             "fontStyle": "bold",
+            "foreground": "#FF5555",
             "token": "log.error"
         },
         {
-            "foreground": "#F1FA8C",
             "fontStyle": "bold",
+            "foreground": "#F1FA8C",
             "token": "log.warning"
         },
         {
@@ -1230,6 +1231,5 @@
             "foreground": "#B267E6",
             "token": "token.debug-token"
         }
-    ],
-    "encodedTokensColors": []
+    ]
 }

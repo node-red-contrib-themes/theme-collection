@@ -40,9 +40,11 @@ version-resolver:
   major:
     labels:
       - "major"
+      - "breaking change"
   minor:
     labels:
       - "minor"
+      - "new theme"
   patch:
     labels:
       - "patch"
