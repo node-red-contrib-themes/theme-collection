@@ -1,5 +1,4 @@
 {
-    "inherit": true,
     "base": "vs-dark",
     "colors": {
         "activityBar.background": "#313633",
@@ -73,6 +72,8 @@
         "textLink.activeForeground": "#82a282",
         "textLink.foreground": "#8cd0d3"
     },
+    "encodedTokensColors": [],
+    "inherit": true,
     "rules": [
         {
             "foreground": "#7F9F7F",
@@ -83,63 +84,63 @@
             "token": " punctuation.definition.comment"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": "constant.language"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": " support.constant"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": " constant.other.color"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": " entity.name.type.variant.ocaml"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": " source.rust variable.language.rust"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": " support.type.rust"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": " source.elixir constant.other.symbol.elixir"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": " source.elixir constant.other.symbol.elixir punctuation.definition.constant.elixir"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": " source.elixir variable.language.elixir"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": " source.elixir constant.other.keywords.elixir"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": " source.ruby constant.other.symbol"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": " source.ruby punctuation.definition.constant"
         },
         {
@@ -155,18 +156,18 @@
             "token": " punctuation.definition.string.end"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": "constant.character"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": " source.scss keyword.operator.ampersand"
         },
         {
-            "foreground": "#DCA3A3",
             "fontStyle": "bold",
+            "foreground": "#DCA3A3",
             "token": " source.css keyword.operator.ampersand"
         },
         {
@@ -362,18 +363,18 @@
             "token": " meta.definition.method.js entity.name.function.js"
         },
         {
-            "foreground": "#F0DFAF",
             "fontStyle": "bold",
+            "foreground": "#F0DFAF",
             "token": "keyword.control.conditional"
         },
         {
-            "foreground": "#FFD7A7",
             "fontStyle": "bold",
+            "foreground": "#FFD7A7",
             "token": "keyword.control.loop"
         },
         {
-            "foreground": "#FFD7A7",
             "fontStyle": "bold",
+            "foreground": "#FFD7A7",
             "token": " source.scss keyword.control.flow.sass"
         },
         {
@@ -413,98 +414,98 @@
             "token": " punctuation.terminator - punctuation.definition.numeric.base - keyword.operator"
         },
         {
-            "foreground": "#F0DFAF",
             "fontStyle": "bold",
+            "foreground": "#F0DFAF",
             "token": "keyword"
         },
         {
-            "foreground": "#F0DFAF",
             "fontStyle": "bold",
+            "foreground": "#F0DFAF",
             "token": " constant.other.keyword.clojure - keyword.operator - keyword.operator.word - keyword.control.flow.return.js - keyword.operator.logical"
         },
         {
-            "foreground": "#E3CEAB",
             "fontStyle": "bold",
+            "foreground": "#E3CEAB",
             "token": "entity.name.tag"
         },
         {
-            "foreground": "#E3CEAB",
             "fontStyle": "bold",
+            "foreground": "#E3CEAB",
             "token": " punctuation.definition.list_item"
         },
         {
-            "foreground": "#E3CEAB",
             "fontStyle": "bold",
+            "foreground": "#E3CEAB",
             "token": " source.shell.bash support.function"
         },
         {
-            "foreground": "#E3CEAB",
             "fontStyle": "bold",
+            "foreground": "#E3CEAB",
             "token": " keyword.control.flow.return.js"
         },
         {
-            "foreground": "#E3CEAB",
             "fontStyle": "bold",
+            "foreground": "#E3CEAB",
             "token": " keyword.declaration.function.python"
         },
         {
-            "foreground": "#E3CEAB",
             "fontStyle": "bold",
+            "foreground": "#E3CEAB",
             "token": " keyword.control.flow.assert.python"
         },
         {
-            "foreground": "#E3CEAB",
             "fontStyle": "bold",
+            "foreground": "#E3CEAB",
             "token": " keyword.operator.new.cs - keyword.control.import"
         },
         {
-            "foreground": "#E3CEAB",
             "fontStyle": "bold",
+            "foreground": "#E3CEAB",
             "token": " keyword.control.default"
         },
         {
-            "foreground": "#E3CEAB",
             "fontStyle": "bold",
+            "foreground": "#E3CEAB",
             "token": " keyword.control.export"
         },
         {
-            "foreground": "#E3CEAB",
             "fontStyle": "bold",
+            "foreground": "#E3CEAB",
             "token": " keyword.control.from"
         },
         {
-            "foreground": "#E3CEAB",
             "fontStyle": "bold",
+            "foreground": "#E3CEAB",
             "token": " keyword.control.as"
         },
         {
-            "foreground": "#E3CEAB",
             "fontStyle": "bold",
+            "foreground": "#E3CEAB",
             "token": " source.sql keyword.other"
         },
         {
-            "foreground": "#E3CEAB",
             "fontStyle": "bold",
+            "foreground": "#E3CEAB",
             "token": " source.sql keyword.operator.assignment"
         },
         {
-            "foreground": "#C3BF9F",
             "fontStyle": "bold",
+            "foreground": "#C3BF9F",
             "token": "keyword.control.exception.try"
         },
         {
-            "foreground": "#C3BF9F",
             "fontStyle": "bold",
+            "foreground": "#C3BF9F",
             "token": " keyword.control.exception.catch"
         },
         {
-            "foreground": "#C3BF9F",
             "fontStyle": "bold",
+            "foreground": "#C3BF9F",
             "token": " text.html.basic entity.name.tag.script"
         },
         {
-            "foreground": "#C3BF9F",
             "fontStyle": "bold",
+            "foreground": "#C3BF9F",
             "token": " source.cs keyword.control.trycatch"
         },
         {
@@ -556,133 +557,133 @@
             "token": " source.haskell meta.preprocessor.haskell"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": "keyword.control.import.include"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " keyword.control.at-rule.import.scss"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " keyword.control.at-rule.import.scss punctuation.definition.keyword.scss"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " source.scss meta.function-call.sass variable.function.sass punctuation.definition.keyword.sass"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " keyword.control.import.js"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " keyword.control.default.js"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " keyword.control.export.js"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " keyword.control.from.js"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " keyword.control.as.js"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " keyword.control.import.python"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " keyword.control.import.from.python"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " keyword.other.use.php"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " meta.module-reference.ocaml"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " support.other.module.ocaml"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " entity.name.type.module.ocaml"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " keyword.control.import.haskell"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " namespace.open.fsharp keyword.fsharp"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " source.fsharp keyword.control.directive.fsharp"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " source.cs keyword.control.import.cs"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " source.go keyword.other.import.go"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " source.rust meta.path.rust"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " meta.declaration.module.elm keyword.other.elm"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " meta.import.elm keyword.other.elm"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " source.elm meta.import.elm keyword.import.elm"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " source.java meta.package-declaration.java keyword.other.package.java"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " source.java meta.import.java keyword.control.import.java"
         },
         {
@@ -718,163 +719,163 @@
             "token": " source.ruby keyword.control.block.end"
         },
         {
-            "foreground": "#FFCFAF",
             "fontStyle": "bold",
+            "foreground": "#FFCFAF",
             "token": "support.macro.rust"
         },
         {
-            "foreground": "#FFCFAF",
             "fontStyle": "bold",
+            "foreground": "#FFCFAF",
             "token": " source.ruby keyword.other.special-method"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": "keyword.control.import.c"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " meta.preprocessor.c"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " keyword.control.import.c++"
         },
         {
-            "foreground": "#DFAF8F",
             "fontStyle": "bold",
+            "foreground": "#DFAF8F",
             "token": " meta.preprocessor.c++"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": "entity.name.type"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " support.type"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " entity.other.attribute-name"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " storage.type"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " support.class.builtin"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " source.scss entity.other"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " constant.other.haskell"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " source.haskell meta.import.haskell support.other.module.haskell"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " source.haskell meta.declaration.module.haskell entity.name.namespace.haskell"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " abstract.definition.fsharp entity.name.type.fsharp"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " source.elixir entity.name.type"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " source.java support.class.java"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " entity.name.class.ruby"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " entity.other.inherited-class.ruby"
         },
         {
-            "foreground": "#DFDFBF",
             "fontStyle": "bold",
+            "foreground": "#DFDFBF",
             "token": " support.class.ruby"
         },
         {
-            "foreground": "#C3BF9F",
             "fontStyle": "bold",
+            "foreground": "#C3BF9F",
             "token": "storage.modifier"
         },
         {
-            "foreground": "#C3BF9F",
             "fontStyle": "bold",
+            "foreground": "#C3BF9F",
             "token": " support.type.property-name"
         },
         {
-            "foreground": "#C3BF9F",
             "fontStyle": "bold",
+            "foreground": "#C3BF9F",
             "token": " abstract.definition.fsharp keyword.fsharp"
         },
         {
-            "foreground": "#C3BF9F",
             "fontStyle": "bold",
+            "foreground": "#C3BF9F",
             "token": " keyword.declaration"
         },
         {
-            "foreground": "#C3BF9F",
             "fontStyle": "bold",
+            "foreground": "#C3BF9F",
             "token": " storage.type.js"
         },
         {
-            "foreground": "#C3BF9F",
             "fontStyle": "bold",
+            "foreground": "#C3BF9F",
             "token": " storage.type.ts"
         },
         {
-            "foreground": "#EFEFAF",
             "fontStyle": "bold",
+            "foreground": "#EFEFAF",
             "token": "keyword.declaration.enum"
         },
         {
-            "foreground": "#EFEFAF",
             "fontStyle": "bold",
+            "foreground": "#EFEFAF",
             "token": " keyword.declaration.struct"
         },
         {
-            "foreground": "#EFEFAF",
             "fontStyle": "bold",
+            "foreground": "#EFEFAF",
             "token": " keyword.declaration.union"
         },
         {
-            "foreground": "#EFEFAF",
             "fontStyle": "bold",
+            "foreground": "#EFEFAF",
             "token": " variable.language.this.js"
         },
         {
-            "foreground": "#EFEFAF",
             "fontStyle": "bold",
+            "foreground": "#EFEFAF",
             "token": " keyword.declaration.type.haskell"
         },
         {
@@ -922,8 +923,8 @@
             "token": " variable.function.clojure"
         },
         {
-            "foreground": "#82A282",
             "fontStyle": "bold",
+            "foreground": "#82A282",
             "token": "variable.annotation"
         },
         {
@@ -947,13 +948,13 @@
             "token": " punctuation.section.embedded.end.php"
         },
         {
-            "foreground": "#EFEFEF",
             "fontStyle": "bold",
+            "foreground": "#EFEFEF",
             "token": "entity.name.section.markdown"
         },
         {
-            "foreground": "#DEDEDE",
             "fontStyle": "bold",
+            "foreground": "#DEDEDE",
             "token": "keyword.operator.logical"
         },
         {
@@ -1009,8 +1010,8 @@
             "token": "markup.deleted"
         },
         {
-            "foreground": "#EFDCBC",
             "fontStyle": "bold",
+            "foreground": "#EFDCBC",
             "token": "markup.inserted"
         },
         {
@@ -1037,6 +1038,5 @@
             "foreground": "#B267E6",
             "token": "token.debug-token"
         }
-    ],
-    "encodedTokensColors": []
+    ]
 }

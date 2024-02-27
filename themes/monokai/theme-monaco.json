@@ -1,5 +1,4 @@
 {
-    "inherit": true,
     "base": "vs-dark",
     "colors": {
         "activityBar.background": "#272822",
@@ -96,6 +95,8 @@
         "titleBar.activeBackground": "#1e1f1c",
         "widget.shadow": "#00000098"
     },
+    "encodedTokensColors": [],
+    "inherit": true,
     "rules": [
         {
             "foreground": "#F8F8F2",
@@ -150,8 +151,8 @@
             "token": " constant.other"
         },
         {
-            "foreground": "#F8F8F2",
             "fontStyle": "",
+            "foreground": "#F8F8F2",
             "token": "variable"
         },
         {
@@ -159,78 +160,78 @@
             "token": "keyword"
         },
         {
-            "foreground": "#F92672",
             "fontStyle": "",
+            "foreground": "#F92672",
             "token": "storage"
         },
         {
-            "foreground": "#66D9EF",
             "fontStyle": "italic",
+            "foreground": "#66D9EF",
             "token": "storage.type"
         },
         {
-            "foreground": "#A6E22E",
             "fontStyle": "underline",
+            "foreground": "#A6E22E",
             "token": "entity.name.type"
         },
         {
-            "foreground": "#A6E22E",
             "fontStyle": "underline",
+            "foreground": "#A6E22E",
             "token": " entity.name.class"
         },
         {
-            "foreground": "#A6E22E",
             "fontStyle": "underline",
+            "foreground": "#A6E22E",
             "token": " entity.name.namespace"
         },
         {
-            "foreground": "#A6E22E",
             "fontStyle": "underline",
+            "foreground": "#A6E22E",
             "token": " entity.name.scope-resolution"
         },
         {
-            "foreground": "#A6E22E",
             "fontStyle": "italic underline",
+            "foreground": "#A6E22E",
             "token": "entity.other.inherited-class"
         },
         {
-            "foreground": "#A6E22E",
             "fontStyle": "",
+            "foreground": "#A6E22E",
             "token": "entity.name.function"
         },
         {
-            "foreground": "#FD971F",
             "fontStyle": "italic",
+            "foreground": "#FD971F",
             "token": "variable.parameter"
         },
         {
-            "foreground": "#F92672",
             "fontStyle": "",
+            "foreground": "#F92672",
             "token": "entity.name.tag"
         },
         {
-            "foreground": "#A6E22E",
             "fontStyle": "",
+            "foreground": "#A6E22E",
             "token": "entity.other.attribute-name"
         },
         {
-            "foreground": "#66D9EF",
             "fontStyle": "",
+            "foreground": "#66D9EF",
             "token": "support.function"
         },
         {
-            "foreground": "#66D9EF",
             "fontStyle": "",
+            "foreground": "#66D9EF",
             "token": "support.constant"
         },
         {
-            "foreground": "#66D9EF",
             "fontStyle": "italic",
+            "foreground": "#66D9EF",
             "token": "support.type"
         },
         {
-            "foreground": "#66D9EF",
             "fontStyle": "italic",
+            "foreground": "#66D9EF",
             "token": " support.class"
         },
         {
@@ -238,8 +239,8 @@
             "token": "support.other.variable"
         },
         {
-            "foreground": "#F44747",
             "fontStyle": "",
+            "foreground": "#F44747",
             "token": "invalid"
         },
         {
@@ -295,8 +296,8 @@
             "token": " markup.italic"
         },
         {
-            "foreground": "#FD971F",
             "fontStyle": "",
+            "foreground": "#FD971F",
             "token": "markup.inline.raw"
         },
         {
@@ -304,8 +305,8 @@
             "token": "markup.heading"
         },
         {
-            "foreground": "#A6E22E",
             "fontStyle": "bold",
+            "foreground": "#A6E22E",
             "token": "markup.heading.setext"
         },
         {
@@ -313,8 +314,8 @@
             "token": "markup.heading.markdown"
         },
         {
-            "foreground": "#75715E",
             "fontStyle": "italic",
+            "foreground": "#75715E",
             "token": "markup.quote.markdown"
         },
         {
@@ -377,6 +378,5 @@
             "foreground": "#FD971F",
             "token": "variable.language"
         }
-    ],
-    "encodedTokensColors": []
+    ]
 }

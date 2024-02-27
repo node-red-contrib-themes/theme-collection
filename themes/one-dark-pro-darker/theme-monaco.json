@@ -1,5 +1,4 @@
 {
-    "inherit": true,
     "base": "vs-dark",
     "colors": {
         "activityBar.background": "#23272e",
@@ -139,6 +138,8 @@
         "tree.indentGuidesStroke": "#ffffff1d",
         "walkThrough.embeddedEditorBackground": "#2e3440"
     },
+    "encodedTokensColors": [],
+    "inherit": true,
     "rules": [
         {
             "foreground": "#ABB2BF",
@@ -1924,6 +1925,5 @@
             "foreground": "#E06C75",
             "token": "entity.name.label"
         }
-    ],
-    "encodedTokensColors": []
+    ]
 }
