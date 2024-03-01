@@ -27,22 +27,23 @@ With the development environment initialized, follow these steps to create a new
 
     e.g., theme, theme-name, or 007-theme
 
-    This creates a theme named ***example-theme***, replace it with the theme name being created.
+    This creates a theme named ***example-theme***, replace it with the name of the theme being created.
 
         npm run create-theme example-theme
 
     The result will be following directory structure.
 
-        themes
-        └── example-theme
-            ├── theme.scss
-            ├── theme-custom.css
-            ├── theme-mermaid.json
-            └── theme-monaco.json
+        src
+        └── themes
+            └── example-theme
+                ├── theme.scss
+                ├── theme-custom.css
+                ├── theme-mermaid.json
+                └── theme-monaco.json
 
 1. Enter the theme directory and start the development environment
 
-        cd themes/example-theme
+        cd src/themes/example-theme
         npm run dev example-theme
 
     ***NOTE:** Replace ***example-theme*** with the name of the theme being created/updated.*
