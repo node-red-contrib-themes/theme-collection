@@ -1,6 +1,6 @@
 {
     "name": "@node-red-contrib-themes/theme-collection",
-    "version": "3.1.10",
+    "version": "3.1.11",
     "description": "A collection of themes for Node-RED",
     "repository": {
         "type": "git",
@@ -22,7 +22,7 @@
         "create-theme": "node ./lib/create-theme.js",
         "build": "node ./lib/build.js",
         "version": "git checkout -b release/$npm_package_version && npm run build && git add -A",
-        "postversion": "git push && git push --tags && git checkout master"
+        "postversion": "git push -u origin release/$npm_package_version && git push --tags && git checkout master"
     },
     "author": "Mauricio Bonani @mbonani",
     "funding": {
