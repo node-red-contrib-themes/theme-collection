@@ -38,12 +38,12 @@
     },
     "homepage": "https://github.com/node-red-contrib-themes/theme-collection#readme",
     "devDependencies": {
+        "chalk": "5.3.0",
         "chokidar": "3.6.0",
         "command-line-args": "5.2.1",
         "csso": "5.0.5",
         "fs-extra": "11.2.0",
         "nodemon": "3.1.0",
-        "nopt": "7.2.0",
         "ora": "8.0.1",
         "sass": "1.71.1"
     },
