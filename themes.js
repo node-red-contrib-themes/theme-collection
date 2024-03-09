@@ -11,7 +11,7 @@ module.exports = function (RED) {
             themeName,
             {
                 type: 'node-red-theme',
-                css: [`${themePath}/${themeName}.min.css`, `${themePath}/${themeName}-custom.min.css`],
+                css: [`${themePath}/${themeName}.min.css`],
                 mermaid: { theme: require(`./${themePath}/${themeName}-mermaid.min.json`) },
                 monacoOptions: { theme: require(`./${themePath}/${themeName}-monaco.min.json`) }
             }
