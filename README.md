@@ -1,7 +1,7 @@
 # Node-RED Contrib Theme Collection
 
 [![npm (scoped)][npm-version-badge]][npm-package]
-[![NPM Publish][npm-publish-badge]][npm-publish-workflow]
+[![Release Publish][release-publish-badge]][release-publish-workflow]
 [![Project license][license-badge]][license]
 
 [![BuyMeCoffee][buymecoffee-shield]][buymecoffee-link]
@@ -116,9 +116,9 @@ This project is licensed under the [MIT license][license].
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration#editor-themes
 [node-red]: https://nodered.org/
 [npm-package]: https://www.npmjs.com/package/@node-red-contrib-themes/theme-collection
-[npm-publish-badge]: https://img.shields.io/github/actions/workflow/status/node-red-contrib-themes/theme-collection/npm-publish.yml?style=for-the-badge&label=Publish
-[npm-publish-workflow]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/npm-publish.yml
 [npm-version-badge]: https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm&style=for-the-badge
+[release-publish-badge]: https://img.shields.io/github/actions/workflow/status/node-red-contrib-themes/theme-collection/npm-publish.yml?style=for-the-badge&label=Publish
+[release-publish-workflow]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/release-publish.yml
 [solarized]: https://ethanschoonover.com/solarized/
 [theme-aurora]: https://github.com/expalmer/aurora-theme/
 [theme-cobalt2]: https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2
@@ -127,12 +127,12 @@ This project is licensed under the [MIT license][license].
 [theme-github]: https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme
 [theme-midnight]: https://community.home-assistant.io/t/midnight-theme/28598
 [theme-monoindustrial]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/monoindustrial.json
-[theme-monokai]: https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai
 [theme-monokai-dimmed]: https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai-dimmed
+[theme-monokai]: https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai
 [theme-noctis]: https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis
 [theme-oceanic-next]: https://github.com/voronianski/oceanic-next-color-scheme
 [theme-one-dark-pro]: https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme
-[theme-zenburn]: https://github.com/jnurmine/Zenburn
 [theme-tokyo-night]: https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night
+[theme-zenburn]: https://github.com/jnurmine/Zenburn
 [totally-information]: https://github.com/TotallyInformation
 [tr]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme-request&template=02_theme_request.yml&title=
