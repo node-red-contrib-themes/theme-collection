@@ -12,16 +12,16 @@ template: |
 categories:
   - title: "🚨 Breaking changes"
     labels:
-      - "breaking change"
+      - "breaking-change"
   - title: "✨ New themes"
     labels:
-      - "new theme"
+      - "new-theme"
   - title: "🐛 Bug fixes"
     labels:
       - "bugfix"
   - title: "🎨 Theme updates"
     labels:
-      - "theme updates"
+      - "theme-updates"
   - title: "🚀 Enhancements"
     labels:
       - "enhancement"
@@ -40,11 +40,11 @@ version-resolver:
   major:
     labels:
       - "major"
-      - "breaking change"
+      - "breaking-change"
   minor:
     labels:
       - "minor"
-      - "new theme"
+      - "new-theme"
   patch:
     labels:
       - "patch"
