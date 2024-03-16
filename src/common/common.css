@@ -1,0 +1,7 @@
+/** Style customizations common to all themes **/
+
+/* color-scheme */
+/* Follows the user's color scheme preference on their operating system */
+:root {
+  color-scheme: light dark;
+}
