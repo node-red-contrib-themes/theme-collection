@@ -43,6 +43,7 @@
         "command-line-args": "5.2.1",
         "csso": "5.0.5",
         "fs-extra": "11.2.0",
+        "khroma": "2.1.0",
         "nodemon": "3.1.0",
         "ora": "8.0.1",
         "sass": "1.72.0"
