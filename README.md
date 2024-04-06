@@ -13,6 +13,7 @@ A collection of themes for [Node-RED][node-red].
 ## Table of Contents
 
 - [Installation](#installation)
+  - [Install via the Palette Manager](#install-via-the-palette-manager)
   - [Install with npm](#install-with-npm)
 - [Theme list](#theme-list)
 - [Usage](#usage)
@@ -21,6 +22,10 @@ A collection of themes for [Node-RED][node-red].
 - [License](#license)
 
 ## Installation
+
+### Install via the Palette Manager
+
+Search for @node-red-contrib-themes/theme-collection
 
 ### Install with npm
 
