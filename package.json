@@ -49,7 +49,7 @@
         "sass": "1.74.1"
     },
     "node-red": {
-        "version": ">=3.0",
+        "version": ">=4.0",
         "plugins": {
             "node-red-contrib-themes": "themes.js"
         }
