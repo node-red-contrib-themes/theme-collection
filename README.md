@@ -18,6 +18,7 @@ A collection of themes for [Node-RED][node-red].
 - [Theme list](#theme-list)
 - [Usage](#usage)
   - [Monaco Editor Theme](#monaco-editor-theme)
+  - [Mermaid Theme](#mermaid-theme)
 - [Development](#development)
 - [License](#license)
 
@@ -100,6 +101,23 @@ editorTheme: {
         options: {
             // theme: "",
         },
+    },
+},
+```
+
+### Mermaid Theme
+
+Each theme in this collection comes with a pre-configured theme for the Mermaid diagramming and charting tool.
+
+Just leave `theme` in the `mermaid` object commented out.
+
+For example, this sets Node-RED to use the `dark` theme and its pre-configured theme for the Mermaid diagramming and charting tool.
+
+```js
+editorTheme: {
+    theme: "dark",
+    mermaid: {
+        // theme: "",
     },
 },
 ```
