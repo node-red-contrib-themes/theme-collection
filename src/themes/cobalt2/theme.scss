@@ -5,9 +5,9 @@ $monospace-font: Menlo, Consolas, "DejaVu Sans Mono", Courier, monospace;
 $primary-background: #122738;
 
 $secondary-background: #193549;
-$secondary-background-selected: #1f4662;
+$secondary-background-selected: #0d3a58;
 $secondary-background-inactive: #122738;
-$secondary-background-hover: #0d3a58;
+$secondary-background-hover: #193549;
 $secondary-background-disabled: #122738;
 
 $tertiary-background: #122738;
@@ -15,30 +15,30 @@ $tertiary-background: #122738;
 $shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
-$primary-text-color: #ffffff;
+$primary-text-color: #aaaaaa;
 // UI control label text
-$secondary-text-color: #ffffff80;
+$secondary-text-color: #aaaaaa;
 $secondary-text-color-focus: #aaaaaa;
 $secondary-text-color-hover: #aaaaaa;
 $secondary-text-color-active: #aaaaaa;
 $secondary-text-color-selected: #aaaaaa;
 $secondary-text-color-inactive: #aaaaaa;
-$secondary-text-color-disabled: #cccccc80;
-$secondary-text-color-disabled-active: scale-color($primary-text-color, $blackness: 45%);
-$secondary-text-color-disabled-inactive: scale-color($primary-text-color, $blackness: 51%);
+$secondary-text-color-disabled: rgba($primary-text-color, 0.4);
+$secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
+$secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
 
 // Sub label text
-$tertiary-text-color: scale-color($primary-text-color, $blackness: 51%);
+$tertiary-text-color: #aaaaaa;
 // Heading text
-$header-text-color: #e7e7e7;
+$header-text-color: #ffffff;
 
-$text-color-error: #a22929;
+$text-color-error: #ff5630;
 $text-color-warning: #ffc600;
 $text-color-success: #3ad900;
 $text-color-code: #ffc600;
 $text-color-link: #0088ff;
 
-$primary-border-color: #024662;
+$primary-border-color: #1f4662;
 $secondary-border-color: #0d3a58;
 $tertiary-border-color: $primary-border-color;
 
@@ -78,7 +78,7 @@ $event-log-selection-background: $secondary-background-selected;
 $list-item-color: $primary-text-color;
 $list-item-secondary-color: $secondary-text-color;
 $list-item-background: $secondary-background;
-$list-item-background-disabled: $secondary-background-inactive;
+$list-item-background-disabled: $secondary-background-disabled;
 $list-item-background-hover: $secondary-background-hover;
 $list-item-background-selected: $secondary-background-selected;
 $list-item-border-selected: $secondary-text-color-selected;
@@ -130,29 +130,29 @@ $popover-button-border-color-hover: $secondary-text-color-hover;
 
 $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
-$diff-state-color: #f8f8f8;
-$diff-state-prefix-color: #f8f8f8;
+$diff-state-color: $primary-text-color;
+$diff-state-prefix-color: $secondary-text-color;
 $diff-state-added: #81b88b;
-$diff-state-deleted: #c74e39;
-$diff-state-changed: #e2c08d;
+$diff-state-deleted: #ff628c;
+$diff-state-changed: #ffc600;
 $diff-state-changed-background: $secondary-background;
-$diff-state-unchanged: #a3a2a2;
-$diff-state-unchanged-background: $secondary-background;
+$diff-state-unchanged: $primary-text-color;
+$diff-state-unchanged-background: $primary-background;
 
-$diff-state-conflicted: #ff7200;
+$diff-state-conflicted: purple;
 $diff-state-moved: #3f81b3;
-$diff-state-conflict: #9b45ce;
-$diff-state-conflict-background: #ffea0047;
+$diff-state-conflict: #ff7200;
+$diff-state-conflict-background: #ffdad4;
 
 $diff-state-added-background: #9bb95533;
 $diff-state-added-border: #b8daad;
-$diff-state-added-header-background: scale-color($diff-state-added-background, $lightness: -15%);
-$diff-state-added-header-border: scale-color($diff-state-added-header-background, $lightness: -10%);
+$diff-state-added-header-background: #9bb95533;
+$diff-state-added-header-border: rgba($diff-state-added-header-background, 0.1);
 
 $diff-state-deleted-background: #ff000033;
 $diff-state-deleted-border: #e4bcbc;
-$diff-state-deleted-header-background: scale-color($diff-state-deleted-background, $lightness: -15%);
-$diff-state-deleted-header-border: scale-color($diff-state-deleted-header-background, $lightness: -10%);
+$diff-state-deleted-header-background: #ff000033;
+$diff-state-deleted-header-border: rgba($diff-state-deleted-header-background, 0.1);
 
 $diff-merge-header-color: #800080;
 $diff-merge-header-background: #e5f9ff;
@@ -203,11 +203,11 @@ $node-status-changed-border: rgb(28, 102, 140);
 $node-status-changed-background: rgb(0, 188, 255);
 
 $node-status-colors: (
-    red: #c00,
-    green: #5a8,
-    yellow: #f9df31,
-    blue: #53a3f3,
-    grey: #d3d3d3,
+  red: #c00,
+  green: #5a8,
+  yellow: #f9df31,
+  blue: #53a3f3,
+  grey: #d3d3d3,
 );
 
 $node-selected-color: #ff7f0e;
@@ -242,7 +242,7 @@ $header-menu-item-border-active: #777677;
 $headerMenuItemDivider: #464646;
 $headerMenuCaret: #c7c7c7;
 
-$vcCommitShaColor: #ffc600;
+$vcCommitShaColor: #c38888;
 
 $dnd-background: rgba(0, 0, 0, 0.3);
 $dnd-color: #fff;
@@ -253,19 +253,19 @@ $notification-border-warning: $border-color-warning;
 $notification-border-error: $border-color-error;
 
 $debug-message-background: $secondary-background;
-$debug-message-background-hover: $secondary-background-selected;
+$debug-message-background-hover: $secondary-background-hover;
 
-$debug-message-text-color: #e1efff;
+$debug-message-text-color: $primary-text-color;
 $debug-message-text-color-meta: #9effff;
-$debug-message-text-color-object-key: #2affdf;
+$debug-message-text-color-object-key: #9effff;
 $debug-message-text-color-msg-type-other: #4e94ce;
 $debug-message-text-color-msg-type-string: #ce9178;
-$debug-message-text-color-msg-type-null: #aaaaaa;
+$debug-message-text-color-msg-type-null: #c586c0;
 $debug-message-text-color-msg-type-meta: #c586c0;
 $debug-message-text-color-msg-type-number: #b5cea8;
 
 $debug-message-border: $primary-background;
-$debug-message-border-hover: #234e6d;
+$debug-message-border-hover: $secondary-background-hover;
 $debug-message-border-warning: $border-color-warning;
 $debug-message-border-error: $border-color-error;
 

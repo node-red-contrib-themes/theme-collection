@@ -404,22 +404,22 @@
         {
             "fontStyle": "",
             "foreground": "#9872A2",
-            "token": "meta.selector.css entity.other.attribute-name.id"
+            "token": "meta.selector entity.other.attribute-name.id"
         },
         {
             "fontStyle": "",
             "foreground": "#676867",
-            "token": "support.type.property-name.css"
+            "token": "source.css support.type.property-name"
         },
         {
             "fontStyle": "",
             "foreground": "#C7444A",
-            "token": "meta.property-group support.constant.property-value.css"
+            "token": "meta.property-group support.constant.property-value"
         },
         {
             "fontStyle": "",
             "foreground": "#C7444A",
-            "token": " meta.property-value support.constant.property-value.css"
+            "token": " meta.property-value support.constant.property-value"
         },
         {
             "foreground": "#CC555A",

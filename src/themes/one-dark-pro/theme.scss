@@ -5,7 +5,7 @@ $monospace-font: Menlo, Consolas, "DejaVu Sans Mono", Courier, monospace;
 $primary-background: #21252b;
 
 $secondary-background: #282c34;
-$secondary-background-selected: #2c313a;
+$secondary-background-selected: #323842;
 $secondary-background-inactive: #21252b;
 $secondary-background-hover: #2c313a;
 $secondary-background-disabled: #21252b;
@@ -15,22 +15,22 @@ $tertiary-background: #21252b;
 $shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
-$primary-text-color: #abb2bf;
+$primary-text-color: #cccccc;
 // UI control label text
-$secondary-text-color: #ffffff80;
+$secondary-text-color: #abb2bf;
 $secondary-text-color-focus: #abb2bf;
 $secondary-text-color-hover: #abb2bf;
 $secondary-text-color-active: #abb2bf;
 $secondary-text-color-selected: #abb2bf;
 $secondary-text-color-inactive: #dcdcdc80;
-$secondary-text-color-disabled: #cccccc80;
-$secondary-text-color-disabled-active: scale-color($secondary-text-color-disabled, $blackness: 20%);
-$secondary-text-color-disabled-inactive: scale-color($secondary-text-color-disabled, $blackness: 25%);
+$secondary-text-color-disabled: rgba($primary-text-color, 0.4);
+$secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
+$secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
 
 // Sub label text
-$tertiary-text-color: scale-color($primary-text-color, $blackness: 51%);
+$tertiary-text-color: #7f848e;
 // Heading text
-$header-text-color: #ffffff;
+$header-text-color: #abb2bf;
 
 $text-color-error: #f48771;
 $text-color-warning: #d19a66;
@@ -52,8 +52,8 @@ $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: rgba(85, 150, 230, 0.8);
 $form-input-border-color: $tertiary-border-color;
-$form-input-border-selected-color: #007acc00;
-$form-input-border-error-color: #be1100;
+$form-input-border-selected-color: #b4b4b4;
+$form-input-border-error-color: rgb(214, 97, 95);
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
 $form-button-background: $secondary-background-selected;
@@ -129,7 +129,7 @@ $popover-button-border-color: $primary-border-color;
 $popover-button-border-color-hover: $secondary-text-color-hover;
 
 $diff-text-header-color: $secondary-text-color;
-$diff-text-header-background: $primary-background;
+$diff-text-header-background: $secondary-background;
 $diff-state-color: $primary-text-color;
 $diff-state-prefix-color: $secondary-text-color;
 $diff-state-added: #81b88b;
@@ -139,10 +139,10 @@ $diff-state-changed-background: $secondary-background;
 $diff-state-unchanged: $primary-text-color;
 $diff-state-unchanged-background: $primary-background;
 
-$diff-state-conflicted: #e4676b;
+$diff-state-conflicted: purple;
 $diff-state-moved: #3f81b3;
-$diff-state-conflict: #9b45ce;
-$diff-state-conflict-background: #ffea0047;
+$diff-state-conflict: #e4676b;
+$diff-state-conflict-background: #ffdad4;
 
 $diff-state-added-background: #9bb95533;
 $diff-state-added-border: #b8daad;
@@ -203,11 +203,11 @@ $node-status-changed-border: rgb(28, 102, 140);
 $node-status-changed-background: rgb(0, 188, 255);
 
 $node-status-colors: (
-    red: #c00,
-    green: #5a8,
-    yellow: #f9df31,
-    blue: #53a3f3,
-    grey: #d3d3d3,
+  red: #c00,
+  green: #5a8,
+  yellow: #f9df31,
+  blue: #53a3f3,
+  grey: #d3d3d3,
 );
 
 $node-selected-color: #ff7f0e;
@@ -260,12 +260,12 @@ $debug-message-text-color-meta: #abb2bf;
 $debug-message-text-color-object-key: #e06c75;
 $debug-message-text-color-msg-type-other: #4e94ce;
 $debug-message-text-color-msg-type-string: #ce9178;
-$debug-message-text-color-msg-type-null: #cccccc;
+$debug-message-text-color-msg-type-null: #c586c0;
 $debug-message-text-color-msg-type-meta: #c586c0;
 $debug-message-text-color-msg-type-number: #b5cea8;
 
 $debug-message-border: $primary-background;
-$debug-message-border-hover: #999;
+$debug-message-border-hover: $secondary-background-hover;
 $debug-message-border-warning: $border-color-warning;
 $debug-message-border-error: $border-color-error;
 

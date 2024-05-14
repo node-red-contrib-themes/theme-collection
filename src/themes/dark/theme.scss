@@ -10,35 +10,35 @@ $secondary-background-inactive: #181818;
 $secondary-background-hover: #2a2d2e;
 $secondary-background-disabled: #181818;
 
-$tertiary-background: #181818;
+$tertiary-background: #202020;
 
 $shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
 $primary-text-color: #cccccc;
 // UI control label text
-$secondary-text-color: #999;
+$secondary-text-color: #9d9d9d;
 $secondary-text-color-focus: #cccccc;
 $secondary-text-color-hover: #cccccc;
 $secondary-text-color-active: #cccccc;
 $secondary-text-color-selected: #cccccc;
-$secondary-text-color-inactive: #8b949e;
-$secondary-text-color-disabled: #cccccc80;
-$secondary-text-color-disabled-active: scale-color($secondary-text-color-disabled, $blackness: 20%);
-$secondary-text-color-disabled-inactive: scale-color($secondary-text-color-disabled, $blackness: 25%);
+$secondary-text-color-inactive: #9d9d9d;
+$secondary-text-color-disabled: rgba($primary-text-color, 0.4);
+$secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
+$secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
 
 // Sub label text
-$tertiary-text-color: #ffffff79;
+$tertiary-text-color: #9d9d9d;
 // Heading text
-$header-text-color: scale-color($primary-text-color, $lightness: 20%);
+$header-text-color: #cccccc;
 
 $text-color-error: #f85149;
 $text-color-warning: #cca700;
-$text-color-success: #89d185;
-$text-color-code: #d7ba7d;
-$text-color-link: #40a6ff;
+$text-color-success: #0dbc79;
+$text-color-code: #d0d0d0;
+$text-color-link: #4daafc;
 
-$primary-border-color: #333333;
+$primary-border-color: #2b2b2b;
 $secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
 $tertiary-border-color: scale-color($primary-border-color, $lightness: -7%);
 
@@ -47,13 +47,13 @@ $border-color-warning: #ffcf70;
 $border-color-success: #4b8400;
 
 $form-background: $secondary-background;
-$form-placeholder-color: #ffffff79;
+$form-placeholder-color: #989898;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: rgba(85, 150, 230, 0.8);
 $form-input-border-color: $tertiary-border-color;
-$form-input-border-selected-color: $tertiary-text-color; //#2488db;
-$form-input-border-error-color: #be1100;
+$form-input-border-selected-color: #0078d4;
+$form-input-border-error-color: rgb(214, 97, 95);
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
 $form-button-background: $secondary-background-selected;
@@ -130,29 +130,29 @@ $popover-button-border-color-hover: $secondary-text-color-hover;
 
 $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
-$diff-state-color: $secondary-text-color;
+$diff-state-color: $primary-text-color;
 $diff-state-prefix-color: $secondary-text-color;
 $diff-state-added: #81b88b;
 $diff-state-deleted: #c74e39;
 $diff-state-changed: #e2c08d;
 $diff-state-changed-background: $secondary-background;
 $diff-state-unchanged: $primary-text-color;
-$diff-state-unchanged-background: $secondary-background;
+$diff-state-unchanged-background: $primary-background;
 
-$diff-state-conflicted: #e4676b;
+$diff-state-conflicted: purple;
 $diff-state-moved: #3f81b3;
-$diff-state-conflict: #9b45ce;
-$diff-state-conflict-background: #ffea0047;
+$diff-state-conflict: #e4676b;
+$diff-state-conflict-background: #ffdad4;
 
 $diff-state-added-background: #9bb95533;
 $diff-state-added-border: #b8daad;
 $diff-state-added-header-background: #9bb95533;
-$diff-state-added-header-border: scale-color($diff-state-added-header-background, $lightness: -10%);
+$diff-state-added-header-border: rgba($diff-state-added-header-background, 0.1);
 
 $diff-state-deleted-background: #ff000033;
 $diff-state-deleted-border: #e4bcbc;
 $diff-state-deleted-header-background: #ff000033;
-$diff-state-deleted-header-border: scale-color($diff-state-deleted-header-background, $lightness: -10%);
+$diff-state-deleted-header-border: rgba($diff-state-deleted-header-background, 0.1);
 
 $diff-merge-header-color: #800080;
 $diff-merge-header-background: #e5f9ff;
@@ -203,11 +203,11 @@ $node-status-changed-border: rgb(28, 102, 140);
 $node-status-changed-background: rgb(0, 188, 255);
 
 $node-status-colors: (
-    red: #c00,
-    green: #5a8,
-    yellow: #f9df31,
-    blue: #53a3f3,
-    grey: #d3d3d3,
+  red: #c00,
+  green: #5a8,
+  yellow: #f9df31,
+  blue: #53a3f3,
+  grey: #d3d3d3,
 );
 
 $node-selected-color: #ff7f0e;
@@ -242,7 +242,7 @@ $header-menu-item-border-active: #777677;
 $headerMenuItemDivider: #464646;
 $headerMenuCaret: #c7c7c7;
 
-$vcCommitShaColor: #b5cea8;
+$vcCommitShaColor: #c38888;
 
 $dnd-background: rgba(0, 0, 0, 0.3);
 $dnd-color: #fff;
@@ -256,11 +256,11 @@ $debug-message-background: $secondary-background;
 $debug-message-background-hover: $secondary-background-hover;
 
 $debug-message-text-color: $primary-text-color;
-$debug-message-text-color-meta: #dcdcaa;
+$debug-message-text-color-meta: #569cd6;
 $debug-message-text-color-object-key: #9cdcfe;
 $debug-message-text-color-msg-type-other: #4e94ce;
 $debug-message-text-color-msg-type-string: #ce9178;
-$debug-message-text-color-msg-type-null: #b5cea8;
+$debug-message-text-color-msg-type-null: #c586c0;
 $debug-message-text-color-msg-type-meta: #c586c0;
 $debug-message-text-color-msg-type-number: #b5cea8;
 

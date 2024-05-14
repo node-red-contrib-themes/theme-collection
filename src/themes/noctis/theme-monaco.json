@@ -1983,6 +1983,10 @@
             "token": "markup.substitution"
         },
         {
+            "foreground": "#49ACE9",
+            "token": "source.cs entity.name.type"
+        },
+        {
             "foreground": "#E3541C",
             "token": "invalid"
         },
@@ -2228,10 +2232,6 @@
         },
         {
             "fontStyle": "italic",
-            "token": "keyword.type.cs"
-        },
-        {
-            "fontStyle": "italic",
             "token": "storage.type.built-in"
         },
         {
@@ -2385,6 +2385,10 @@
         {
             "fontStyle": "italic",
             "token": "source.zig keyword.structure"
+        },
+        {
+            "fontStyle": "italic",
+            "token": "source.cs keyword.type"
         },
         {
             "fontStyle": "bold",
@@ -2605,10 +2609,6 @@
         {
             "fontStyle": "bold",
             "token": "source.zig storage.type.function"
-        },
-        {
-            "fontStyle": "bold",
-            "token": "entity.name.type"
         },
         {
             "fontStyle": "bold italic",

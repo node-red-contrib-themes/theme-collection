@@ -5,9 +5,9 @@ $monospace-font: Menlo, Consolas, "DejaVu Sans Mono", Courier, monospace;
 $primary-background: #002b36;
 
 $secondary-background: #073642;
-$secondary-background-selected: #002b36;
+$secondary-background-selected: #005a6f;
 $secondary-background-inactive: #002b36;
-$secondary-background-hover: #023f4e;
+$secondary-background-hover: #033f4e;
 $secondary-background-disabled: #002b36;
 
 $tertiary-background: #002b36;
@@ -17,20 +17,20 @@ $shadow: rgba(0, 0, 0, 0.2);
 // Main body text
 $primary-text-color: #839496;
 // UI control label text
-$secondary-text-color: #93a1a1;
-$secondary-text-color-focus: scale-color($secondary-text-color, $lightness: 24.5%);
-$secondary-text-color-hover: scale-color($secondary-text-color, $lightness: 24.5%);
-$secondary-text-color-active: scale-color($secondary-text-color, $lightness: 24.5%);
-$secondary-text-color-selected: scale-color($secondary-text-color, $lightness: 24.5%);
-$secondary-text-color-inactive: scale-color($secondary-text-color, $lightness: 24.5%);
-$secondary-text-color-disabled: scale-color($secondary-text-color, $lightness: -37%);
-$secondary-text-color-disabled-active: scale-color($secondary-text-color, $lightness: -13%);
-$secondary-text-color-disabled-inactive: scale-color($secondary-text-color, $lightness: -26%);
+$secondary-text-color: #839496;
+$secondary-text-color-focus: #93a1a1;
+$secondary-text-color-hover: #93a1a1;
+$secondary-text-color-active: #93a1a1;
+$secondary-text-color-selected: #93a1a1;
+$secondary-text-color-inactive: #839496;
+$secondary-text-color-disabled: rgba($primary-text-color, 0.4);
+$secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
+$secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
 
 // Sub label text
-$tertiary-text-color: scale-color($secondary-text-color, $lightness: -26%);
+$tertiary-text-color: #586e75;
 // Heading text
-$header-text-color: scale-color($secondary-text-color, $lightness: 49%);
+$header-text-color: #93a1a1;
 
 $text-color-error: #dc322f;
 $text-color-warning: #b58900;
@@ -52,9 +52,9 @@ $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: rgba(85, 150, 230, 0.8);
 $form-input-border-color: $tertiary-border-color;
-$form-input-border-selected-color: #2aa19899;
+$form-input-border-selected-color: $tertiary-text-color;
 $form-input-border-error-color: #a92049;
-$form-input-background: #003847;
+$form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
 $form-button-background: $secondary-background-selected;
 
@@ -78,7 +78,7 @@ $event-log-selection-background: $secondary-background-selected;
 $list-item-color: $primary-text-color;
 $list-item-secondary-color: $secondary-text-color;
 $list-item-background: $secondary-background;
-$list-item-background-disabled: $secondary-background-inactive;
+$list-item-background-disabled: $secondary-background-disabled;
 $list-item-background-hover: $secondary-background-hover;
 $list-item-background-selected: $secondary-background-selected;
 $list-item-border-selected: $secondary-text-color-selected;
@@ -132,17 +132,17 @@ $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
 $diff-state-color: $primary-text-color;
 $diff-state-prefix-color: $secondary-text-color;
-$diff-state-added: #81b88b;
-$diff-state-deleted: #c74e39;
-$diff-state-changed: #e2c08d;
+$diff-state-added: #859900;
+$diff-state-deleted: #dc322f;
+$diff-state-changed: #b58900;
 $diff-state-changed-background: $secondary-background;
-$diff-state-unchanged: #839496;
-$diff-state-unchanged-background: $secondary-background;
+$diff-state-unchanged: $primary-text-color;
+$diff-state-unchanged-background: $primary-background;
 
-$diff-state-conflicted: #e4676b;
-$diff-state-moved: #3f81b3;
-$diff-state-conflict: #9b45ce;
-$diff-state-conflict-background: #ffea0047;
+$diff-state-conflicted: #cb4b16;
+$diff-state-moved: #268bd2;
+$diff-state-conflict: #6c71c4;
+$diff-state-conflict-background: #ffdad4;
 
 $diff-state-added-background: #9bb95533;
 $diff-state-added-border: #b8daad;
@@ -203,11 +203,11 @@ $node-status-changed-border: rgb(28, 102, 140);
 $node-status-changed-background: rgb(0, 188, 255);
 
 $node-status-colors: (
-    red: #c00,
-    green: #5a8,
-    yellow: #f9df31,
-    blue: #53a3f3,
-    grey: #d3d3d3,
+  red: #c00,
+  green: #5a8,
+  yellow: #f9df31,
+  blue: #53a3f3,
+  grey: #d3d3d3,
 );
 
 $node-selected-color: #ff7f0e;
@@ -242,7 +242,7 @@ $header-menu-item-border-active: #777677;
 $headerMenuItemDivider: #464646;
 $headerMenuCaret: #c7c7c7;
 
-$vcCommitShaColor: #d33682;
+$vcCommitShaColor: #c38888;
 
 $dnd-background: rgba(0, 0, 0, 0.3);
 $dnd-color: #fff;
@@ -253,19 +253,19 @@ $notification-border-warning: $border-color-warning;
 $notification-border-error: $border-color-error;
 
 $debug-message-background: $secondary-background;
-$debug-message-background-hover: $secondary-background-selected;
+$debug-message-background-hover: $secondary-background-hover;
 
 $debug-message-text-color: $primary-text-color;
-$debug-message-text-color-meta: #268bd2;
-$debug-message-text-color-object-key: #9cdcfe;
-$debug-message-text-color-msg-type-other: #4e94ce;
-$debug-message-text-color-msg-type-string: #ce9178;
-$debug-message-text-color-msg-type-null: #cccccc;
-$debug-message-text-color-msg-type-meta: #c586c0;
-$debug-message-text-color-msg-type-number: #b5cea8;
+$debug-message-text-color-meta: #cb4b16;
+$debug-message-text-color-object-key: #6c71c4;
+$debug-message-text-color-msg-type-other: #268bd2;
+$debug-message-text-color-msg-type-string: #dc322f;
+$debug-message-text-color-msg-type-null: #859900;
+$debug-message-text-color-msg-type-meta: #859900;
+$debug-message-text-color-msg-type-number: #268bd2;
 
-$debug-message-border: #002b36;
-$debug-message-border-hover: #073642;
+$debug-message-border: $primary-background;
+$debug-message-border-hover: $secondary-background-hover;
 $debug-message-border-warning: $border-color-warning;
 $debug-message-border-error: $border-color-error;
 
