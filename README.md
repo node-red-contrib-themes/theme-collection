@@ -4,8 +4,6 @@
 [![Release Publish][release-publish-badge]][release-publish-workflow]
 [![Project license][license-badge]][license]
 
-[![BuyMeCoffee][buymecoffee-shield]][buymecoffee-link]
-
 A collection of themes for [Node-RED][node-red].
 
 <a href="https://github.com/node-red-contrib-themes/theme-collection/tree/screenshots" target="_blank">📸 See the screenshots</a>
@@ -128,8 +126,6 @@ Please refer to the [`DEVELOPMENT.md`][development] file for details on how to s
 
 This project is licensed under the [MIT license][license].
 
-[buymecoffee-link]: https://www.buymeacoffee.com/mbonani
-[buymecoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
 [creating-a-new-theme]: DEVELOPMENT.md
 [development]: DEVELOPMENT.md
 [license-badge]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg?style=for-the-badge
