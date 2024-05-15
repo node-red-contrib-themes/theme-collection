@@ -1,0 +1,30 @@
+---
+changelog:
+  exclude:
+    labels:
+      - "skip-changelog"
+  categories:
+    - title: "🚨 Breaking changes"
+      labels:
+        - "breaking-change"
+    - title: "✨ New themes"
+      labels:
+        - "new-theme"
+    - title: "🐛 Bug fixes"
+      labels:
+        - "bugfix"
+    - title: "🎨 Theme updates"
+      labels:
+        - "theme-updates"
+    - title: "🚀 Enhancements"
+      labels:
+        - "enhancement"
+    - title: "🧰 Maintenance"
+      labels:
+        - "maintenance"
+    - title: "📖 Documentation"
+      labels:
+        - "documentation"
+    - title: "⬆️ Dependency updates"
+      labels:
+        - "dependencies"
