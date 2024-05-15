@@ -287,6 +287,14 @@ $spinner-color: $primary-text-color;
 
 $tab-icon-color: rgba($primary-text-color, 0.2);
 
+$user-profile-colors: (
+  1: #822e81,
+  2: #955e42,
+  3: #9c914f,
+  4: #748e54,
+  5: #06bcc1,
+);
+
 // Deprecated
 $text-color-green: $text-color-success;
 $info-text-code-color: $text-color-code;
