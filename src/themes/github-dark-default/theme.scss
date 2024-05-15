@@ -145,12 +145,12 @@ $diff-state-conflict: #db6d28;
 $diff-state-conflict-background: #ffdad4;
 
 $diff-state-added-background: #23863626;
-$diff-state-added-border: #2626264d;
+$diff-state-added-border: rgba($diff-state-added-background, 0.1);
 $diff-state-added-header-background: #23863626;
 $diff-state-added-header-border: rgba($diff-state-added-header-background, 0.1);
 
 $diff-state-deleted-background: #da363326;
-$diff-state-deleted-border: #755c5c4d;
+$diff-state-deleted-border: rgba($diff-state-deleted-background, 0.1);
 $diff-state-deleted-header-background: #da363326;
 $diff-state-deleted-header-border: rgba($diff-state-deleted-header-background, 0.1);
 

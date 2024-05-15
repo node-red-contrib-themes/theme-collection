@@ -145,14 +145,14 @@ $diff-state-conflict: #9b45ce;
 $diff-state-conflict-background: #ffdad4;
 
 $diff-state-added-background: #e7ffe3;
-$diff-state-added-border: #b8daad;
+$diff-state-added-border: rgba($diff-state-added-background, 0.1);
 $diff-state-added-header-background: #c0f6c0;
-$diff-state-added-header-border: #aaeeaa;
+$diff-state-added-header-border: rgba($diff-state-added-header-background, 0.1);
 
 $diff-state-deleted-background: #ffe1e1;
-$diff-state-deleted-border: #e4bcbc;
+$diff-state-deleted-border: rgba($diff-state-deleted-background, 0.1);
 $diff-state-deleted-header-background: #ffcccc;
-$diff-state-deleted-header-border: #eebbbb;
+$diff-state-deleted-header-border: rgba($diff-state-deleted-header-background, 0.1);
 
 $diff-merge-header-color: #800080;
 $diff-merge-header-background: #e5f9ff;
