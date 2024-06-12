@@ -18,13 +18,13 @@ jobs:
           node-version: "18"
 
       - name: "Checkout"
-        uses: actions/checkout@v4.1.6
+        uses: actions/checkout@v4.1.7
 
       - name: "Install dependencies"
         run: npm install
 
       - name: "Checkout Node-RED"
-        uses: actions/checkout@v4.1.6
+        uses: actions/checkout@v4.1.7
         with:
           repository: node-red/node-red
           path: node-red
