@@ -1,8 +1,10 @@
+const path = require('path')
 const fs = require('fs')
 const package = require('./package.json')
+const rootDir = path.resolve(__dirname)
 
 module.exports = function (RED) {
-    const themes = fs.readdirSync('./themes')
+    const themes = fs.readdirSync(`${rootDir}/themes`)
 
     for (const themeName of themes) {
         const themePath = `themes/${themeName}`
