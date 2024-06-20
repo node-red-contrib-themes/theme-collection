@@ -134,7 +134,7 @@ This project is licensed under the [MIT license][license].
 [node-red]: https://nodered.org/
 [npm-package]: https://www.npmjs.com/package/@node-red-contrib-themes/theme-collection
 [npm-version-badge]: https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm&style=for-the-badge
-[release-publish-badge]: https://img.shields.io/github/actions/workflow/status/node-red-contrib-themes/theme-collection/npm-publish.yml?style=for-the-badge&label=Publish
+[release-publish-badge]: https://img.shields.io/github/actions/workflow/status/node-red-contrib-themes/theme-collection/release-publish.yml?style=for-the-badge&label=Publish
 [release-publish-workflow]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/release-publish.yml
 [solarized]: https://ethanschoonover.com/solarized/
 [theme-aurora]: https://github.com/expalmer/aurora-theme/
