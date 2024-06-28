@@ -3,3 +3,6 @@ contact_links:
   - name: Questions
     url: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=general
     about: Ask your question in the Discussions section
+  - name: Theme request
+    url: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=theme-request
+    about: Suggest a new theme
