@@ -8,10 +8,10 @@ body:
 
         For general questions, use the [Discussions][discussions] section.
 
-        If you have a theme request, please use the [Theme Request][tr] form.
+        If you have a theme request, please use the [Theme Request][theme-request] form.
 
         [discussions]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=general
-        [tr]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme-request&template=02_theme_request.yml&title=
+        [theme-request]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=theme-request
 
   - type: textarea
     attributes:
