@@ -152,4 +152,4 @@ This project is licensed under the [MIT license][license].
 [theme-tokyo-night]: https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night
 [theme-zenburn]: https://github.com/jnurmine/Zenburn
 [totally-information]: https://github.com/TotallyInformation
-[tr]: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme-request&template=02_theme_request.yml&title=
+[tr]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=theme-request
