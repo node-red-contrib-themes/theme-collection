@@ -18,10 +18,10 @@ $shadow: rgba(0, 0, 0, 0.2);
 $primary-text-color: #cccccc;
 // UI control label text
 $secondary-text-color: #ccccccb3;
-$secondary-text-color-focus: #f8f8f2;
-$secondary-text-color-hover: #f8f8f2;
-$secondary-text-color-active: #f8f8f2;
-$secondary-text-color-selected: #f8f8f2;
+$secondary-text-color-focus: #cccccc;
+$secondary-text-color-hover: #cccccc;
+$secondary-text-color-active: #cccccc;
+$secondary-text-color-selected: #cccccc;
 $secondary-text-color-inactive: #ccccc7;
 $secondary-text-color-disabled: rgba($primary-text-color, 0.4);
 $secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
@@ -30,7 +30,7 @@ $secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
 // Sub label text
 $tertiary-text-color: #88846f;
 // Heading text
-$header-text-color: #f8f8f2;
+$header-text-color: #cccccc;
 
 $text-color-error: #f48771;
 $text-color-warning: #cca700;
@@ -38,9 +38,9 @@ $text-color-success: #86b42b;
 $text-color-code: #d7ba7d;
 $text-color-link: #3794ff;
 
-$primary-border-color: darken($secondary-background, 8%);
-$secondary-border-color: darken($secondary-background, 6%);
-$tertiary-border-color: darken($secondary-background, 7%);
+$primary-border-color: #414339;
+$secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
+$tertiary-border-color: scale-color($primary-border-color, $lightness: -7%);
 
 $border-color-error: #df2935;
 $border-color-warning: #ffcf70;
@@ -65,10 +65,10 @@ $text-editor-background: $secondary-background;
 $text-editor-color-disabled: $secondary-text-color-inactive;
 $text-editor-background-disabled: $secondary-background-disabled;
 $text-editor-gutter-background: $secondary-background;
-$text-editor-gutter-color: #57584f;
+$text-editor-gutter-color: #90908a;
 $text-editor-gutter-active-line-background: $secondary-background;
-$text-editor-active-line-background: #fdfff10c;
-$text-editor-selection-background: #fdfff126;
+$text-editor-active-line-background: #3e3d32;
+$text-editor-selection-background: #575b6180;
 
 $event-log-background: $secondary-background;
 $event-log-color: $primary-text-color;
@@ -142,7 +142,7 @@ $diff-state-unchanged-background: $primary-background;
 $diff-state-conflicted: purple;
 $diff-state-moved: #3f81b3;
 $diff-state-conflict: #e4676b;
-$diff-state-conflict-background: #ffdad4;
+$diff-state-conflict-background: #ffea0047;
 
 $diff-state-added-background: #9bb95533;
 $diff-state-added-border: rgba($diff-state-added-background, 0.1);
@@ -261,7 +261,7 @@ $debug-message-text-color-meta: #a6e22e;
 $debug-message-text-color-object-key: #66d9ef;
 $debug-message-text-color-msg-type-other: #4e94ce;
 $debug-message-text-color-msg-type-string: #ce9178;
-$debug-message-text-color-msg-type-null: #c586c0;
+$debug-message-text-color-msg-type-null: #cccccc;
 $debug-message-text-color-msg-type-meta: #c586c0;
 $debug-message-text-color-msg-type-number: #b5cea8;
 

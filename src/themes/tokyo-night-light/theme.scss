@@ -30,7 +30,7 @@ $secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
 // Sub label text
 $tertiary-text-color: #9699a3;
 // Heading text
-$header-text-color: #343b59;
+$header-text-color: #4c505e;
 
 $text-color-error: #942f2f;
 $text-color-warning: #8f5e15;
@@ -142,7 +142,7 @@ $diff-state-unchanged-background: $primary-background;
 $diff-state-conflicted: purple;
 $diff-state-moved: #3f81b3;
 $diff-state-conflict: #8f5e15;
-$diff-state-conflict-background: #ffdad4;
+$diff-state-conflict-background: #ffea0047;
 
 $diff-state-added-background: #3f919e15;
 $diff-state-added-border: rgba($diff-state-added-background, 0.1);
@@ -261,7 +261,7 @@ $debug-message-text-color-meta: #343b58;
 $debug-message-text-color-object-key: #34548a;
 $debug-message-text-color-msg-type-other: #965027;
 $debug-message-text-color-msg-type-string: #485e30;
-$debug-message-text-color-msg-type-null: #34548a;
+$debug-message-text-color-msg-type-null: #4c505e;
 $debug-message-text-color-msg-type-meta: #34548a;
 $debug-message-text-color-msg-type-number: #965027;
 
