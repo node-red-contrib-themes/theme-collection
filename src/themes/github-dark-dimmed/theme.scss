@@ -53,7 +53,7 @@ $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: rgba(85, 150, 230, 0.8);
 $form-input-border-color: $tertiary-border-color;
 $form-input-border-selected-color: #ec775c;
-$form-input-border-error-color: rgb(214, 97, 95);
+$form-input-border-error-color: #be1100;
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
 $form-button-background: $secondary-background-selected;
@@ -142,7 +142,7 @@ $diff-state-unchanged-background: $primary-background;
 $diff-state-conflicted: purple;
 $diff-state-moved: #3f81b3;
 $diff-state-conflict: #cc6b2c;
-$diff-state-conflict-background: #ffdad4;
+$diff-state-conflict-background: #ffea0047;
 
 $diff-state-added-background: #347d3926;
 $diff-state-added-border: rgba($diff-state-added-background, 0.1);
@@ -261,7 +261,7 @@ $debug-message-text-color-meta: #f69d50;
 $debug-message-text-color-object-key: #8ddb8c;
 $debug-message-text-color-msg-type-other: #6bc46d;
 $debug-message-text-color-msg-type-string: #96d0ff;
-$debug-message-text-color-msg-type-null: #6cb6ff;
+$debug-message-text-color-msg-type-null: #539bf5;
 $debug-message-text-color-msg-type-meta: #6cb6ff;
 $debug-message-text-color-msg-type-number: #6bc46d;
 
