@@ -10,10 +10,10 @@
         "activityBar.inactiveForeground": "#828594",
         "activityBarBadge.background": "#34548a",
         "activityBarBadge.foreground": "#ffffff",
-        "activityBarTop.activeBorder": "#424242",
-        "activityBarTop.dropBorder": "#424242",
-        "activityBarTop.foreground": "#424242",
-        "activityBarTop.inactiveForeground": "#424242bf",
+        "activityBarTop.activeBorder": "#4c505e",
+        "activityBarTop.dropBorder": "#4c505e",
+        "activityBarTop.foreground": "#4c505e",
+        "activityBarTop.inactiveForeground": "#828594",
         "badge.background": "#979db833",
         "badge.foreground": "#4c505e",
         "banner.background": "#8f929f",
@@ -104,7 +104,7 @@
         "diffEditor.moveActive.border": "#ffa500",
         "diffEditor.removedLineBackground": "#e8686812",
         "diffEditor.removedTextBackground": "#e8686812",
-        "diffEditor.unchangedCodeBackground": "#b8b8b829",
+        "diffEditor.unchangedCodeBackground": "#e7e8ed66",
         "diffEditor.unchangedRegionBackground": "#cbccd1",
         "diffEditor.unchangedRegionForeground": "#4c505e",
         "diffEditor.unchangedRegionShadow": "#737373bf",
@@ -197,15 +197,15 @@
         "editorHoverWidget.foreground": "#4c505e",
         "editorHoverWidget.highlightForeground": "#34548a",
         "editorHoverWidget.statusBarBackground": "#cfd2d9",
-        "editorIndentGuide.activeBackground": "#f4f5f8",
+        "editorIndentGuide.activeBackground": "#d5d6db",
         "editorIndentGuide.activeBackground1": "#f4f5f8",
         "editorIndentGuide.activeBackground2": "#00000000",
         "editorIndentGuide.activeBackground3": "#00000000",
         "editorIndentGuide.activeBackground4": "#00000000",
         "editorIndentGuide.activeBackground5": "#00000000",
         "editorIndentGuide.activeBackground6": "#00000000",
-        "editorIndentGuide.background": "#cacbcf",
-        "editorIndentGuide.background1": "#cacbcf",
+        "editorIndentGuide.background": "#d5d6db",
+        "editorIndentGuide.background1": "#c5c6c9",
         "editorIndentGuide.background2": "#00000000",
         "editorIndentGuide.background3": "#00000000",
         "editorIndentGuide.background4": "#00000000",
@@ -401,8 +401,8 @@
         "minimapSlider.activeBackground": "#90929619",
         "minimapSlider.background": "#90929613",
         "minimapSlider.hoverBackground": "#90929610",
-        "multiDiffEditor.border": "#cccccc",
-        "multiDiffEditor.headerBackground": "#cbccd1",
+        "multiDiffEditor.border": "#d5d6db",
+        "multiDiffEditor.headerBackground": "#d5d6db",
         "notebook.cellBorderColor": "#c1c2c7",
         "notebook.cellEditorBackground": "#cbccd1",
         "notebook.cellInsertionIndicator": "#82859433",
@@ -742,6 +742,22 @@
             "token": "storage.modifier"
         },
         {
+            "fontStyle": "italic",
+            "token": "string.quoted.docstring.multi"
+        },
+        {
+            "fontStyle": "italic",
+            "token": "string.quoted.docstring.multi.python punctuation.definition.string.begin"
+        },
+        {
+            "fontStyle": "italic",
+            "token": "string.quoted.docstring.multi.python punctuation.definition.string.end"
+        },
+        {
+            "fontStyle": "italic",
+            "token": "string.quoted.docstring.multi.python constant.character.escape"
+        },
+        {
             "fontStyle": "",
             "token": "keyword.control.flow.block-scalar.literal"
         },
@@ -764,6 +780,22 @@
         {
             "foreground": "#9699A3",
             "token": "comment.block.documentation punctuation"
+        },
+        {
+            "foreground": "#9699A3",
+            "token": "string.quoted.docstring.multi"
+        },
+        {
+            "foreground": "#9699A3",
+            "token": "string.quoted.docstring.multi.python punctuation.definition.string.begin"
+        },
+        {
+            "foreground": "#9699A3",
+            "token": "string.quoted.docstring.multi.python punctuation.definition.string.end"
+        },
+        {
+            "foreground": "#9699A3",
+            "token": "string.quoted.docstring.multi.python constant.character.escape"
         },
         {
             "foreground": "#7C7F87",
