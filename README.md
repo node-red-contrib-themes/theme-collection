@@ -6,7 +6,7 @@
 
 A collection of themes for [Node-RED][node-red].
 
-<a href="https://github.com/node-red-contrib-themes/theme-collection/tree/screenshots" target="_blank">📸 See the screenshots</a>
+<a href="https://github.com/node-red-contrib-themes/theme-collection/blob/screenshots/README.md" target="_blank">📸 See the screenshots</a>
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ npm install @node-red-contrib-themes/theme-collection
 
 ## Theme list
 
-<a href="https://github.com/node-red-contrib-themes/theme-collection/tree/screenshots" target="_blank">📸 See the screenshots</a>
+<a href="https://github.com/node-red-contrib-themes/theme-collection/blob/screenshots/README.md" target="_blank">📸 See the screenshots</a>
 
 | Name                  | Description                                                                          |
 | --------------------- | ------------------------------------------------------------------------------------ |
