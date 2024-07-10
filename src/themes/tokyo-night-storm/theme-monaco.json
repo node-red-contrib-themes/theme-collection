@@ -10,10 +10,10 @@
         "activityBar.inactiveForeground": "#41496b",
         "activityBarBadge.background": "#3d59a1",
         "activityBarBadge.foreground": "#ffffff",
-        "activityBarTop.activeBorder": "#e7e7e7",
-        "activityBarTop.dropBorder": "#e7e7e7",
-        "activityBarTop.foreground": "#e7e7e7",
-        "activityBarTop.inactiveForeground": "#e7e7e799",
+        "activityBarTop.activeBorder": "#7982a9",
+        "activityBarTop.dropBorder": "#7982a9",
+        "activityBarTop.foreground": "#7982a9",
+        "activityBarTop.inactiveForeground": "#41496b",
         "badge.background": "#7e83b233",
         "badge.foreground": "#a9b1d6",
         "banner.background": "#2c324a",
@@ -104,7 +104,7 @@
         "diffEditor.moveActive.border": "#ffa500",
         "diffEditor.removedLineBackground": "#db4b4b22",
         "diffEditor.removedTextBackground": "#db4b4b22",
-        "diffEditor.unchangedCodeBackground": "#74747429",
+        "diffEditor.unchangedCodeBackground": "#2f344d66",
         "diffEditor.unchangedRegionBackground": "#1f2335",
         "diffEditor.unchangedRegionForeground": "#7982a9",
         "diffEditor.unchangedRegionShadow": "#000000",
@@ -204,8 +204,8 @@
         "editorIndentGuide.activeBackground4": "#00000000",
         "editorIndentGuide.activeBackground5": "#00000000",
         "editorIndentGuide.activeBackground6": "#00000000",
-        "editorIndentGuide.background": "#292e42",
-        "editorIndentGuide.background1": "#292e42",
+        "editorIndentGuide.background": "#3b4261",
+        "editorIndentGuide.background1": "#2d324a",
         "editorIndentGuide.background2": "#00000000",
         "editorIndentGuide.background3": "#00000000",
         "editorIndentGuide.background4": "#00000000",
@@ -401,8 +401,8 @@
         "minimapSlider.activeBackground": "#9cacff11",
         "minimapSlider.background": "#9cacff0a",
         "minimapSlider.hoverBackground": "#9cacff08",
-        "multiDiffEditor.border": "#1b1e2e",
-        "multiDiffEditor.headerBackground": "#262626",
+        "multiDiffEditor.border": "#24283b",
+        "multiDiffEditor.headerBackground": "#24283b",
         "notebook.cellBorderColor": "#1b1e2e",
         "notebook.cellEditorBackground": "#1f2335",
         "notebook.cellInsertionIndicator": "#545c7e33",
@@ -741,6 +741,22 @@
             "token": "storage.modifier"
         },
         {
+            "fontStyle": "italic",
+            "token": "string.quoted.docstring.multi"
+        },
+        {
+            "fontStyle": "italic",
+            "token": "string.quoted.docstring.multi.python punctuation.definition.string.begin"
+        },
+        {
+            "fontStyle": "italic",
+            "token": "string.quoted.docstring.multi.python punctuation.definition.string.end"
+        },
+        {
+            "fontStyle": "italic",
+            "token": "string.quoted.docstring.multi.python constant.character.escape"
+        },
+        {
             "fontStyle": "",
             "token": "keyword.control.flow.block-scalar.literal"
         },
@@ -763,6 +779,22 @@
         {
             "foreground": "#5F6996",
             "token": "comment.block.documentation punctuation"
+        },
+        {
+            "foreground": "#5F6996",
+            "token": "string.quoted.docstring.multi"
+        },
+        {
+            "foreground": "#5F6996",
+            "token": "string.quoted.docstring.multi.python punctuation.definition.string.begin"
+        },
+        {
+            "foreground": "#5F6996",
+            "token": "string.quoted.docstring.multi.python punctuation.definition.string.end"
+        },
+        {
+            "foreground": "#5F6996",
+            "token": "string.quoted.docstring.multi.python constant.character.escape"
         },
         {
             "foreground": "#6F7BB0",
@@ -1145,7 +1177,7 @@
         },
         {
             "foreground": "#DE5971",
-            "token": "meta.tag.other.unrecognized.html.derivative entity.name.tag"
+            "token": "meta.tag.other.unrecognized.html.derivative"
         },
         {
             "foreground": "#DE5971",
