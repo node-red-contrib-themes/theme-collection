@@ -32,11 +32,11 @@ $tertiary-text-color: scale-color($primary-text-color, $lightness: -51%);
 // Heading text
 $header-text-color: #bdae9d;
 
-$text-color-error: #ad1625;
-$text-color-warning: #cab200;
-$text-color-success: #3a3;
-$text-color-code: #ad1625;
-$text-color-link: #0088cc;
+$text-color-error: #990000;
+$text-color-warning: #ff9358;
+$text-color-success: #049b0a;
+$text-color-code: #888888;
+$text-color-link: #43a8ed;
 
 $primary-border-color: #3a312c;
 $secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
@@ -142,7 +142,7 @@ $diff-state-unchanged-background: $primary-background;
 $diff-state-conflicted: purple;
 $diff-state-moved: #3f81b3;
 $diff-state-conflict: #9b45ce;
-$diff-state-conflict-background: #ffdad4;
+$diff-state-conflict-background: #ffea0047;
 
 $diff-state-added-background: #9bb95533;
 $diff-state-added-border: rgba($diff-state-added-background, 0.1);
