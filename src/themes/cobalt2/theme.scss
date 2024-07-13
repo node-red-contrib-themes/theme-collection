@@ -39,8 +39,8 @@ $text-color-code: #ffc600;
 $text-color-link: #0088ff;
 
 $primary-border-color: #1f4662;
-$secondary-border-color: #0d3a58;
-$tertiary-border-color: $primary-border-color;
+$secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
+$tertiary-border-color: scale-color($primary-border-color, $lightness: -7%);
 
 $border-color-error: #df2935;
 $border-color-warning: #ffcf70;
