@@ -1,0 +1,66 @@
+/* Theme customizations */
+.red-ui-tabs-fade {
+  display: none;
+}
+
+.red-ui-tabs ul li.active .red-ui-tabs-fade {
+  display: none;
+}
+
+.red-ui-editableList-container li {
+  box-sizing: border-box;
+  position: relative;
+  background: rgb(24 24 27);
+  margin: 0;
+  padding: 8px 0px;
+  border-bottom: 1px solid var(--red-ui-secondary-border-color);
+  min-height: 20px;
+}
+
+.nrdb2-sb-list-header.nrdb2-sb-pages-list-header {
+  border-top: none !important;
+  border-bottom: 1px solid #464646 !important;
+}
+
+#node-config-client-constraints-nodes .red-ui-treeList-label.selected {
+  background-color: transparent !important;
+}
+
+#node-config-client-constraints-nodes .red-ui-treeList-label.selected:hover {
+  background-color: #0f0f12 !important;
+}
+
+.red-ui-tabs ul li.active a:hover {
+  background: #3c84e4;
+}
+
+#dashboard-2-client-constraints a {
+  color: #4c7ac1 !important;
+}
+
+.red-ui-tabs ul li.active {
+  background: var(--red-ui-tab-background-active);
+  font-weight: bold;
+  border: 1px solid #446ca8;
+  z-index: 2;
+}
+
+#red-ui-header .button:hover {
+  border-color: transparent;
+  background-color: #0f0f12;
+}
+
+.red-ui-treeList-label.selected {
+  color: hsl(42 100% 45% / 1);
+}
+
+.red-ui-treeList-label.selected span i.red-ui-icons-flow {
+  background-color: hsl(42 100% 45% / 1);
+}
+
+#red-ui-header ul.red-ui-menu-dropdown {
+  background: rgb(24 24 27);
+  border: 1px solid #464646;
+  width: 260px !important;
+  margin: 1px;
+}

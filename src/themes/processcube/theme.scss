@@ -1,0 +1,310 @@
+$primary-font: "Helvetica Neue", Arial, Helvetica, sans-serif;
+$primary-font-size: 14px;
+$monospace-font: Menlo, Consolas, "DejaVu Sans Mono", Courier, monospace;
+
+$primary-background: hsla(240 3.7% 15.88%);
+
+$secondary-background: #1d1d1d;
+$secondary-background-selected: #39414a;
+$secondary-background-inactive: #383838;
+$secondary-background-hover: #0f0f12;
+$secondary-background-disabled: #1f2428;
+
+$tertiary-background: #1d1d1d;
+
+$test-bg: hsl(42deg 100% 66% / 0.1);
+$abc: hsl(42 100% 45% / 1);
+
+$shadow: rgba(0, 0, 0, 0.2);
+$fiveminds-orange: rgb(247, 168, 35);
+$fiveminds-orange-hover: #ed9815;
+
+// Main body text
+// $primary-text-color: #d1d5da;
+$primary-text-color: rgb(226, 232, 240);
+// UI control label text
+$secondary-text-color: rgb(226, 232, 240);
+$secondary-text-color-focus: #e1e4e8;
+$secondary-text-color-hover: #e1e4e8;
+$secondary-text-color-active: #e1e4e8;
+$secondary-text-color-selected: #e1e4e8;
+$secondary-text-color-inactive: #959da5;
+$secondary-text-color-disabled: rgba($primary-text-color, 0.4);
+$secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
+$secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
+
+// Sub label text
+$tertiary-text-color: #6a737d;
+// Heading text
+$header-text-color: #d1d5da;
+
+$text-color-error: #f97583;
+$text-color-warning: #ffea7f;
+$text-color-success: #34d058;
+$text-color-code: #d1d5da;
+$text-color-link: #79b8ff;
+
+$primary-border-color: #5d5d5d;
+$secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
+$tertiary-border-color: #464646;
+
+$border-color-error: #df2935;
+$border-color-warning: #ffcf70;
+$border-color-success: #4b8400;
+
+$form-background: $secondary-background;
+$form-placeholder-color: #959da5;
+$form-text-color: $primary-text-color;
+$form-text-color-disabled: $secondary-text-color-disabled;
+$form-input-focus-color: rgba(85, 150, 230, 0.8);
+$form-input-border-color: $tertiary-border-color;
+$form-input-border-selected-color: $fiveminds-orange;
+$form-input-border-error-color: $fiveminds-orange;
+$form-input-background: $secondary-background;
+$form-input-background-disabled: $secondary-background-disabled;
+$form-button-background: $secondary-background-selected;
+
+$form-tips-background: $primary-background;
+
+$text-editor-color: $primary-text-color;
+$text-editor-background: $secondary-background;
+$text-editor-color-disabled: $secondary-text-color-inactive;
+$text-editor-background-disabled: $secondary-background-disabled;
+$text-editor-gutter-background: $primary-background;
+$text-editor-gutter-color: #444d56;
+$text-editor-gutter-active-line-background: $secondary-background;
+$text-editor-active-line-background: #2b3036;
+$text-editor-selection-background: #17e5e633;
+
+$event-log-background: $secondary-background;
+$event-log-color: $primary-text-color;
+$event-log-active-line-background: $primary-background;
+$event-log-selection-background: $secondary-background-selected;
+
+$list-item-color: $primary-text-color;
+$list-item-secondary-color: $secondary-text-color;
+$list-item-background: $secondary-background;
+$list-item-background-disabled: $secondary-background-disabled;
+$list-item-background-hover: $secondary-background-hover;
+$list-item-background-selected: $test-bg;
+$list-item-border-selected: $secondary-text-color-selected;
+
+$tab-text-color-active: $primary-text-color;
+$tab-text-color-inactive: $primary-text-color;
+$tab-text-color-disabled-active: $secondary-text-color-disabled-active;
+$tab-text-color-disabled-inactive: $secondary-text-color-disabled-inactive;
+
+$tab-badge-color: $tertiary-text-color;
+$tab-background: $secondary-background;
+$tab-background-active: #446ca8;
+$tab-background-active-alpha: rgba($tab-background-active, 0.001);
+$tab-background-selected: $secondary-background-selected;
+$tab-background-selected-alpha: rgba($tab-background-selected, 0.001);
+$tab-background-inactive: $secondary-background-inactive;
+$tab-background-inactive-alpha: rgba($tab-background-inactive, 0.001);
+$tab-background-hover: #303030;
+$tab-background-hover-alpha: rgba($tab-background-hover, 0.001);
+
+$palette-header-background: $primary-background;
+$palette-header-color: $header-text-color;
+$palette-content-background: $secondary-background;
+
+$workspace-button-background: $secondary-background;
+$workspace-button-background-hover: $secondary-background-hover;
+$workspace-button-background-active: $secondary-background;
+
+$workspace-button-color: $secondary-text-color;
+$workspace-button-color-disabled: $secondary-text-color-disabled;
+$workspace-button-color-focus: $secondary-text-color-focus;
+$workspace-button-color-hover: $secondary-text-color-hover;
+$workspace-button-color-active: $secondary-text-color-active;
+$workspace-button-color-selected: $secondary-text-color-selected;
+
+$workspace-button-color-primary: #fff;
+$workspace-button-background-primary: $fiveminds-orange;
+$workspace-button-background-primary-hover: $fiveminds-orange-hover;
+
+$workspace-button-color-focus-outline: $form-input-focus-color;
+
+$shade-color: rgba(160, 160, 160, 0.5);
+
+$popover-background: $secondary-background-hover;
+$popover-border: $popover-background;
+$popover-color: $primary-text-color;
+$popover-button-border-color: $primary-border-color;
+$popover-button-border-color-hover: $secondary-text-color-hover;
+
+$diff-text-header-color: $secondary-text-color;
+$diff-text-header-background: $secondary-background;
+$diff-state-color: $primary-text-color;
+$diff-state-prefix-color: $secondary-text-color;
+$diff-state-added: #34d058;
+$diff-state-deleted: #ea4a5a;
+$diff-state-changed: #79b8ff;
+$diff-state-changed-background: $secondary-background;
+$diff-state-unchanged: $primary-text-color;
+$diff-state-unchanged-background: $primary-background;
+
+$diff-state-conflicted: purple;
+$diff-state-moved: #3f81b3;
+$diff-state-conflict: #ffab70;
+$diff-state-conflict-background: #ffea0047;
+
+$diff-state-added-background: #9bb95533;
+$diff-state-added-border: rgba($diff-state-added-background, 0.1);
+$diff-state-added-header-background: #9bb95533;
+$diff-state-added-header-border: rgba($diff-state-added-header-background, 0.1);
+
+$diff-state-deleted-background: #ff000033;
+$diff-state-deleted-border: rgba($diff-state-deleted-background, 0.1);
+$diff-state-deleted-header-background: #ff000033;
+$diff-state-deleted-header-border: rgba(
+  $diff-state-deleted-header-background,
+  0.1
+);
+
+$diff-merge-header-color: #800080;
+$diff-merge-header-background: #e5f9ff;
+$diff-merge-header-border-color: #b2edff;
+
+$menuBackground: $primary-background;
+$menuDivider: $secondary-border-color;
+$menuColor: $primary-text-color;
+$menuActiveColor: $secondary-text-color-active;
+$menuActiveBackground: $secondary-background-hover;
+$menuDisabledColor: $secondary-text-color-disabled;
+$menuHoverColor: $secondary-text-color-hover;
+$menuHoverBackground: #0f0f12;
+$menuCaret: $tertiary-text-color;
+
+$view-navigator-background: rgba($primary-background, 0.8);
+
+$view-lasso-stroke: $fiveminds-orange;
+$view-lasso-fill: rgba(20, 125, 255, 0.1);
+
+$view-background: #383838;
+$view-grid-color: #5d5d5d;
+
+$node-label-color: #333;
+$node-port-label-color: #888;
+$node-border: #999;
+$node-border-unknown: #f33;
+$node-border-placeholder: #aaa;
+$node-background-placeholder: #eee;
+
+$node-port-background: #d9d9d9;
+$node-port-background-hover: #eee;
+$node-icon-color: #fff;
+$node-icon-background-color: rgba(0, 0, 0, 0.05);
+$node-icon-background-color-fill: #000;
+$node-icon-background-color-opacity: 0.05;
+$node-icon-border-color: #000;
+$node-icon-border-color-opacity: 0.1;
+
+$node-config-background: #f3f3f3;
+$node-config-icon-container-disabled: #aaa;
+
+$node-link-port-background: #eee;
+
+$node-status-error-border: rgb(145, 16, 2);
+$node-status-error-background: rgb(255, 102, 0);
+$node-status-changed-border: rgb(28, 102, 140);
+$node-status-changed-background: rgb(0, 188, 255);
+
+$node-status-colors: (
+  red: #c00,
+  green: #5a8,
+  yellow: #f9df31,
+  blue: #53a3f3,
+  grey: #d3d3d3,
+);
+
+$node-selected-color: $fiveminds-orange;
+$port-selected-color: $fiveminds-orange;
+
+$link-color: #999;
+$link-link-color: #aaa;
+$link-disabled-color: #ccc;
+$link-link-active-color: $fiveminds-orange;
+$link-unknown-color: #f00;
+
+$clipboard-textarea-background: $primary-background;
+
+$deploy-button-color: #fff;
+$deploy-button-color-active: #ccc;
+$deploy-button-color-disabled: #999;
+$deploy-button-background: $fiveminds-orange;
+$deploy-button-background-hover: $fiveminds-orange-hover;
+$deploy-button-background-active: $fiveminds-orange-hover;
+$deploy-button-background-disabled: #444;
+$deploy-button-background-disabled-hover: #555;
+
+$header-background: $secondary-background;
+$header-button-background-active: #121212;
+$header-accent: #464646;
+$header-menu-color: #eee;
+$header-menu-color-disabled: #666;
+$header-menu-heading-color: #fff;
+$header-menu-sublabel-color: #aeaeae;
+$header-menu-background: $tertiary-background;
+$header-menu-item-hover: $secondary-background-hover;
+$header-menu-item-border-active: #777677;
+$headerMenuItemDivider: $tertiary-border-color;
+$headerMenuCaret: #c7c7c7;
+
+$vcCommitShaColor: #c38888;
+
+$dnd-background: rgba(0, 0, 0, 0.3);
+$dnd-color: #fff;
+
+$notification-border-default: #325c80;
+$notification-border-success: $border-color-success;
+$notification-border-warning: $border-color-warning;
+$notification-border-error: $border-color-error;
+
+$debug-message-background: $secondary-background;
+$debug-message-background-hover: $secondary-background-hover;
+
+$debug-message-text-color: $primary-text-color;
+$debug-message-text-color-meta: #b392f0;
+$debug-message-text-color-object-key: #d1d5da;
+$debug-message-text-color-msg-type-other: #4e94ce;
+$debug-message-text-color-msg-type-string: #ce9178;
+$debug-message-text-color-msg-type-null: #d1d5da;
+$debug-message-text-color-msg-type-meta: #c586c0;
+$debug-message-text-color-msg-type-number: #b5cea8;
+
+$debug-message-border: $primary-background;
+$debug-message-border-hover: $secondary-background-hover;
+$debug-message-border-warning: $border-color-warning;
+$debug-message-border-error: $border-color-error;
+
+$group-default-fill: $primary-background;
+$group-default-fill-opacity: 0.5;
+$group-default-stroke: $primary-border-color;
+$group-default-stroke-opacity: 1;
+$group-default-label-color: $primary-text-color;
+
+$tourGuide-border: #c56c6c;
+$tourGuide-heading-color: #c56c6c;
+
+$grip-color: rgba($primary-text-color, 0.5);
+
+$icons-flow-color: $primary-text-color;
+
+$spinner-color: $primary-text-color;
+
+$tab-icon-color: rgba($primary-text-color, 0.2);
+
+$user-profile-colors: (
+  1: #822e81,
+  2: #955e42,
+  3: #9c914f,
+  4: #748e54,
+  5: #06bcc1,
+);
+
+// Deprecated
+$text-color-green: $text-color-success;
+$info-text-code-color: $text-color-code;
+$info-text-link-color: $text-color-link;
