@@ -52,3 +52,10 @@ version-resolver:
 
 exclude-labels:
   - "skip-changelog"
+
+autolabeler:
+  - label: "skip-changelog"
+    files:
+      - "package.json"
+    branch:
+      - "/release\/.+/"
