@@ -21,8 +21,8 @@
         "dev": "node ./lib/dev.js",
         "create-theme": "node ./lib/create-theme.js",
         "build": "node ./lib/build.js",
-        "version": "git checkout -b release/$npm_package_version && git add -A",
-        "postversion": "git push -u origin release/$npm_package_version && git push --tags && git checkout dev"
+        "version": "git checkout -b release/$npm_package_version",
+        "postversion": "git commit -am $npm_package_version && git push -u origin release/$npm_package_version && git checkout dev"
     },
     "author": "Mauricio Bonani @mbonani",
     "publishConfig": {
