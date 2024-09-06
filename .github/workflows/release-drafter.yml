@@ -5,6 +5,11 @@ on:
   push:
     branches:
       - dev
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
   workflow_dispatch:
 
 jobs:
