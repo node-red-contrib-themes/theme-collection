@@ -59,3 +59,8 @@ autolabeler:
       - "package.json"
     branch:
       - "/release\/.+/"
+  - label: "new-theme"
+    title:
+      - "/^Add .+ theme$/"
+    branch:
+      - "/new-theme\/.+/"
