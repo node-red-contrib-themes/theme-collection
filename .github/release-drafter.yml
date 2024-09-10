@@ -55,8 +55,6 @@ exclude-labels:
 
 autolabeler:
   - label: "skip-changelog"
-    files:
-      - "package.json"
     branch:
       - "/release\/.+/"
   - label: "new-theme"
