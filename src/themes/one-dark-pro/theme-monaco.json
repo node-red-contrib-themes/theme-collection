@@ -1,7 +1,7 @@
 {
     "base": "vs-dark",
     "colors": {
-        "actionBar.toggledBackground": "#3e445266",
+        "actionBar.toggledBackground": "#525761",
         "activityBar.activeBorder": "#d7dae0",
         "activityBar.background": "#282c34",
         "activityBar.dropBorder": "#d7dae0",
@@ -2496,6 +2496,18 @@
         {
             "foreground": "#E06C75",
             "token": "entity.name.label"
+        },
+        {
+            "foreground": "#61AFEF",
+            "token": "support.class.math.block.environment.latex"
+        },
+        {
+            "foreground": "#61AFEF",
+            "token": "constant.other.general.math.tex"
+        },
+        {
+            "foreground": "#98C379",
+            "token": "constant.character.math.tex"
         },
         {
             "fontStyle": "italic",
