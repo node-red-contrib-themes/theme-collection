@@ -23,9 +23,9 @@ $secondary-text-color-hover: #666;
 $secondary-text-color-active: #666;
 $secondary-text-color-selected: #666;
 $secondary-text-color-inactive: #666;
-$secondary-text-color-disabled: #bbb;
-$secondary-text-color-disabled-active: #999;
-$secondary-text-color-disabled-inactive: #aaa;
+$secondary-text-color-disabled: rgba($primary-text-color, 0.4);
+$secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
+$secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
 
 // Sub label text
 $tertiary-text-color: #aaa;
@@ -39,8 +39,8 @@ $text-color-code: #ad1625;
 $text-color-link: #0088cc;
 
 $primary-border-color: #bbbbbb;
-$secondary-border-color: #dddddd;
-$tertiary-border-color: #ccc;
+$secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
+$tertiary-border-color: scale-color($primary-border-color, $lightness: -7%);
 
 $border-color-error: #df2935;
 $border-color-warning: #ffcf70;
@@ -50,10 +50,10 @@ $form-background: $secondary-background;
 $form-placeholder-color: $tertiary-text-color;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
-$form-input-focus-color: rgba(85, 150, 230, 0.8);
+$form-input-focus-color: #5596e6cc;
 $form-input-border-color: $tertiary-border-color;
 $form-input-border-selected-color: $tertiary-text-color;
-$form-input-border-error-color: rgb(214, 97, 95);
+$form-input-border-error-color: #d6615f;
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
 $form-button-background: $secondary-background-selected;
