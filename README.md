@@ -57,6 +57,7 @@ npm install @node-red-contrib-themes/theme-collection
 | `oled`                | A Node-RED dark theme for OLED displays                                              |
 | `one-dark-pro`        | Based on the Default theme from [One Dark Pro][theme-one-dark-pro]                   |
 | `one-dark-pro-darker` | Based on the Darker theme from [One Dark Pro][theme-one-dark-pro]                    |
+| `railscasts-extended` | Based on the [Railscasts Extended theme][theme-railscasts-extended] for Sublime Text |
 | `solarized-dark`      | Based on the [Solarized color palette][solarized]                                    |
 | `solarized-light`     | Based on the [Solarized color palette][solarized]                                    |
 | `tokyo-night`         | Based on the Tokyo Night theme from [Tokyo Night theme][theme-tokyo-night]           |
@@ -149,6 +150,7 @@ This project is licensed under the [MIT license][license].
 [theme-noctis]: https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis
 [theme-oceanic-next]: https://github.com/voronianski/oceanic-next-color-scheme
 [theme-one-dark-pro]: https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme
+[theme-railscasts-extended]: https://github.com/jzelenkov/sublime-railscasts-extended
 [theme-tokyo-night]: https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night
 [theme-zenburn]: https://github.com/jnurmine/Zenburn
 [totally-information]: https://github.com/TotallyInformation
