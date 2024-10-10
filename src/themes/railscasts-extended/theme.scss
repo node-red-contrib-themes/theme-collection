@@ -32,11 +32,11 @@ $tertiary-text-color: #ffffed;
 // Heading text
 $header-text-color: $primary-text-color;
 
-$text-color-error: #DA4939;
-$text-color-warning: #FFC66D;
-$text-color-success: #519F50;
+$text-color-error: #da4939;
+$text-color-warning: #ffc66d;
+$text-color-success: #519f50;
 $text-color-code: $primary-text-color;
-$text-color-link: #6E9CBE;
+$text-color-link: #6e9cbe;
 
 $primary-border-color: #202020;
 $secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
@@ -52,8 +52,8 @@ $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: rgba(85, 150, 230, 0.8);
 $form-input-border-color: $tertiary-border-color;
-$form-input-border-selected-color: #A5C261;
-$form-input-border-error-color: #DA4939;
+$form-input-border-selected-color: #a5c261;
+$form-input-border-error-color: #da4939;
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
 $form-button-background: $secondary-background-selected;
@@ -132,9 +132,9 @@ $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
 $diff-state-color: $primary-text-color;
 $diff-state-prefix-color: $secondary-text-color;
-$diff-state-added: #A6E22E;
-$diff-state-deleted: #F92672;
-$diff-state-changed: #967EFB;
+$diff-state-added: #a6e22e;
+$diff-state-deleted: #f92672;
+$diff-state-changed: #967efb;
 $diff-state-changed-background: $secondary-background;
 $diff-state-unchanged: $primary-text-color;
 $diff-state-unchanged-background: $primary-background;
@@ -207,7 +207,7 @@ $node-status-colors: (
   green: #5a8,
   yellow: #f9df31,
   blue: #53a3f3,
-  grey: #d3d3d3,
+  grey: #d3d3d3
 );
 
 $node-selected-color: #ff7f0e;
@@ -292,7 +292,7 @@ $user-profile-colors: (
   2: #955e42,
   3: #9c914f,
   4: #748e54,
-  5: #06bcc1,
+  5: #06bcc1
 );
 
 // Deprecated
