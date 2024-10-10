@@ -43,7 +43,7 @@ body:
     attributes:
       value: |
         ## Environment
-  
+
   - type: input
     attributes:
       label: Theme Collection version

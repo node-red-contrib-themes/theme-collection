@@ -1,0 +1,9 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.insertFinalNewline": true,
+    "git.ignoredRepositories": ["./node-red"],
+    "markdownlint.config": {
+        "MD030": false,
+        "MD033": false
+    }
+}

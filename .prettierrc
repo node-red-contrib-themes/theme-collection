@@ -1,0 +1,16 @@
+{
+    "printWidth": 120,
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "overrides": [
+        {
+            "files": ["*.css", "*.scss", "*.yaml", "*.yml", "*.md"],
+            "options": {
+                "singleQuote": false,
+                "tabWidth": 2
+            }
+        }
+    ]
+}

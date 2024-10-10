@@ -10,10 +10,10 @@ You've found a bug in the source code, a mistake in the documentation or maybe y
 
 Please try to create bug reports that are:
 
-- *Reproducible* - Include steps to reproduce the problem.
-- *Specific* - Include as much detail as possible: which version, what environment, etc.
-- *Unique* - Do not duplicate existing opened issues.
-- *Scoped to a Single Bug* - One bug per report.
+- _Reproducible_ - Include steps to reproduce the problem.
+- _Specific_ - Include as much detail as possible: which version, what environment, etc.
+- _Unique_ - Do not duplicate existing opened issues.
+- _Scoped to a Single Bug_ - One bug per report.
 
 **Even better: Submit a pull request with a fix or new feature!**
 
@@ -26,7 +26,7 @@ Please try to create bug reports that are:
 1. Push to the branch (`git push origin amazing_feature`)
 1. [Open a Pull Request][open-pr]
 
-***NOTE:** `amazing_feature` is just an example. Choose a name that matches the scope of the code you are proposing changes to.*
+_**NOTE:** `amazing_feature` is just an example. Choose a name that matches the scope of the code you are proposing changes to._
 
 [code-of-conduct]: CODE_OF_CONDUCT.md
 [fork]: https://github.com/node-red-contrib-themes/theme-collection/fork
