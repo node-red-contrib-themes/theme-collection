@@ -1,5 +1,5 @@
 title: "Theme request"
-labels: ['theme-request']
+labels: ["theme-request"]
 body:
   - type: markdown
     attributes:

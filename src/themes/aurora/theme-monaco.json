@@ -23,7 +23,7 @@
             "token": "constant.numeric"
         },
         {
-            "fontStyle": " italic",
+            "fontStyle": "italic",
             "foreground": "3f89ff",
             "token": "constant.language"
         },
@@ -44,7 +44,7 @@
             "token": "storage"
         },
         {
-            "fontStyle": " italic",
+            "fontStyle": "italic",
             "foreground": "7877ff",
             "token": "storage.type"
         },
@@ -53,7 +53,7 @@
             "token": "entity.name.class"
         },
         {
-            "fontStyle": " italic ",
+            "fontStyle": "italic",
             "foreground": "c5e400",
             "token": "entity.other.inherited-class"
         },
@@ -62,7 +62,7 @@
             "token": "entity.name.function"
         },
         {
-            "fontStyle": " italic ",
+            "fontStyle": "italic",
             "foreground": "d9903b",
             "token": "variable.parameter"
         },
@@ -79,7 +79,7 @@
             "token": "support.function"
         },
         {
-            "fontStyle": " italic",
+            "fontStyle": "italic",
             "foreground": "7877ff",
             "token": "support.constant"
         },

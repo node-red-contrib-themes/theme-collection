@@ -1,6 +1,5 @@
 .DS_Store
 /.node-red/
-/.vscode/
 /assets/
 /node_modules/
 /node-red/
