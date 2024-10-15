@@ -38,6 +38,7 @@ npm install @node-red-contrib-themes/theme-collection
 - monokai-dimmed
 - night-owl
 - noctis
+- noctis-sereno
 - noctis-uva
 - noctis-viola
 - oceanic-next
