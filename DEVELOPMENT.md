@@ -31,7 +31,7 @@ Rules for theme names:
 From within the project directory, create the new theme.
 
 ```shell
-npm run create-theme example-name
+npm run new-theme example-name
 ```
 
 > [!IMPORTANT]  
