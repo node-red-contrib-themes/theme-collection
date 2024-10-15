@@ -10,77 +10,116 @@ Please read and follow [our contribution guidelines][contribution-guidelines].
 
 Enter the project directory, install the project dependencies, and initialize the development environment.
 
-    cd theme-collection
-    npm install
-    npm run init
+```shell
+cd theme-collection
+npm install
+npm run init
+```
 
-_**NOTE:** This process may take a while, so please be patient._
+> [!NOTE]  
+> _This process may take a while, so please be patient._
 
 ## Creating a new theme
 
-From within the project directory, create the new theme.
+Rules for theme names:
 
-<details>
-<summary>Rules for theme names</summary>
-
-- Must only contain alphanumeric chars ('0-9', 'a-z', 'A-Z') and dash ('-')
-- Must not begin or end with non-alphanumeric chars
+- It can only contain lowercase chars ('a-z'), numbers ('0-9'), and dash ('-')
+- It cannot begin or end with non-alphanumeric chars
 - Must be at least three characters long
 - Consecutive non-alphanumeric chars are also forbidden
 
-</details>
+From within the project directory, create the new theme.
 
-    cd theme-collection
-    npm run create-theme example-theme
+```shell
+npm run create-theme example-name
+```
 
-_**NOTE:** Replace `example-theme` with the name of the theme being created._
+> [!IMPORTANT]  
+> _Replace `example-name` with the name of the theme being created._
 
-## Changing a theme
+After creating the new theme, add its name to the ["Theme list"][theme-list] section of the `README.md` file.
 
-1.  From within the project directory, start the development environment.
+## Updating a theme
 
-        cd theme-collection
-        npm run dev example-theme
+### Start the development environment
 
-    _**NOTE:** Replace `example-theme` with the name of the theme being updated._
+From within the project directory, run the following command.
 
-1.  Access Node-RED at [http://localhost:41880](http://localhost:41880).
+```shell
+npm run dev example-name
+```
 
-1.  Update the colors in `src/themes/example-theme/theme.scss` as required.
+> [!IMPORTANT]  
+> _Replace `example-name` with the name of the theme being updated._
 
-    <details>
-    <summary>Good practices</summary>
+This will start Node-RED on port `41880`.
 
-    - Don't use opacity, especially on background and border colors. It can cause issues in Node-RED and also with third-party nodes.
-    - Don't make changes in the following areas:
-      - Fonts `$primary-font`, `$primary-font-size`, and `$monospace-font`
-      - Workspace Buttons `$workspace-button`
-      - Nodes `$node-*` and `$port-*`
-      - Links `$link-*`
-      - Deploy Button `$deploy-button-*`
-      - Header `$header-*`
+[http://localhost:41880](http://localhost:41880)
 
-    </details>
+Click on the link above to open it in your browser.
 
-1.  _**(OPTIONAL)**_ If additional customizations are needed, add them to `src/themes/example-theme/theme-custom.css`.
+Reload (`ctrl-R`/`cmd-R`) after updating theme files.
 
-1.  _**(OPTIONAL)**_ Update `src/themes/example-theme/theme-monaco.json` to customize the colors of the Monaco Editor.
+### Update theme colors
 
-    The default value is `"tomorrow-night-bright"`. Replace it with the name of one of the themes in this [list][monaco-editor-builtin-themes] or with a custom Monaco theme object. See [this section][setting-a-custom-monaco-theme-from-a-json-file] of the Node-RED documentation for reference.
+Update the colors in `src/themes/example-name/theme.scss` as required.
 
-1.  _**(OPTIONAL)**_ Customize Mermaid's theme file - `src/themes/example-theme/theme-mermaid.json`.
+Good practices:
 
-    The default value is `"dark"`. Replace it with the name of one of the themes in this [list](https://mermaid.js.org/config/theming.html#available-themes).
+- Don't use opacity, especially on background and border colors. It causes issues in Node-RED and also with third-party nodes.
+- Don't make changes to the following areas:
+  - Fonts
+    - `$primary-font`
+    - `$primary-font-size`
+    - `$monospace-font`
+  - Workspace Buttons
+    - `$workspace-button`
+  - Nodes
+    - `$node-*`
+    - `$port-*`
+  - Links
+    - `$link-*`
+  - Deploy Button
+    - `$deploy-button-*`
+  - Header
+    - `$header-*`
 
-1.  Refresh Node-RED in the browser to preview the changes.
+### Theme Customizations _**(OPTIONAL)**_
 
-1.  Repeat steps 3 to 7 as needed. When finished, press `ctrl-D` to quit the development environment.
+If additional customizations are needed, add them to `src/themes/example-name/theme-custom.css`.
 
-1.  Commit, push, and create a pull request.
+### Monaco Editor theme _**(OPTIONAL)**_
 
-Thanks for taking the time to contribute! 😍
+Update `src/themes/example-name/theme-monaco.json` to customize the colors of the Monaco Editor.
+
+The default value is `"tomorrow-night-bright"`. Replace it with the name of one of the themes in this [list][monaco-editor-builtin-themes] or with a custom Monaco theme object. See [this section][setting-a-custom-monaco-theme-from-a-json-file] of the Node-RED documentation for reference.
+
+### Mermaid theme _**(OPTIONAL)**_
+
+Update Mermaid's theme file - `src/themes/example-name/theme-mermaid.json`.
+
+The default value is `"dark"`. Replace it with the name of one of the themes in this [list](https://mermaid.js.org/config/theming.html#available-themes).
+
+### Publish the changes
+
+When finished, press `ctrl-D` to quit the development environment.
+
+Create a branch `new-theme/example-name`.
+
+```shell
+git checkout -b new-theme/example-name
+```
+
+Commit and push the changes.
+
+```shell
+git add .
+git commit -m "Add Example Name theme"
+git push
+```
 
 [contribution-guidelines]: .github/CONTRIBUTING.md
 [fork]: https://github.com/node-red-contrib-themes/theme-collection/fork
 [monaco-editor-builtin-themes]: https://github.com/node-red/node-red/tree/master/packages/node_modules/%40node-red/editor-client/src/vendor/monaco/dist/theme
 [setting-a-custom-monaco-theme-from-a-json-file]: https://nodered.org/docs/api/ui/themes/#setting-a-custom-monaco-theme-from-a-json-file
+[theme-list]: https://github.com/node-red-contrib-themes/theme-collection/blob/dev/README.md#theme-list
