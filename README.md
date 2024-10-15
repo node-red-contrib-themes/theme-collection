@@ -43,6 +43,7 @@ npm install @node-red-contrib-themes/theme-collection
 - one-dark-pro-darker
 - railscasts-extended
 - selenized-dark
+- selenized-light
 - solarized-dark
 - solarized-light
 - tokyo-night
