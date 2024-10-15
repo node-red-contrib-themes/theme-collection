@@ -6,25 +6,11 @@
 
 A collection of themes for [Node-RED][node-red].
 
-<a href="https://github.com/node-red-contrib-themes/theme-collection/blob/screenshots/README.md" target="_blank">📸 See the screenshots</a>
-
-## Table of Contents
-
-- [Installation](#installation)
-  - [Install via the Palette Manager](#install-via-the-palette-manager)
-  - [Install with npm](#install-with-npm)
-- [Theme list](#theme-list)
-- [Usage](#usage)
-  - [Monaco Editor Theme](#monaco-editor-theme)
-  - [Mermaid Theme](#mermaid-theme)
-- [Development](#development)
-- [License](#license)
-
 ## Installation
 
 ### Install via the Palette Manager
 
-Search for @node-red-contrib-themes/theme-collection
+Search for `@node-red-contrib-themes/theme-collection`
 
 ### Install with npm
 
@@ -36,35 +22,33 @@ npm install @node-red-contrib-themes/theme-collection
 
 ## Theme list
 
-<a href="https://github.com/node-red-contrib-themes/theme-collection/blob/screenshots/README.md" target="_blank">📸 See the screenshots</a>
+<a href="https://github.com/node-red-contrib-themes/theme-collection/blob/screenshots/README.md" target="_blank">📸 Screenshots</a>
 
-| Name                  | Description                                                                          |
-| --------------------- | ------------------------------------------------------------------------------------ |
-| `aurora`              | Inspired by the [Aurora Theme for Sublime Text][theme-aurora]                        |
-| `cobalt2`             | Based on the [Cobalt2 Theme for VS Code][theme-cobalt2]                              |
-| `dark`                | A dark theme for Node-RED based on VS Code's Dark Modern theme                       |
-| `dracula`             | Based on the [Dracula theme][theme-dracula]                                          |
-| `espresso-libre`      | Inspired by the [Espresso Libre theme for Monaco Editor][theme-espresso-libre]       |
-| `github-dark`         | Based on the GitHub Dark (legacy) theme from [GitHub's VS Code themes][theme-github] |
-| `github-dark-default` | Based on the GitHub Dark Default theme from [GitHub's VS Code themes][theme-github]  |
-| `github-dark-dimmed`  | Based on the GitHub Dark Dimmed theme from [GitHub's VS Code themes][theme-github]   |
-| `midnight-red`        | Based on the [Midnight theme for Home Assistant][theme-midnight]                     |
-| `monoindustrial`      | Based on the [monoindustrial theme for Monaco Editor][theme-monoindustrial]          |
-| `monokai`             | Based on the [Monokai theme for VS Code][theme-monokai]                              |
-| `monokai-dimmed`      | Based on the [Monokai Dimmed theme][theme-monokai-dimmed] for VS Code                |
-| `noctis`              | Inspired by the [Noctis theme][theme-noctis] for VS Code                             |
-| `oceanic-next`        | Based on the [Oceanic Next Color Scheme][theme-oceanic-next]                         |
-| `oled`                | A Node-RED dark theme for OLED displays                                              |
-| `one-dark-pro`        | Based on the Default theme from [One Dark Pro][theme-one-dark-pro]                   |
-| `one-dark-pro-darker` | Based on the Darker theme from [One Dark Pro][theme-one-dark-pro]                    |
-| `railscasts-extended` | Based on the [Railscasts Extended theme][theme-railscasts-extended] for Sublime Text |
-| `solarized-dark`      | Based on the [Solarized color palette][solarized]                                    |
-| `solarized-light`     | Based on the [Solarized color palette][solarized]                                    |
-| `tokyo-night`         | Based on the Tokyo Night theme from [Tokyo Night theme][theme-tokyo-night]           |
-| `tokyo-night-light`   | Based on the Tokyo Night Light theme from [Tokyo Night theme][theme-tokyo-night]     |
-| `tokyo-night-storm`   | Based on the Tokyo Night Storm theme from [Tokyo Night theme][theme-tokyo-night]     |
-| `totallyinformation`  | Created per request of Julian Knight \([@TotallyInformation][totally-information]\)  |
-| `zenburn`             | Inspired by the [Zenburn color scheme for Vim][theme-zenburn]                        |
+- aurora
+- cobalt2
+- dark
+- dracula
+- espresso-libre
+- github-dark
+- github-dark-default
+- github-dark-dimmed
+- midnight-red
+- monoindustrial
+- monokai
+- monokai-dimmed
+- noctis
+- oceanic-next
+- oled
+- one-dark-pro
+- one-dark-pro-darker
+- railscasts-extended
+- solarized-dark
+- solarized-light
+- tokyo-night
+- tokyo-night-light
+- tokyo-night-storm
+- totallyinformation
+- zenburn
 
 If you have an idea for a new theme, you can request it [here][tr], or better yet, [create one yourself][creating-a-new-theme].
 
@@ -135,23 +119,6 @@ This project is licensed under the [MIT license][license].
 [node-red]: https://nodered.org/
 [npm-package]: https://www.npmjs.com/package/@node-red-contrib-themes/theme-collection
 [npm-version-badge]: https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm&style=for-the-badge
-[release-publish-badge]: https://img.shields.io/github/actions/workflow/status/node-red-contrib-themes/theme-collection/release-publish.yml?style=for-the-badge&label=Publish
+[release-publish-badge]: https://img.shields.io/github/actions/workflow/status/node-red-contrib-themes/theme-collection/release-publish.yml?style=for-the-badge
 [release-publish-workflow]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/release-publish.yml
-[solarized]: https://ethanschoonover.com/solarized/
-[theme-aurora]: https://github.com/expalmer/aurora-theme/
-[theme-cobalt2]: https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2
-[theme-dracula]: https://draculatheme.com/
-[theme-espresso-libre]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/Espresso%20Libre.json
-[theme-github]: https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme
-[theme-midnight]: https://community.home-assistant.io/t/midnight-theme/28598
-[theme-monoindustrial]: https://github.com/brijeshb42/monaco-themes/blob/master/themes/monoindustrial.json
-[theme-monokai-dimmed]: https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai-dimmed
-[theme-monokai]: https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai
-[theme-noctis]: https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis
-[theme-oceanic-next]: https://github.com/voronianski/oceanic-next-color-scheme
-[theme-one-dark-pro]: https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme
-[theme-railscasts-extended]: https://github.com/jzelenkov/sublime-railscasts-extended
-[theme-tokyo-night]: https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night
-[theme-zenburn]: https://github.com/jnurmine/Zenburn
-[totally-information]: https://github.com/TotallyInformation
 [tr]: https://github.com/node-red-contrib-themes/theme-collection/discussions/new?category=theme-request
