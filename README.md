@@ -39,6 +39,7 @@ npm install @node-red-contrib-themes/theme-collection
 - night-owl
 - noctis
 - noctis-obscuro
+- noctis-sereno
 - noctis-uva
 - noctis-viola
 - oceanic-next
