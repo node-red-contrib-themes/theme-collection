@@ -36,6 +36,7 @@ npm install @node-red-contrib-themes/theme-collection
 - monoindustrial
 - monokai
 - monokai-dimmed
+- night-owl
 - noctis
 - oceanic-next
 - oled
