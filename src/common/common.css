@@ -11,3 +11,8 @@
 :root {
   accent-color: var(--red-ui-form-text-color);
 }
+
+/* Custom scrollbar colors */
+:root {
+  scrollbar-color: var(--red-ui-secondary-text-color-disabled) var(--red-ui-secondary-background);
+}
