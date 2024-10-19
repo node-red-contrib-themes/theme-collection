@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $primary-font: "Helvetica Neue", Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, "DejaVu Sans Mono", Courier, monospace;
@@ -17,8 +19,8 @@ $shadow: rgba(0, 0, 0, 0.2);
 // Main body text
 $primary-text-color: #e6e1dc;
 // UI control label text
-$secondary-text-color: scale-color($primary-text-color, $lightness: -20%);
-$secondary-text-color-focus: scale-color($secondary-text-color, $lightness: 50%);
+$secondary-text-color: color.scale($primary-text-color, $lightness: -20%);
+$secondary-text-color-focus: color.scale($secondary-text-color, $lightness: 50%);
 $secondary-text-color-hover: $secondary-text-color-focus;
 $secondary-text-color-active: $secondary-text-color-focus;
 $secondary-text-color-selected: $secondary-text-color-focus;
@@ -39,8 +41,8 @@ $text-color-code: $primary-text-color;
 $text-color-link: #6e9cbe;
 
 $primary-border-color: #202020;
-$secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
-$tertiary-border-color: scale-color($primary-border-color, $lightness: -7%);
+$secondary-border-color: color.scale($primary-border-color, $lightness: -14%);
+$tertiary-border-color: color.scale($primary-border-color, $lightness: -7%);
 
 $border-color-error: #df2935;
 $border-color-warning: #ffcf70;
