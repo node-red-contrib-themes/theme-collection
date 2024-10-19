@@ -1,28 +1,30 @@
+@use "sass:color";
+
 $primary-font: "Helvetica Neue", Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, "DejaVu Sans Mono", Courier, monospace;
 
-$primary-background: scale-color(#222c28, $lightness: -20%);
+$primary-background: color.scale(#222c28, $lightness: -20%);
 
 $secondary-background: #222c28;
-$secondary-background-selected: scale-color($secondary-background, $lightness: 10%);
-$secondary-background-inactive: scale-color($secondary-background, $lightness: -12%);
-$secondary-background-hover: scale-color($secondary-background, $lightness: 5%);
-$secondary-background-disabled: scale-color($secondary-background, $lightness: -4%);
+$secondary-background-selected: color.scale($secondary-background, $lightness: 10%);
+$secondary-background-inactive: color.scale($secondary-background, $lightness: -12%);
+$secondary-background-hover: color.scale($secondary-background, $lightness: 5%);
+$secondary-background-disabled: color.scale($secondary-background, $lightness: -4%);
 
-$tertiary-background: scale-color($secondary-background, $lightness: -10%);
+$tertiary-background: color.scale($secondary-background, $lightness: -10%);
 
 $shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
 $primary-text-color: #fff;
 // UI control label text
-$secondary-text-color: scale-color($primary-text-color, $lightness: -38%);
-$secondary-text-color-focus: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-hover: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-active: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-selected: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-inactive: scale-color($primary-text-color, $lightness: -17.5%);
+$secondary-text-color: color.scale($primary-text-color, $lightness: -38%);
+$secondary-text-color-focus: color.scale($primary-text-color, $lightness: -17.5%);
+$secondary-text-color-hover: color.scale($primary-text-color, $lightness: -17.5%);
+$secondary-text-color-active: color.scale($primary-text-color, $lightness: -17.5%);
+$secondary-text-color-selected: color.scale($primary-text-color, $lightness: -17.5%);
+$secondary-text-color-inactive: color.scale($primary-text-color, $lightness: -17.5%);
 $secondary-text-color-disabled: rgba($primary-text-color, 0.4);
 $secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
 $secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
@@ -39,8 +41,8 @@ $text-color-code: #ad1625;
 $text-color-link: #0088cc;
 
 $primary-border-color: #171d1b;
-$secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
-$tertiary-border-color: scale-color($primary-border-color, $lightness: -7%);
+$secondary-border-color: color.scale($primary-border-color, $lightness: -14%);
+$tertiary-border-color: color.scale($primary-border-color, $lightness: -7%);
 
 $border-color-error: #df2935;
 $border-color-warning: #ffcf70;

@@ -1,34 +1,36 @@
+@use "sass:color";
+
 $primary-font: "Helvetica Neue", Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, "DejaVu Sans Mono", Courier, monospace;
 
-$primary-background: scale-color(#2a211c, $lightness: -20%);
+$primary-background: color.scale(#2a211c, $lightness: -20%);
 
 $secondary-background: #2a211c;
-$secondary-background-selected: scale-color($secondary-background, $lightness: -24%);
-$secondary-background-inactive: scale-color($secondary-background, $lightness: -24%);
+$secondary-background-selected: color.scale($secondary-background, $lightness: -24%);
+$secondary-background-inactive: color.scale($secondary-background, $lightness: -24%);
 $secondary-background-hover: #3a312c;
-$secondary-background-disabled: scale-color($secondary-background, $lightness: -8%);
+$secondary-background-disabled: color.scale($secondary-background, $lightness: -8%);
 
-$tertiary-background: scale-color($secondary-background, $lightness: -20%);
+$tertiary-background: color.scale($secondary-background, $lightness: -20%);
 
 $shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
 $primary-text-color: #bdae9d;
 // UI control label text
-$secondary-text-color: scale-color($primary-text-color, $lightness: -38%);
-$secondary-text-color-focus: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-hover: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-active: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-selected: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-inactive: scale-color($primary-text-color, $lightness: -17.5%);
+$secondary-text-color: color.scale($primary-text-color, $lightness: -38%);
+$secondary-text-color-focus: color.scale($primary-text-color, $lightness: -17.5%);
+$secondary-text-color-hover: color.scale($primary-text-color, $lightness: -17.5%);
+$secondary-text-color-active: color.scale($primary-text-color, $lightness: -17.5%);
+$secondary-text-color-selected: color.scale($primary-text-color, $lightness: -17.5%);
+$secondary-text-color-inactive: color.scale($primary-text-color, $lightness: -17.5%);
 $secondary-text-color-disabled: rgba($primary-text-color, 0.4);
 $secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
 $secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
 
 // Sub label text
-$tertiary-text-color: scale-color($primary-text-color, $lightness: -51%);
+$tertiary-text-color: color.scale($primary-text-color, $lightness: -51%);
 // Heading text
 $header-text-color: #bdae9d;
 
@@ -39,8 +41,8 @@ $text-color-code: #888888;
 $text-color-link: #43a8ed;
 
 $primary-border-color: #3a312c;
-$secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
-$tertiary-border-color: scale-color($primary-border-color, $lightness: -7%);
+$secondary-border-color: color.scale($primary-border-color, $lightness: -14%);
+$tertiary-border-color: color.scale($primary-border-color, $lightness: -7%);
 
 $border-color-error: #df2935;
 $border-color-warning: #ffcf70;

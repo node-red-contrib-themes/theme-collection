@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $primary-font: "Helvetica Neue", Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, "DejaVu Sans Mono", Courier, monospace;
@@ -39,8 +41,8 @@ $text-color-code: #768390;
 $text-color-link: #539bf5;
 
 $primary-border-color: #444c56;
-$secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
-$tertiary-border-color: scale-color($primary-border-color, $lightness: -7%);
+$secondary-border-color: color.scale($primary-border-color, $lightness: -14%);
+$tertiary-border-color: color.scale($primary-border-color, $lightness: -7%);
 
 $border-color-error: #df2935;
 $border-color-warning: #ffcf70;

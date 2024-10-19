@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $primary-font: "Helvetica Neue", Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, "DejaVu Sans Mono", Courier, monospace;
@@ -17,12 +19,12 @@ $shadow: rgba(0, 0, 0, 0.2);
 // Main body text
 $primary-text-color: #ececec;
 // UI control label text
-$secondary-text-color: scale-color($primary-text-color, $lightness: -38%);
-$secondary-text-color-focus: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-hover: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-active: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-selected: scale-color($primary-text-color, $lightness: -17.5%);
-$secondary-text-color-inactive: scale-color($primary-text-color, $lightness: -17.5%);
+$secondary-text-color: color.scale($primary-text-color, $lightness: -38%);
+$secondary-text-color-focus: color.scale($primary-text-color, $lightness: -17.5%);
+$secondary-text-color-hover: color.scale($primary-text-color, $lightness: -17.5%);
+$secondary-text-color-active: color.scale($primary-text-color, $lightness: -17.5%);
+$secondary-text-color-selected: color.scale($primary-text-color, $lightness: -17.5%);
+$secondary-text-color-inactive: color.scale($primary-text-color, $lightness: -17.5%);
 $secondary-text-color-disabled: rgba($primary-text-color, 0.4);
 $secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
 $secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
@@ -39,8 +41,8 @@ $text-color-code: #aaaaaa;
 $text-color-link: #bbbb77;
 
 $primary-border-color: #3f3d4d;
-$secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
-$tertiary-border-color: scale-color($primary-border-color, $lightness: -7%);
+$secondary-border-color: color.scale($primary-border-color, $lightness: -14%);
+$tertiary-border-color: color.scale($primary-border-color, $lightness: -7%);
 
 $border-color-error: #df2935;
 $border-color-warning: #ffcf70;
