@@ -36,7 +36,7 @@
     "devDependencies": {
         "chalk": "5.3.0",
         "chokidar": "4.0.1",
-        "command-line-args": "6.0.0",
+        "command-line-args": "6.0.1",
         "csso": "5.0.5",
         "fs-extra": "11.2.0",
         "khroma": "2.1.0",
