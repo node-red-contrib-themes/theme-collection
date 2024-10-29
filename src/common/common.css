@@ -1,18 +1,10 @@
 /** Style customizations common to all themes **/
 
-/* color-scheme */
-/* Follows the user's color scheme preference on their operating system */
 :root {
-  color-scheme: light dark;
-}
-
-/* Accent color */
-/* Specifies the accent color for user-interface controls like: <input type="checkbox">, <input type="radio">, <input type="range"> and <progress> */
-:root {
+  /* Accent color */
+  /* Specifies the accent color for user-interface controls like: <input type="checkbox">, <input type="radio">, <input type="range"> and <progress> */
   accent-color: var(--red-ui-form-text-color);
-}
 
-/* Custom scrollbar colors */
-:root {
+  /* Custom scrollbar colors */
   scrollbar-color: var(--red-ui-secondary-text-color-disabled) var(--red-ui-secondary-background);
 }
