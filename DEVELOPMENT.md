@@ -84,9 +84,9 @@ Good practices:
   - Header
     - `$header-*`
 
-### Theme Customizations _**(OPTIONAL)**_
+### Theme Customizations
 
-If additional customizations are needed, add them to `src/themes/example-name/theme-custom.css`.
+Update `src/themes/example-name/theme-custom.css` to set the `color-scheme` property. If additional customizations are needed, add them to the end of the file.
 
 ### Monaco Editor theme _**(OPTIONAL)**_
 
