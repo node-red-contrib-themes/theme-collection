@@ -19,7 +19,7 @@ $shadow: rgba(0, 0, 0, 0.2);
 // Main body text
 $primary-text-color: #787c99;
 // UI control label text
-$secondary-text-color: #515670;
+$secondary-text-color: #787c99;
 $secondary-text-color-focus: #a9b1d6;
 $secondary-text-color-hover: #a9b1d6;
 $secondary-text-color-active: #a9b1d6;
@@ -30,7 +30,7 @@ $secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
 $secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
 
 // Sub label text
-$tertiary-text-color: #51597d;
+$tertiary-text-color: #515670;
 // Heading text
 $header-text-color: #787c99;
 
@@ -52,7 +52,7 @@ $form-background: $secondary-background;
 $form-placeholder-color: #787c998a;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
-$form-input-focus-color: rgba(85, 150, 230, 0.8);
+$form-input-focus-color: #007acc;
 $form-input-border-color: $tertiary-border-color;
 $form-input-border-selected-color: #3d59a1;
 $form-input-border-error-color: #963c47;
