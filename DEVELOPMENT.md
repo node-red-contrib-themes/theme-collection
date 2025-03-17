@@ -58,7 +58,7 @@ This will start Node-RED on port `41880`.
 
 Click on the link above to open it in your browser.
 
-Reload (`ctrl-R`/`cmd-R`) after updating theme files.
+After updating the theme files, reload (<kbd>ctrl</kbd> + <kbd>R</kbd>/<kbd>cmd</kbd> + <kbd>R</kbd>).
 
 ### Update theme colors
 
@@ -66,7 +66,7 @@ Update the colors in `src/themes/example-name/theme.scss` as required.
 
 Good practices:
 
-- Don't use opacity, especially on background and border colors. It causes issues in Node-RED and also with third-party nodes.
+- Don't use transparency on the main background and border colors. It doesn't work well with the Node-RED UI; third-party nodes may also be affected.
 - Don't make changes to the following areas:
   - Fonts
     - `$primary-font`
@@ -102,7 +102,7 @@ The default value is `"dark"`. Replace it with the name of one of the themes in 
 
 ### Publish the changes
 
-When finished, press `ctrl-D` to quit the development environment.
+When finished, press <kbd>ctrl</kbd> + <kbd>D</kbd> to quit the development environment.
 
 Create a branch `new-theme/example-name`.
 
