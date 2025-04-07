@@ -88,13 +88,13 @@ Good practices:
 
 Update `src/themes/example-name/theme-custom.css` to set the `color-scheme` property. If additional customizations are needed, add them to the end of the file.
 
-### Monaco Editor theme _**(OPTIONAL)**_
+### Monaco Editor theme
 
 Update `src/themes/example-name/theme-monaco.json` to customize the colors of the Monaco Editor.
 
 The default value is `"tomorrow-night-bright"`. Replace it with the name of one of the themes in this [list][monaco-editor-builtin-themes] or with a custom Monaco theme object. See [this section][setting-a-custom-monaco-theme-from-a-json-file] of the Node-RED documentation for reference.
 
-### Mermaid theme _**(OPTIONAL)**_
+### Mermaid theme
 
 Update Mermaid's theme file - `src/themes/example-name/theme-mermaid.json`.
 
