@@ -38,6 +38,22 @@ _Replace `example-name` with the name of the theme being created._
 
 After creating the new theme, add its name to the ["Theme list"][theme-list] section of the `README.md` file.
 
+> [!TIP]
+> If you are creating a Node-RED theme based on a VS Code theme, this can make your life easier:
+>
+> 1. Load the desired theme in VS Code.
+> 1. Export the theme: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>P</kbd>/<kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>P</kbd>, then select **Developer: Generate Color Theme From Current Settings**.
+> 1. Save the exported theme as `theme-vscode.json` inside the Node-RED theme folder.
+> 1. Run the following command:
+>
+> ```shell
+> npm run vscode:build example-name
+> ```
+>
+> _Replace `example-name` with the name of the theme being created._
+>
+> This will create an initial version of the Node-RED theme that can be updated by following the steps below.
+
 ## Updating a theme
 
 ### Start the development environment
