@@ -1,9 +1,5 @@
 # Node-RED Contrib Theme Collection
 
-[![npm (scoped)][npm-version-badge]][npm-package]
-[![Release Publish][release-publish-badge]][release-publish-workflow]
-[![Project license][license-badge]][license]
-
 A collection of themes for [Node-RED][node-red].
 
 ## Installation
@@ -126,14 +122,9 @@ This project is licensed under the [MIT license][license].
 
 [creating-a-new-theme]: DEVELOPMENT.md
 [development]: DEVELOPMENT.md
-[license-badge]: https://img.shields.io/github/license/node-red-contrib-themes/theme-collection.svg?style=for-the-badge
 [license]: LICENSE
 [node-red-doc]: https://nodered.org/docs/user-guide/runtime/configuration#editor-themes
 [node-red]: https://nodered.org/
-[npm-package]: https://www.npmjs.com/package/@node-red-contrib-themes/theme-collection
-[npm-version-badge]: https://img.shields.io/npm/v/@node-red-contrib-themes/theme-collection?logo=npm&style=for-the-badge
-[release-publish-badge]: https://img.shields.io/github/actions/workflow/status/node-red-contrib-themes/theme-collection/release-publish.yml?style=for-the-badge
-[release-publish-workflow]: https://github.com/node-red-contrib-themes/theme-collection/actions/workflows/release-publish.yml
 [theme-aurora]: https://github.com/expalmer/aurora-theme/
 [theme-cobalt2]: https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2
 [theme-dark-modern]: https://github.com/microsoft/vscode/blob/main/extensions/theme-defaults/themes/dark_modern.json
