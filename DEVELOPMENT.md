@@ -42,8 +42,10 @@ After creating the new theme, add its name to the ["Theme list"][theme-list] sec
 > If you are creating a Node-RED theme based on a VS Code theme, this can make your life easier:
 >
 > 1. Load the desired theme in VS Code.
+> 1. Disable all VS Code extensions to avoid cluttering your theme file with unnecessary entries.
 > 1. Export the theme: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>P</kbd>/<kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>P</kbd>, then select **Developer: Generate Color Theme From Current Settings**.
 > 1. Save the exported theme as `theme-vscode.json` inside the Node-RED theme folder.
+> 1. Re-enable the VS Code extensions.
 > 1. Run the following command:
 >
 > ```shell
