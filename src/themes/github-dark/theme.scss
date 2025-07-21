@@ -7,7 +7,7 @@ $monospace-font: Menlo, Consolas, "DejaVu Sans Mono", Courier, monospace;
 $primary-background: #1f2428;
 
 $secondary-background: #24292e;
-$secondary-background-selected: #39414a;
+$secondary-background-selected: #282e34;
 $secondary-background-inactive: #1f2428;
 $secondary-background-hover: #282e34;
 $secondary-background-disabled: #1f2428;
@@ -19,18 +19,18 @@ $shadow: rgba(0, 0, 0, 0.2);
 // Main body text
 $primary-text-color: #d1d5da;
 // UI control label text
-$secondary-text-color: #959da5;
+$secondary-text-color: #c5c5c5;
 $secondary-text-color-focus: #e1e4e8;
 $secondary-text-color-hover: #e1e4e8;
 $secondary-text-color-active: #e1e4e8;
 $secondary-text-color-selected: #e1e4e8;
 $secondary-text-color-inactive: #959da5;
-$secondary-text-color-disabled: rgba($primary-text-color, 0.4);
+$secondary-text-color-disabled: #cccccc80;
 $secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
 $secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
 
 // Sub label text
-$tertiary-text-color: #6a737d;
+$tertiary-text-color: #959da5;
 // Heading text
 $header-text-color: #d1d5da;
 
@@ -52,7 +52,7 @@ $form-background: $secondary-background;
 $form-placeholder-color: #959da5;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
-$form-input-focus-color: rgba(85, 150, 230, 0.8);
+$form-input-focus-color: #007acc;
 $form-input-border-color: $tertiary-border-color;
 $form-input-border-selected-color: #f9826c;
 $form-input-border-error-color: #be1100;
@@ -259,12 +259,12 @@ $debug-message-background: $secondary-background;
 $debug-message-background-hover: $secondary-background-hover;
 
 $debug-message-text-color: $primary-text-color;
-$debug-message-text-color-meta: #b392f0;
-$debug-message-text-color-object-key: #d1d5da;
+$debug-message-text-color-meta: #c586c0;
+$debug-message-text-color-object-key: #79b8ff;
 $debug-message-text-color-msg-type-other: #4e94ce;
 $debug-message-text-color-msg-type-string: #ce9178;
 $debug-message-text-color-msg-type-null: #d1d5da;
-$debug-message-text-color-msg-type-meta: #c586c0;
+$debug-message-text-color-msg-type-meta: #4a90e2;
 $debug-message-text-color-msg-type-number: #b5cea8;
 
 $debug-message-border: $primary-background;

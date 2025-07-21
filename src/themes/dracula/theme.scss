@@ -7,9 +7,9 @@ $monospace-font: Menlo, Consolas, "DejaVu Sans Mono", Courier, monospace;
 $primary-background: #21222c;
 
 $secondary-background: #282a36;
-$secondary-background-selected: #44475a;
+$secondary-background-selected: #353747;
 $secondary-background-inactive: #21222c;
-$secondary-background-hover: #363847;
+$secondary-background-hover: #3c3e50;
 $secondary-background-disabled: #21222c;
 
 $tertiary-background: #21222c;
@@ -19,13 +19,13 @@ $shadow: rgba(0, 0, 0, 0.2);
 // Main body text
 $primary-text-color: #f8f8f2;
 // UI control label text
-$secondary-text-color: #f8f8f2b3;
+$secondary-text-color: #c5c5c5;
 $secondary-text-color-focus: #f8f8f2;
 $secondary-text-color-hover: #f8f8f2;
 $secondary-text-color-active: #f8f8f2;
 $secondary-text-color-selected: #f8f8f2;
-$secondary-text-color-inactive: #f8f8f2b3;
-$secondary-text-color-disabled: rgba($primary-text-color, 0.4);
+$secondary-text-color-inactive: #6272a4;
+$secondary-text-color-disabled: #cccccc80;
 $secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
 $secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
 
@@ -40,7 +40,7 @@ $text-color-success: #50fa7b;
 $text-color-code: #d7ba7d;
 $text-color-link: #3794ff;
 
-$primary-border-color: #3d3e46;
+$primary-border-color: #3e404a;
 $secondary-border-color: color.scale($primary-border-color, $lightness: -14%);
 $tertiary-border-color: color.scale($primary-border-color, $lightness: -7%);
 
@@ -52,9 +52,9 @@ $form-background: $secondary-background;
 $form-placeholder-color: #6272a4;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
-$form-input-focus-color: rgba(85, 150, 230, 0.8);
+$form-input-focus-color: #bd93f9;
 $form-input-border-color: $tertiary-border-color;
-$form-input-border-selected-color: #9d5382;
+$form-input-border-selected-color: #9a5887;
 $form-input-border-error-color: #ff5555;
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
@@ -259,12 +259,12 @@ $debug-message-background: $secondary-background;
 $debug-message-background-hover: $secondary-background-hover;
 
 $debug-message-text-color: $primary-text-color;
-$debug-message-text-color-meta: #8be9fd;
-$debug-message-text-color-object-key: #50fa7b;
+$debug-message-text-color-meta: #c586c0;
+$debug-message-text-color-object-key: #8be9fd;
 $debug-message-text-color-msg-type-other: #4e94ce;
 $debug-message-text-color-msg-type-string: #ce9178;
-$debug-message-text-color-msg-type-null: #c586c0;
-$debug-message-text-color-msg-type-meta: #c586c0;
+$debug-message-text-color-msg-type-null: #f8f8f2;
+$debug-message-text-color-msg-type-meta: #4a90e2;
 $debug-message-text-color-msg-type-number: #b5cea8;
 
 $debug-message-border: $primary-background;
