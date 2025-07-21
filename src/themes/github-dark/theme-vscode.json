@@ -899,11 +899,7 @@
     },
     "tokenColors": [
         {
-            "scope": [
-                "comment",
-                "punctuation.definition.comment",
-                "string.comment"
-            ],
+            "scope": ["comment", "punctuation.definition.comment", "string.comment"],
             "settings": {
                 "foreground": "#6A737D"
             }
@@ -921,10 +917,7 @@
             }
         },
         {
-            "scope": [
-                "entity",
-                "entity.name"
-            ],
+            "scope": ["entity", "entity.name"],
             "settings": {
                 "foreground": "#B392F0"
             }
@@ -948,30 +941,19 @@
             }
         },
         {
-            "scope": [
-                "storage",
-                "storage.type"
-            ],
+            "scope": ["storage", "storage.type"],
             "settings": {
                 "foreground": "#F97583"
             }
         },
         {
-            "scope": [
-                "storage.modifier.package",
-                "storage.modifier.import",
-                "storage.type.java"
-            ],
+            "scope": ["storage.modifier.package", "storage.modifier.import", "storage.type.java"],
             "settings": {
                 "foreground": "#E1E4E8"
             }
         },
         {
-            "scope": [
-                "string",
-                "punctuation.definition.string",
-                "string punctuation.section.embedded source"
-            ],
+            "scope": ["string", "punctuation.definition.string", "string punctuation.section.embedded source"],
             "settings": {
                 "foreground": "#9ECBFF"
             }
@@ -1049,10 +1031,7 @@
             }
         },
         {
-            "scope": [
-                "source.regexp",
-                "string.regexp"
-            ],
+            "scope": ["source.regexp", "string.regexp"],
             "settings": {
                 "foreground": "#DBEDFF"
             }
@@ -1100,10 +1079,7 @@
             }
         },
         {
-            "scope": [
-                "markup.heading",
-                "markup.heading entity.name"
-            ],
+            "scope": ["markup.heading", "markup.heading entity.name"],
             "settings": {
                 "foreground": "#79B8FF",
                 "fontStyle": "bold"
@@ -1130,17 +1106,13 @@
             }
         },
         {
-            "scope": [
-                "markup.underline"
-            ],
+            "scope": ["markup.underline"],
             "settings": {
                 "fontStyle": "underline"
             }
         },
         {
-            "scope": [
-                "markup.strikethrough"
-            ],
+            "scope": ["markup.strikethrough"],
             "settings": {
                 "fontStyle": "strikethrough"
             }
@@ -1152,42 +1124,28 @@
             }
         },
         {
-            "scope": [
-                "markup.deleted",
-                "meta.diff.header.from-file",
-                "punctuation.definition.deleted"
-            ],
+            "scope": ["markup.deleted", "meta.diff.header.from-file", "punctuation.definition.deleted"],
             "settings": {
                 "foreground": "#FDAEB7",
                 "background": "#86181D"
             }
         },
         {
-            "scope": [
-                "markup.inserted",
-                "meta.diff.header.to-file",
-                "punctuation.definition.inserted"
-            ],
+            "scope": ["markup.inserted", "meta.diff.header.to-file", "punctuation.definition.inserted"],
             "settings": {
                 "foreground": "#85E89D",
                 "background": "#144620"
             }
         },
         {
-            "scope": [
-                "markup.changed",
-                "punctuation.definition.changed"
-            ],
+            "scope": ["markup.changed", "punctuation.definition.changed"],
             "settings": {
                 "foreground": "#FFAB70",
                 "background": "#C24E00"
             }
         },
         {
-            "scope": [
-                "markup.ignored",
-                "markup.untracked"
-            ],
+            "scope": ["markup.ignored", "markup.untracked"],
             "settings": {
                 "foreground": "#2F363D",
                 "background": "#79B8FF"
@@ -1239,10 +1197,7 @@
             }
         },
         {
-            "scope": [
-                "constant.other.reference.link",
-                "string.other.link"
-            ],
+            "scope": ["constant.other.reference.link", "string.other.link"],
             "settings": {
                 "foreground": "#DBEDFF",
                 "fontStyle": "underline"

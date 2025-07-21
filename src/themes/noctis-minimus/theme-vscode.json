@@ -1431,10 +1431,7 @@
             }
         },
         {
-            "scope": [
-                "invalid",
-                "invalid.illegal"
-            ],
+            "scope": ["invalid", "invalid.illegal"],
             "settings": {
                 "foreground": "#B16A4E"
             }
@@ -1711,9 +1708,7 @@
             }
         },
         {
-            "scope": [
-                "markup.strikethrough"
-            ],
+            "scope": ["markup.strikethrough"],
             "settings": {
                 "fontStyle": "strikethrough"
             }

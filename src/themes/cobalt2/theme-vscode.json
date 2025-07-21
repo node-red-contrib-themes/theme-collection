@@ -900,10 +900,7 @@
     },
     "tokenColors": [
         {
-            "scope": [
-                "comment",
-                "punctuation.definition.comment"
-            ],
+            "scope": ["comment", "punctuation.definition.comment"],
             "settings": {
                 "foreground": "#0088FF",
                 "fontStyle": "italic"
@@ -940,35 +937,25 @@
             }
         },
         {
-            "scope": [
-                "markup.inserted",
-                "meta.diff.header.to-file"
-            ],
+            "scope": ["markup.inserted", "meta.diff.header.to-file"],
             "settings": {
                 "foreground": "#A5FF90"
             }
         },
         {
-            "scope": [
-                "punctuation.definition.inserted"
-            ],
+            "scope": ["punctuation.definition.inserted"],
             "settings": {
                 "foreground": "#A5FF90CC"
             }
         },
         {
-            "scope": [
-                "markup.deleted",
-                "meta.diff.header.from-file"
-            ],
+            "scope": ["markup.deleted", "meta.diff.header.from-file"],
             "settings": {
                 "foreground": "#FF628C"
             }
         },
         {
-            "scope": [
-                "punctuation.definition.deleted"
-            ],
+            "scope": ["punctuation.definition.deleted"],
             "settings": {
                 "foreground": "#FF628CCC"
             }
@@ -980,11 +967,7 @@
             }
         },
         {
-            "scope": [
-                "meta.jsx.children",
-                "meta.jsx.children.js",
-                "meta.jsx.children.tsx"
-            ],
+            "scope": ["meta.jsx.children", "meta.jsx.children.js", "meta.jsx.children.tsx"],
             "settings": {
                 "foreground": "#FFFFFF"
             }
@@ -1026,19 +1009,13 @@
             }
         },
         {
-            "scope": [
-                "string",
-                "punctuation.definition.string"
-            ],
+            "scope": ["string", "punctuation.definition.string"],
             "settings": {
                 "foreground": "#A5FF90"
             }
         },
         {
-            "scope": [
-                "string.template",
-                "punctuation.definition.string.template"
-            ],
+            "scope": ["string.template", "punctuation.definition.string.template"],
             "settings": {
                 "foreground": "#3AD900"
             }
@@ -1068,10 +1045,7 @@
             }
         },
         {
-            "scope": [
-                "source.css entity",
-                "source.stylus entity"
-            ],
+            "scope": ["source.css entity", "source.stylus entity"],
             "settings": {
                 "foreground": "#3AD900"
             }
@@ -1089,10 +1063,7 @@
             }
         },
         {
-            "scope": [
-                "source.css support",
-                "source.stylus support"
-            ],
+            "scope": ["source.css support", "source.stylus support"],
             "settings": {
                 "foreground": "#A5FF90"
             }
@@ -1120,10 +1091,7 @@
             }
         },
         {
-            "scope": [
-                "source.css variable",
-                "source.stylus variable"
-            ],
+            "scope": ["source.css variable", "source.stylus variable"],
             "settings": {
                 "foreground": "#9EFFFF"
             }
@@ -1202,18 +1170,13 @@
             }
         },
         {
-            "scope": [
-                "variable.parameter.function.language.special.self.python",
-                "meta.function-call.generic.python"
-            ],
+            "scope": ["variable.parameter.function.language.special.self.python", "meta.function-call.generic.python"],
             "settings": {
                 "foreground": "#9EFFFF"
             }
         },
         {
-            "scope": [
-                "meta.function-call.arguments.python"
-            ],
+            "scope": ["meta.function-call.arguments.python"],
             "settings": {
                 "foreground": "#FB94FF"
             }
@@ -1225,10 +1188,7 @@
             }
         },
         {
-            "scope": [
-                "source.json string",
-                "source.json punctuation.definition.string"
-            ],
+            "scope": ["source.json string", "source.json punctuation.definition.string"],
             "settings": {
                 "foreground": "#E1EFFF"
             }
@@ -1312,28 +1272,19 @@
             }
         },
         {
-            "scope": [
-                "markup.underline.link.markdown",
-                "markup.underline.link.image.markdown"
-            ],
+            "scope": ["markup.underline.link.markdown", "markup.underline.link.image.markdown"],
             "settings": {
                 "foreground": "#9EFFFF"
             }
         },
         {
-            "scope": [
-                "fenced_code.block.language",
-                "markup.inline.raw.markdown"
-            ],
+            "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
             "settings": {
                 "foreground": "#9EFFFF"
             }
         },
         {
-            "scope": [
-                "fenced_code.block.language",
-                "markup.inline.raw.markdown"
-            ],
+            "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
             "settings": {
                 "foreground": "#9EFFFF"
             }
@@ -1427,18 +1378,14 @@
             }
         },
         {
-            "scope": [
-                "keyword.control.export"
-            ],
+            "scope": ["keyword.control.export"],
             "settings": {
                 "foreground": "#FF9D00",
                 "fontStyle": "italic"
             }
         },
         {
-            "scope": [
-                "meta.return.type.ts"
-            ],
+            "scope": ["meta.return.type.ts"],
             "settings": {
                 "foreground": "#FF0088",
                 "fontStyle": "italic"

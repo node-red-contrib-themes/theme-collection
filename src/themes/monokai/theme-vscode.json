@@ -884,18 +884,13 @@
             }
         },
         {
-            "scope": [
-                "punctuation.definition.template-expression",
-                "punctuation.section.embedded"
-            ],
+            "scope": ["punctuation.definition.template-expression", "punctuation.section.embedded"],
             "settings": {
                 "foreground": "#F92672"
             }
         },
         {
-            "scope": [
-                "meta.template.expression"
-            ],
+            "scope": ["meta.template.expression"],
             "settings": {
                 "foreground": "#F8F8F2"
             }
@@ -953,10 +948,7 @@
             }
         },
         {
-            "scope": [
-                "entity.other.inherited-class",
-                "punctuation.separator.namespace.ruby"
-            ],
+            "scope": ["entity.other.inherited-class", "punctuation.separator.namespace.ruby"],
             "settings": {
                 "foreground": "#A6E22E",
                 "fontStyle": "italic underline"
@@ -1160,9 +1152,7 @@
             }
         },
         {
-            "scope": [
-                "punctuation.definition.list.begin.markdown"
-            ],
+            "scope": ["punctuation.definition.list.begin.markdown"],
             "settings": {
                 "foreground": "#A6E22E"
             }

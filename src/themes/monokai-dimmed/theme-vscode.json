@@ -859,11 +859,7 @@
     },
     "tokenColors": [
         {
-            "scope": [
-                "meta.embedded",
-                "source.groovy.embedded",
-                "variable.legacy.builtin.python"
-            ],
+            "scope": ["meta.embedded", "source.groovy.embedded", "variable.legacy.builtin.python"],
             "settings": {
                 "foreground": "#C5C8C6"
             }
@@ -932,10 +928,7 @@
             }
         },
         {
-            "scope": [
-                "entity.other.inherited-class",
-                "punctuation.separator.namespace.ruby"
-            ],
+            "scope": ["entity.other.inherited-class", "punctuation.separator.namespace.ruby"],
             "settings": {
                 "foreground": "#C7444A",
                 "fontStyle": ""
@@ -1122,18 +1115,13 @@
             }
         },
         {
-            "scope": [
-                "punctuation.definition.template-expression",
-                "punctuation.section.embedded.coffee"
-            ],
+            "scope": ["punctuation.definition.template-expression", "punctuation.section.embedded.coffee"],
             "settings": {
                 "foreground": "#D08442"
             }
         },
         {
-            "scope": [
-                "meta.template.expression"
-            ],
+            "scope": ["meta.template.expression"],
             "settings": {
                 "foreground": "#C5C8C6"
             }
@@ -1186,10 +1174,7 @@
             }
         },
         {
-            "scope": [
-                "punctuation.section.embedded.begin.ruby",
-                "punctuation.section.embedded.end.ruby"
-            ],
+            "scope": ["punctuation.section.embedded.begin.ruby", "punctuation.section.embedded.end.ruby"],
             "settings": {
                 "foreground": "#D08442"
             }
@@ -1311,9 +1296,7 @@
             "settings": {}
         },
         {
-            "scope": [
-                "punctuation.definition.list.begin.markdown"
-            ],
+            "scope": ["punctuation.definition.list.begin.markdown"],
             "settings": {}
         },
         {

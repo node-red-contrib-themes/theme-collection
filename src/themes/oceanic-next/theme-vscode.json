@@ -869,10 +869,7 @@
     },
     "tokenColors": [
         {
-            "scope": [
-                "comment",
-                "punctuation.definition.comment"
-            ],
+            "scope": ["comment", "punctuation.definition.comment"],
             "settings": {
                 "foreground": "#65737E"
             }
@@ -884,10 +881,7 @@
             }
         },
         {
-            "scope": [
-                "keyword",
-                "storage.type"
-            ],
+            "scope": ["keyword", "storage.type"],
             "settings": {
                 "foreground": "#C594C5"
             }
@@ -912,11 +906,7 @@
             }
         },
         {
-            "scope": [
-                "entity.name.tag",
-                "meta.tag.sgml",
-                "markup.deleted.git_gutter"
-            ],
+            "scope": ["entity.name.tag", "meta.tag.sgml", "markup.deleted.git_gutter"],
             "settings": {
                 "foreground": "#EB606B"
             }
@@ -935,10 +925,7 @@
             }
         },
         {
-            "scope": [
-                "support.other.variable",
-                "string.other.link"
-            ],
+            "scope": ["support.other.variable", "string.other.link"],
             "settings": {
                 "foreground": "#F2777A"
             }
@@ -987,11 +974,7 @@
             }
         },
         {
-            "scope": [
-                "entity.name.module.js",
-                "variable.import.parameter.js",
-                "variable.other.class.js"
-            ],
+            "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
             "settings": {
                 "foreground": "#EC5F67"
             }
@@ -1010,10 +993,7 @@
             }
         },
         {
-            "scope": [
-                "meta.method.js entity.name.function.js",
-                "variable.function.constructor"
-            ],
+            "scope": ["meta.method.js entity.name.function.js", "variable.function.constructor"],
             "settings": {
                 "foreground": "#D8DEE9"
             }
@@ -1055,11 +1035,7 @@
             }
         },
         {
-            "scope": [
-                "*url*",
-                "*link*",
-                "*uri*"
-            ],
+            "scope": ["*url*", "*link*", "*uri*"],
             "settings": {
                 "fontStyle": "underline"
             }
@@ -1077,10 +1053,7 @@
             }
         },
         {
-            "scope": [
-                "tag.decorator.js entity.name.tag.js",
-                "tag.decorator.js punctuation.definition.tag.js"
-            ],
+            "scope": ["tag.decorator.js entity.name.tag.js", "tag.decorator.js punctuation.definition.tag.js"],
             "settings": {
                 "foreground": "#6699CC",
                 "fontStyle": "italic"
