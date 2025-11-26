@@ -7,6 +7,10 @@ on:
       - published
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   npm-publish:
     name: "Publish"
@@ -33,6 +37,4 @@ jobs:
         run: npm run build
 
       - name: "Publish to npm"
-        uses: JS-DevTools/npm-publish@v4.1.1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
+        uses: npm publish
