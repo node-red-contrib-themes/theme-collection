@@ -1,9 +1,9 @@
-const path = require('path')
-const fs = require('fs')
-const package = require('./package.json')
+const path = require('node:path')
+const fs = require('node:fs')
+const pkg = require('./package.json')
 const rootDir = path.resolve(__dirname)
 
-module.exports = function (RED) {
+module.exports = (RED) => {
     const themes = fs.readdirSync(`${rootDir}/themes`)
 
     for (const themeName of themes) {
@@ -21,5 +21,5 @@ module.exports = function (RED) {
         })
     }
 
-    RED.log.info(`Node-RED Contrib Theme Collection version: v${package.version}`)
+    RED.log.info(`Node-RED Contrib Theme Collection version: v${pkg.version}`)
 }
