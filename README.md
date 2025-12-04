@@ -59,7 +59,7 @@ npm install @node-red-contrib-themes/theme-collection
 | `zenburn`             | [Zenburn color scheme for Vim][theme-zenburn]                           |
 | `zendesk-garden`      | [Garden design system by Zendesk][theme-zendesk-garden]                 |
 
-If you have an idea for a new theme, you can request it [here][tr], or better yet, [create one yourself][creating-a-new-theme].
+If you have an idea for a new theme, you can [request it][tr], or better yet, [create one yourself][creating-a-new-theme].
 
 ## Usage
 
