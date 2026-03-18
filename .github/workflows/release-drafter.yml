@@ -5,12 +5,10 @@ on:
   push:
     branches:
       - dev
-  pull_request:
-    types:
-      - opened
-      - reopened
-      - synchronize
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update_release_draft:
@@ -18,5 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: release-drafter/release-drafter@v7.1.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: release-drafter/release-drafter/autolabeler@v7.1.0
