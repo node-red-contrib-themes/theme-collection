@@ -23,4 +23,4 @@ jobs:
       - uses: release-drafter/release-drafter@v7.1.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: release-drafter/release-drafter/autolabeler@v7.0.0
+      - uses: release-drafter/release-drafter/autolabeler@v7.1.0
