@@ -41,7 +41,6 @@
         "chokidar": "5.0.0",
         "command-line-args": "6.0.2",
         "csso": "5.0.5",
-        "fs-extra": "11.3.4",
         "khroma": "2.1.0",
         "nodemon": "3.1.14",
         "ora": "9.4.0",
