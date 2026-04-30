@@ -18,8 +18,6 @@ npm install @node-red-contrib-themes/theme-collection
 
 ## Theme list
 
-<a href="https://github.com/node-red-contrib-themes/theme-collection/blob/screenshots/README.md" target="_blank">📸 Screenshots</a>
-
 | Name                  | Inspiration                                                             |
 | --------------------- | ----------------------------------------------------------------------- |
 | `aurora`              | [Aurora Theme for Sublime Text][theme-aurora]                           |
