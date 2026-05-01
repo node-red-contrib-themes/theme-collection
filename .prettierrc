@@ -6,7 +6,7 @@
     "trailingComma": "none",
     "overrides": [
         {
-            "files": ["*.css", "*.scss", "*.yaml", "*.yml", "*.md"],
+            "files": ["*.yaml", "*.yml", "*.md"],
             "options": {
                 "singleQuote": false,
                 "tabWidth": 2

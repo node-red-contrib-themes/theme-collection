@@ -1,8 +1,8 @@
-@use "sass:color";
+@use 'sass:color';
 
-$primary-font: "Helvetica Neue", Arial, Helvetica, sans-serif;
+$primary-font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
-$monospace-font: Menlo, Consolas, "DejaVu Sans Mono", Courier, monospace;
+$monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
 
 $primary-background: color.scale(#222c28, $lightness: -20%);
 
@@ -206,11 +206,11 @@ $node-status-changed-border: rgb(28, 102, 140);
 $node-status-changed-background: rgb(0, 188, 255);
 
 $node-status-colors: (
-  red: #dc3e42,
-  green: #30a46c,
-  yellow: #f9df31,
-  blue: #53a3f3,
-  grey: #d3d3d3
+    red: #dc3e42,
+    green: #30a46c,
+    yellow: #f9df31,
+    blue: #53a3f3,
+    grey: #d3d3d3
 );
 
 $node-selected-color: #ff7f0e;
@@ -298,9 +298,9 @@ $tab-icon-color: rgba($primary-text-color, 0.2);
 // Anonymous User Colors
 $user-profile-text-color: #eee;
 $user-profile-colors: (
-  1: #822e81,
-  2: #955e42,
-  3: #9c914f,
-  4: #748e54,
-  5: #06bcc1
+    1: #822e81,
+    2: #955e42,
+    3: #9c914f,
+    4: #748e54,
+    5: #06bcc1
 );

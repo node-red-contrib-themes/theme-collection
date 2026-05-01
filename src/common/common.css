@@ -1,7 +1,7 @@
 /** Style customizations common to all themes **/
 
 :root {
-  /* Accent color */
-  /* Specifies the accent color for user-interface controls like: <input type="checkbox">, <input type="radio">, <input type="range"> and <progress> */
-  accent-color: var(--red-ui-form-text-color);
+    /* Accent color */
+    /* Specifies the accent color for user-interface controls like: <input type="checkbox">, <input type="radio">, <input type="range"> and <progress> */
+    accent-color: var(--red-ui-form-text-color);
 }
