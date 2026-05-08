@@ -4,15 +4,15 @@ $primary-font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
 
-$primary-background: #0f2027;
+$primary-background: #17242c;
 
 $secondary-background: #1b2b34;
-$secondary-background-selected: #32424c;
-$secondary-background-inactive: #0f2027;
-$secondary-background-hover: #32424c;
-$secondary-background-disabled: #0f2027;
+$secondary-background-selected: #17242c;
+$secondary-background-inactive: #17242c;
+$secondary-background-hover: #17242c;
+$secondary-background-disabled: #17242c;
 
-$tertiary-background: #15262e;
+$tertiary-background: #343d46;
 
 $shadow: rgba(0, 0, 0, 0.2);
 
@@ -24,7 +24,7 @@ $secondary-text-color-focus: #cccccc;
 $secondary-text-color-hover: #cccccc;
 $secondary-text-color-active: #cccccc;
 $secondary-text-color-selected: #cccccc;
-$secondary-text-color-inactive: #ffffff80;
+$secondary-text-color-inactive: #65737e;
 $secondary-text-color-disabled: #cccccc80;
 $secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
 $secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
@@ -35,7 +35,7 @@ $tertiary-text-color: #cccccccc;
 $header-text-color: #cccccc;
 
 $text-color-error: #ec5f67;
-$text-color-warning: #cca700;
+$text-color-warning: #fac863;
 $text-color-success: #99c794;
 $text-color-code: #d7ba7d;
 $text-color-link: #3794ff;
@@ -49,7 +49,7 @@ $border-color-warning: #ffcf70;
 $border-color-success: #4b8400;
 
 $form-background: $secondary-background;
-$form-placeholder-color: #cccccc80;
+$form-placeholder-color: #65737e;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: #007acc;
@@ -70,7 +70,7 @@ $text-editor-gutter-background: $secondary-background;
 $text-editor-gutter-color: #858585;
 $text-editor-gutter-active-line-background: #65737e55;
 $text-editor-active-line-background: #65737e55;
-$text-editor-selection-background: #3d464e99;
+$text-editor-selection-background: #4f5b6644;
 
 $event-log-background: $secondary-background;
 $event-log-color: $primary-text-color;
@@ -107,9 +107,9 @@ $scrollbar-handle-background: $primary-text-color;
 $workspace-button-background: $secondary-background;
 $workspace-button-background-hover: $secondary-background-hover;
 $workspace-button-background-active: $secondary-background-selected;
-$workspace-button-background-selected: $primary-background;
-$workspace-button-border-selected: $primary-background;
-$workspace-button-border-selected-inverse: $secondary-background-hover;
+$workspace-button-background-selected: $secondary-background-hover;
+$workspace-button-border-selected: $secondary-background-hover;
+$workspace-button-border-selected-inverse: $secondary-background;
 
 $workspace-button-color: $secondary-text-color;
 $workspace-button-color-disabled: $secondary-text-color-disabled;
@@ -119,8 +119,8 @@ $workspace-button-color-active: $secondary-text-color-active;
 $workspace-button-color-selected: $secondary-text-color-selected;
 
 $workspace-button-color-primary: #eee;
-$workspace-button-background-primary: #bb0000;
-$workspace-button-background-primary-hover: #a21212;
+$workspace-button-background-primary: #5fb3b3;
+$workspace-button-background-primary-hover: #4e9b9b;
 $workspace-button-color-focus-outline: $form-input-focus-color;
 
 $shade-color: rgba(0, 0, 0, 0.35);
@@ -147,14 +147,14 @@ $diff-state-moved: #3f81b3;
 $diff-state-conflict: #e4676b;
 $diff-state-conflict-background: #ffea0047;
 
-$diff-state-added-background: #9bb95533;
+$diff-state-added-background: #99c79422;
 $diff-state-added-border: rgba($diff-state-added-background, 0.1);
-$diff-state-added-header-background: #9bb95533;
+$diff-state-added-header-background: #99c79422;
 $diff-state-added-header-border: rgba($diff-state-added-header-background, 0.1);
 
-$diff-state-deleted-background: #ff000033;
+$diff-state-deleted-background: #ec5f6722;
 $diff-state-deleted-border: rgba($diff-state-deleted-background, 0.1);
-$diff-state-deleted-header-background: #ff000033;
+$diff-state-deleted-header-background: #ec5f6722;
 $diff-state-deleted-header-border: rgba($diff-state-deleted-header-background, 0.1);
 
 $diff-merge-header-color: #800080;

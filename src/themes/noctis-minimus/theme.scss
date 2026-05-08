@@ -12,7 +12,7 @@ $secondary-background-inactive: #17232b;
 $secondary-background-hover: #00558a;
 $secondary-background-disabled: #17232b;
 
-$tertiary-background: #17232b;
+$tertiary-background: #202e37;
 
 $shadow: rgba(0, 0, 0, 0.2);
 
@@ -40,7 +40,7 @@ $text-color-success: #72c09f;
 $text-color-code: #dfc09f;
 $text-color-link: #5998c0;
 
-$primary-border-color: #334652;
+$primary-border-color: #101213;
 $secondary-border-color: color.scale($primary-border-color, $lightness: -14%);
 $tertiary-border-color: color.scale($primary-border-color, $lightness: -7%);
 
@@ -107,9 +107,9 @@ $scrollbar-handle-background: $primary-text-color;
 $workspace-button-background: $secondary-background;
 $workspace-button-background-hover: $secondary-background-hover;
 $workspace-button-background-active: $secondary-background-selected;
-$workspace-button-background-selected: $primary-background;
-$workspace-button-border-selected: $primary-background;
-$workspace-button-border-selected-inverse: $secondary-background-hover;
+$workspace-button-background-selected: $secondary-background-hover;
+$workspace-button-border-selected: $secondary-background-hover;
+$workspace-button-border-selected-inverse: $secondary-background;
 
 $workspace-button-color: $secondary-text-color;
 $workspace-button-color-disabled: $secondary-text-color-disabled;
@@ -119,8 +119,8 @@ $workspace-button-color-active: $secondary-text-color-active;
 $workspace-button-color-selected: $secondary-text-color-selected;
 
 $workspace-button-color-primary: #eee;
-$workspace-button-background-primary: #bb0000;
-$workspace-button-background-primary-hover: #a21212;
+$workspace-button-background-primary: #2e616b;
+$workspace-button-background-primary-hover: #3d818f;
 $workspace-button-color-focus-outline: $form-input-focus-color;
 
 $shade-color: rgba(0, 0, 0, 0.35);
@@ -266,7 +266,7 @@ $debug-message-background-hover: $secondary-background-hover;
 
 $debug-message-text-color: $primary-text-color;
 $debug-message-text-color-meta: #c586c0;
-$debug-message-text-color-object-key: #3f848d;
+$debug-message-text-color-object-key: #d3b692;
 $debug-message-text-color-msg-type-other: #4e94ce;
 $debug-message-text-color-msg-type-string: #ce9178;
 $debug-message-text-color-msg-type-null: #c5cdd3;

@@ -40,7 +40,7 @@ $text-color-success: #73daca;
 $text-color-code: #73daca;
 $text-color-link: #668ac4;
 
-$primary-border-color: #2d324a;
+$primary-border-color: #1b1e2e;
 $secondary-border-color: color.scale($primary-border-color, $lightness: -14%);
 $tertiary-border-color: color.scale($primary-border-color, $lightness: -7%);
 
@@ -107,8 +107,8 @@ $scrollbar-handle-background: $primary-text-color;
 $workspace-button-background: $secondary-background;
 $workspace-button-background-hover: $secondary-background-hover;
 $workspace-button-background-active: $secondary-background-selected;
-$workspace-button-background-selected: $primary-background;
-$workspace-button-border-selected: $primary-background;
+$workspace-button-background-selected: #3d59a144;
+$workspace-button-border-selected: #3d59a144;
 $workspace-button-border-selected-inverse: $secondary-background-hover;
 
 $workspace-button-color: $secondary-text-color;
@@ -119,8 +119,8 @@ $workspace-button-color-active: $secondary-text-color-active;
 $workspace-button-color-selected: $secondary-text-color-selected;
 
 $workspace-button-color-primary: #eee;
-$workspace-button-background-primary: #bb0000;
-$workspace-button-background-primary-hover: #a21212;
+$workspace-button-background-primary: #3d59a1dd;
+$workspace-button-background-primary-hover: #3d59a1aa;
 $workspace-button-color-focus-outline: $form-input-focus-color;
 
 $shade-color: rgba(0, 0, 0, 0.35);
@@ -266,7 +266,7 @@ $debug-message-background-hover: $secondary-background-hover;
 
 $debug-message-text-color: $primary-text-color;
 $debug-message-text-color-meta: #7dcfff;
-$debug-message-text-color-object-key: #2ac3de;
+$debug-message-text-color-object-key: #7aa2f7;
 $debug-message-text-color-msg-type-other: #ff9e64;
 $debug-message-text-color-msg-type-string: #9ece6a;
 $debug-message-text-color-msg-type-null: #8089b3;
