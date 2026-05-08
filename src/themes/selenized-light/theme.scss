@@ -107,8 +107,8 @@ $scrollbar-handle-background: $primary-text-color;
 $workspace-button-background: $secondary-background;
 $workspace-button-background-hover: $secondary-background-hover;
 $workspace-button-background-active: $secondary-background-selected;
-$workspace-button-background-selected: $primary-background;
-$workspace-button-border-selected: $primary-background;
+$workspace-button-background-selected: #c75d201f;
+$workspace-button-border-selected: #c75d201f;
 $workspace-button-border-selected-inverse: $secondary-background-hover;
 
 $workspace-button-color: $secondary-text-color;
@@ -119,8 +119,8 @@ $workspace-button-color-active: $secondary-text-color-active;
 $workspace-button-color-selected: $secondary-text-color-selected;
 
 $workspace-button-color-primary: #eee;
-$workspace-button-background-primary: #bb0000;
-$workspace-button-background-primary-hover: #a21212;
+$workspace-button-background-primary: #b38800;
+$workspace-button-background-primary-hover: #8f6e00;
 $workspace-button-color-focus-outline: $form-input-focus-color;
 
 $shade-color: rgba(0, 0, 0, 0.35);
@@ -248,8 +248,8 @@ $deploy-button-border-color: $header-button-border;
 $deploy-button-background: #bb0000;
 $deploy-button-background-hover: #a21212;
 $deploy-button-background-active: #7a0e0e;
-$deploy-button-background-disabled: #444;
-$deploy-button-background-disabled-hover: #555;
+$deploy-button-background-disabled: #666;
+$deploy-button-background-disabled-hover: #777;
 
 $vcCommitShaColor: #5eb1ef;
 
@@ -266,7 +266,7 @@ $debug-message-background-hover: $secondary-background-hover;
 
 $debug-message-text-color: $primary-text-color;
 $debug-message-text-color-meta: #9b46b0;
-$debug-message-text-color-object-key: #539100;
+$debug-message-text-color-object-key: #b38800;
 $debug-message-text-color-msg-type-other: #0000ff;
 $debug-message-text-color-msg-type-string: #a31515;
 $debug-message-text-color-msg-type-null: #384c52;

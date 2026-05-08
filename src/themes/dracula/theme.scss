@@ -7,9 +7,9 @@ $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
 $primary-background: #21222c;
 
 $secondary-background: #282a36;
-$secondary-background-selected: #353747;
+$secondary-background-selected: #44475a75;
 $secondary-background-inactive: #21222c;
-$secondary-background-hover: #3c3e50;
+$secondary-background-hover: #44475a75;
 $secondary-background-disabled: #21222c;
 
 $tertiary-background: #21222c;
@@ -40,7 +40,7 @@ $text-color-success: #50fa7b;
 $text-color-code: #d7ba7d;
 $text-color-link: #3794ff;
 
-$primary-border-color: #3e404a;
+$primary-border-color: #ffffff1a;
 $secondary-border-color: color.scale($primary-border-color, $lightness: -14%);
 $tertiary-border-color: color.scale($primary-border-color, $lightness: -7%);
 
@@ -54,7 +54,7 @@ $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: #bd93f9;
 $form-input-border-color: $tertiary-border-color;
-$form-input-border-selected-color: #9a5887;
+$form-input-border-selected-color: #ff79c680;
 $form-input-border-error-color: #ff5555;
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
@@ -107,8 +107,8 @@ $scrollbar-handle-background: $primary-text-color;
 $workspace-button-background: $secondary-background;
 $workspace-button-background-hover: $secondary-background-hover;
 $workspace-button-background-active: $secondary-background-selected;
-$workspace-button-background-selected: $primary-background;
-$workspace-button-border-selected: $primary-background;
+$workspace-button-background-selected: #6272a466;
+$workspace-button-border-selected: #6272a466;
 $workspace-button-border-selected-inverse: $secondary-background-hover;
 
 $workspace-button-color: $secondary-text-color;
@@ -119,8 +119,8 @@ $workspace-button-color-active: $secondary-text-color-active;
 $workspace-button-color-selected: $secondary-text-color-selected;
 
 $workspace-button-color-primary: #eee;
-$workspace-button-background-primary: #bb0000;
-$workspace-button-background-primary-hover: #a21212;
+$workspace-button-background-primary: #44475a;
+$workspace-button-background-primary-hover: #52556c;
 $workspace-button-color-focus-outline: $form-input-focus-color;
 
 $shade-color: rgba(0, 0, 0, 0.35);
