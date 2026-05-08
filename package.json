@@ -43,6 +43,7 @@
         "khroma": "2.1.0",
         "nodemon": "3.1.14",
         "ora": "9.4.0",
+        "prettier": "3.8.3",
         "sass": "1.99.0"
     },
     "node-red": {
