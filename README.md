@@ -22,7 +22,7 @@ npm install @node-red-contrib-themes/theme-collection
 | --------------------- | ----------------------------------------------------------------------- |
 | `aurora`              | [Aurora Theme for Sublime Text][theme-aurora]                           |
 | `cobalt2`             | [Cobalt2 Theme for VS Code][theme-cobalt2]                              |
-| `dark`                | [Default Dark Modern VS Code theme][theme-dark-modern]                  |
+| `dark-modern`         | [Default Dark Modern VS Code theme][theme-dark-modern]                  |
 | `dracula`             | [Dracula theme][theme-dracula]                                          |
 | `espresso-libre`      | [Espresso Libre theme for Monaco Editor][theme-espresso-libre]          |
 | `github-dark`         | [GitHub Dark (legacy) VS Code theme][theme-github]                      |
