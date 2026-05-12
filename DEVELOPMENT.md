@@ -118,7 +118,7 @@ The default value is `"dark"`. Replace it with the name of one of the themes in 
 
 ### Publish the changes
 
-When finished, press <kbd>ctrl</kbd> + <kbd>D</kbd> to quit the development environment.
+When finished, press <kbd>ctrl</kbd> + <kbd>C</kbd> to quit the development environment.
 
 Create a branch `new-theme/example-name`.
 
