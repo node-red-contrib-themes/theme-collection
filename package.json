@@ -51,6 +51,9 @@
             "node-red-contrib-themes": "themes.js"
         }
     },
+    "engines": {
+        "node": ">=18.5"
+    },
     "files": [
         "/themes",
         "/themes.js"
