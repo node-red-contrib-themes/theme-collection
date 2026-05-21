@@ -1,5 +1,3 @@
-@use 'sass:color';
-
 $primary-font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 $primary-font-size: 14px;
 $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
@@ -14,7 +12,7 @@ $secondary-background-disabled: #f9f9f9;
 
 $tertiary-background: #f7f7f7;
 
-$shadow: rgba(0, 0, 0, 0.1);
+$shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
 $primary-text-color: #202020;
@@ -25,9 +23,9 @@ $secondary-text-color-hover: #666;
 $secondary-text-color-active: #666;
 $secondary-text-color-selected: #666;
 $secondary-text-color-inactive: #666;
-$secondary-text-color-disabled: rgba($primary-text-color, 0.4);
-$secondary-text-color-disabled-active: rgba($primary-text-color, 0.5);
-$secondary-text-color-disabled-inactive: rgba($primary-text-color, 0.4);
+$secondary-text-color-disabled: #bbb;
+$secondary-text-color-disabled-active: #999;
+$secondary-text-color-disabled-inactive: #aaa;
 
 // Sub label text
 $tertiary-text-color: #696969;
@@ -40,9 +38,16 @@ $text-color-success: #218358;
 $text-color-code: #ad1625;
 $text-color-link: #0d74ce;
 
+// GitHub style markdown alert accent colours
+$text-color-markdown-alert-note: $secondary-text-color;
+$text-color-markdown-alert-tip: $text-color-success;
+$text-color-markdown-alert-important: #3a5bc7;
+$text-color-markdown-alert-warning: $text-color-warning;
+$text-color-markdown-alert-caution: $text-color-error;
+
 $primary-border-color: #d9d9d9;
-$secondary-border-color: color.scale($primary-border-color, $lightness: -14%);
-$tertiary-border-color: color.scale($primary-border-color, $lightness: -7%);
+$secondary-border-color: #e8e8e8;
+$tertiary-border-color: #cecece;
 
 $border-color-error: #df2935;
 $border-color-warning: #e79a00;
@@ -102,7 +107,7 @@ $palette-header-background: $primary-background;
 $palette-header-color: $header-text-color;
 $palette-content-background: $secondary-background;
 
-$scrollbar-handle-background: $primary-text-color;
+$scrollbar-handle-background: #a0a0a0;
 
 $workspace-button-background: $secondary-background;
 $workspace-button-background-hover: $secondary-background-hover;
@@ -125,11 +130,15 @@ $workspace-button-color-focus-outline: $form-input-focus-color;
 
 $shade-color: rgba(0, 0, 0, 0.35);
 
-$popover-background: $secondary-background-hover;
-$popover-border: $popover-background;
+$popover-background: $primary-background;
+$popover-border: $primary-border-color;
 $popover-color: $primary-text-color;
 $popover-button-border-color: $primary-border-color;
 $popover-button-border-color-hover: $secondary-text-color-hover;
+
+$tooltip-background: #1e1e1e;
+$tooltip-border: $tooltip-background;
+$tooltip-color: #eee;
 
 $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
@@ -173,11 +182,11 @@ $menuCaret: $tertiary-text-color;
 
 $view-navigator-background: rgba($primary-background, 0.8);
 
-$view-lasso-stroke: #ff7f0e;
+$view-lasso-stroke: #0d74ce;
 $view-lasso-fill: rgba(20, 125, 255, 0.1);
 
 $view-background: $secondary-background;
-$view-grid-color: #ffffff0f;
+$view-grid-color: #00000011;
 
 $node-label-color: #333;
 $node-port-label-color: #646464;
@@ -213,8 +222,8 @@ $node-status-colors: (
     grey: #d3d3d3
 );
 
-$node-selected-color: #ff7f0e;
-$port-selected-color: #ff7f0e;
+$node-selected-color: #0090ff;
+$port-selected-color: #0090ff;
 
 $link-color: #999;
 $link-link-color: #aaa;
@@ -248,8 +257,8 @@ $deploy-button-border-color: $header-button-border;
 $deploy-button-background: #bb0000;
 $deploy-button-background-hover: #a21212;
 $deploy-button-background-active: #7a0e0e;
-$deploy-button-background-disabled: #444;
-$deploy-button-background-disabled-hover: #555;
+$deploy-button-background-disabled: #ddd;
+$deploy-button-background-disabled-hover: #d3d3d3;
 
 $vcCommitShaColor: #5eb1ef;
 
@@ -284,8 +293,8 @@ $group-default-stroke: $primary-border-color;
 $group-default-stroke-opacity: 1;
 $group-default-label-color: $primary-text-color;
 
-$tourGuide-border: #c56c6c;
-$tourGuide-heading-color: #c56c6c;
+$tourGuide-border: #9e3232;
+$tourGuide-heading-color: #9e3232;
 
 $grip-color: rgba($primary-text-color, 0.5);
 

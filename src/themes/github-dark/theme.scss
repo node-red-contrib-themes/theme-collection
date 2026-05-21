@@ -40,6 +40,13 @@ $text-color-success: #34d058;
 $text-color-code: #d1d5da;
 $text-color-link: #79b8ff;
 
+// GitHub style markdown alert accent colours
+$text-color-markdown-alert-note: $secondary-text-color;
+$text-color-markdown-alert-tip: $text-color-success;
+$text-color-markdown-alert-important: #3a5bc7;
+$text-color-markdown-alert-warning: $text-color-warning;
+$text-color-markdown-alert-caution: $text-color-error;
+
 $primary-border-color: #1b1f23;
 $secondary-border-color: color.scale($primary-border-color, $lightness: -14%);
 $tertiary-border-color: color.scale($primary-border-color, $lightness: -7%);
@@ -125,11 +132,15 @@ $workspace-button-color-focus-outline: $form-input-focus-color;
 
 $shade-color: rgba(0, 0, 0, 0.35);
 
-$popover-background: $secondary-background-hover;
-$popover-border: $popover-background;
+$popover-background: $primary-background;
+$popover-border: $primary-border-color;
 $popover-color: $primary-text-color;
 $popover-button-border-color: $primary-border-color;
 $popover-button-border-color-hover: $secondary-text-color-hover;
+
+$tooltip-background: #1e1e1e;
+$tooltip-border: $tooltip-background;
+$tooltip-color: #eee;
 
 $diff-text-header-color: $secondary-text-color;
 $diff-text-header-background: $secondary-background;
