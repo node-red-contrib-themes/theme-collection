@@ -7,9 +7,9 @@ $monospace-font: Menlo, Consolas, 'DejaVu Sans Mono', Courier, monospace;
 $primary-background: #21222c;
 
 $secondary-background: #282a36;
-$secondary-background-selected: #44475a75;
+$secondary-background-selected: #353747;
 $secondary-background-inactive: #21222c;
-$secondary-background-hover: #44475a75;
+$secondary-background-hover: #3c3e50;
 $secondary-background-disabled: #21222c;
 
 $tertiary-background: #21222c;
@@ -47,7 +47,7 @@ $text-color-markdown-alert-important: #3a5bc7;
 $text-color-markdown-alert-warning: $text-color-warning;
 $text-color-markdown-alert-caution: $text-color-error;
 
-$primary-border-color: #ffffff1a;
+$primary-border-color: #3e404a;
 $secondary-border-color: color.scale($primary-border-color, $lightness: -14%);
 $tertiary-border-color: color.scale($primary-border-color, $lightness: -7%);
 
@@ -61,7 +61,7 @@ $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
 $form-input-focus-color: #bd93f9;
 $form-input-border-color: $tertiary-border-color;
-$form-input-border-selected-color: #ff79c680;
+$form-input-border-selected-color: #9a5887;
 $form-input-border-error-color: #ff5555;
 $form-input-background: $secondary-background;
 $form-input-background-disabled: $secondary-background-disabled;
@@ -172,7 +172,7 @@ $diff-merge-header-color: #800080;
 $diff-merge-header-background: #e5f9ff;
 $diff-merge-header-border-color: #b2edff;
 
-$menuBackground: $secondary-background;
+$menuBackground: $primary-background;
 $menuDivider: $secondary-border-color;
 $menuColor: $primary-text-color;
 $menuActiveColor: $secondary-text-color-active;
@@ -238,7 +238,7 @@ $clipboard-textarea-background: $primary-background;
 $header-background: $primary-background;
 $header-button-border: $primary-border-color;
 $header-button-background: $header-background;
-$header-button-background-hover: #ddd;
+$header-button-background-hover: $secondary-background-hover;
 $header-button-background-active: $workspace-button-background-active;
 $header-accent: $primary-background;
 
