@@ -238,7 +238,7 @@ $clipboard-textarea-background: $primary-background;
 $header-background: $primary-background;
 $header-button-border: $primary-border-color;
 $header-button-background: $header-background;
-$header-button-background-hover: #ddd;
+$header-button-background-hover: $secondary-background-hover;
 $header-button-background-active: $workspace-button-background-active;
 $header-accent: $primary-background;
 
@@ -259,8 +259,8 @@ $deploy-button-border-color: $header-button-border;
 $deploy-button-background: #bb0000;
 $deploy-button-background-hover: #a21212;
 $deploy-button-background-active: #7a0e0e;
-$deploy-button-background-disabled: #555;
-$deploy-button-background-disabled-hover: #666;
+$deploy-button-background-disabled: #888;
+$deploy-button-background-disabled-hover: #999;
 
 $vcCommitShaColor: #5eb1ef;
 
