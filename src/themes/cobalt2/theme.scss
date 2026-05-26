@@ -114,9 +114,9 @@ $scrollbar-handle-background: $primary-text-color;
 $workspace-button-background: $secondary-background;
 $workspace-button-background-hover: $secondary-background-hover;
 $workspace-button-background-active: $secondary-background-selected;
-$workspace-button-background-selected: $primary-background;
-$workspace-button-border-selected: $primary-background;
-$workspace-button-border-selected-inverse: $secondary-background-hover;
+$workspace-button-background-selected: $secondary-background-selected;
+$workspace-button-border-selected: $primary-border-color;
+$workspace-button-border-selected-inverse: $primary-border-color;
 
 $workspace-button-color: $secondary-text-color;
 $workspace-button-color-disabled: $secondary-text-color-disabled;
@@ -126,8 +126,8 @@ $workspace-button-color-active: $secondary-text-color-active;
 $workspace-button-color-selected: $secondary-text-color-selected;
 
 $workspace-button-color-primary: #eee;
-$workspace-button-background-primary: #0088ff;
-$workspace-button-background-primary-hover: #ff9d00;
+$workspace-button-background-primary: #bb0000;
+$workspace-button-background-primary-hover: #a21212;
 $workspace-button-color-focus-outline: $form-input-focus-color;
 
 $shade-color: rgba(0, 0, 0, 0.35);

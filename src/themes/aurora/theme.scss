@@ -114,9 +114,9 @@ $scrollbar-handle-background: $secondary-text-color-disabled-inactive; //$primar
 $workspace-button-background: $secondary-background;
 $workspace-button-background-hover: $secondary-background-hover;
 $workspace-button-background-active: $secondary-background-selected;
-$workspace-button-background-selected: $primary-background;
-$workspace-button-border-selected: $primary-background;
-$workspace-button-border-selected-inverse: $secondary-background-hover;
+$workspace-button-background-selected: $secondary-background-selected;
+$workspace-button-border-selected: $primary-border-color;
+$workspace-button-border-selected-inverse: $primary-border-color;
 
 $workspace-button-color: $secondary-text-color;
 $workspace-button-color-disabled: $secondary-text-color-disabled;
