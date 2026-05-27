@@ -84,21 +84,14 @@ Good practices:
 
 - Don't use transparency on the main background and border colors. It doesn't work well with the Node-RED UI; third-party nodes may also be affected.
 - Don't make changes to the following areas:
-  - Fonts
-    - `$primary-font`
-    - `$primary-font-size`
-    - `$monospace-font`
   - Workspace Buttons
-    - `$workspace-button`
+    - `$workspace-button-*`
   - Nodes
-    - `$node-*`
-    - `$port-*`
+    - `$node-*`, except `$node-selected-color`
   - Links
     - `$link-*`
   - Deploy Button
-    - `$deploy-button-*`
-  - Header
-    - `$header-*`
+    - `$deploy-button-*`, except `$deploy-button-background-disabled*`
 
 ### Theme Customizations
 

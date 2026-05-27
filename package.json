@@ -39,11 +39,9 @@
     "devDependencies": {
         "chokidar": "5.0.0",
         "command-line-args": "6.0.2",
-        "csso": "5.0.5",
-        "khroma": "2.1.0",
         "ora": "9.4.0",
         "prettier": "3.8.3",
-        "sass": "1.100.0"
+        "sass-embedded": "1.100.0"
     },
     "node-red": {
         "version": ">=5.0",
