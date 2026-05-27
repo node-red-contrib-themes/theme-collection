@@ -1,0 +1,27 @@
+@use 'sass:color';
+@use 'sass:string';
+@use 'colors';
+
+$jQueryAssetColorHoverBase64: encodeBase64(
+    string.unquote(string.slice(color.ie-hex-str(colors.$secondary-text-color-hover), 4))
+);
+$jQueryAssetColorActiveBase64: encodeBase64(
+    string.unquote(string.slice(color.ie-hex-str(colors.$secondary-text-color-active), 4))
+);
+$jQueryAssetColorBase64: encodeBase64(string.unquote(string.slice(color.ie-hex-str(colors.$form-text-color), 4)));
+
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon,
+.ui-button:hover .ui-icon,
+.ui-button:focus .ui-icon {
+    background-image: url('#{$jQueryAssetColorHoverBase64}');
+}
+
+.ui-state-active .ui-icon,
+.ui-button:active .ui-icon {
+    background-image: url('#{$jQueryAssetColorActiveBase64}');
+}
+
+.ui-button .ui-icon {
+    background-image: url('#{$jQueryAssetColorBase64}');
+}
