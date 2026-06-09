@@ -99,11 +99,11 @@ Each theme in this collection comes with a pre-configured theme for the Mermaid 
 
 Just leave `theme` in the `mermaid` object commented out.
 
-For example, this sets Node-RED to use the `dark` theme and its pre-configured theme for the Mermaid diagramming and charting tool.
+For example, this sets Node-RED to use the `dark-modern` theme and its pre-configured theme for the Mermaid diagramming and charting tool.
 
 ```js
 editorTheme: {
-    theme: "dark",
+    theme: "dark-modern",
     mermaid: {
         // theme: "",
     },
