@@ -50,7 +50,7 @@
         }
     },
     "engines": {
-        "node": ">=18.5"
+        "node": ">=22.9"
     },
     "files": [
         "/themes",
