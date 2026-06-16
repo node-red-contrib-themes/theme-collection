@@ -11,47 +11,59 @@ template: |
 
 categories:
   - title: "🚨 Breaking changes"
-    labels:
-      - "breaking-change"
+    when:
+      labels:
+        - "breaking-change"
   - title: "✨ New themes"
-    labels:
-      - "new-theme"
+    when:
+      labels:
+        - "new-theme"
   - title: "🐛 Bug fixes"
-    labels:
-      - "bugfix"
+    when:
+      labels:
+        - "bugfix"
   - title: "🎨 Theme updates"
-    labels:
-      - "theme-updates"
+    when:
+      labels:
+        - "theme-updates"
   - title: "🚀 Enhancements"
-    labels:
-      - "enhancement"
+    when:
+      labels:
+        - "enhancement"
   - title: "🧰 Maintenance"
-    labels:
-      - "maintenance"
+    when:
+      labels:
+        - "maintenance"
   - title: "📖 Documentation"
-    labels:
-      - "documentation"
+    when:
+      labels:
+        - "documentation"
   - title: "⬆️ Dependency updates"
-    labels:
-      - "dependencies"
-    collapse-after: 1
-
-version-resolver:
-  major:
-    labels:
-      - "major"
-      - "breaking-change"
-  minor:
-    labels:
-      - "minor"
-      - "new-theme"
-  patch:
-    labels:
-      - "patch"
-  default: patch
-
-exclude-labels:
-  - "skip-changelog"
+    when:
+      labels:
+        - "dependencies"
+    collapse-after: 0
+  - type: "pre-exclude"
+    when:
+      labels:
+        - "skip-changelog"
+  - type: "version-resolver"
+    semver-increment: "major"
+    when:
+      labels:
+        - "major"
+        - "breaking-change"
+  - type: "version-resolver"
+    semver-increment: "minor"
+    when:
+      labels:
+        - "minor"
+        - "new-theme"
+  - type: "version-resolver"
+    semver-increment: "patch"
+    when:
+      labels:
+        - "patch"
 
 autolabeler:
   - label: "skip-changelog"
