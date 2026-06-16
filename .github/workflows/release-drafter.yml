@@ -7,12 +7,14 @@ on:
       - dev
   workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: {}
 
 jobs:
   update_release_draft:
     name: "Update Release Draft"
+    permissions:
+      pull-requests: read
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: release-drafter/release-drafter@v7.4.0

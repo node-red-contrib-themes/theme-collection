@@ -4,9 +4,13 @@ name: "Prettier"
 on:
   pull_request:
 
+permissions: {}
+
 jobs:
   prettier:
     name: "Prettier"
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout"

@@ -8,13 +8,13 @@ on:
       - reopened
       - synchronize
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   auto_label:
     name: "Update Labels"
     permissions:
+      contents: read
       pull-requests: write
     runs-on: ubuntu-latest
     steps:

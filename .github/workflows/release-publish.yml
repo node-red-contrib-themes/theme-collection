@@ -7,13 +7,14 @@ on:
       - published
   workflow_dispatch:
 
-permissions:
-  id-token: write
-  contents: read
+permissions: {}
 
 jobs:
   npm-publish:
     name: "Publish"
+    permissions:
+      contents: read
+      id-token: write
     runs-on: ubuntu-latest
     steps:
       - name: "Setup Node"
