@@ -6,9 +6,15 @@ on:
     - cron: "30 3 * * *"
   workflow_dispatch:
 
+permissions: {}
+
 jobs:
   lock:
     name: "Lock closed issues and PRs"
+    permissions:
+      issues: write
+      pull-requests: write
+      discussions: write
     runs-on: ubuntu-latest
     steps:
       - uses: dessant/lock-threads@v6.0.2
