@@ -1,5 +1,5 @@
 ---
-name: PR Labels
+name: "Check Pull Request labels"
 
 on:
   pull_request_target:
@@ -12,17 +12,12 @@ on:
 permissions: {}
 
 jobs:
-  pr_labels:
-    name: Verify PR labels
-    permissions:
-      pull-requests: write
-    runs-on: ubuntu-latest
+  check_labels:
+    name: "Check Pull Request labels"
+    runs-on: ubuntu-slim
     steps:
-      - uses: jesusvasquez333/verify-pr-label-action@657d111bbbe13e22bbd55870f1813c699bde1401 # v1.4.0
+      - uses: ludeeus/action-require-labels@2.0.0
         with:
-          pull-request-number: "${{ github.event.pull_request.number }}"
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-          valid-labels: >-
+          labels: >-
             breaking-change, bugfix, documentation, enhancement, new-theme,
             dependencies, maintenance, theme-updates, skip-changelog, no-stale
-          disable-reviews: true
