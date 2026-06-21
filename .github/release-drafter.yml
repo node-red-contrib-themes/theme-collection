@@ -64,13 +64,3 @@ categories:
     when:
       labels:
         - "patch"
-
-autolabeler:
-  - label: "skip-changelog"
-    branch:
-      - "/release\/.+/"
-  - label: "new-theme"
-    title:
-      - "/^Add .+ theme$/"
-    branch:
-      - "/new-theme\/.+/"
