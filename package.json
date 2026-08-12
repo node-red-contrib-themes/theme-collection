@@ -41,7 +41,7 @@
         "command-line-args": "6.0.2",
         "ora": "9.4.1",
         "prettier": "3.9.6",
-        "sass-embedded": "1.100.0"
+        "sass-embedded": "1.102.0"
     },
     "node-red": {
         "version": ">=5.0",
