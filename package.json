@@ -40,7 +40,7 @@
         "chokidar": "5.0.0",
         "command-line-args": "6.0.2",
         "ora": "9.4.1",
-        "prettier": "3.9.8",
+        "prettier": "3.9.9",
         "sass-embedded": "1.105.0"
     },
     "node-red": {
