@@ -37,7 +37,7 @@
     },
     "homepage": "https://github.com/node-red-contrib-themes/theme-collection#readme",
     "devDependencies": {
-        "chokidar": "5.0.0",
+        "chokidar": "6.0.0",
         "command-line-args": "6.0.2",
         "ora": "9.4.1",
         "prettier": "3.9.10",
