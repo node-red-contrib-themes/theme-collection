@@ -39,7 +39,7 @@
     "devDependencies": {
         "chokidar": "6.0.0",
         "command-line-args": "6.0.2",
-        "ora": "9.4.1",
+        "ora": "10.0.0",
         "prettier": "3.9.10",
         "sass-embedded": "1.107.1"
     },
